@@ -1,0 +1,298 @@
+
+## TRỤC 7: DỮ LIỆU HỌC MÁY — THU THẬP, GÁN NHÃN, LÀM SẠCH VÀ ĐA DẠNG HÓA
+
+### 1. Bản chất Khoa học & Định hướng Tiến trình Xoắn ốc
+* **Bản chất khoa học công nghệ:** 
+  * Dữ liệu (Data) là nền tảng cốt lõi của Trí tuệ nhân tạo hiện đại. Các mô hình học máy (Machine Learning) không hoạt động dựa trên các dòng mã lệnh quy tắc cứng nhắc của lập trình viên, mà tự rút ra các quy luật toán học (patterns/weights) thông qua việc phân tích hàng nghìn ví dụ mẫu trong dữ liệu.
+  * Nguyên lý vàng của kỹ thuật dữ liệu: **"Rác vào - Rác ra" (Garbage In - Garbage Out - GIGO)**: Nếu dữ liệu huấn luyện bị sai nhãn (mislabelled), bị mờ nhòe, nhiễu loạn hoặc thiếu đa dạng (biased/unrepresentative), thì mô hình AI tạo ra chắc chắn sẽ đưa ra kết quả sai lệch, thiên vị và nguy hiểm trong thực tế.
+  * Chu trình kỹ thuật dữ liệu bao gồm 4 công đoạn nền tảng: (1) Xác định yêu cầu dữ liệu $\rightarrow$ (2) Thu thập dữ liệu mẫu $\rightarrow$ (3) Gán nhãn (Annotation) $\rightarrow$ (4) Làm sạch và khử nhiễu (Data Cleaning & Preprocessing).
+* **Tiến trình xoắn ốc (Grades 1 to 5):**
+  * *Lớp 1:* Khái niệm trực quan: Máy học từ các ví dụ mẫu; cần nhiều ví dụ mẫu khác nhau về kích thước, màu sắc thì máy mới học đúng (100% Unplugged).
+  * *Lớp 2:* Thao tác làm sạch thủ công: Dùng kính lúp đồ chơi soi bộ thẻ tranh ảnh; nhặt bỏ ảnh mờ bẩn, ảnh dán nhầm nhãn sang thùng rác dữ liệu mini.
+  * *Lớp 3:* Dữ liệu số trên máy tính: Phân biệt bài toán phân loại vs dự đoán; hiểu bản chất khoa học nguyên lý GIGO; mở thư mục ảnh trên máy tính để xóa tệp ảnh lỗi.
+  * *Lớp 4:* Thu thập có định hướng và kỹ thuật Cắt ảnh (Crop): Lập kế hoạch thu thập ảnh đa góc nhìn; dùng công cụ Crop loại bỏ người và hậu cảnh thừa để vật thể chiếm trọn khung hình.
+  * *Lớp 5:* Kỹ thuật dữ liệu dự án chuyên sâu: Thiết lập 2 thư mục nhãn cân bằng; làm sạch dữ liệu, khử nhận dạng cá nhân 100%; kiểm toán chéo tính đa dạng của dữ liệu để chống thiên lệch (Bias Audit).
+
+---
+
+### 2. Chi tiết Tiến trình 5 Khối Lớp của Trục 7
+
+#### LỚP 1 — KHÁI NIỆM VÍ DỤ MẪU VÀ SỰ ĐA DẠNG BAN ĐẦU
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `1.D1.1`: *Nhận biết được rằng máy móc thông minh cần được 'dạy' bằng các ví dụ cụ thể do con người cung cấp.*
+  * `1.D1.MR1`: *Nêu được rằng cần cung cấp nhiều ví dụ khác nhau thì máy mới nhận biết chính xác được đối tượng.*
+  * `1.D2.1`: *Nhận biết được một số đồ dùng, thiết bị chỉ làm được một việc (đơn năng).*
+  * `1.D2.2`: *Nhận biết được một số thiết bị thông minh có thể làm được nhiều việc khác nhau (đa năng).*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 28 (M1)`, `KN 29 (M1)`, `KN 32 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Máy học bằng ví dụ mẫu (Examples):* Muốn chú robot giấy nhận biết được đâu là "Quả bóng", em không thể nói luật trừu tượng mà phải cho robot xem các tấm thẻ vẽ quả bóng. Những tấm thẻ đó gọi là **Ví dụ mẫu**.
+  * *Đơn vị 2: Vì sao cần nhiều ví dụ mẫu khác nhau?* Nếu em chỉ cho robot xem 1 bức tranh vẽ quả bóng màu đỏ nhỏ xíu $\rightarrow$ Khi đưa quả bóng màu xanh to đùng, robot sẽ không nhận ra! Muốn robot thông minh, ta phải nạp nhiều ví dụ: bóng đỏ, bóng xanh, bóng sọc, bóng to, bóng nhỏ.
+  * *Đơn vị 3: Đồ dùng đơn năng vs Đa năng:* Chiếc bút chì chỉ dùng để viết vẽ (đơn năng); chiếc điện thoại thông minh vừa xem giờ, vừa gọi điện, vừa chụp ảnh, vừa mở nhạc (đa năng).
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Chơi trò chơi "Nạp dữ liệu cho Robot": Chọn đúng 5 thẻ tranh vẽ quả táo với các hình thái khác nhau (táo đỏ, táo xanh, táo có cuống lá, quả to, quả nhỏ) đặt vào khay nạp thẻ của robot giấy.
+  * *Hành vi 2:* Phân loại 4 đồ vật thật trong lớp vào 2 rổ: Rổ đồ dùng làm 1 việc (cục tẩy, thước kẻ) vs Rổ đồ dùng làm nhiều việc (máy tính bảng, đồng hồ thông minh).
+  * *Tiêu chí hoàn thành:* Chọn đủ 5 thẻ mẫu đa dạng màu sắc/kích thước; phân loại đúng 100% đồ dùng đơn năng vs đa năng.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Bộ 10 thẻ tranh A5 (5 quả bóng đủ màu, 5 quả táo đủ màu); Mô hình hộp Robot giấy có khay nạp thẻ; Rổ đồ dùng học tập thật.*
+  * *Đáp án:* Khay dữ liệu quả táo phải chứa đủ 5 thẻ táo đa dạng. Rổ đa năng: Điện thoại, máy tính bảng; Rổ đơn năng: Bút chì, tẩy.
+* **Tiến trình Xoắn ốc:** Điểm khởi đầu: Nhận thức trực quan về "Ví dụ mẫu" và "Tính đa dạng của mẫu" thông qua thao tác tay trên tranh thẻ (100% Unplugged).
+
+---
+
+#### LỚP 2 — BÀI TOÁN PHÂN LOẠI TRỰC QUAN VÀ DỌN RÁC DỮ LIỆU BẰNG KÍNH LÚP
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `2.C3.1`: *Nhận biết được rằng AI có thể phân loại đồ vật (chia đồ vật vào các nhóm khác nhau dựa trên hình ảnh hoặc âm thanh).*
+  * `2.D2.1`: *Giải thích được vai trò quan trọng của dữ liệu đối với hoạt động của máy thông minh.*
+  * `2.D2.2`: *Giải thích được rằng cần cung cấp dữ liệu đúng đắn, rõ ràng và đủ số lượng ví dụ thì máy mới học tốt.*
+  * `2.D1.MR1`: *Nêu được một số ví dụ phù hợp để 'dạy' AI trong một tình huống cụ thể.*
+  * `2.D2.MR1`: *Thực hành thu thập một số dữ liệu đơn giản (thẻ tranh, âm thanh) để dạy AI trong bài toán phân loại.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 28 (M1)`, `KN 29 (M1)`, `KN 30 (M1)`, `KN 31 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Bài toán Phân loại trực quan (Classification):* Phân loại là việc gom các đồ vật có đặc điểm giống nhau vào cùng một nhóm (Ví dụ: Nhóm Con vật vs Nhóm Phương tiện giao thông; Nhóm Quả ngọt vs Nhóm Quả chua).
+  * *Đơn vị 2: Tiêu chuẩn của Dữ liệu tốt (Good Data):*
+    * Dữ liệu phải rõ nét, đủ ánh sáng, không bị nhòe nét.
+    * Dữ liệu phải đúng nhãn: Không được để lẫn thẻ ảnh chiếc ô tô vào hộp dán nhãn con vật.
+    * Đủ số lượng: Mỗi nhóm phải có ít nhất 5 đến 10 ví dụ mẫu.
+  * *Đơn vị 3: Thao tác Dọn rác dữ liệu bằng kính lúp:* Trước khi cho máy học, con người phải đóng vai "bác sĩ dữ liệu", dùng kính lúp soi từng thẻ tranh để phát hiện: Thẻ ảnh bị bẩn lem mực $\rightarrow$ Nhặt bỏ; Thẻ dán sai nhãn $\rightarrow$ Đổi sang hộp đúng.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Cầm kính lúp nhựa soi tập 12 thẻ tranh do giáo viên phát (chứa 10 ảnh chuẩn, 1 ảnh bị nhòe mực hoàn toàn, 1 ảnh con mèo bị xếp nhầm sang hộp ô tô).
+  * *Hành vi 2:* Nhặt thẻ ảnh nhòe mực thả vào "Thùng rác dữ liệu"; chuyển thẻ ảnh con mèo về đúng hộp "Động vật".
+  * *Tiêu chí hoàn thành:* Phát hiện chính xác 2 thẻ ảnh lỗi; hoàn thiện 2 hộp dữ liệu sạch đạt 100% đúng nhãn và sắc nét.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Kính lúp nhựa trẻ em; Bộ 12 thẻ tranh in màu A5 có cài cắm sẵn lỗi; 2 hộp đựng dữ liệu dán nhãn [Phương tiện giao thông] và [Động vật]; Thùng rác dữ liệu mini.*
+  * *Đáp án:* 2 thẻ bị xử lý: Thẻ ảnh chiếc xe bus bị lem mực đen $\rightarrow$ Thùng rác; Thẻ ảnh con mèo $\rightarrow$ Chuyển sang hộp Động vật.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 1: Nâng lên kỹ năng "Phân loại theo nhóm" và thực hành thao tác tay "Soi lỗi và làm sạch dữ liệu thủ công".
+
+---
+
+#### LỚP 3 — DỮ LIỆU SỐ TRÊN MÁY TÍNH VÀ NGUYÊN LÝ "RÁC VÀO - RÁC RA"
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `3.C4.1`: *Trình bày được khái niệm dữ liệu qua các ví dụ cụ thể (hình ảnh, âm thanh, văn bản) và cách AI sử dụng dữ liệu để nhận diện.*
+  * `3.C4.MR1`: *Xác định được đặc trưng nổi bật của một số bộ dữ liệu đơn giản (hình dáng, màu sắc, âm thanh).*
+  * `3.C5.2`: *Nêu được đặc điểm chính của học máy là học dựa trên dữ liệu mẫu.*
+  * `3.C5.3`: *Nêu được một số tình huống áp dụng học máy trong đời sống.*
+  * `3.C5.4`: *Nhận biết được bài toán phân loại và bài toán dự đoán qua các ví dụ thực tế.*
+  * `3.D2.1`: *Trình bày được rằng nếu dữ liệu đưa vào máy bị sai lệch hoặc thiếu thì mô hình AI tạo ra sẽ hoạt động không chính xác.*
+  * `3.D2.MR1`: *Thực hành kiểm tra một bộ dữ liệu mẫu trên máy tính, phát hiện và loại bỏ các dữ liệu bị nhầm lẫn hoặc không đạt yêu cầu.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 28 (M2)`, `KN 29 (M2)`, `KN 30 (M2)`, `KN 31 (M2)`, `KN 33 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Dữ liệu số (Digital Data) và Đặc trưng (Features):* Dữ liệu trong máy tính lưu dưới dạng tệp ảnh `.png`, `.jpg`, tệp âm thanh `.mp3`. AI nhận diện vật thể bằng cách trích xuất các đặc trưng nổi bật: Viền mép lá cây hình răng cưa, màu sắc vỏ quả cam có chấm tinh dầu.
+  * *Đơn vị 2: Phân biệt Bài toán Phân loại vs Bài toán Dự đoán:*
+    * *Phân loại (Classification):* Chia đối tượng vào các nhóm danh mục đã định sẵn (Ví dụ: Thư đến là Thư rác hay Thư thường; Ảnh quét là Chó hay Mèo).
+    * *Dự đoán (Prediction):* Ước tính một giá trị hoặc sự kiện sắp xảy ra trong tương lai dựa trên dữ liệu quá khứ (Ví dụ: Nhìn độ ẩm và mây để dự đoán trời mưa; nhìn diện tích nhà để dự đoán giá tiền).
+  * *Đơn vị 3: Nguyên lý khoa học "Rác vào - Rác ra" (Garbage In - Garbage Out):* Máy tính không có trực giác sửa sai; nếu ta nạp 3 ảnh quả ớt vào thư mục quả cà chua $\rightarrow$ Mô hình sau khi huấn luyện sẽ nhận nhầm quả ớt thành cà chua. Dữ liệu rác tạo ra mô hình rác!
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Mở thư mục ảnh thực hành `Tap_Du_Lieu_Hoa_Qua` trên máy tính phòng máy (gồm 12 tệp ảnh); dùng chuột duyệt qua từng ảnh; bấm phím Delete xóa 1 tệp ảnh bị nhòe nét hoàn toàn; đổi tên/chuyển 1 tệp ảnh quả chuối bị lưu nhầm trong thư mục quả táo.
+  * *Hành vi 2:* Phân loại 4 tình huống thực tế vào 2 cột trên phiếu: Cột "Bài toán phân loại" vs Cột "Bài toán dự đoán".
+  * *Tiêu chí hoàn thành:* Thư mục ảnh trên máy tính được dọn sạch hoàn toàn; phân biệt đúng 100% giữa phân loại và dự đoán.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Thư mục ảnh thực hành `Tap_Du_Lieu_Hoa_Qua` cài sẵn trên máy tính phòng máy; Phiếu học tập phân biệt 2 bài toán.*
+  * *Đáp án:* Nhận diện biển báo, lọc thư rác $\rightarrow$ Phân loại; Dự báo thời tiết, đoán giá nhà $\rightarrow$ Dự đoán. Thư mục sau khi làm sạch còn lại đúng 10 ảnh sắc nét.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 2: Chuyển hoàn toàn sang thao tác dữ liệu số trên máy tính; làm chủ nguyên lý khoa học GIGO và phân biệt rõ 2 bài toán học máy nền tảng.
+
+---
+
+#### LỚP 4 — THU THẬP CÓ ĐỊNH HƯỚNG VÀ KỸ THUẬT CẮT ẢNH LOẠI BỎ HẬU CẢNH
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `4.D1.1`: *Xác định được bài toán thực tế cần giải quyết và lập kế hoạch thu thập dữ liệu phù hợp.*
+  * `4.D2.1`: *Trình bày được rằng chất lượng của hệ thống AI có thể được cải tiến liên tục thông qua việc nâng cao chất lượng và số lượng dữ liệu.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 29 (M2)`, `KN 30 (M2)`, `KN 31 (M2)`, `KN 32 (M2)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Kế hoạch thu thập dữ liệu có định hướng:* Không chụp ảnh bừa bãi; một kế hoạch thu thập dữ liệu chuẩn mực phải xác định:
+    * Đối tượng nhận diện là gì? (Ví dụ: Vỏ hộp sữa học đường).
+    * Cần bao nhiêu ảnh? (Tối thiểu 8–10 ảnh cho một buổi thực hành).
+    * Cần những góc chụp nào? (Chụp chính diện mặt trước, chụp mặt sau, chụp nghiêng góc 45 độ, chụp khi vỏ hộp bị bẹp một phần).
+  * *Đơn vị 2: Kỹ thuật Cắt ảnh (Crop) để tập trung đối tượng:*
+    * Khi dùng webcam/điện thoại chụp mẫu vật, ảnh thường bị dính bàn tay người cầm, góc bàn bừa bộn hoặc các bạn học sinh đi qua lại phía sau.
+    * Nếu để nguyên hậu cảnh lộn xộn, AI sẽ học nhầm các đặc trưng của bức tường hay bàn tay thay vì học chiếc vỏ hộp sữa.
+    * Kỹ thuật: Dùng công cụ Crop kéo khung viền sát vào chiếc vỏ hộp sữa, loại bỏ hoàn toàn người và hậu cảnh thừa, bảo đảm vật thể chiếm ít nhất 70% diện tích ảnh.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Lập bảng phân công nhóm 3 học sinh thu thập dữ liệu vỏ hộp sữa và chai nhựa: Bạn A cầm vật mẫu xoay góc, Bạn B bấm chụp webcam, Bạn C phụ trách kiểm tra ảnh.
+  * *Hành vi 2:* Mở ảnh vừa chụp trong phần mềm Photos/Paint; thực hiện thao tác kéo khung Crop cắt bỏ bàn tay và nền lớp học; lưu tệp ảnh sạch vào thư mục `Du_Lieu_Hop_Sua_Clean`.
+  * *Tiêu chí hoàn thành:* Thu thập đủ 8 ảnh sắc nét ở 3 góc nhìn khác nhau; 100% ảnh đã được crop gọn gàng, vật thể chiếm trọn khung hình.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Mẫu vật thật: 02 vỏ hộp sữa giấy, 02 chai nước khoáng rỗng; Webcam kết nối máy tính; Phần mềm Crop ảnh mặc định Windows.*
+  * *Đáp án:* Tập ảnh đạt chuẩn: Vật thể nằm chính giữa, không dính bàn tay người cầm, không có người lạ đi qua hậu cảnh.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 3: Chủ động lập kế hoạch thu thập đa góc nhìn và thành thạo thao tác kỹ thuật Cắt ảnh (Crop) để tối ưu hóa đặc trưng cho máy học.
+
+---
+
+#### LỚP 5 — QUẢN TRỊ DỮ LIỆU DỰ ÁN, CÂN BẰNG NHÃN VÀ KIỂM TOÁN THIÊN LỆCH
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `5.B1.1`, `5.B1.2`: *Nhận biết và phòng ngừa thiên lệch dữ liệu dẫn đến kết quả phân biệt đối xử trong hệ thống AI.*
+  * `5.B2.MR1`: *Đề xuất được các quy tắc thu thập dữ liệu công bằng, khử nhận dạng và bảo đảm tính đại diện của dữ liệu.*
+  * `5.D1.1`: *Thực hành bước Chuẩn bị dữ liệu hoàn chỉnh trong quy trình thiết kế hệ thống AI.*
+  * `5.D2.1`: *Chứng minh được bằng số liệu thực tế rằng việc bổ sung dữ liệu đa dạng sẽ giúp mô hình cải thiện độ chính xác.*
+  * `5.D2.MR1`: *Thực hành cải tiến hệ thống AI bằng cách bổ sung dữ liệu các góc khó và tái huấn luyện mô hình.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 29 (M3)`, `KN 30 (M3)`, `KN 31 (M3)`, `KN 32 (M3)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Cấu trúc Tổ chức Thư mục Nhãn chuẩn mực (Dataset Architecture):*
+    * Khi làm dự án nhận diện biển báo an toàn học đường, phải thiết lập 2 thư mục con mang đúng tên nhãn kỹ thuật không dấu: `Bien_Canh_Bao_San_Tron` và `Bien_Chi_Dan_Thoat_Hiem`.
+    * Nguyên tắc Cân bằng dữ liệu (Class Balance): Số lượng ảnh giữa 2 lớp phải tương đương nhau (ví dụ: 10 ảnh vs 10 ảnh). Nếu một lớp có 30 ảnh mà lớp kia chỉ có 3 ảnh $ightarrow$ Mô hình sẽ bị thiên lệch nghiêm trọng về lớp có nhiều ảnh hơn!
+  * *Đơn vị 2: Khử nhận dạng dữ liệu cá nhân chuyên sâu:* Tuyệt đối không để sót khuôn mặt bạn bè, thẻ tên học sinh hay biển số xe trong tập dữ liệu; kết hợp linh hoạt giữa Crop ảnh và che mờ (Blur) bảo mật.
+  * *Đơn vị 3: Kiểm toán chất lượng và tính đại diện của dữ liệu (Data Audit):*
+    * Bảng kiểm tra 4 tiêu chí sống còn: (1) Đủ số lượng cân bằng? (2) Đúng nhãn 100%? (3) Đa dạng điều kiện (ánh sáng mạnh, ánh sáng yếu, góc nghiêng)? (4) An toàn quyền riêng tư 100%?
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Độc lập tạo cấu trúc thư mục dự án trên máy tính; phân loại và nạp đúng 10 ảnh cho mỗi lớp nhãn; bảo đảm tỷ lệ cân bằng 10 : 10.
+  * *Hành vi 2:* Đổi máy kiểm toán chéo (Cross-audit): Rà soát từng ảnh của nhóm bạn theo Bảng tiêu chí kiểm toán dữ liệu; ký biên bản xác nhận dữ liệu đã sẵn sàng để huấn luyện.
+  * *Tiêu chí hoàn thành:* Hai thư mục nhãn có số lượng cân bằng; 100% ảnh đúng nhãn; không có ảnh mờ hỏng; không vi phạm quyền riêng tư.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Mẫu bài toán Biển báo an toàn trường học; Webcam và mô hình biển báo; Biểu mẫu Bảng kiểm toán dữ liệu (Data Audit Checklist) A4.*
+  * *Đáp án:* Biên bản kiểm toán đạt chuẩn: Thư mục `Bien_San_Tron` (10 ảnh), `Bien_Thoat_Hiem` (10 ảnh); không còn mặt người; có đủ mẫu góc nghiêng 45 độ và chụp thẳng.
+* **Tiến trình Xoắn ốc:** Đỉnh cao cấp Tiểu học: Làm chủ toàn bộ chuỗi kỹ thuật quản trị dữ liệu học máy chuyên nghiệp: Cấu trúc nhãn, Cân bằng số lượng, Khử nhận dạng và Kiểm toán thiên lệch dữ liệu.
+
+---
+
+## TRỤC 8: VẬN HÀNH HỌC MÁY, KIỂM THỬ VÀ QUY TRÌNH THIẾT KẾ HỆ THỐNG AI (AI LIFECYCLE)
+
+### 1. Bản chất Khoa học & Định hướng Tiến trình Xoắn ốc
+* **Bản chất khoa học công nghệ:** 
+  * Vòng đời hệ thống AI (AI System Lifecycle) là quy trình kỹ thuật hoàn chỉnh để phát triển, triển khai và bảo trì một giải pháp trí tuệ nhân tạo giải quyết vấn đề thực tiễn.
+  * Khác với lập trình truyền thống (viết mã lệnh quy tắc cứng), học máy vận hành theo chu trình 4 bước: **Thu thập dữ liệu mẫu $\rightarrow$ Huấn luyện mô hình (Training) $\rightarrow$ Kiểm thử định lượng (Testing) $\rightarrow$ Triển khai và Tái huấn luyện (Deployment & Retraining)**.
+  * Tích hợp hệ thống: Mô hình học máy sau khi huấn luyện được xuất mã nhúng để kết nối với các môi trường ứng dụng (như ngôn ngữ lập trình khối Scratch AI) nhằm điều khiển nhân vật, phát âm thanh hoặc kích hoạt thiết bị phần cứng thông minh.
+* **Tiến trình xoắn ốc (Grades 1 to 5):**
+  * *Lớp 1:* Kể chuyện ý tưởng và chế tạo mô hình robot giấy thủ công Unplugged; trải nghiệm quy trình nạp ví dụ mẫu đơn giản.
+  * *Lớp 2:* Ý tưởng giải pháp việc nhà thực tế; quan sát ứng dụng phân loại tự động thời gian thực; thử nghiệm phát hiện khoảnh khắc máy sai.
+  * *Lớp 3:* Tiếp cận tư duy thuật toán Nếu - Thì (Rule-based logic); quan sát và gọi tên đúng 4 bước chu trình học máy trên công cụ trực quan Google Teachable Machine.
+  * *Lớp 4:* Mô hình hóa kiến trúc hệ thống bằng sơ đồ khối dòng chảy (Flowchart); tự tay thực hiện thao tác tái huấn luyện (Retraining) khi phát hiện máy nhận nhầm.
+  * *Lớp 5:* Vận hành độc lập trọn vẹn 5 bước vòng đời hệ thống AI; xuất mã nhúng kết nối Scratch AI lập trình phản hồi thông minh; lập Phiếu thông tin mô hình (**Model Card**) giải trình trách nhiệm.
+
+---
+
+### 2. Chi tiết Tiến trình 5 Khối Lớp của Trục 8
+
+#### LỚP 1 — Ý TƯỞNG CỖ MÁY GIẢI QUYẾT VIỆC NHỎ VÀ CHẾ TẠO MÔ HÌNH GIẤY
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `1.D1.1`: *Nhận biết được rằng máy móc thông minh cần được 'dạy' bằng các ví dụ cụ thể do con người cung cấp.*
+  * `1.D2.1`: *Nhận biết được đồ dùng đơn năng.*
+  * `1.D2.2`: *Nhận biết được thiết bị đa năng.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 36 (M1)`, `KN 37 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Ý tưởng cỗ máy thông minh giúp em:* Học sinh nêu một khó khăn nhỏ trong ngày (ví dụ: hay quên cất bút chì vào hộp, hay quên giờ đánh răng); tưởng tượng ra một chú robot đồ chơi nhắc nhở em.
+  * *Đơn vị 2: Chế tạo mô hình Robot giấy thủ công (STEM/Unplugged):* Dùng hộp bánh quy hoặc bìa các-tông tái chế; cắt dán thân robot, vẽ mắt camera, vẽ miệng cười và tạo một chiếc khay đựng thẻ phía trước bụng.
+  * *Đơn vị 3: Diễn tập quy trình dạy máy:* Em cho robot xem thẻ bút chì $\rightarrow$ Robot kêu 'bíp' khen ngoan $\rightarrow$ Em cất bút vào hộp.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Cùng bạn trong bàn cắt dán hoàn thiện mô hình chú robot giấy có khay nạp thẻ từ vật liệu tái chế.
+  * *Hành vi 2:* Đứng trước lớp cầm mô hình robot giấy, nói 2 câu giới thiệu: Robot tên là gì và giúp em giải quyết việc gì.
+  * *Tiêu chí hoàn thành:* Hoàn thành mô hình robot có khay chứa thẻ; lời giới thiệu nêu rõ công dụng giúp đỡ việc tốt.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Hộp các-tông nhỏ, giấy màu thủ công, kéo an toàn, hồ dán, bút dạ; Thẻ tranh đồ dùng học tập.*
+  * *Đáp án:* Sản phẩm hoàn thiện: Mô hình robot đứng vững, có khay nạp thẻ; học sinh trình bày ý tưởng tự tin.
+* **Tiến trình Xoắn ốc:** Điểm khởi đầu: Tư duy thiết kế giải pháp ban đầu thông qua hoạt động tạo hình thủ công và kể chuyện sáng tạo (100% Unplugged).
+
+---
+
+#### LỚP 2 — BÀI TOÁN VIỆC NHÀ VÀ TRẢI NGHIỆM PHÂN LOẠI TỰ ĐỘNG THỜI GIAN THỰC
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `2.C3.MR1`: *Quan sát được thao tác phân loại đồ vật do giáo viên thực hiện trên công cụ thông minh trực quan.*
+  * `2.D1.1`: *Nêu được một vấn đề gần gũi trong đời sống gia đình có thể giải quyết bằng máy thông minh.*
+  * `2.D1.2`: *Nêu được ý tưởng máy thông minh hỗ trợ cuộc sống (giúp ai, giúp việc gì, phản hồi thế nào).*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 34 (M1)`, `KN 36 (M1)`, `KN 37 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Nhận diện bài toán gia đình thực tế:* Bát đĩa ăn xong bừa bộn; sàn nhà có nhiều vụn bánh rơi; quên tắt đèn phòng khi đi ngủ.
+  * *Đơn vị 2: Ý tưởng giải pháp 3 yếu tố:* (1) Máy giúp ai? (Bố mẹ, em nhỏ) $\rightarrow$ (2) Giúp việc gì? (Tự dọn đồ chơi vào rổ) $\rightarrow$ (3) Phản hồi thế nào? (Phát tiếng nhạc vui vẻ khi sàn nhà sạch bóng).
+  * *Đơn vị 3: Trải nghiệm phần mềm phân loại trực quan:* Quan sát cô giáo vẽ một nét ngoằn ngoèo trên ứng dụng Quick, Draw!; AI đoán trong 1 giây: "Tôi đoán đây là con rắn, hoặc chiếc boomerang!". Học sinh reo hò và nhận biết tốc độ nhận dạng của thuật toán.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Vẽ một bức tranh ý tưởng A4 về "Cỗ máy dọn bàn học thông minh": Thể hiện rõ bộ phận camera quét bàn và khay đựng bút.
+  * *Hành vi 2:* Lên bảng vẽ thử 1 nét trên ứng dụng Quick, Draw! và đọc to phán đoán của AI trên màn hình chiếu.
+  * *Tiêu chí hoàn thành:* Tranh vẽ thể hiện đủ 3 yếu tố (Đối tượng phục vụ, Công việc giúp đỡ, Cách phản hồi); tham gia tương tác với phần mềm phân loại.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Giấy vẽ A4, bút màu; Máy tính giáo viên kết nối máy chiếu mở trang Quick, Draw! (quickdraw.withgoogle.com).*
+  * *Đáp án:* Bức tranh ý tưởng đạt chuẩn: Có chú thích chức năng của cỗ máy; học sinh gọi tên được khoảnh khắc AI đoán trúng nét vẽ.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 1: Gắn vào bài toán gia đình cụ thể; tiếp xúc trực tiếp với phần mềm nhận dạng phân loại tự động của thế giới thực.
+
+---
+
+#### LỚP 3 — THUẬT TOÁN LOGIC NẾU - THÌ VÀ 4 BƯỚC HỌC MÁY TRÊN TEACHABLE MACHINE
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `3.C5.1`: *Mô tả được cấu trúc 'Nếu... Thì...' trong việc giải quyết tình huống bằng AI đơn giản.*
+  * `3.C5.MR1`: *Nêu được một số công cụ AI đơn giản sử dụng cấu trúc 'Nếu... Thì...' (hệ thống lọc thư rác, trả lời tự động).*
+  * `3.C5.2`: *Nêu được đặc điểm chính của học máy là học dựa trên dữ liệu mẫu.*
+  * `3.C5.MR2`: *Minh họa được bài toán phân loại hình ảnh bằng công cụ trải nghiệm AI trực quan.*
+  * `3.D1.1`: *Trình bày được 2 bước cốt lõi ban đầu: Thu thập ví dụ và Cho máy học.*
+  * `3.D2.1`: *Hiểu được rằng nếu dữ liệu sai thì mô hình học máy sẽ hoạt động sai.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 34 (M2)`, `KN 40 (M2)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Cấu trúc logic Nếu - Thì (Rule-based AI):*
+    * Mọi quyết định phản hồi cơ bản đều tuân theo nguyên lý: `NẾU [Điều kiện đúng] THÌ [Thực hiện hành động]`.
+    * Ví dụ: *Nếu camera thấy bàn tay giơ lên $\rightarrow$ Thì phát tiếng chuông chào; Nếu camera không thấy ai $\rightarrow$ Thì chuyển sang chế độ ngủ*.
+  * *Đơn vị 2: Chu trình 4 bước học máy (Machine Learning Workflow):*
+    1. *Bước 1: Thu thập dữ liệu mẫu (Data Collection):* Chụp các bức ảnh mẫu cho từng nhóm.
+    2. *Bước 2: Huấn luyện mô hình (Training):* Bấm nút Train Model để máy tính tìm quy luật.
+    3. *Bước 3: Kiểm thử mô hình (Testing):* Đưa mẫu vật mới trước webcam để kiểm tra.
+    4. *Bước 4: Đánh giá và Cải tiến (Evaluation):* Xem máy đoán đúng hay sai, bổ sung thêm ảnh nếu máy còn nhầm.
+  * *Đơn vị 3: Trải nghiệm trên Google Teachable Machine:* Quan sát cô giáo tạo 2 lớp dữ liệu: Lớp 1 (Nắm tay) vs Lớp 2 (Xòe tay); bấm Train Model và xem thanh tiến trình học máy.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Ghép 3 cặp thẻ khối lệnh logic Nếu - Thì trên bảng gài thành các quy tắc điều khiển thông minh hoàn chỉnh.
+  * *Hành vi 2:* Đọc tên và sắp xếp đúng thứ tự 4 bước chu trình học máy trên sơ đồ Infographic A4; chỉ đúng nút 'Train Model' trên giao diện Teachable Machine.
+  * *Tiêu chí hoàn thành:* Ghép đúng 100% logic Nếu-Thì; ghi nhớ chính xác tên và thứ tự 4 bước học máy.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Bộ thẻ khối lệnh Nếu - Thì bằng bìa cứng; Infographic 4 bước học máy A4; Giao diện Google Teachable Machine demo.*
+  * *Đáp án:* 3 cặp logic: Nếu [Trời tối] Thì [Bật đèn]; Nếu [Phát hiện rác] Thì [Mở nắp thùng]; Nếu [Thấy người lạ] Thì [Báo động]. Thứ tự 4 bước: Thu thập $\rightarrow$ Huấn luyện $\rightarrow$ Kiểm thử $\rightarrow$ Đánh giá.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 2: Tiếp cận tư duy lập trình thuật toán logic (Nếu - Thì) và nắm vững chu trình 4 bước học máy khoa học.
+
+---
+
+#### LỚP 4 — SƠ ĐỒ DÒNG CHẢY HỆ THỐNG VÀ KỸ THUẬT TÁI HUẤN LUYỆN (RETRAINING)
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `4.D1.1`: *Lập được sơ đồ mô tả giải pháp AI cho một vấn đề học đường đơn giản.*
+  * `4.D2.1`: *Trình bày được rằng hệ thống AI có thể được cải tiến liên tục; thực hành việc bổ sung dữ liệu và huấn luyện lại mô hình.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 35 (M2)`, `KN 37 (M2)`, `KN 38 (M2)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Sơ đồ dòng chảy kiến trúc hệ thống AI (System Architecture Flowchart):*
+    ```text
+    ┌────────────────┐       ┌────────────────────┐       ┌────────────────────────┐
+    │ KHỐI ĐẦU VÀO   │ ────► │ KHỐI XỬ LÝ HỌC MÁY │ ────► │ KHỐI ĐẦU RA PHẢN HỒI   │
+    │ (Webcam chụp ảnh│       │ (Mô hình phân loại │       │ (Phát loa hướng dẫn    │
+    │  rác sân trường)│      │  Hộp sữa / Chai nhựa│      │  hoặc mở ngăn thùng rác│
+    └────────────────┘       └────────────────────┘       └────────────────────────┘
+    ```
+  * *Đơn vị 2: Vòng tròn nâng cấp hệ thống (AI System Lifecycle):* Một cỗ máy AI sau khi huấn luyện xong chưa bao giờ là hoàn hảo vĩnh viễn; khi ra thực tế gặp tình huống mới (vỏ hộp sữa bị dẫm bẹp dúm), máy nhận nhầm $\rightarrow$ Cần con người can thiệp nâng cấp.
+  * *Đơn vị 3: Kỹ thuật Tái huấn luyện (Retraining):* Quy trình nâng cấp mô hình: Bước 1: Phát hiện mẫu máy đoán sai $\rightarrow$ Bước 2: Chụp bổ sung 5 ảnh mẫu ở góc bị sai đó nạp thêm vào Class $\rightarrow$ Bước 3: Bấm nút Train Model lần thứ hai $\rightarrow$ Bước 4: Kiểm thử lại để khẳng định độ chính xác đã được cải thiện.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Vẽ sơ đồ khối dòng chảy 3 thành phần cho bài toán "Thùng rác phân loại thông minh" trên giấy A3 nhóm.
+  * *Hành vi 2:* Thao tác trên Teachable Machine phòng máy: Nhận một mô hình đang đoán sai mẫu hộp sữa bẹp; chụp bổ sung 5 ảnh hộp sữa bẹp; bấm nút Train lại; kiểm thử lại và chứng minh máy đã nhận diện đúng.
+  * *Tiêu chí hoàn thành:* Vẽ đúng sơ đồ 3 khối kiến trúc; thực hiện thành công thao tác tái huấn luyện (Retrain); tỷ lệ nhận diện mẫu lỗi tăng lên.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Bản vẽ sơ đồ khối kiến trúc A3; Mô hình Teachable Machine mẫu đang bị thiếu dữ liệu góc khó; Mẫu vật thử nghiệm.*
+  * *Đáp án:* Sơ đồ có đủ 3 khối: Đầu vào $\rightarrow$ Mô hình $\rightarrow$ Đầu ra; Mô hình sau khi Train lại nhận diện đúng mẫu hộp sữa bẹp với độ tin cậy $> 80\%$.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 3: Nâng lên cấp độ "Mô hình hóa kiến trúc hệ thống" và tự tay làm chủ kỹ thuật "Tái huấn luyện (Retraining)" để cải tiến cỗ máy.
+
+---
+
+#### LỚP 5 — HOÀN THIỆN VÒNG ĐỜI HỆ THỐNG AI: KẾT NỐI SCRATCH VÀ MODEL CARD
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `5.C5.1`: *Nêu được cách sử dụng cấu trúc Nếu... Thì... trong lập trình AI đơn giản.*
+  * `5.C5.MR1`: *Thực hành sử dụng cấu trúc Nếu... Thì... trong lập trình AI đơn giản trên phần mềm lập trình khối.*
+  * `5.C5.2`: *Vận hành độc lập công cụ học máy trực quan (tạo lớp, nạp dữ liệu, huấn luyện, kiểm thử).*
+  * `5.C5.MR2`: *Huấn luyện được một mô hình phân loại đơn giản trên công cụ trải nghiệm AI trực quan.*
+  * `5.D1.1`: *Mô tả được ở mức độ đơn giản về 5 bước cơ bản trong quá trình thiết kế hệ thống AI.*
+  * `5.D2.1`: *Chứng minh được hệ thống AI có thể cải tiến thông qua chất lượng dữ liệu.*
+  * `5.D2.MR1`: *Thực hành cải tiến hệ thống AI bằng cách bổ sung dữ liệu và tái huấn luyện.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 34 (M3)`, `KN 35 (M3)`, `KN 36 (M3)`, `KN 37 (M3)`, `KN 40 (M3)`, `KN 41 (M3)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Quy trình 5 bước Vòng đời Hệ thống AI (Complete AI Lifecycle):*
+    1. *Bước 1: Xác định bài toán thực tiễn* (Nhận diện biển báo an toàn sảnh trường học).
+    2. *Bước 2: Chuẩn bị dữ liệu sạch & khử nhận dạng* (10 ảnh/nhãn, che mờ mặt người).
+    3. *Bước 3: Huấn luyện mô hình* (Train Model trên Google Teachable Machine).
+    4. *Bước 4: Kiểm thử định lượng* (Test Matrix trên 10 mẫu độc lập).
+    5. *Bước 5: Triển khai & Tinh chỉnh* (Xuất model kết nối Scratch và lập Model Card).
+  * *Đơn vị 2: Kết nối Mô hình AI với Lập trình khối Scratch AI:*
+    * Xuất đường link mô hình (Export Model $\rightarrow$ Upload my model) từ Teachable Machine.
+    * Mở Scratch 3.0 với tiện ích mở rộng Teachable Machine / AI Extension; dán đường link mô hình vào khối lệnh khởi tạo.
+    * Lập trình kịch bản phản hồi:
+      ```text
+      KHI [Nhận diện được Biển_San_Tron]
+      THÌ [Cho nhân vật phát âm thanh: "Cảnh báo: Sàn trượt, xin đi chậm!"] VÀ [Hiển thị biển cảnh báo màu vàng]
+      ```
+  * *Đơn vị 3: Lập Phiếu thông tin mô hình (Model Card) giải trình trách nhiệm:* Hoàn thiện tài liệu kỹ thuật công khai minh bạch: Mục đích mô hình, Số lượng ảnh huấn luyện, Tỷ lệ chính xác qua kiểm thử, Giới hạn sai sót và Chữ ký trách nhiệm của nhóm học sinh.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Xuất mã nhúng từ Teachable Machine; kết nối thành công vào dự án Scratch phòng máy; lập trình khối lệnh Nếu-Thì phát âm thanh cảnh báo khi đưa biển báo trước camera.
+  * *Hành vi 2:* Hoàn thiện 4 mục trên Phiếu Model Card bằng giấy A4; đại diện nhóm đứng lên demo trực tiếp sản phẩm trước Hội đồng chuyên môn của lớp.
+  * *Tiêu chí hoàn thành:* Nhân vật Scratch phản hồi chính xác khi đưa biển báo trước webcam; bản Model Card được điền đầy đủ và trung thực về các trường hợp máy còn nhận nhầm.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Phòng máy tính kết nối Internet; Môi trường Scratch 3.0 có tiện ích Teachable Machine; Biểu mẫu Model Card A4; 02 biển báo an toàn vẽ tay.*
+  * *Đáp án:* Sản phẩm hoàn thiện: Dự án Scratch AI chạy mượt mà theo thời gian thực; bản Model Card có đầy đủ chữ ký cam kết trách nhiệm của các thành viên trong nhóm.
+* **Tiến trình Xoắn ốc:** Đỉnh cao cấp Tiểu học: Khép lại toàn bộ vòng đời hệ thống AI: Tích hợp mô hình học máy vào ứng dụng phần mềm Scratch và thực hành chuẩn mực đạo đức trách nhiệm giải trình bằng Model Card.
+
+---

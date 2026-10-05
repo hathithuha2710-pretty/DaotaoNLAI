@@ -1,0 +1,37 @@
+=== PARAGRAPHS IN TEMPLATE ===
+P0 [Title]: 'Tiêu đề'
+   run: text='Tiêu đề', font=None, size=None, color=None, bold=None, italic=None
+P1 [Subtitle]: 'Phụ đề'
+   run: text='Phụ đề', font=None, size=None, color=None, bold=None, italic=None
+P2 [Heading 1]: 'Đề mục 1'
+   run: text='Đề mục 1', font=None, size=None, color=None, bold=None, italic=None
+P3 [Heading 2]: 'Đề mục 2'
+   run: text='Đề mục 2', font=None, size=None, color=None, bold=None, italic=None
+P4 [Heading 3]: 'Đề mục 3'
+   run: text='Đề mục 3', font=None, size=None, color=None, bold=None, italic=None
+P5 [Heading 4]: 'Đề mục 4'
+   run: text='Đề mục 4', font=None, size=None, color=None, bold=None, italic=None
+P6 [Normal]: 'Văn bản thường'
+   run: text='Văn bản thường', font=None, size=None, color=None, bold=None, italic=None
+P7 [List Paragraph]: 'Liệt kê cấp 1'
+   run: text='Liệt kê cấp 1', font=None, size=None, color=None, bold=None, italic=None
+P8 [Liệt kê cấp 2]: 'Liệt kê cấp 2 '
+   run: text='Liệt kê cấp 2 ', font=None, size=None, color=None, bold=None, italic=None
+P9 [Checklist]: 'Checklist '
+   run: text='Checklist ', font=None, size=None, color=None, bold=None, italic=None
+P10 [Chú thích]: 'Chú thích '
+   run: text='Chú thích ', font=None, size=None, color=None, bold=None, italic=None
+P11 [Intense Quote]: 'Ghi chú, chú thích nổi bật'
+   run: text='Ghi chú, chú thích nổi bật', font=None, size=None, color=None, bold=None, italic=None
+P12 [Heading 1]: 'Bảng biểu '
+   run: text='Bảng biểu ', font=None, size=None, color=None, bold=None, italic=None
+P13 [Normal]: ''
+P14 [Normal]: ''
+
+=== SECTIONS ===
+Section 0: page_w=595.0, page_h=842.0, top=85.05, bottom=56.7, left=70.9, right=42.55
+  Header pars: ['']
+  Footer pars: ['']
+
+=== TABLES ===
+Table 0 style: Grid Table 4 Accent 2, rows=5, cols=4

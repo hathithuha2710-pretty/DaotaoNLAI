@@ -1,0 +1,302 @@
+# -*- coding: utf-8 -*-
+"""
+Generator for Strand 5 & Strand 6:
+TRỤC 5: Đánh giá, Kiểm chứng thông tin & Phòng ngừa Ảo giác AI, Deepfake
+TRỤC 6: Giao tiếp với AI & Kỹ thuật đặt Câu lệnh (Prompting & Co-Creation)
+"""
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+strand5_text = """
+## TRỤC 5: ĐÁNH GIÁ, KIỂM CHỨNG THÔNG TIN VÀ PHÒNG NGỪA ẢO GIÁC AI, DEEPFAKE
+
+### 1. Bản chất Khoa học & Định hướng Tiến trình Xoắn ốc
+* **Bản chất khoa học công nghệ:** 
+  * Mô hình trí tuệ nhân tạo (đặc biệt là mô hình thị giác máy tính và mô hình ngôn ngữ lớn) hoạt động dựa trên các hàm xác suất thống kê và phép tính ma trận; chúng **không có khả năng hiểu biết ngữ nghĩa thật sự hay nhận thức về sự thật khách quan (ground truth)**.
+  * Hiện tượng **Ảo giác AI (Hallucination)** là việc mô hình ngôn ngữ tạo ra văn bản nghe rất hợp lý, đúng ngữ pháp và tự tin, nhưng lại chứa các sự kiện, số liệu, tên riêng hoặc khái niệm hoàn toàn sai lệch hoặc bịa đặt.
+  * Công nghệ **Nội dung giả mạo do AI tạo ra (Deepfake)** sử dụng mạng nơ-ron đối nghịch (GANs) hoặc mô hình khuếch tán (Diffusion models) để hoán đổi khuôn mặt, tổng hợp giọng nói hoặc tạo video người thật làm những việc họ chưa từng làm.
+  * Do đó, năng lực cốt lõi của công dân số là **Tư duy phản biện và Hoài nghi khoa học (Critical Evaluation)**: Luôn kiểm chứng bằng chứng, đối chiếu đa nguồn và không bao giờ tin cậy mù quáng vào kết quả do AI tạo ra.
+* **Tiến trình xoắn ốc (Grades 1 to 5):**
+  * *Lớp 1:* Trực quan môi trường: Nhận biết camera có thể nhìn nhầm khi trời tối, micro có thể nghe nhầm khi xung quanh ồn ào; máy không phải lúc nào cũng đúng (100% Unplugged).
+  * *Lớp 2:* Thử nghiệm giới hạn: Chủ động xoay đồ vật góc khó, đưa vật thể lạ vào để tìm ra trường hợp khiến máy phân loại sai.
+  * *Lớp 3:* Làm chủ văn bản và bắt lỗi Ảo giác AI: Hiểu bản chất ghép từ của Chatbot; thực hành Quy trình 3 bước kiểm chứng: Chọn điều cần kiểm tra $\\rightarrow$ Tìm bằng chứng trong SGK $\\rightarrow$ Kết luận (Đúng / Sai / Chưa đủ thông tin).
+  * *Lớp 4:* Phòng ngừa Deepfake và Kiểm chứng chéo đa nguồn: Soi tìm các lỗi bất thường trên ảnh/video do AI tạo (bàn tay thừa ngón, chữ méo); thực hiện kỹ thuật đối chiếu chéo trên 2 nguồn tài liệu in độc lập.
+  * *Lớp 5:* Kiểm thử định lượng mô hình: Đọc hiểu thanh chỉ số độ tin cậy thời gian thực (**Confidence Bar**), lập **Bảng ma trận kiểm thử (Test Matrix)** trên 10 mẫu độc lập; phát hiện vùng phân vân của thuật toán.
+
+---
+
+### 2. Chi tiết Tiến trình 5 Khối Lớp của Trục 5
+
+#### LỚP 1 — MÔI TRƯỜNG TÁC ĐỘNG VÀ CẢM NHẬN MÁY MÓC CÓ THỂ SAI
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `1.C1.3`: *Nhận biết được rằng máy móc có thể nhìn nhầm hoặc nghe nhầm khi ánh sáng tối hoặc xung quanh quá ồn ào.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 22 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Mắt camera và Tai micro bị giới hạn bởi môi trường:*
+    * Mắt camera của máy cũng giống như mắt người: Khi tắt hết đèn hoặc phòng bị tối om, camera không nhìn thấy màu sắc, dễ nhìn nhầm quả bóng thành cái đĩa tròn màu đen.
+    * Tai micro của máy khi bị cả lớp cùng nói chuyện ồn ào sẽ bị lẫn tạp âm, máy không phân biệt được tiếng cô giáo nói hay tiếng quạt gió kêu.
+  * *Đơn vị 2: Máy móc không hoàn hảo 100%:* Đồ chơi thông minh hay robot cũng có lúc đoán sai, chỉ sai; học sinh không được tin ngay mọi câu trả lời của đồ chơi, khi thấy điều lạ phải hỏi người lớn.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Thí nghiệm Unplugged tại lớp: Giáo viên che một tấm vải mờ trước ống kính camera đồ chơi, học sinh quan sát màn hình và chỉ ra: *"Máy nhìn nhầm con gấu bông thành cái gối vì bị tối và mờ"*.
+  * *Hành vi 2:* Đưa ra giải pháp: Khi máy nghe nhầm tiếng hát, học sinh biết đề xuất: *"Cả lớp phải giữ trật tự và em nói lại gần micro hơn"*.
+  * *Tiêu chí hoàn thành:* Nêu đúng nguyên nhân máy nhìn nhầm/nghe nhầm do điều kiện môi trường (ánh sáng/tiếng ồn).
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Đèn pin, tấm vải che mờ, đồ vật mẫu (quả bóng, đĩa nhựa, gấu bông); Loa đồ chơi thử nghiệm phát âm.*
+  * *Đáp án:* Nguyên nhân máy sai: Do thiếu ánh sáng hoặc do môi trường quá ồn ào.
+* **Tiến trình Xoắn ốc:** Điểm khởi đầu: Nhận thức thực tế rằng cỗ máy công nghệ hoàn toàn có thể nhầm lẫn do điều kiện vật lý môi trường.
+
+---
+
+#### LỚP 2 — THỬ NGHIỆM TÌM RA ĐIỀU KIỆN KHIẾN MÁY PHÂN LOẠI SAI
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `2.C3.2`: *Nêu được rằng AI có thể phân loại sai khi đồ vật nhìn quá lạ, hình ảnh bị mờ hoặc âm thanh bị lẫn tạp âm.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 22 (M1)`, `KN 23 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Bản chất của sự nhận nhầm ở bài toán phân loại:* Máy thông minh phân loại dựa trên những góc chụp quen thuộc trong dữ liệu. Khi gặp một vật thể ở góc nhìn bất thường (ví dụ: chiếc cốc nhìn từ trên đáy xuống, con mèo bị che khuất nửa mặt), máy sẽ không tìm thấy đặc trưng quen thuộc và đoán sai.
+  * *Đơn vị 2: Điều kiện giới hạn của thuật toán:* Đồ vật bị che khuất một phần, đồ vật bị biến dạng hình học, hoặc ảnh chụp bị rung tay nhòe nét là 3 nguyên nhân hàng đầu khiến AI phân loại sai.
+  * *Đơn vị 3: Thái độ khoa học:* Coi việc máy sai là bình thường; nhiệm vụ của con người là tìm ra chỗ sai để hoàn thiện dữ liệu cho máy.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Thử nghiệm đưa đồ vật vào các góc khó: Đưa hộp bút xoay góc nghiêng 90 độ, lấy tay che nửa thân hộp bút; ghi nhận phản hồi của ứng dụng nhận diện mẫu.
+  * *Hành vi 2:* Lập bảng theo dõi 2 cột trên phiếu cá nhân: Cột "Mẫu máy đoán đúng" (Chụp thẳng, rõ) vs Cột "Mẫu máy đoán sai" (Chụp nghiêng, che khuất).
+  * *Tiêu chí hoàn thành:* Ghi lại được ít nhất 2 trường hợp cụ thể máy nhận diện sai và giải thích được lý do kỹ thuật (bị che khuất hoặc góc nhìn quá lạ).
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Mẫu vật đồ dùng học tập thật (hộp bút, compa, thước dây); Ứng dụng nhận diện đồ vật trực quan trên máy tính giáo viên; Bảng theo dõi lỗi A4.*
+  * *Đáp án:* Mẫu nhìn thẳng $\\rightarrow$ Đoán đúng 100%. Mẫu bị che khuất 50% hoặc nhìn từ đáy $\\rightarrow$ Máy báo nhầm sang đồ vật khác.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 1: Học sinh chủ động tạo ra các tình huống thử thách để khám phá giới hạn nhận diện của thuật toán.
+
+---
+
+#### LỚP 3 — QUY TRÌNH 3 BƯỚC KIỂM CHỨNG THÔNG TIN VÀ PHÁT HIỆN ẢO GIÁC AI
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `3.A3.1`: *Nêu được một số ví dụ cụ thể về việc AI có thể sai (như phần mềm hội thoại tự động Chatbot đưa ra thông tin không đúng sự thật).*
+  * `3.A3.2`: *Trình bày được rằng khi sử dụng AI, học sinh cần kiểm tra lại kết quả, so sánh với nhiều nguồn thông tin khác nhau và trao đổi với giáo viên hoặc người lớn để xác minh.*
+  * `3.B2.1`: *Nhận biết được hiện tượng thông tin hoặc hình ảnh do AI tạo ra có thể sai lệch, giả mạo hoặc gây hiểu lầm.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 22 (M2)`, `KN 23 (M2)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Bản chất của hiện tượng Ảo giác AI (AI Hallucination):*
+    * Chatbot (như ChatGPT, Gemini) tạo câu trả lời dựa trên các mẫu ngôn ngữ đã học trong quá trình huấn luyện; máy không có trải nghiệm thực tế đời sống và không có khả năng tự nhận thức đúng/sai.
+    * Máy tính toán xác suất từ ngữ để tạo ra một câu văn nghe rất tự nhiên, rất thuyết phục nhưng thông tin bên trong có thể hoàn toàn sai sự thật (bịa ra tên tác giả, nhầm lẫn con số, gán nhầm đặc điểm sinh học).
+  * *Đơn vị 2: Nguồn tài liệu tin cậy đối chứng:* Sách giáo khoa của Bộ GD&ĐT, từ điển chính thống, và lời giảng của thầy cô là chuẩn mực đối chứng cho học sinh tiểu học; không dùng một câu trả lời AI khác để kiểm chứng cho câu trả lời của AI đầu tiên.
+  * *Đơn vị 3: Quy trình 3 bước kiểm chứng thông tin chuẩn mực:*
+    ```text
+    Bước 1: CHỌN ĐIỀU CẦN KIỂM TRA (Claim)
+            ──► Câu trả lời đang khẳng định chi tiết gì cụ thể? (Con số, năm tháng, địa danh, đặc điểm khoa học).
+    Bước 2: TÌM BẰNG CHỨNG (Evidence)
+            ──► Mở đúng bài trong Sách giáo khoa, dùng ngón tay chỉ vào dòng chữ chứa thông tin đó.
+    Bước 3: ĐƯA RA KẾT LUẬN (Conclusion)
+            ──► ĐÚNG / SAI / CHƯA ĐỦ THÔNG TIN ĐỂ KẾT LUẬN. (Nếu sai, viết câu đính chính trích từ SGK).
+    ```
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Đọc đoạn văn bản giả lập của Chatbot; dùng bút dạ quang khoanh tròn chi tiết nghi vấn (Ví dụ: *"Miền Nam có mùa bão tuyết"*).
+  * *Hành vi 2:* Mở đúng trang SGK Tự nhiên và Xã hội (hoặc Lịch sử - Địa lý) đối chứng; chép lại chính xác dòng trích dẫn làm bằng chứng.
+  * *Hành vi 3:* Khoanh tròn ô kết luận "SAI" và viết câu đính chính: *"Miền Nam có mùa mưa và mùa khô (Theo SGK trang 34)"*.
+  * *Tiêu chí hoàn thành:* Điền đầy đủ 3 mục trên Phiếu kiểm chứng thông tin; chỉ đúng số trang và dòng sách làm căn cứ đối chứng.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Đoạn văn bản Chatbot giả lập:* "Khí hậu nước ta chia làm 2 miền. Miền Bắc có 4 mùa: xuân, hạ, thu, đông. Miền Nam nóng quanh năm, có 2 mùa rõ rệt là mùa mưa và mùa bão tuyết."
+  * *Tài liệu đối chứng:* SGK Tự nhiên và Xã hội Lớp 3 (Bài Khí hậu nước ta, trang 34 dòng 5: *"Miền Nam có hai mùa rõ rệt là mùa mưa và mùa khô"*).
+  * *Phiếu kiểm chứng 3 dòng; Đáp án giáo viên:* Kết luận: **SAI**. Đính chính: Mùa khô.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 2: Chuyển lên cấp độ văn bản số; làm chủ quy trình kiểm chứng khoa học 3 bước đối chiếu với tài liệu xuất bản chuẩn mực.
+
+---
+
+#### LỚP 4 — PHÒNG NGỪA NỘI DUNG GIẢ MẠO DEEPFAKE VÀ KIỂM CHỨNG CHÉO ĐA NGUỒN
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `4.B2.1` (Tích hợp): *Nhận biết được nguy cơ của các nội dung giả mạo do AI tạo ra (Deepfake) và kỹ năng phòng ngừa.*
+  * `4.A1.1` (Tích hợp): *Nêu được ví dụ về việc công nghệ AI có thể bị lợi dụng để tạo thông tin sai lệch trên môi trường mạng.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 11 (M2)`, `KN 22 (M2)`, `KN 23 (M3)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Bản chất của Nội dung giả mạo do AI tạo ra (Deepfake):*
+    * Thuật ngữ chuẩn hóa: Deepfake là hình ảnh, âm thanh hoặc video được tạo ra hoặc chỉnh sửa bằng công nghệ AI tinh vi, khiến người xem tin rằng một người đang nói hoặc làm những điều mà họ chưa từng nói hay làm trong thực tế.
+    * Mục đích xấu của kẻ tạo Deepfake: Lừa đảo tiền bạc, bôi nhọ danh dự bạn bè, giả mạo giọng nói bố mẹ gọi điện xin tiền, tạo tin giả gây hoang mang dư luận.
+  * *Đơn vị 2: Các dấu hiệu nhận diện bất thường trên ảnh/video Deepfake:*
+    * Trên hình ảnh: Bàn tay có 6 ngón hoặc các ngón tay dính liền nhau; mắt nhìn chằm chằm không chớp; nền phía sau bị méo mó, lượn sóng; chữ viết trên bảng hiệu bị biến dạng thành các ký tự vô nghĩa.
+    * Trên video/âm thanh: Cử động môi không khớp với lời nói; ánh sáng trên khuôn mặt không khớp với bóng đổ của cơ thể; giọng nói đều đều như robot, thiếu nhịp thở tự nhiên.
+  * *Đơn vị 3: Quy tắc Kiểm chứng chéo đa nguồn (Cross-Verification):* Khi tiếp nhận thông tin giật gân, bất thường $\rightarrow$ Không vội tin, không bấm nút Chia sẻ $\rightarrow$ Phải tìm kiếm ít nhất **2 nguồn tin cậy độc lập** (ví dụ: Trang web chính thức của trường và báo Thiếu niên Tiền phong) để đối chiếu.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Soi kính lúp trên 2 bức ảnh (Ảnh chụp thật vs Ảnh vẽ bằng AI); dùng bút khoanh tròn đúng 2 điểm bất thường trên ảnh AI (bàn tay 6 ngón và chữ biển hiệu bị méo).
+  * *Hành vi 2:* Đọc 1 mẩu tin giật gân giả lập trên mạng xã hội; thực hành tra cứu chéo trên 2 nguồn tài liệu in giáo viên cung cấp; viết kết luận xác minh: Tin giả do AI tạo ra.
+  * *Tiêu chí hoàn thành:* Chỉ ra chính xác các chi tiết bất thường của deepfake; thực hiện đúng thao tác đối chiếu chéo 2 nguồn tài liệu.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Bộ 2 ảnh so sánh A4 phóng to chi tiết; Phiếu tin tức giả mạo "Trường tiểu học nghỉ học 1 tháng do bão tuyết"; 2 tài liệu đối chứng (Thông báo chính thức của Ban Giám hiệu và Bản tin thời tiết VTV).*
+  * *Đáp án:* Bức ảnh là sản phẩm AI vì bàn tay nhân vật có 6 ngón; Mẩu tin tức là tin giả mạo vì Thông báo của trường và Bản tin VTV khẳng định thời tiết bình thường.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 3: Nhận diện thủ đoạn làm giả đa phương tiện (Deepfake) và nâng cấp lên kỹ năng đối chiếu chéo trên 2 nguồn tài liệu độc lập.
+
+---
+
+#### LỚP 5 — KIỂM THỬ ĐỊNH LƯỢNG MÔ HÌNH VÀ ĐÁNH GIÁ ĐỘ TIN CẬY THỜI GIAN THỰC
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `5.C5.2` (Kiểm thử): *Thực hành kiểm tra và đánh giá kết quả do mô hình học máy đưa ra trên các dữ liệu mới.*
+  * `5.C5.MR3`: *Kiểm tra được kết quả do mô hình đưa ra trên tập mẫu mới; lập bảng thống kê chỉ ra những trường hợp máy nhận diện đúng và trường hợp bị nhầm lẫn kèm nguyên nhân kỹ thuật.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 22 (M3)`, `KN 23 (M3)`, `KN 25 (M3)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Bản chất của Kiểm thử mô hình (Testing in Machine Learning):*
+    * Huấn luyện (Train) là cho máy học trên tập bài tập có sẵn giải; Kiểm thử (Test) là cho máy làm bài thi với các đề bài hoàn toàn mới toanh mà máy chưa từng nhìn thấy bao giờ.
+    * Nếu dùng ảnh cũ đã dạy để kiểm tra thì máy chỉ việc nhớ lại; chỉ khi kiểm tra bằng ảnh mới thì mới biết máy có thực sự học được quy luật hay không.
+  * *Đơn vị 2: Đọc hiểu Thanh chỉ số độ tin cậy (Confidence Bar):*
+    * Khi đưa một hình ảnh trước webcam, mô hình AI không trả lời tuyệt đối mà đưa ra xác suất: Biển sàn trơn (92%), Biển thoát hiểm (8%).
+    * Vùng an toàn: Chỉ số $\\ge 80\\%$ (Máy rất tự tin và thường đoán đúng).
+    * Vùng phân vân: Chỉ số từ $50\\%$ đến $70\\%$ (Máy đang lưỡng lự, rất dễ nhận nhầm).
+  * *Đơn vị 3: Lập Bảng ma trận kiểm thử (Test Matrix) và tính toán độ chính xác:*
+    * Thống kê: $\\text{Tỷ lệ chính xác (\\%)} = \\frac{\\text{Số mẫu đoán đúng}}{\\text{Tổng số mẫu kiểm thử}} \\times 100\\%$.
+    * Phân tích nguyên nhân kỹ thuật khi máy đoán sai: Do góc chụp quá nghiêng, do ánh sáng bị ngược sáng, hoặc do vật thể bị biến dạng.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Thao tác trên Google Teachable Machine: Lần lượt đưa 10 mẫu vật/ảnh mới độc lập trước webcam; quan sát thanh Confidence Bar; ghi nhận kết quả và chỉ số % vào Bảng ma trận kiểm thử.
+  * *Hành vi 2:* Tính toán tỷ lệ phần trăm chính xác của mô hình nhóm (Ví dụ: 8/10 mẫu đúng = 80%); chỉ ra 2 trường hợp máy đoán sai và nêu đúng lý do kỹ thuật.
+  * *Tiêu chí hoàn thành:* Bảng ma trận kiểm thử ghi chép đủ 10 lượt thử nghiệm thực tế; con số tính toán % chính xác; phân tích được nguyên nhân thất bại của mô hình.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Tập 10 ảnh kiểm thử độc lập (chưa nạp vào tập huấn luyện); Giao diện Teachable Machine Preview; Biểu mẫu Bảng ma trận kiểm thử A4.*
+  * *Đáp án:* Bảng kiểm thử hợp lệ: Ghi rõ tên mẫu, dự đoán của máy, chỉ số Confidence %, kết luận Đúng/Sai. Tỷ lệ chính xác trung bình từ 70% đến 90%.
+* **Tiến trình Xoắn ốc:** Đỉnh cao cấp Tiểu học: Chuyển từ kiểm chứng định tính sang kiểm thử định lượng bằng số liệu; làm chủ công cụ đánh giá độ tin cậy xác suất và ma trận kiểm thử của kỹ sư AI.
+
+---
+"""
+
+strand6_text = """
+## TRỤC 6: GIAO TIẾP VỚI AI VÀ KỸ THUẬT ĐẶT CÂU LỆNH (PROMPTING & CO-CREATION)
+
+### 1. Bản chất Khoa học & Định hướng Tiến trình Xoắn ốc
+* **Bản chất khoa học công nghệ:** 
+  * Kỹ thuật đặt câu lệnh (Prompt Engineering) là nghệ thuật và khoa học về việc thiết kế các dữ liệu đầu vào (văn bản, giọng nói, hình ảnh) để dẫn dắt các mô hình AI tạo sinh đưa ra kết quả tối ưu, chính xác và phù hợp nhất với mục đích của con người.
+  * Nguyên lý vận hành cốt lõi: *"Chất lượng đầu ra phụ thuộc trực tiếp vào chất lượng và ngữ cảnh của đầu vào"* (Garbage Prompt In, Garbage Output Out).
+  * Đồng sáng tạo cùng AI (AI Co-creation): Mô hình AI đóng vai trò là cộng sự/trợ lý tạo sinh phác thảo ban đầu; con người giữ vai trò định hướng ý tưởng, tinh chỉnh nghệ thuật, chọn lọc và ra quyết định hoàn thiện sản phẩm.
+* **Tiến trình xoắn ốc (Grades 1 to 5):**
+  * *Lớp 1:* Khẩu ngữ tự nhiên: Cầm micro đúng khoảng cách, phát âm câu lệnh ngắn 3–4 từ rõ ràng, tròn vành rõ chữ, có lời chào lịch thiệp.
+  * *Lớp 2:* Vòng lặp tương tác: Nhận biết cỗ máy nghe chưa rõ lần 1 $\\rightarrow$ Chủ động nắn chỉnh câu lệnh lần 2 chi tiết hơn, chậm rãi hơn.
+  * *Lớp 3:* Chuyển sang văn bản số: Phân biệt câu lệnh cộc lốc vs câu lệnh rõ việc; nắm vững nguyên tắc *"Đầu vào rõ $\\rightarrow$ Đầu ra chuẩn"*.
+  * *Lớp 4:* Cấu trúc Câu lệnh 3 thành phần (`[Bối cảnh]` + `[Nhiệm vụ]` + `[Định dạng]`); thực hành kỹ thuật tinh chỉnh đa vòng (Multi-turn Prompting); đồng sáng tạo tranh cổ động trên AutoDraw.
+  * *Lớp 5:* Cấu trúc Câu lệnh 4 thành phần hoàn chỉnh; kỹ thuật cung cấp ví dụ mẫu (**Few-shot Prompting**); biến Chatbot thành 'Bạn cùng học' (AI Study Buddy) hỗ trợ học tập cá nhân hóa.
+
+---
+
+### 2. Chi tiết Tiến trình 5 Khối Lớp của Trục 6
+
+#### LỚP 1 — GIAO TIẾP KHẨU NGỮ TỰ NHIÊN VÀ CÂU LỆNH ĐẦU TIÊN
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `1.C1.2`: *Thực hiện được việc nói câu lệnh đơn giản, rõ ràng vào micro để thiết bị thông minh nhận biết.*
+  * `1.C1.4`: *Thể hiện thái độ lịch thiệp, vui vẻ khi trò chuyện với trợ lý ảo hoặc điều khiển thiết bị thông minh.*
+  * `1.A2.MR1`: *Nêu được rằng lời chào dễ thương, câu nói rõ ràng sẽ giúp việc hợp tác giữa người và máy trở nên vui vẻ, hiệu quả hơn.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 2 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Câu lệnh (Prompt) bằng giọng nói:* Câu lệnh là lời nói em truyền vào tai micro để bảo máy làm một việc cụ thể (ví dụ: mở bài hát, kể chuyện).
+  * *Đơn vị 2: Kỹ thuật nói vào micro:* Cầm micro hoặc ghé miệng cách micro từ 5 đến 10 cm; nói tròn vành rõ chữ, tốc độ vừa phải; không hét to vào micro gây rè tiếng, không nói thì thầm lí nhí khiến máy không nghe thấy.
+  * *Đơn vị 3: Lời chào văn minh:* Bắt đầu bằng lời chào và kết thúc bằng từ ngữ lịch sự: *"Xin chào Robot, xin mở bài hát Cháu yêu bà ạ!"*.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Thao tác cầm micro/điện thoại đúng tư thế và khoảng cách; phát âm rõ ràng câu lệnh mẫu gồm 4 từ: *"Xin chào, mở nhạc thiếu nhi"*.
+  * *Hành vi 2:* Lắng nghe tín hiệu phản hồi của loa (đèn LED xanh sáng hoặc tiếng bíp) xác nhận máy đã nhận lệnh thành công.
+  * *Tiêu chí hoàn thành:* Máy/loa thông minh nhận diện được khẩu lệnh ngay từ lần nói đầu tiên; giọng nói rõ ràng, có từ ngữ lễ phép.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Mô hình micro lớp học kết nối loa thông minh; Tranh minh họa tư thế cầm micro đúng vs sai (cầm quá sát miệng vs cầm quá xa).*
+  * *Đáp án:* Hành vi đạt: Khoảng cách miệng - micro 5–10 cm; câu lệnh tròn vành rõ chữ; máy nhận diện phát đúng bài hát.
+* **Tiến trình Xoắn ốc:** Điểm khởi đầu: Giao tiếp khẩu ngữ tự nhiên; rèn kỹ thuật phát âm và nếp văn hóa giao tiếp công nghệ.
+
+---
+
+#### LỚP 2 — VÒNG LẶP NẮN CHỈNH CÂU LỆNH GIỌNG NÓI LẦN THỨ HAI
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `2.A3.1`: *Nhận biết được rằng mỗi câu hỏi, mỗi mệnh lệnh em nói vào máy là đang cung cấp thêm dữ liệu cho hệ thống.*
+  * `2.A2.MR1`: *Thực hành ra lệnh đơn giản bằng giọng nói cho thiết bị thông minh dưới sự giám sát của giáo viên.*
+  * `2.A3.MR1`: *Nêu được rằng con người có vai trò quan trọng trong việc cung cấp thông tin đúng sự thật, ngôn từ lịch sự khi tương tác với AI.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 2 (M1)`, `KN 6 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Hiện tượng máy nghe chưa rõ lần 1:* Khi trợ lý ảo trả lời: *"Xin lỗi, tôi chưa hiểu yêu cầu của bạn"* $\rightarrow$ Con người không được cáu gắt mà phải hiểu máy đang thiếu thông tin.
+  * *Đơn vị 2: Kỹ thuật nắn chỉnh câu lệnh lần 2 (Prompt Refinement):* Con người chủ động nói lại câu lệnh lần thứ hai bằng cách: Nói chậm hơn, phát âm rõ từng tiếng hơn, và bổ sung thêm từ khóa cụ thể.
+    * Ví dụ: Lần 1 nói cộc lốc: *"Mở nhạc"* (Máy bối rối không biết nhạc gì) $\rightarrow$ Lần 2 nắn chỉnh chi tiết: *"Mở bài hát Chú ếch con thiếu nhi"*.
+  * *Đơn vị 3: Vai trò chủ động của con người:* Máy chỉ là công cụ tiếp nhận; con người đóng vai trò thuyền trưởng điều khiển và nắn chỉnh kết quả của máy.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Quan sát cô giáo thị phạm tình huống máy không tìm thấy kết quả ở lệnh 1; chỉ ra điểm thiếu sót của câu lệnh lần 1.
+  * *Hành vi 2:* Thực hành nói lại câu lệnh lần 2 bằng cách thêm tên bài hát cụ thể; giúp trợ lý ảo phát đúng bài hát yêu cầu.
+  * *Tiêu chí hoàn thành:* Câu lệnh lần 2 có bổ sung từ khóa cụ thể; tốc độ phát âm chậm rãi, rõ ràng hơn lần 1; máy nhận lệnh thành công.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Máy chiếu kết nối ứng dụng trợ lý ảo Google Assistant/Siri demo; Thẻ kịch bản tình huống nắn chỉnh câu lệnh 2 lần.*
+  * *Đáp án:* Lệnh 1 thất bại do từ khóa chung chung; Lệnh 2 thành công vì bổ sung từ khóa rõ việc: Tên bài hát + Thể loại thiếu nhi.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 1: Nhận thức được vòng lặp tương tác: Thử nghiệm lệnh 1 $\\rightarrow$ Đọc phản hồi của máy $\\rightarrow$ Nắn chỉnh lệnh 2 chi tiết hơn.
+
+---
+
+#### LỚP 3 — CHUYỂN DỊCH SANG VĂN BẢN VÀ NGUYÊN TẮC CÂU LỆNH RÕ VIỆC
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `3.C2.1` (Tích hợp): *Làm quen với việc sử dụng câu lệnh dạng văn bản để tìm kiếm và tạo ra thông tin học tập.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 4 (M1)`, `KN 6 (M1)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Chuyển dịch từ giọng nói sang văn bản gõ phím:* Trên máy tính, con người giao tiếp với AI bằng các dòng chữ gõ vào khung nhập liệu (Prompt Box).
+  * *Đơn vị 2: So sánh Câu lệnh cộc lốc vs Câu lệnh rõ việc:*
+    * *Câu lệnh cộc lốc (Vague Prompt):* Chỉ gõ 1 từ duy nhất: *"Chó"* hoặc *"Cây cối"* $\rightarrow$ AI trả lời lan man, dài dòng, không đúng thứ em cần.
+    * *Câu lệnh rõ việc (Specific Prompt):* Gõ đầy đủ đối tượng, số lượng và yêu cầu: *"Kể tên 3 giống chó thông minh và hiền lành, giải thích ngắn gọn trong 1 câu"* $\rightarrow$ AI trả lời chính xác, đúng trọng tâm.
+  * *Đơn vị 3: Nguyên tắc vàng của Prompting:* "Đầu vào càng rõ ràng $\\rightarrow$ Đầu ra càng chính xác và hữu ích".
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Đọc bảng đối chiếu 3 cặp câu lệnh; dùng bút đánh dấu tick $(\\checkmark)$ vào câu lệnh sẽ giúp AI trả lời tốt hơn.
+  * *Hành vi 2:* Đọc 1 câu lệnh cộc lốc giáo viên cho trước (Ví dụ: *"Thời tiết"*); viết lại thành 1 câu lệnh rõ việc hoàn chỉnh vào phiếu bài tập.
+  * *Tiêu chí hoàn thành:* Câu lệnh viết lại có đầy đủ: Địa điểm, thời gian và câu hỏi cụ thể (Ví dụ: *"Dự báo thời tiết ngày mai tại Hà Nội có mưa không?"*).
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Phiếu bài tập "Bí kíp đặt câu lệnh rõ việc"; Bảng so sánh 3 cặp câu lệnh cộc lốc vs rõ ràng in trên khổ A3.*
+  * *Đáp án:* Câu lệnh viết lại hợp lệ: Có đầy đủ 3 thành phần: Đối tượng cần hỏi + Địa điểm/Phạm vi + Yêu cầu cụ thể.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 2: Chuyển từ khẩu ngữ sang văn bản số; nắm vững nguyên lý cấu trúc câu lệnh rõ việc để kiểm soát chất lượng phản hồi của AI.
+
+---
+
+#### LỚP 4 — CẤU TRÚC CÂU LỆNH 3 THÀNH PHẦN VÀ ĐỒNG SÁNG TẠO SỐ
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `4.C2.1`: *Sử dụng được một số công cụ AI cơ bản để hỗ trợ học tập và sáng tạo (như công cụ gợi ý nét vẽ thông minh, gợi ý từ ngữ).*
+  * `4.C2.MR1`: *Thực hành tạo ra sản phẩm sáng tạo số đơn giản với sự trợ giúp của AI và giới thiệu sản phẩm đó trước lớp.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 4 (M2)`, `KN 6 (M2)`, `KN 39 (M2)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Công thức Câu lệnh 3 thành phần chuẩn mực:*
+    ```text
+    ┌────────────────────────────────────────────────────────────────────────┐
+    │              CÔNG THỨC CÂU LỆNH 3 THÀNH PHẦN (LỚP 4)                   │
+    ├────────────────────────────────────────────────────────────────────────┤
+    │ [THÀNH PHẦN 1: BỐI CẢNH / VAI TRÒ] ──► "Em là học sinh lớp 4 đang làm   │
+    │                                         bích báo bảo vệ môi trường,"   │
+    │ [THÀNH PHẦN 2: NHIỆM VỤ CỤ THỂ]    ──► "hãy gợi ý 3 khẩu hiệu ngắn gọn," │
+    │ [THÀNH PHẦN 3: ĐỊNH DẠNG ĐẦU RA]   ──► "mỗi khẩu hiệu không quá 8 từ."   │
+    └────────────────────────────────────────────────────────────────────────┘
+    ```
+  * *Đơn vị 2: Kỹ thuật Tinh chỉnh đa vòng (Multi-turn Prompting):*
+    * Vòng 1: Gửi câu lệnh ban đầu $\\rightarrow$ Đọc kết quả.
+    * Vòng 2: Nắn chỉnh sâu hơn: *"Em thích câu số 2, nhưng hãy thay từ 'rác' bằng từ dễ thương hơn cho học sinh tiểu học"*.
+    * Vòng 3: Hoàn thiện sản phẩm cuối cùng.
+  * *Đơn vị 3: Khái niệm Đồng sáng tạo cùng AI (AI Co-creation):*
+    * Khi dùng nền tảng AutoDraw: Học sinh tự tay phác thảo nét vẽ nguệch ngoạc ban đầu bằng chuột $\\rightarrow$ AI nhận diện và đưa ra thanh gợi ý các nét vẽ hoàn chỉnh $\\rightarrow$ Học sinh bấm chọn nét vẽ đẹp nhất, tự tay tô màu, sắp xếp bố cục và gõ thông điệp của nhóm.
+    * Con người là tác giả chính (lên ý tưởng, chỉ đạo), AI là trợ thủ thực thi nét vẽ.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Viết một câu lệnh 3 thành phần vào khung Prompt Box trên phần mềm học tập theo đúng cấu trúc mẫu.
+  * *Hành vi 2:* Thao tác trên AutoDraw: Phác nét chiếc lá/thùng rác $\\rightarrow$ Chọn nét vẽ thông minh của AI $\\rightarrow$ Tô màu xanh lá $\\rightarrow$ Gõ chữ khẩu hiệu *"Bảo vệ cây xanh"* $\\rightarrow$ Xuất file ảnh `.png` về máy.
+  * *Tiêu chí hoàn thành:* Câu lệnh có đủ 3 thành phần; hoàn thành bức tranh cổ động số trên AutoDraw có ghi nguồn gốc tác quyền.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Công thức thẻ nhớ Câu lệnh 3 thành phần; Phòng máy tính kết nối nền tảng AutoDraw (autodraw.com); Khung mẫu tranh cổ động A4.*
+  * *Đáp án:* Sản phẩm số hợp lệ: Tệp ảnh xuất ra có nét vẽ AutoDraw phối hợp màu sắc tự chọn và khẩu hiệu tự tay học sinh gõ.
+* **Tiến trình Xoắn ốc:** Bước tiến từ Lớp 3: Làm chủ cấu trúc câu lệnh 3 thành phần; thực hành kỹ thuật tinh chỉnh đa vòng và trải nghiệm trọn vẹn quy trình Đồng sáng tạo cùng AI.
+
+---
+
+#### LỚP 5 — CÂU LỆNH 4 THÀNH PHẦN, KỸ THUẬT FEW-SHOT VÀ AI BẠN CÙNG HỌC
+* **Mã YCCĐ QĐ 2422 bảo trợ:**
+  * `5.C2.1` (Tích hợp): *Khai thác các công cụ AI như một trợ thủ hỗ trợ tự học, ôn tập kiến thức và sáng tạo nội dung.*
+  * `5.C5.1` (Quy tắc): *Hiểu cách sử dụng các quy tắc và câu lệnh logic để điều khiển hành vi của hệ thống AI.*
+* **Kỹ năng tích hợp (Ma trận v2.0):** `KN 4 (M3)`, `KN 5 (M2)`, `KN 6 (M3)`, `KN 39 (M3)`.
+* **Hạt nhân Kiến thức Cốt lõi (Dạy cái gì?):**
+  * *Đơn vị 1: Công thức Câu lệnh 4 thành phần hoàn chỉnh (Master Prompt):*
+    1. *[Vai trò - Persona]:* "Đóng vai một giáo viên Lịch sử tiểu học vui tính..."
+    2. *[Bối cảnh - Context]:* "...chúng em đang ôn tập bài Chiến thắng Bạch Đằng năm 938..."
+    3. *[Nhiệm vụ - Task]:* "...hãy tạo 3 câu hỏi trắc nghiệm vui nhộn kèm đáp án..."
+    4. *[Giới hạn & Ràng buộc - Constraints]:* "...mỗi câu hỏi có 3 phương án A, B, C; không dùng từ ngữ quá khó, độ dài toàn bài dưới 100 từ."
+  * *Đơn vị 2: Kỹ thuật đưa Ví dụ mẫu (Few-shot Prompting):*
+    * Đưa 1 hoặc 2 ví dụ mẫu hoàn chỉnh vào câu lệnh để "dạy nhanh" cho AI phong cách, cấu trúc và định dạng đầu ra mong muốn.
+    * *Ví dụ:* Khi muốn AI sáng tác thơ 4 chữ: Cung cấp sẵn khổ 1: *"Cây xanh trong vườn / Đung đưa trước gió / Chim hót lí lo / Chào ngày mới tới"* $\\rightarrow$ Ra lệnh: *"Hãy viết tiếp khổ 2 theo đúng vần điệu và phong cách trên"*. AI sẽ bắt chước mẫu cực kỳ chuẩn xác!
+  * *Đơn vị 3: Mô hình "Bạn cùng học" (AI Study Buddy):* Sử dụng AI để thử thách bản thân: Yêu cầu AI đặt câu hỏi kiểm tra bài cũ cho em, AI đóng vai người chấm thi, em trả lời và nhờ AI nhận xét điểm mạnh, điểm yếu.
+* **Biểu hiện Kỹ năng Vi mô & Tiêu chí Đánh giá (Trong 35 phút):**
+  * *Hành vi 1:* Viết một câu lệnh hoàn chỉnh có đủ 4 thành phần và chứa ít nhất 01 ví dụ mẫu (Few-shot Prompt) trên giao diện Chatbot học đường an toàn.
+  * *Hành vi 2:* Thực hiện tương tác vòng 2 để tinh chỉnh: Yêu cầu AI sửa đổi câu hỏi số 2 vì đáp án quá lộ liễu; lưu lại nhật ký hội thoại 2 vòng.
+  * *Tiêu chí hoàn thành:* Câu lệnh nạp vào có đầy đủ 4 thành phần và 1 ví dụ mẫu; kết quả AI phản hồi tuân thủ đúng giới hạn độ dài và định dạng yêu cầu.
+* **Bộ Học liệu Chuẩn & Đáp án:**
+  * *Mẫu bảng cấu trúc Prompt 4 thành phần A4; Giao diện chatbot AI học đường an toàn; Phiếu nhật ký tương tác Prompt đa vòng.*
+  * *Đáp án:* Câu lệnh đạt chuẩn Few-shot: Có đoạn văn bản mẫu làm khuôn mẫu định dạng; sản phẩm AI sinh ra khớp 100% phong cách của ví dụ mẫu.
+* **Tiến trình Xoắn ốc:** Đỉnh cao cấp Tiểu học: Đạt đến trình độ Prompting chuyên nghiệp: Few-shot Prompting, Ràng buộc giới hạn đa chiều và Khai thác AI thành công cụ cá nhân hóa việc tự học.
+
+---
+"""
+
+with open('scratch/strand5_6.txt', 'w', encoding='utf-8') as f:
+    f.write(strand5_text + strand6_text)
+
+print("Strand 5 and Strand 6 generated successfully.")

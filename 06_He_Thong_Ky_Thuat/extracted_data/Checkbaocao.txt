@@ -1,0 +1,468 @@
+Tôi đã đọc toàn bộ báo cáo 3 trang và đối chiếu lại với các nguồn chính thức/nguồn pháp lý có thẩm quyền, tính đến **15/9/2026**. 
+
+**Kết luận: tôi sẽ chưa cho phép dùng bản này để trình lãnh đạo hoặc làm căn cứ thiết kế chương trình.** Phần nghiên cứu có nhiều ý đúng, đặc biệt phần Pháp, Trung Quốc và nhiều trích dẫn từ QĐ 2422. Nhưng báo cáo đang có một lỗi phương pháp khá nghiêm trọng: **trộn “luật”, “quy định bảo vệ dữ liệu”, “hướng dẫn của Bộ Giáo dục”, “khuyến nghị”, “chính sách của một địa phương” và “chương trình giáo dục” như thể chúng có cùng giá trị pháp lý.** Ngoài ra có một số kết luận bị suy diễn quá nguồn.
+
+Nếu chấm nghiêm, tôi đánh giá khoảng **6/10 về độ chính xác nội dung**, nhưng chỉ khoảng **4/10 về độ chính xác pháp lý và khả năng truy xuất nguồn**.
+
+## 1. Những lỗi nghiêm trọng cần sửa ngay
+
+| Nội dung trong báo cáo                                                              | Đánh giá                                      | Vấn đề                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **EU: “đề xuất dưới 16 tuổi cần đồng ý phụ huynh”**                                 | 🔴 **Sai quan trọng**                         | Mốc 16 không phải một “đề xuất AI của EU”. Đây là **GDPR Điều 8**, đã là luật từ lâu: khi xử lý dữ liệu dựa trên consent đối với dịch vụ xã hội thông tin cung cấp trực tiếp cho trẻ, mốc mặc định là 16; quốc gia thành viên có thể hạ xuống nhưng không dưới 13. Nó **không phải quy định cấm trẻ dưới 16 sử dụng AI**. ([Eur-Lex][1]) |
+| **Na Uy: “Cấm gần như hoàn toàn lớp 1–7”**                                          | 🔴 **Sai về tính pháp lý**                    | Cơ quan giáo dục Na Uy đang đưa ra **khuyến nghị**, không phải lệnh cấm. Văn bản 25/6/2026 nói học sinh lớp 1–7 “về cơ bản không nên được cấp quyền truy cập GenAI”; lớp 8–10 có thể dùng dần và thận trọng. Họ còn nói sẽ tiếp tục hoàn thiện khuyến nghị đến 1/10. ([Udir][2])                                                         |
+| **Na Uy: “điểm số sa sút diện rộng — Chính phủ cho rằng AI khiến học sinh…”**       | 🔴 **Không chứng minh được quan hệ nhân quả** | Nguồn chính thức nói các khuyến nghị dựa trên **cơ sở tri thức và nguyên tắc phòng ngừa**, không nói “AI đã làm điểm học sinh giảm trên diện rộng”. Đây là biến một lo ngại thành kết luận nhân quả. ([Udir][2])                                                                                                                         |
+| **Việt Nam “trì hoãn AI tạo sinh/prompt đến tận THPT”**                             | 🔴 **Sai**                                    | QĐ 2422 đúng là dạy **kỹ thuật đặt prompt chính thức ở lớp 10**, nhưng **AI tạo sinh đã xuất hiện rõ ở lớp 8**: học sinh phải nêu rủi ro lạm dụng GenAI và sự cần thiết kiểm chứng khi sử dụng GenAI trong học tập. Vì vậy “prompt từ lớp 10” ≠ “GenAI chỉ được sử dụng từ lớp 10”. ([THƯ VIỆN PHÁP LUẬT][3])                            |
+| **THCS “không nên thiết kế hoạt động yêu cầu học sinh chat tự do với AI tạo sinh”** | 🔴 **Không phải quy định của QĐ 2422**        | Có thể là **khuyến nghị nội bộ hợp lý**, nhưng không được viết như kết luận rút trực tiếp từ QĐ. QĐ còn có hoạt động thử nghiệm trợ lý ảo và các dự án sử dụng AI ở THCS. ([THƯ VIỆN PHÁP LUẬT][3])                                                                                                                                      |
+| **Singapore tiểu học “chỉ học khái niệm”**                                          | 🔴 **Sai/đã lỗi thời**                        | Từ 2025, chương trình chính thức **AI for Fun** cho tiểu học cho học sinh học GenAI, sử dụng GenAI an toàn và có trách nhiệm, thậm chí dùng GenAI cho ideation và content creation. Đây không còn là “chỉ học khái niệm”. ([Cơ Quan Quản Lý Truyền Thông Singapore][4])                                                                  |
+| **Singapore “IMDA 7/2026 hướng dẫn minh bạch chatbot”**                             | 🔴 **Chưa xác minh được**                     | Tôi không tìm thấy văn bản chính thức tương ứng với mô tả này. Nguồn IMDA chính thức tháng 3/2026 chỉ nói Singapore đang **nghiên cứu safeguards cho AI chatbots và online games**. Nếu nhân viên không đưa được văn bản gốc, nên bỏ dòng này. ([Cơ Quan Quản Lý Truyền Thông Singapore][5])                                             |
+| **Việt Nam: “12 tiết/năm, nội dung tối thiểu, không cần thiết bị”**                 | 🟠 **Đúng một phần nhưng diễn đạt sai**       | 12 tiết/năm là đúng. Nhưng QĐ không tuyên bố chung rằng chương trình “không cần thiết bị”. Văn bản nói một số hoạt động đạo đức/rủi ro có thể học không cần máy tính, và thiết kế phải bảo đảm công bằng, linh hoạt về thiết bị. ([THƯ VIỆN PHÁP LUẬT][3])                                                                               |
+
+Đây là các lỗi đủ lớn để **thay đổi kết luận chiến lược** của báo cáo.
+
+---
+
+# 2. Kiểm tra từng quốc gia
+
+### Singapore — cần sửa đáng kể
+
+Báo cáo đang mô tả Singapore là mô hình khá hạn chế ở tiểu học: “chỉ học khái niệm; từ khoảng lớp 4 dùng công cụ có kiểm soát”. Cách viết này không còn phản ánh đầy đủ thực tế.
+
+IMDA hiện có chương trình **AI for Fun for Primary Schools**: từ 2025 có module GenAI cho học sinh tiểu học, gồm NLP, sử dụng GenAI an toàn và có trách nhiệm, và **dùng GenAI để lên ý tưởng, tạo nội dung**. Ví dụ triển khai được nêu cho các cohort Primary 5/Primary 6. ([Cơ Quan Quản Lý Truyền Thông Singapore][4])
+
+MOE Singapore năm 2026 còn tuyên bố tăng AI literacy xuyên suốt hành trình học tập; Cyber Wellness được cập nhật với **kiểm chứng thông tin do GenAI tạo ra và nhận diện deepfake**, còn Code for Fun tích hợp AI sẽ được cung cấp cho tất cả trường từ 2027. ([Bộ Giáo Dục Singapore][6])
+
+Vì vậy câu:
+
+> “Việt Nam… trì hoãn AI tạo sinh… giống Trung Quốc, Singapore”
+
+không đứng vững nếu dùng Singapore làm bằng chứng.
+
+**Nên sửa:** Singapore theo mô hình *developmentally staged + supervised use*, chứ không phải “tiểu học không sử dụng GenAI”.
+
+---
+
+### Pháp — phần chính xác nhất của báo cáo
+
+Phần này **cơ bản đúng**.
+
+Khung sử dụng AI trong giáo dục của Bộ Giáo dục Pháp ban hành tháng 6/2025 quy định:
+
+* tiểu học: học kiến thức nền về AI nhưng **không trực tiếp thao tác với GenAI**;
+* từ classe de 4e: sử dụng GenAI trong lớp ở mức hạn chế, có hướng dẫn và giáo viên đồng hành;
+* lycée: có thể sử dụng tự chủ hơn trong khuôn khổ do giáo viên xác định;
+* sử dụng GenAI làm bài mà không có cho phép rõ ràng và không có quá trình tiếp thu/công sức cá nhân có thể được coi là gian lận. ([Ministère de l'Education nationale][7])
+
+Nhưng phải gọi đúng là **“cadre d’usage” — khung/hướng dẫn sử dụng của Bộ Giáo dục**, không nên đưa vào một báo cáo mang tên “luật AI các nước” mà không phân loại.
+
+**Đánh giá: 🟢 9/10.**
+
+---
+
+### Trung Quốc — đúng về tinh thần, sai nếu gọi là “luật”
+
+Hướng dẫn GenAI 2025 của Ủy ban Chỉ đạo Giáo dục Cơ bản thuộc Bộ Giáo dục Trung Quốc ghi khá rõ:
+
+> cấp tiểu học không để học sinh **tự mình** sử dụng chức năng tạo nội dung mở; giáo viên có thể sử dụng thích hợp trong lớp; THCS có thể khám phá/phân tích logic của nội dung được tạo; THPT đi sâu hơn vào nguyên lý. ([jyj.pingliang.gov.cn][8])
+
+Do đó phần:
+
+> “Tiểu học… cấm tự dùng tạo nội dung mở”
+
+là **khá chính xác**, nếu chữ “tự” được giữ.
+
+Nhưng đây là **hướng dẫn sử dụng GenAI cho học sinh**, không phải “Luật AI Trung Quốc quy định trẻ tiểu học bị cấm”.
+
+Lý do trong báo cáo “học sinh cần đủ năng lực phản biện trước khi được tự tạo nội dung” là **diễn giải**, không phải một câu kết luận pháp lý trực tiếp trong văn bản. Văn bản còn nhấn mạnh riêng tư, dữ liệu, công bằng, giá trị, an toàn và triển khai có kiểm soát. ([jyj.pingliang.gov.cn][8])
+
+**Đánh giá: 🟢/🟠 8/10.**
+
+---
+
+### Na Uy — phải viết lại
+
+Nguồn chính thức hiện nói:
+
+* lớp 1–7: về cơ bản **không nên được cấp quyền truy cập GenAI**;
+* lớp 8–10: có thể sử dụng dần dần và thận trọng, với điều kiện giáo viên đủ năng lực;
+* THPT: nên học cách sử dụng GenAI phù hợp.
+
+Nhưng chính tiêu đề văn bản là **“nye anbefalinger” — các khuyến nghị mới**. ([Udir][2])
+
+Cho nên hai từ **“Cấm gần như hoàn toàn”** là không đạt chuẩn fact-check.
+
+Nghiêm trọng hơn là câu “điểm số/kết quả học tập sa sút diện rộng — Chính phủ cho rằng AI khiến…” đang tạo ra **quan hệ nhân quả mà nguồn không xác lập**.
+
+**Đánh giá: 🔴 4/10.**
+
+---
+
+### New York City — khá đúng, nhưng không phải “Mỹ”
+
+Đây là một trong những phần đáng chú ý nhất và **số liệu hiện tại đúng**.
+
+Năm học 2026–27, New York City Public Schools áp dụng moratorium đối với **student-facing generative AI** từ 2K đến Grade 8; Grade 9–12 chỉ sử dụng hạn chế trong các chương trình được phê duyệt/vetted. NYCPS cũng nói GenAI có thể giúp học sinh “bypass thinking they need to do themselves”. ([web][9])
+
+Nhưng báo cáo nên ghi rõ:
+
+**“New York City Public Schools (NYCPS)”**
+
+thay vì cách trình bày có thể khiến người đọc hiểu là chính sách của toàn bang New York hay của Mỹ.
+
+Cụm **“cognitive surrender”** tôi không thấy trong chính sách NYCPS. Có thể dùng như khái niệm phân tích nếu có nguồn học thuật riêng, nhưng **không được đặt trong cột ‘Vì sao có quy định này’ như thể là ngôn ngữ chính thức của NYCPS.**
+
+**Đánh giá: 🟢/🟠 8/10.**
+
+---
+
+### California — đúng dữ kiện nhưng dùng sai để khái quát giáo dục
+
+California có luật mới về **companion chatbots**: SB 243 yêu cầu có disclaimer rằng chatbot không phải con người khi trẻ vị thành niên sử dụng, đồng thời có các biện pháp an toàn. ([Governor of California][10])
+
+Nhưng đây **không phải chính sách K–12 nói học sinh ở độ tuổi nào được dùng AI trong lớp**.
+
+Vì vậy từ một luật chatbot dành cho trẻ em mà kết luận:
+
+> “Các bang tự đặt ưu tiên minh bạch trước khi bàn đến giới hạn tuổi”
+
+là **khái quát quá mức**.
+
+**Đánh giá: 🟠 6/10.**
+
+---
+
+### Italy — cơ bản đúng, nhưng phải mô tả đúng phạm vi
+
+Luật AI Italy 132/2025 thực sự quy định:
+
+* trẻ **dưới 14 tuổi**: việc tiếp cận công nghệ AI và việc xử lý dữ liệu cá nhân liên quan cần sự đồng ý của người thực hiện trách nhiệm cha mẹ;
+* người từ 14 đến dưới 18 có thể tự consent cho xử lý dữ liệu liên quan đến sử dụng AI nếu thông tin được cung cấp dễ tiếp cận và dễ hiểu. 
+
+Do đó hàng Italy là **khá tốt**.
+
+Nhưng phải tránh khiến người đọc hiểu:
+
+> 14 tuổi = đương nhiên được tự do dùng mọi AI trong lớp.
+
+Đây là **ngưỡng consent/access + data processing trong luật AI**, không phải giấy phép giáo dục phổ thông.
+
+**Đánh giá: 🟢 8.5/10.**
+
+---
+
+### EU — cần sửa hoàn toàn
+
+Đây là lỗi pháp lý rõ nhất.
+
+Báo cáo ghi:
+
+> “EU (đề xuất) — dưới 16 tuổi cần đồng ý phụ huynh.”
+
+Không đúng.
+
+Quy tắc 16 tuổi đến từ **GDPR Article 8**, tức Regulation (EU) 2016/679 đang có hiệu lực. Và điều khoản này chỉ áp dụng trong những điều kiện cụ thể đối với **consent-based processing khi information-society services được cung cấp trực tiếp cho trẻ**; các nước thành viên còn có thể đặt tuổi thấp hơn, tối thiểu 13. ([Eur-Lex][1])
+
+**Không được chuyển nó thành:** “EU cấm trẻ dưới 16 dùng AI nếu không có phụ huynh”.
+
+**Đánh giá: 🔴 2/10.**
+
+---
+
+### Australia — hướng chung đúng
+
+Australia có **Australian Framework for Generative AI in Schools**, là khung quốc gia nhằm định hướng sử dụng GenAI có trách nhiệm và đạo đức trong trường học; phiên bản review được các Bộ trưởng Giáo dục thông qua tháng 6/2025. ([Department of Education][11])
+
+Báo cáo đúng khi nhận định Australia đi theo logic **không đặt một mốc tuổi cứng toàn quốc**.
+
+Tuy nhiên câu:
+
+> “Giáo viên phải xác định rõ AI được dùng đến đâu trong từng bài”
+
+nên kiểm lại nguồn cụ thể trước khi viết chữ “phải”. Khung quốc gia nhấn mạnh transparency/accountability và mục đích học tập; còn cách quy định theo từng assignment có thể đến từ hướng dẫn triển khai của từng jurisdiction/trường.
+
+**Đánh giá: 🟢/🟠 7.5/10.**
+
+---
+
+### Hàn Quốc — sự kiện đúng nhưng diễn giải hơi kịch tính
+
+Đúng là năm 2025 Quốc hội Hàn Quốc sửa Luật Giáo dục Tiểu học và Trung học, đưa AI digital textbooks từ vị thế **official textbooks** về thành **education materials**, tức công cụ bổ trợ tự chọn thay vì textbook bắt buộc. ([Yonhap News][12])
+
+Nhưng báo cáo ghi:
+
+> “Từng bắt buộc sách AI lớp 3–4 — đã hủy tư cách pháp lý 8/2025.”
+
+Cách này dễ khiến người đọc tưởng **mọi học sinh lớp 3–4 toàn Hàn Quốc đã bị bắt buộc dùng rồi sau đó chính phủ thất bại và rút lại**. Thực tế chính xác hơn là một kế hoạch rollout national AI digital textbooks với địa vị sách giáo khoa chính thức đã bị thay đổi pháp lý sang tài liệu bổ trợ.
+
+Nguồn đáng tin cậy có ghi các lo ngại về **screen time, literacy và ngân sách**. Nhưng cụm “thiếu thí điểm kỹ, lỗi kỹ thuật, dữ liệu” cần nguồn riêng cho từng ý; không nên gom thành “lý do chính phủ rút lui” nếu không có tài liệu chứng minh. ([Yonhap News][12])
+
+**Đánh giá: 🟠 6.5/10.**
+
+---
+
+### Anh — đúng hướng nhưng cần đổi “UK” thành “England”
+
+Hướng dẫn DfE nói trường và college có thể tự lựa chọn use case thích hợp, kể cả chỉ cho giáo viên dùng hoặc cho học sinh dùng ở một số môn/năm học/key stage nhất định. Học sinh chỉ nên sử dụng GenAI khi có safeguards phù hợp và phải tuân thủ giới hạn tuổi của nhà cung cấp. ([GOV.UK][13])
+
+Đây là nguồn của **Department for Education áp dụng cho England**, không nên tùy tiện suy rộng thành toàn bộ “UK”, vì giáo dục là lĩnh vực phân quyền.
+
+Tôi cũng **chưa xác minh được câu “chatbot AI được xếp như người lạ trên mạng” là lập trường chính thức của Anh**. Nếu không tìm được văn bản gốc, bỏ câu đó.
+
+**Đánh giá: 🟠 7/10.**
+
+---
+
+### Canada — đúng ở mức cấu trúc quản trị
+
+Canada thực sự không có Bộ Giáo dục liên bang hay hệ thống giáo dục quốc gia; giáo dục do tỉnh/bang và vùng lãnh thổ quản lý. ([Canada][14])
+
+Do đó viết:
+
+> “không có một chính sách K–12 AI thống nhất cấp liên bang; các tỉnh/vùng lãnh thổ tự xây dựng”
+
+là hợp lý.
+
+Nhưng câu “từng tỉnh tự ra hướng dẫn” lại quá tuyệt đối. Không nên khẳng định **tất cả tỉnh** đều đã có hướng dẫn AI tương đương nếu chưa kiểm đủ từng tỉnh.
+
+**Đánh giá: 🟢/🟠 8/10.**
+
+---
+
+# 3. Phần Việt Nam/QĐ 2422: nhân viên đọc văn bản khá kỹ, nhưng kết luận bị vượt quá văn bản
+
+Đây mới là điểm tôi quan tâm nhất vì báo cáo có thể được dùng để thiết kế chương trình.
+
+### “12 tiết/năm” — đúng
+
+QĐ quy định cấu phần nội dung cốt lõi và khối lượng triển khai. Phần này có căn cứ.
+
+### “Tiểu học được thao tác thật với AI” — đúng
+
+QĐ nêu mục tiêu tiểu học là học sinh được **nhận biết và trải nghiệm công cụ/tính năng AI đơn giản**, có hướng dẫn và giám sát; ví dụ nhận diện hình ảnh, giọng nói, trợ lý ảo. ([THƯ VIỆN PHÁP LUẬT][3])
+
+Do đó về bản chất, QĐ 2422 **không phải khung chỉ dạy lý thuyết AI cho trẻ nhỏ**.
+
+### “Teachable Machine, ML for Kids” — đúng
+
+Phần này của nhân viên không phải tự nghĩ ra; QĐ thực sự có các ví dụ công cụ dạng này trong yêu cầu cần đạt ở tiểu học.
+
+### “Không được GenAI ở tiểu học” — không có căn cứ đủ để nói thành lệnh cấm
+
+QĐ 2422 không đặt một câu luật theo kiểu:
+
+> “Học sinh tiểu học bị cấm sử dụng AI tạo sinh.”
+
+Nếu doanh nghiệp muốn áp dụng nguyên tắc này vì an toàn, có thể làm, nhưng phải ghi:
+
+**“Đề xuất chính sách triển khai của chương trình”**
+
+chứ không được ghi như nội dung bắt buộc của QĐ.
+
+---
+
+# 4. Sai lớn nhất trong diễn giải QĐ 2422: nhầm “prompt bắt đầu lớp 10” với “GenAI bắt đầu lớp 10”
+
+Đây là chỗ tôi sẽ yêu cầu nhân viên sửa ngay.
+
+Đúng là:
+
+**10.C3.1:** mô tả yêu cầu để đưa ra prompt phù hợp.
+**10.C3.2:** thực hành đặt prompt. ([THƯ VIỆN PHÁP LUẬT][3])
+
+Nhưng lớp 8 đã có:
+
+> rủi ro của việc lạm dụng **công cụ AI tạo sinh**;
+
+và
+
+> sự cần thiết phải kiểm chứng nguồn thông tin **khi sử dụng AI tạo sinh trong học tập**. ([THƯ VIỆN PHÁP LUẬT][3])
+
+Nghĩa là:
+
+**Kỹ năng prompt có hệ thống bắt đầu ở lớp 10.
+Không có nghĩa là sử dụng/tiếp xúc với GenAI bị cấm trước lớp 10.**
+
+Hai khái niệm này đã bị báo cáo gộp làm một.
+
+Vì vậy câu kết luận:
+
+> “Việt Nam… trì hoãn AI tạo sinh/prompt đến tận THPT — thận trọng hơn cả Pháp”
+
+**không đủ cơ sở và về phần GenAI là sai.**
+
+---
+
+# 5. Chatbot ở THCS cũng bị báo cáo mô tả thiếu
+
+Báo cáo nói:
+
+> “chatbot lớp 8–9 được phép làm ví dụ dự án”.
+
+Thực tế **lớp 7 đã có** ví dụ ý tưởng chatbot giải đáp nội quy/lịch học và yêu cầu lập kế hoạch, thực hành tạo sản phẩm AI đơn giản. ([THƯ VIỆN PHÁP LUẬT][3])
+
+Vì vậy cũng không thể xây logic:
+
+**THCS → không chat với AI → lớp 10 mới prompt.**
+
+QĐ có một lộ trình phức tạp hơn: mức độ tự chủ, phân tích và kỹ thuật tăng dần.
+
+---
+
+# 6. “Không cần thiết bị” cần sửa thành “không được để thiết bị trở thành rào cản”
+
+Đây là khác biệt quan trọng.
+
+QĐ nói một số chủ đề như đạo đức, rủi ro, trách nhiệm có thể tổ chức bằng thảo luận, tranh biện, đóng vai, case study **mà không cần máy tính**. ([THƯ VIỆN PHÁP LUẬT][3])
+
+Điều đó không đồng nghĩa:
+
+> “Chương trình AI Việt Nam không cần thiết bị.”
+
+Một chương trình có cả nhận dạng hình ảnh, huấn luyện mô hình đơn giản, sử dụng ứng dụng AI, tạo sản phẩm… rõ ràng có nhiều phần hưởng lợi hoặc cần công nghệ.
+
+Nên viết:
+
+**“Khung không đặt việc sở hữu thiết bị cá nhân làm điều kiện để học sinh đạt chuẩn; một số nội dung có thể triển khai không dùng máy tính và việc tổ chức cần bảo đảm công bằng tiếp cận.”**
+
+Câu này chính xác hơn rất nhiều.
+
+---
+
+# 7. “Ưu tiên không tạo tài khoản” không nên chuyển thành “yêu cầu bắt buộc”
+
+Trong báo cáo có câu:
+
+> “đây là yêu cầu bắt buộc trong văn bản, không phải khuyến nghị.”
+
+Nếu nguyên văn dùng **“ưu tiên”**, thì không nên tự nâng cấp hiệu lực thành một lệnh cấm tuyệt đối.
+
+Đây là lỗi thường gặp khi đọc văn bản chính sách:
+
+**“ưu tiên” ≠ “bắt buộc” ≠ “nghiêm cấm”.**
+
+Trong một báo cáo pháp lý/chính sách, ba mức này phải tách cực kỳ rõ.
+
+---
+
+# 8. Phần “QĐ 2422 đã nội hóa gần như đầy đủ bài học quốc tế” là nhận định, không phải fact
+
+Câu này có thể là **kết luận phân tích của tác giả**, nhưng không thể trình bày như một dữ kiện đã được chứng minh.
+
+Đúng là QĐ 2422 bao phủ rất nhiều nội dung hiện đại: kiểm chứng kết quả, quyền riêng tư, bias, hallucination, deepfake, giảm tư duy độc lập, rủi ro theo dõi/thao túng… Ví dụ QĐ định nghĩa rõ hallucination, bias và chatbot. ([THƯ VIỆN PHÁP LUẬT][3])
+
+Nhưng muốn kết luận:
+
+> “đã nội hóa gần như đầy đủ các bài học quốc tế”
+
+thì phải có **một ma trận tiêu chí quốc tế đầy đủ**, rồi đối chiếu từng tiêu chí. Báo cáo hiện mới chọn một số nước/rủi ro tiêu biểu nên chưa đủ để dùng chữ **“gần như đầy đủ”**.
+
+Tôi sẽ đổi thành:
+
+**“QĐ 2422 có mức độ tương thích đáng kể với nhiều nguyên tắc đang xuất hiện trong các khung quốc tế đã khảo sát.”**
+
+An toàn và khoa học hơn.
+
+---
+
+# 9. “Không cần thiết kế thêm nguyên tắc mới” là kết luận nguy hiểm
+
+Báo cáo viết:
+
+> “Không cần thiết kế thêm nguyên tắc mới — QĐ 2422 đã yêu cầu…”
+
+Tôi không đồng ý với kết luận này.
+
+QĐ 2422 là **khung nội dung giáo dục**, không phải toàn bộ **AI Acceptable Use Policy** cho trường học.
+
+Một chương trình triển khai thật vẫn cần quy định vận hành như: công cụ nào được duyệt, học sinh độ tuổi nào được tạo tài khoản, loại dữ liệu nào không được nhập, khi nào AI được phép dùng trong bài tập/đánh giá, cách khai báo AI, cách xử lý sự cố, quyền phụ huynh, lưu trữ dữ liệu, phản hồi khi AI đưa nội dung nguy hiểm...
+
+Vì vậy:
+
+**QĐ đã có nguyên tắc giáo dục ở tầng curriculum ≠ không cần guardrails ở tầng vận hành.**
+
+Đây là khác biệt thiết kế hệ thống rất quan trọng.
+
+---
+
+# 10. Phần “thử nghiệm nhỏ 1–2 năm” đang bị gắn nhầm cho QĐ
+
+Đoạn:
+
+> “Chiến lược ‘Thử nghiệm nhỏ, Đánh giá sâu’... triển khai các dự án thử nghiệm quy mô nhỏ... từ 1–2 năm…”
+
+có thể là **khuyến nghị của tác giả**, nhưng không phải một yêu cầu tôi thấy trong QĐ 2422.
+
+Nếu giữ lại phải ghi rõ:
+
+**“Khuyến nghị của nhóm nghiên cứu, rút ra từ kinh nghiệm quốc tế”**
+
+không được để dưới tiêu đề:
+
+> “QĐ 2422 đã có cơ chế phòng ngừa”
+
+rồi khiến người đọc tưởng Bộ yêu cầu pilot 1–2 năm.
+
+---
+
+# 11. Có một lỗi biên tập rất nhỏ nhưng cho thấy báo cáo chưa được QC
+
+Trong bảng “Nguồn quốc tế” có:
+
+> **“Hà Nội, Hàn Quốc, Anh”**
+
+ở nguy cơ dữ liệu cá nhân.
+
+“Hà Nội” đứng cùng các quốc gia là gì? Nếu là một nguồn nghiên cứu hoặc chính sách của Hà Nội thì phải ghi cụ thể. Nếu là lỗi đánh máy thì phải sửa.
+
+Một báo cáo so sánh chính sách quốc tế trình lãnh đạo không nên có lỗi loại này.
+
+---
+
+# 12. Tôi sẽ yêu cầu nhân viên thay đổi cấu trúc báo cáo
+
+Vấn đề gốc là tiêu đề **“luật AI các nước”** nhưng tài liệu thực tế đang so sánh những thứ rất khác nhau.
+
+Nên thêm cột bắt buộc:
+
+| Quốc gia | Văn bản/chính sách      | Cơ quan ban hành                            | Loại văn bản                 | Phạm vi            | Hiệu lực        | Nội dung chính                                   | Diễn giải của nhóm                |
+| -------- | ----------------------- | ------------------------------------------- | ---------------------------- | ------------------ | --------------- | ------------------------------------------------ | --------------------------------- |
+| France   | Cadre d’usage de l’IA   | Ministry of Education                       | National education framework | Education          | Current         | GenAI from 4e under supervision                  | —                                 |
+| China    | GenAI Use Guide 2025    | Basic Education Teaching Guidance Committee | Guidance                     | K–12               | Current         | Primary cannot independently use open generation | —                                 |
+| Norway   | Recommendations 2026    | Udir                                        | Recommendation               | Schools            | Being developed | Mainly no access G1–7                            | Precautionary                     |
+| NYC      | AI & Screen Time Policy | NYCPS                                       | District policy              | NYC public schools | 2026–27         | GenAI moratorium 2K–8                            | —                                 |
+| Italy    | Law 132/2025            | Parliament                                  | Law                          | National           | In force        | Under-14 parental consent for access/data        | Not specifically a classroom rule |
+| EU       | GDPR Art. 8             | EU                                          | Regulation                   | Data protection    | In force        | Consent rules for child data                     | Not AI age limit                  |
+
+Chỉ cần làm bước này, khoảng **một nửa sự nhập nhằng hiện nay sẽ biến mất**.
+
+## Kết luận quản trị
+
+Nếu đây là báo cáo nhân viên gửi cho tôi để phục vụ quyết định xây dựng chương trình AI, tôi sẽ đánh dấu:
+
+**“RETURN FOR REVISION — chưa đủ chuẩn để phát hành.”**
+
+Không phải vì nghiên cứu kém hoàn toàn. Ngược lại, nhân viên đã **đọc QĐ 2422 tương đối kỹ và tìm được khá nhiều case quốc tế đúng**. Điểm yếu là **không phân biệt đủ nghiêm giữa fact, legal status và interpretation**, rồi từ một số fact đúng lại đi thêm một bước thành kết luận không được nguồn hỗ trợ.
+
+Ba kết luận quan trọng nhất hiện nay cần **xóa hoặc viết lại** là:
+
+1. **“Việt Nam trì hoãn GenAI tới THPT.” → Sai.**
+2. **“Na Uy cấm AI lớp 1–7 vì kết quả học tập suy giảm do AI.” → Sai/overclaim.**
+3. **“EU đang đề xuất dưới 16 tuổi cần phụ huynh đồng ý dùng AI.” → Sai bản chất pháp lý.**
+
+Ngoài ra, **Singapore phải cập nhật lại**, vì học sinh tiểu học đã có chương trình chính thức cho trải nghiệm GenAI; điều này có thể làm thay đổi khá nhiều phép so sánh mà báo cáo đang xây dựng. ([Cơ Quan Quản Lý Truyền Thông Singapore][4])
+
+Nếu dùng báo cáo này để quyết định **NovaStars nên cho học sinh lớp mấy bắt đầu dùng GenAI, dùng ở mức nào và cần guardrail gì**, tôi sẽ **không lấy bảng hiện tại làm căn cứ**, mà xây lại ma trận so sánh theo đúng 4 tầng: **AI literacy → AI tool use → GenAI use → autonomous GenAI use**, vì đó mới là cách so sánh các nước tương đối “apple-to-apple”.
+
+[1]: https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1759166388955&uri=CELEX%3A02016R0679-20160504 "eur-lex.europa.eu"
+[2]: https://www.udir.no/kvalitet-og-kompetanse/digitalisering-skole/kunstig-intelligens-i-skolen/kommer-nye-rad-om-bruk-av-kunstig-intelligens-pa-ulike-trinn/ "Nye anbefalinger om tilpasset bruk av KI etter trinn og alder | udir.no"
+[3]: https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Quyet-dinh-2422-QD-BGDDT-2026-Khung-noi-dung-giao-duc-tri-tue-nhan-tao-cho-hoc-sinh-pho-thong-720573.aspx "Quyết định 2422/QĐ-BGDĐT 2026 Khung nội dung giáo dục trí tuệ nhân tạo cho học sinh phổ thông"
+[4]: https://www.imda.gov.sg/how-we-can-help/code-for-fun/ai-for-fun-primary?utm_source=chatgpt.com "AI for Fun (Primary) | IMDA"
+[5]: https://www.imda.gov.sg/About-IMDA/corporate-publications/Committee-of-Supply?utm_source=chatgpt.com "IMDA's Committee of Supply 2026 updates | IMDA"
+[6]: https://cos.moe.gov.sg/2026-announcements/?utm_source=chatgpt.com "Announcements | Ministry of Education Singapore | Committee of Supply"
+[7]: https://www.education.gouv.fr/cadre-d-usage-de-l-ia-en-education-450647 "Cadre d'usage de l'IA en éducation | Ministère de l'Education nationale"
+[8]: https://jyj.pingliang.gov.cn/zfxxgk/fdzdgknr/jyxx/xqjy/art/2025/art_75a20c8256c9403888b24465f7249d74.html "教育部基础教育教学指导委员会发布《中小学生成式人工智能使用指南（2025年版）》"
+[9]: https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence "Guidance on Artificial Intelligence and Screen Time"
+[10]: https://www.gov.ca.gov/2025/12/31/new-in-2026-california-laws-taking-effect-in-the-new-year/ "NEW IN 2026: California laws taking effect in the new year | Governor of California"
+[11]: https://www.education.gov.au/schooling/resources/australian-framework-generative-artificial-intelligence-ai-schools "Australian Framework for Generative Artificial Intelligence (AI) in Schools - Department of Education, Australian Government"
+[12]: https://en.yna.co.kr/view/AEN20250804008400315 "Nat'l Assembly passes bill to switch AI-driven textbooks into 'education materials' | Yonhap News Agency"
+[13]: https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education?pStoreID=bizclubsilverb%2Fgb-en%2Fshop "Generative artificial intelligence (AI) in education - GOV.UK"
+[14]: https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/education.html "Learn about education in Canada - Canada.ca"

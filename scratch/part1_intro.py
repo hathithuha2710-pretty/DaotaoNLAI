@@ -1,0 +1,68 @@
+# -*- coding: utf-8 -*-
+"""
+Builder script for the Exhaustive Master Vertical Axis Knowledge & Skills Framework
+for Primary AI (Grades 1 to 5) under Decision 2422/QĐ-BGDĐT.
+"""
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+# Part 1: Header and Methodology
+part1_intro = """# KHUNG KIẾN THỨC VÀ KỸ NĂNG GIÁO DỤC TRÍ TUỆ NHÂN TẠO (AI) THEO TRỤC DỌC
+## CẤP TIỂU HỌC (LỚP 1 ĐẾN LỚP 5) — TIẾN TRÌNH PHÁT TRIỂN XOẮN ỐC (SPIRAL CURRICULUM)
+
+> **CĂN CỨ PHÁP LÝ VÀ CHUYÊN MÔN CAO NHẤT (SINGLE SOURCE OF TRUTH):**
+> 1. **Quyết định số 2422/QĐ-BGDĐT** (ngày 18/8/2026 của Bộ Giáo dục và Đào tạo) ban hành *"Khung nội dung giáo dục Trí tuệ nhân tạo cho học sinh phổ thông"*: Văn bản pháp lý và chuyên môn tối cao. Quy định mục tiêu, 4 mạch nội dung (A, B, C, D), danh mục 123 YCCĐ cấp Tiểu học (80 Cốt lõi + 43 Mở rộng) và 26 thuật ngữ chuẩn hóa tại Phụ lục.
+> 2. **Công văn số 5588/BGDĐT-GDPT** (ngày 19/8/2026 của Bộ GD&ĐT) hướng dẫn triển khai thực tế từ năm học 2026-2027: Bố trí các chuyên đề giáo dục AI bắt buộc 12 tiết/lớp/năm học dành cho nội dung cốt lõi, bảo đảm công bằng tiếp cận hạ tầng và an toàn dữ liệu trẻ em.
+> 3. **Công văn số 2345/BGDĐT-GDTH** (ngày 07/6/2021 của Bộ GD&ĐT) về xây dựng kế hoạch giáo dục nhà trường cấp Tiểu học (thời lượng tiết học 30–35 phút cho Lớp 1–2; 35 phút cho Lớp 3–5).
+> 4. **Khung tham chiếu quốc tế cập nhật:** UNESCO AI Competency Framework for Students (2024), AI4K12 5 Big Ideas, Google DeepMind & Raspberry Pi Foundation (Experience AI), MIT RAISE (Day of AI), Common Sense Education, UNICEF Policy Guidance on AI for Children (v2.0), OECD Learning Compass 2030 và Singapore MOE NDLP.
+> 5. **Nền tảng tâm lý học phát triển và sư phạm:** Tiến trình xoắn ốc của Jerome Bruner, Thuyết phát triển nhận thức Jean Piaget, Vùng phát triển gần (ZPD) Lev Vygotsky, Chu trình học tập trải nghiệm David Kolb và Thang đo hành vi Bloom cải biên (Anderson & Krathwohl).
+
+---
+
+## PHẦN I. NGUYÊN TẮC VẬN HÀNH VÀ BẢN ĐỒ MÃ HOÁ TỔNG THỂ
+
+### 1. Mục đích và Định vị Văn kiện
+Tài liệu này được thiết kế **hoàn toàn độc lập và tách biệt với Bảng ma trận kỹ năng v2.0**. Nếu Bảng ma trận v2.0 là bộ khung năng lực đầu ra, thì tài liệu này là **Bản kiến trúc tri thức và hành vi gốc (Master Knowledge & Behavioral Architecture)** chứa đựng toàn bộ chất liệu chuyên môn cho 5 năm học Tiểu học.
+* **Tích hợp đồng bộ 3 thành phần sống còn:** (1) Hạt nhân tri thức khoa học chuẩn xác $\\rightarrow$ (2) Biểu hiện kỹ năng vi mô và tiêu chí hoàn thành khả thi trong 35 phút $\\rightarrow$ (3) Học liệu thực tế và đáp án đối chứng thực chứng.
+* **Bảo đảm tính xoắn ốc (Spiral Curriculum):** Cùng một mạch năng lực, học sinh được tiếp cận lặp lại qua các năm học nhưng ở mức độ nhận thức sâu hơn, thao tác kỹ thuật phức tạp hơn, và phạm vi đạo đức xã hội rộng lớn hơn.
+
+### 2. Ba Nguyên tắc Thiết kế Bất biến (Core Invariant Principles)
+
+#### Nguyên tắc 1: Bảo toàn Độ chân xác Công nghệ (Technological Accuracy Principle)
+* Sư phạm tiểu học cho phép *giản lược hóa ngôn từ* cho vừa sức trẻ thơ, nhưng **tuyệt đối không được bóp méo bản chất khoa học máy tính**.
+* **Đính chính các quan niệm sai lệch thường gặp:**
+  * ❌ *Sai:* Mô hình ngôn ngữ lớn (Chatbot) mỗi lần trả lời đều lên mạng tìm kiếm từ ngữ hay đi liền nhau để ghép câu. $\\rightarrow$ ✅ *Đúng:* Chatbot tạo văn bản dựa trên những mẫu dữ liệu đã học trong quá trình huấn luyện từ trước (Training patterns); máy tính toán xác suất từ tiếp theo dựa trên trọng số mô hình chứ không phải luôn tìm kiếm web trực tiếp thời gian thực.
+  * ❌ *Sai:* Máy móc không có cảm xúc nên không biết giữ bí mật. $\\rightarrow$ ✅ *Đúng:* An toàn thông tin phụ thuộc vào kiến trúc thiết kế, thuật toán và chính sách quản lý dữ liệu của con người; máy móc chỉ là công cụ tính toán thừa hành thuật toán.
+  * ❌ *Sai:* Mọi lời nói, hình ảnh đều bị ghi lại và gửi lên mạng máy chủ. $\\rightarrow$ ✅ *Đúng:* Nhiều ứng dụng AI xử lý dữ liệu trực tiếp tại thiết bị (On-device processing) mà không gửi dữ liệu ra ngoài.
+  * ❌ *Sai:* Che vạch đen ngang mắt là bảo đảm ẩn danh 100%. $\\rightarrow$ ✅ *Đúng:* Khử nhận dạng cá nhân là một phổ kỹ thuật kết hợp (cắt ảnh, xóa tên, chụp riêng vật thể, loại bỏ thông tin định danh); không có giải pháp nào là tuyệt đối nếu còn sót lại các đặc điểm kết hợp khác.
+
+#### Nguyên tắc 2: Giới hạn Phạm vi Tiết học (Lesson-Scope Boundary Principle)
+* Phân định rạch ròi giữa **Đích năng lực của cả năm học** và **Sản phẩm đầu ra khả thi trong 30–35 phút của một tiết học**.
+* *Ví dụ:* Đích cả năm của Lớp 5 là thu thập 30–40 ảnh/nhãn cho dự án tốt nghiệp. Trong 01 tiết học 35 phút về Chuẩn bị dữ liệu, giáo viên phải chuẩn bị sẵn tập ảnh thô (12–14 ảnh) có cài cắm lỗi; học sinh thực hành phân loại, crop ảnh và chụp bổ sung 2 ảnh để hoàn thiện tập mẫu 8–10 ảnh sạch. Tiết sau sẽ dùng tập ảnh này để nạp vào máy huấn luyện.
+
+#### Nguyên tắc 3: Minh chứng Thực chứng (Empirical Evidence Principle)
+* Năng lực chỉ được xác nhận khi học sinh **tạo ra một sản phẩm học tập cụ thể hoặc có hành động quan sát được**, không đo bằng việc đọc đồng thanh khẩu hiệu hay dán cam kết hình thức.
+* Mỗi bài học phải có: Phiếu kiểm chứng có cấu trúc, Thư mục dữ liệu đã làm sạch, Bảng ma trận kiểm thử, hoặc hành vi bấm nút dừng lại và từ chối nói thông tin bí mật.
+
+---
+
+### 3. Bản đồ Ánh xạ 8 Trục Năng Lực Dọc $\\times$ 46 Kỹ Năng $\\times$ 123 YCCĐ QĐ 2422
+
+| Trục Năng Lực Dọc | Kỹ Năng Ma Trận v2.0 Tương Ứng | Khối Lớp & Mã YCCĐ QĐ 2422 Bao Phủ |
+| :--- | :--- | :--- |
+| **TRỤC 1: Nhận thức về AI, Phân biệt Người – Máy & Giới hạn công nghệ** | KN1, KN3, KN17, KN18, KN19, KN20, KN21, KN27 | **Lớp 1:** 1.A1.1, 1.A1.2, 1.A1.3, 1.A1.4, 1.A2.1, 1.A2.2, 1.A2.3, 1.C1.1, 1.C1.3<br>**Lớp 2:** 2.A1.1, 2.A1.3, 2.A1.4, 2.A2.1, 2.A2.2, 2.A2.MR1, 2.C1.1, 2.C1.MR1<br>**Lớp 3:** 3.A2.1, 3.A2.2, 3.A2.3, 3.A2.MR1, 3.A2.MR2, 3.C1.1<br>**Lớp 4:** 4.A1.1, 4.A1.2, 4.A2.1, 4.A2.2<br>**Lớp 5:** 5.A1.1, 5.A2.1, 5.A2.2, 5.A2.3, 5.A2.MR1 |
+| **TRỤC 2: An toàn số, Bảo vệ Quyền riêng tư & Xử lý sự cố** | KN8, KN9, KN10, KN12 | **Lớp 1:** 1.B1.1 (tích hợp), 1.C1.2<br>**Lớp 2:** 2.A1.2, 2.A2.MR2, 2.B3.MR1<br>**Lớp 3:** 3.A1.4, 3.A1.MR3, 3.B2.1<br>**Lớp 4:** 4.B2.1, 4.B2.2<br>**Lớp 5:** 5.A1.2, 5.B2.MR1, 5.D1.1 (tích hợp khử nhận dạng) |
+| **TRỤC 3: Đạo đức AI, Văn hóa số & Trách nhiệm giải trình** | KN7, KN13, KN14, KN15, KN16, KN24, KN26, KN45, KN46 | **Lớp 1:** 1.B1.1, 1.B3.1, 1.B3.2<br>**Lớp 2:** 2.B1.1, 2.B1.MR1, 2.B1.MR2, 2.B3.1, 2.B3.2, 2.B3.MR2<br>**Lớp 3:** 3.B3.1, 3.B3.MR1<br>**Lớp 4:** 4.A1.2, 4.C2.1 (ghi nguồn), 4.D2.1<br>**Lớp 5:** 5.A1.1, 5.A1.2, 5.A1.MR1, 5.B1.1, 5.B1.2, 5.B2.1, 5.B3.1, 5.D2.1 |
+| **TRỤC 4: Tự chủ tư duy & Chống ỷ lại nhận thức công nghệ** | KN42, KN43, KN44 | **Lớp 1:** 1.A1.2 (tự giác)<br>**Lớp 2:** 2.A1.2, 2.A2.MR3<br>**Lớp 3:** 3.A1.3, 3.A1.4, 3.A1.5, 3.A1.MR2<br>**Lớp 4:** 4.A3.1<br>**Lớp 5:** 5.A3.1, 5.A3.2 |
+| **TRỤC 5: Đánh giá, Kiểm chứng thông tin & Phòng ngừa Ảo giác, Deepfake** | KN11, KN22, KN23, KN25 | **Lớp 1:** 1.C1.3 (nhận diện nhầm)<br>**Lớp 2:** 2.C3.2 (nguyên nhân máy sai)<br>**Lớp 3:** 3.A3.1, 3.A3.2, 3.B2.1 (ảo giác AI)<br>**Lớp 4:** 4.B2.1 (deepfake), 4.A1.1<br>**Lớp 5:** 5.C5.2 (kiểm thử), 5.C5.MR3 (đánh giá mô hình) |
+| **TRỤC 6: Giao tiếp với AI & Kỹ thuật đặt Câu lệnh (Prompting)** | KN2, KN4, KN5, KN6, KN39 | **Lớp 1:** 1.C1.2, 1.C1.4, 1.A2.MR1<br>**Lớp 2:** 2.A3.1, 2.A2.MR1, 2.A3.MR1<br>**Lớp 3:** 3.C2.1 (câu lệnh rõ việc)<br>**Lớp 4:** 4.C2.1, 4.C2.MR1 (lệnh 3 thành phần, AutoDraw)<br>**Lớp 5:** 5.C2.1, 5.C5.1 (lệnh 4 thành phần, Few-shot) |
+| **TRỤC 7: Dữ liệu học máy — Thu thập, Gán nhãn, Làm sạch & Đa dạng hóa** | KN28, KN29, KN30, KN31, KN32 | **Lớp 1:** 1.D1.1, 1.D1.MR1, 1.D2.1, 1.D2.2<br>**Lớp 2:** 2.C3.1, 2.D2.1, 2.D2.2, 2.D1.MR1, 2.D2.MR1<br>**Lớp 3:** 3.C4.1, 3.C4.MR1, 3.C5.2, 3.C5.3, 3.C5.4, 3.D2.1, 3.D2.MR1<br>**Lớp 4:** 4.D1.1, 4.D2.1<br>**Lớp 5:** 5.B1.1, 5.B2.MR1, 5.D1.1, 5.D2.1, 5.D2.MR1 |
+| **TRỤC 8: Vận hành Học máy, Kiểm thử & Thiết kế hệ thống (AI Lifecycle)** | KN33, KN34, KN35, KN36, KN37, KN38, KN40, KN41 | **Lớp 1:** 1.D1.1, 1.D2.1, 1.D2.2<br>**Lớp 2:** 2.C3.MR1, 2.D1.1, 2.D1.2<br>**Lớp 3:** 3.C5.1, 3.C5.MR1, 3.C5.2, 3.C5.MR2, 3.D1.1, 3.D2.1<br>**Lớp 4:** 4.D1.1, 4.D2.1<br>**Lớp 5:** 5.C5.1, 5.C5.MR1, 5.C5.2, 5.C5.MR2, 5.D1.1, 5.D2.1, 5.D2.MR1 |
+
+---
+"""
+
+with open('scratch/part1_intro.txt', 'w', encoding='utf-8') as f:
+    f.write(part1_intro)
+
+print("Part 1 written successfully.")

@@ -1,0 +1,72 @@
+Tiet: 1 | Bai: Bài 1: Cảm xúc của em và cảm xúc của bạn bè | Code: 1.A1.1, 1.A1.2 | Loai: Cốt lõi
+Tiet: 2 | Bai: Bài 2: Nụ cười của Robot do ai lập trình? | Code: 1.A1.3, 1.A1.4 | Loai: Cốt lõi
+Tiet: 3 | Bai: Bài 3: Trò chơi đóng vai: Robot biết cười | Code:  | Loai: Mở rộng
+Tiet: 4 | Bai: Bài 4: Bàn tay con người thiết kế Robot | Code:  | Loai: Mở rộng
+Tiet: 5 | Bai: Bài 5: Cách AI thể hiện cảm xúc thân thiện | Code: 1.A2.1 | Loai: Cốt lõi
+Tiet: 6 | Bai: Bài 6: Những thiết bị AI giúp ích quanh em | Code: 1.A2.2, 1.A2.3 | Loai: Cốt lõi
+Tiet: 7 | Bai: Bài 7: Lời chào dễ thương giúp hợp tác vui vẻ | Code: 1.A2.MR1 | Loai: Mở rộng
+Tiet: 8 | Bai: Bài 8: Đôi mắt và đôi tai của thiết bị thông minh | Code: 1.C1.1, 1.C1.3 | Loai: Cốt lõi
+Tiet: 9 | Bai: Bài 9: Khám phá "Mắt thần" Camera nhận diện đồ vật | Code: 1.C1.MR1 | Loai: Mở rộng
+Tiet: 10 | Bai: Bài 10: Trò chuyện cùng trợ lý thông minh | Code: 1.C1.2, 1.C1.4 | Loai: Cốt lõi
+Tiet: 11 | Bai: Bài 11: Đi tìm thiết bị AI trong trường học của em | Code:  | Loai: Mở rộng
+Tiet: 12 | Bai: Bài 12: Máy thông minh làm việc tốt | Code: 1.B3.2 | Loai: Cốt lõi
+Tiet: 13 | Bai: Bài 13: Vẽ tranh: Người bạn AI làm việc tốt | Code:  | Loai: Mở rộng
+Tiet: 14 | Bai: Bài 14: Không dùng thiết bị thông minh làm việc xấu | Code: 1.B1.1, 1.B3.1 | Loai: Cốt lõi
+Tiet: 15 | Bai: Bài 15: Thói quen tốt khi sử dụng thiết bị thông minh | Code:  | Loai: Mở rộng
+Tiet: 16 | Bai: Bài 16: Kể chuyện: Bạn nhỏ và chú Robot lễ phép | Code:  | Loai: Mở rộng
+Tiet: 17 | Bai: Bài 17: Ôn tập chuyên đề Học kỳ I: Cảm xúc và Đạo đức | Code:  | Loai: Mở rộng
+Tiet: 18 | Bai: Bài 18: Báo cáo hồ sơ học tập Học kỳ I | Code: Mục VI QĐ 2422 | Loai: Mở rộng
+Tiet: 19 | Bai: Bài 19: Khám phá "Tai thính" Micro phân biệt âm thanh | Code: 1.C1.MR2 | Loai: Mở rộng
+Tiet: 20 | Bai: Bài 20: Trò chơi: Máy lắng nghe tiếng còi và tiếng nhạc | Code:  | Loai: Mở rộng
+Tiet: 21 | Bai: Bài 21: Trải nghiệm nét vẽ kỳ diệu cùng AI | Code:  | Loai: Mở rộng
+Tiet: 22 | Bai: Bài 22: Máy thông minh học từ ví dụ | Code: 1.D1.1 | Loai: Cốt lõi
+Tiet: 23 | Bai: Bài 23: Cần nhiều ví dụ khác nhau để máy học đúng | Code: 1.D1.MR1 | Loai: Mở rộng
+Tiet: 24 | Bai: Bài 24: Trò chơi phân loại: Dạy máy nhận biết quả | Code:  | Loai: Mở rộng
+Tiet: 25 | Bai: Bài 25: Nhận biết máy thông minh đơn năng | Code: 1.D2.1 | Loai: Cốt lõi
+Tiet: 26 | Bai: Bài 26: Xếp nhóm máy làm một việc và nhiều việc | Code: 1.D2.2 | Loai: Cốt lõi
+Tiet: 27 | Bai: Bài 27: Thực hành phân loại máy đa năng trong đời sống | Code:  | Loai: Mở rộng
+Tiet: 28 | Bai: Bài 28: Trò chơi: Đi tìm người bạn máy đơn năng | Code:  | Loai: Mở rộng
+Tiet: 29 | Bai: Bài 29: Khởi động hoạt động: Chú Robot giấy của em | Code:  | Loai: Mở rộng
+Tiet: 30 | Bai: Bài 30: Chế tạo mô hình: Mắt Camera và Tai Micro | Code:  | Loai: Mở rộng
+Tiet: 31 | Bai: Bài 31: Vẽ tranh các đồ vật để nạp vào túi nhớ của Robot | Code:  | Loai: Mở rộng
+Tiet: 32 | Bai: Bài 32: Đóng vai ra lệnh và đối thoại cùng Robot giấy | Code:  | Loai: Mở rộng
+Tiet: 33 | Bai: Bài 33: Tổng hợp minh chứng & Báo cáo hồ sơ học tập Học kỳ II | Code:  | Loai: Mở rộng
+Tiet: 34 | Bai: Bài 34: Triển lãm ngày hội: Chú Robot giấy thông minh | Code:  | Loai: Mở rộng
+Tiet: 35 | Bai: Bài 35: Tổng kết chương trình AI Lớp 1: Em yêu công nghệ | Code:  | Loai: Mở rộng
+Tiet: 36 | Bai: Bài 36: Báo cáo chuyên đề cốt lõi: Em làm chủ thiết bị thông minh | Code: 1.A1.2, 1.B3.2, 1.D2.2 | Loai: Cốt lõi
+Tiet: 1 | Bai: Bài 1: AI là công cụ, con người ra quyết định | Code: 6.A1.1, 6.A1.2 | Loai: Cốt lõi
+Tiet: 2 | Bai: Bài 2: Kỹ năng kiểm chứng kết quả do AI cung cấp | Code: 6.A1.3, 6.A3.1 | Loai: Cốt lõi
+Tiet: 3 | Bai: Bài 3: Thực hành kỹ năng đối chiếu đa nguồn tin cậy | Code:  | Loai: Mở rộng
+Tiet: 4 | Bai: Bài 4: Nhận biết hiện tượng ảo giác AI (hallucination) | Code:  | Loai: Mở rộng
+Tiet: 5 | Bai: Bài 5: Bảo vệ dữ liệu cá nhân và quyền riêng tư | Code: 6.A3.3, 6.A3.4 | Loai: Cốt lõi
+Tiet: 6 | Bai: Bài 6: Kỹ năng khử nhận dạng dữ liệu cá nhân | Code:  | Loai: Mở rộng
+Tiet: 7 | Bai: Bài 7: Tính hai mặt của các tính năng AI | Code: 6.B1.1 | Loai: Cốt lõi
+Tiet: 8 | Bai: Bài 8: Tiêu chuẩn an toàn và minh bạch của ứng dụng AI | Code: 6.B2.1 | Loai: Cốt lõi
+Tiet: 9 | Bai: Bài 9: Tổng hợp minh chứng & Báo cáo học tập giữa Học kỳ I | Code: Mục VI QĐ 2422 | Loai: Mở rộng
+Tiet: 10 | Bai: Bài 10: Khám phá cách AI học: Dữ liệu và Thuật toán | Code: 6.C1.1 | Loai: Cốt lõi
+Tiet: 11 | Bai: Bài 11: Mối liên hệ giữa huấn luyện và hoạt động thực tế | Code: 6.C1.MR1 | Loai: Mở rộng
+Tiet: 12 | Bai: Bài 12: Thử nghiệm đối kháng với công cụ AI | Code: 6.C1.MR2 | Loai: Mở rộng
+Tiet: 13 | Bai: Bài 13: Kỹ thuật câu lệnh (prompt) có cấu trúc | Code:  | Loai: Mở rộng
+Tiet: 14 | Bai: Bài 14: Kỹ năng ghi nhật ký câu lệnh (prompt log) | Code:  | Loai: Mở rộng
+Tiet: 15 | Bai: Bài 15: Tác động của AI đối với bản thân và học tập | Code: 6.C1.2, 6.A3.2 | Loai: Cốt lõi
+Tiet: 16 | Bai: Bài 16: Phân tích tác động của công cụ AI trong gia đình | Code: 6.C1.MR3 | Loai: Mở rộng
+Tiet: 17 | Bai: Bài 17: Ôn tập chuyên đề Học kỳ I: Dữ liệu và Câu lệnh | Code:  | Loai: Mở rộng
+Tiet: 18 | Bai: Bài 18: Báo cáo hồ sơ học tập Học kỳ I | Code: Mục VI QĐ 2422 | Loai: Mở rộng
+Tiet: 19 | Bai: Bài 19: Phân biệt ứng dụng có AI và không có AI | Code: 6.C2.1, 6.C2.2 | Loai: Cốt lõi
+Tiet: 20 | Bai: Bài 20: Ứng dụng AI gắn với thực tiễn tại Việt Nam | Code: 6.C2.MR1 | Loai: Mở rộng
+Tiet: 21 | Bai: Bài 21: Các công nghệ AI quen thuộc trong đời sống | Code: 6.C3.1 | Loai: Cốt lõi
+Tiet: 22 | Bai: Bài 22: Tính năng AI tích hợp trong ứng dụng thường gặp | Code: 6.C3.MR1 | Loai: Mở rộng
+Tiet: 23 | Bai: Bài 23: Nhận biết hiện tượng "bong bóng thông tin" | Code:  | Loai: Mở rộng
+Tiet: 24 | Bai: Bài 24: Ranh giới sử dụng: Khi nào nên và không nên dùng AI? | Code: 6.D1.1 | Loai: Cốt lõi
+Tiet: 25 | Bai: Bài 25: Tranh biện ý kiến cá nhân: Nên hay không nên dùng AI? | Code: 6.D1.MR1 | Loai: Mở rộng
+Tiet: 26 | Bai: Bài 26: Xây dựng quy ước sử dụng AI trong học tập của lớp | Code:  | Loai: Mở rộng
+Tiet: 27 | Bai: Bài 27: Tổng hợp minh chứng & Báo cáo học tập giữa Học kỳ II | Code: Mục VI QĐ 2422 | Loai: Mở rộng
+Tiet: 28 | Bai: Bài 28: Giới hạn của hệ thống AI so với con người | Code: 6.D2.1 | Loai: Cốt lõi
+Tiet: 29 | Bai: Bài 29: Vì sao AI gặp giới hạn trong một số công việc? | Code: 6.D2.MR1 | Loai: Mở rộng
+Tiet: 30 | Bai: Bài 30: Đề xuất mô hình kết hợp tối ưu giữa Người và AI | Code: 6.D2.MR2 | Loai: Mở rộng
+Tiet: 31 | Bai: Bài 31: Xây dựng kịch bản cộng tác: Em và trợ lý AI học tập | Code:  | Loai: Mở rộng
+Tiet: 32 | Bai: Bài 32: Thử nghiệm kịch bản và đánh giá hiệu quả | Code:  | Loai: Mở rộng
+Tiet: 33 | Bai: Bài 33: Hoàn thiện hồ sơ lưu vết câu lệnh và minh chứng | Code:  | Loai: Mở rộng
+Tiet: 34 | Bai: Bài 34: Triển lãm báo cáo: Ý tưởng kết hợp Người và AI | Code:  | Loai: Mở rộng
+Tiet: 35 | Bai: Bài 35: Tổng kết chương trình AI Lớp 6: Tự hào công dân số | Code:  | Loai: Mở rộng
+Tiet: 36 | Bai: Bài 36: Báo cáo chuyên đề cốt lõi: Sử dụng AI thông minh và trách nhiệm | Code: 6.A1.2, 6.A1.3, 6.D1.1, 6.D2.1 | Loai: Cốt lõi

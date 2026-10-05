@@ -1,0 +1,2990 @@
+=== BI1 ===
+Big Idea 
+#1: 
+Perception
+Computers perceive the world 
+using sensors.
+Perception is the extraction of 
+meaning from sensory information 
+using knowledge.
+The transformation from signal to 
+meaning takes place in stages, with 
+increasingly abstract features and 
+higher level knowledge applied at 
+each stage.
+LO = Learning Objective: what students should 
+be able to do.
+EU = Enduring Understanding: what students 
+should know.
+Concept
+K-2
+3-5
+6-8
+9-12
+Sensing
+(Living Things)
+1-A-i 
+LO: Identify human senses and sensory organs.
+EU: People experience the world through sight, 
+hearing, touch, taste, and smell.
+LO: Compare human and animal perception.
+EU: Some animals experience the world 
+differently than people do.
+Unpacked: Bats and dolphins use sonar. Bees 
+can see ultraviolet. Rats are have no color vision; 
+dogs are red-green colorblind. Dogs and rats can 
+hear higher frequences than humans.
+LO: Give examples of how humans combine 
+information from muliple modalities.
+EU: People can exploit correlations between 
+senses, such as sight and sound, to make sense 
+of ambiguous signals.
+Unpacked: In a noisy environment, speech is 
+more understandable when the speaker's mouth 
+is visible. People learn the sounds associated 
+with various actions (such as dropping an object) 
+and can recognize when the sound doesn't match 
+their expectation.
+N/A -- for AI purposes, this topic has already 
+been adequately addressed in the lower grade 
+bands. Other courses, such as biology or an 
+elective on sensory psychology, could go into 
+more detail about topics such as taste, smell, 
+proprioception, and vestibular organs.
+Possible enrichment material: look at optical 
+illusions (Muller-Lyer illusion, Kanizsa triangle) 
+and ask which ones are computer vision systems 
+also subject to.
+Sensing
+(Computer Sensors)
+1-A-ii
+LO: Locate and identify sensors (camera, 
+microphone) on computers, phones, robots, and 
+other devices.
+EU: Computers "see" through video cameras and 
+"hear" through microphones.
+LO: Illustrate how computer sensing differs from 
+human sensing.
+EU: Most computers have no sense of taste, 
+smell, or touch, but they can sense some things 
+that humans can't, such as infrared emissions, 
+extremely low or high frequency sounds, or 
+magnetism.
+LO: Give examples of how intelligent agents 
+combine information from multiple sensors.
+EU: Self driving cars combine computer vision 
+with radar or lidar imaging. GPS measurement, 
+and accelerometer data to form a detailed 
+representation of the environment and their 
+motion through it.
+LO: Describe the limitations and advantages of 
+various types of computer sensors.
+EU: Sensors are devices that measure physical 
+phenomena such as light, sound, temperature, or 
+pressure.
+Unpacked: Cameras have limited resolution, 
+dynamic range, and spectral sensitivity. 
+Microphones have limited sensitivity and 
+frequency response. Signals may be degraded 
+by noise, such as a microphone in a noisy 
+environment. Some sensors can detect things 
+that people cannot, such as infrared or ultraviolet 
+imagery, or ultrasonic sounds.
+Sensing
+(Digital Encoding)
+1-A-iii
+N/A
+LO: Explain how images are represented digitally 
+in a computer.
+EU: Images are encoded as 2D arrays of pixels, 
+where each pixel is a number indicating the 
+brightness of that piece of the image, or an RGB 
+value indicating the brightness of the red, green, 
+and blue components of that piece.
+LO: Explain how sounds are represented digitally 
+in a computer.
+EU: Sounds are digitally encoded by sampling 
+the waveform at discrete points (typically several 
+thousand samples per second), yielding a series 
+of numbers.
+LO: Explain how radar, lidar, GPS, and 
+accelerometer data are represented.
+EU: Radar and lidar do depth imaging: each pixel 
+is a depth value. GPS triangulates position using 
+satellite signals and gives a location as longitude 
+and lattitude. Accelerometers measure 
+accleration in 3 orthogonal dimensions.
+Unpacked: Radar and lidar measure distance as 
+the time for a reflected signal to return to the 
+transceiver. GPS determines position by 
+triangulating precisely timed signals from three or 
+more satellites. Accelerometers use orthogonally 
+oriented strain gauges to measure acceleration in 
+three dimensions. 
+Draft Big Idea 1 - Progression Chart
+www.AI4K12.org 
+V.0.1 - Released May 28, 2020                        Subject to change based on public feedback 
+1
+Big Idea 
+#1: 
+Perception
+Computers perceive the world 
+using sensors.
+Perception is the extraction of 
+meaning from sensory information 
+using knowledge.
+The transformation from signal to 
+meaning takes place in stages, with 
+increasingly abstract features and 
+higher level knowledge applied at 
+each stage.
+LO = Learning Objective: what students should 
+be able to do.
+EU = Enduring Understanding: what students 
+should know.
+Concept
+K-2
+3-5
+6-8
+9-12
+Processing
+(Sensing vs. 
+Perception)
+1-B-i
+LO: Give examples of intelligent vs. non-
+intelligent machines and discuss what makes a 
+machine intelligent.
+EU: Many machines use sensors, but not all use 
+them intelligently. Non-intelligent machines are 
+limited to simple sensing. Intelligent machines 
+demonstrate perception.
+Unpacked: Cameras and phones can record and 
+play back images and sounds, but extracting 
+meaning from these signals requires a computer 
+with artificial intelligence.
+LO: Use a software tool such as a speech 
+transcription or visual object recognition demo to 
+demonstrate machine perception, and explain 
+why this is perception rather than mere sensing.
+EU: Perception is the extraction of meaning from 
+sensory signals.
+Unpacked: speech recognition and face 
+detection are examples of perception. An 
+automatic door activated by a pressure pad or 
+ultrasonic sensor does not exhibit perception 
+because it is just reacting to the raw signal rather 
+than using kowledge to extract meaning from the 
+signal.
+LO: Give examples of diferent types of computer 
+perception that can extract meaning from sensory 
+signals.
+EU: There are many specialized algorithms for 
+perceptual tasks, such as face detection, facial 
+expression recognition, object recognition, 
+obstacle detection, speech recognition, vocal 
+stress measurement, music recognition, etc.
+LO: Explain perception algorithms and how they 
+are used in real-world applications.
+EU: Many devices and services rely on 
+specialized perception algorithms, e.g., license 
+plate readers, zip code readers, face-based 
+phone unlocking, tagging people in Facebook 
+posts, object identification (e.g., Google Lens), or 
+voice-based customer service.
+Processing
+(Feature Extraction)
+1-B-ii
+LO: Give examples of features one would look 
+for if one wanted to recognize a certain class of 
+objects (e.g., cats) in an image.
+EU: The visual features of an object include its 
+subparts, textures, and colors.
+Unpacked: to recognize cats one would look for 
+ears, paws, whiskers, and a cat-shaped nose and 
+tail; for textures that look like fur; and for 
+coloration patterns typical of cats.
+LO: Illustrate how face detection works by 
+extracting facial features.
+EU: Face detectors use special algorithms to 
+look for eyes, noses, mouths, and jaw lines.
+Unpacked: Facial recognition goes one step 
+further and tries to determine whose face has 
+been detected. Recognition is based on 
+quantifiable properties such as distance between 
+the eyes or shape of the jaw line.
+LO: Illustrate the concept of feature extraction 
+from images by simulating an edge detector.
+EU: Locations and orientations of edges in an 
+image are features that can be detected by 
+looking for specific arrangements of light and 
+dark pixels in a small (local) area.
+LO: Explain how features are extracted from 
+waveforms and images.
+EU: A speech spectrogram shows the energy 
+present in a waveform in various frequency 
+bands. Formants are auditory features defined as 
+regions of concentrated energy in the 
+spectrogram. Feature extraction from images 
+begins with detecting edges in the image, or 
+intensity gradients at multiple scales.
+Unpacked: Different formant patterns are 
+associated with different speech sounds, i.e., 
+different vowels and consonants.
+Processing
+(Abstraction Pipeline: 
+Language)
+1-B-iii
+LO: Describe the different sounds that make up 
+one's spoken language, and for every vowel 
+sound, give a word containing that sound.
+EU: In order for a computer to understand 
+speech, it has to be able to recognize the sounds 
+from which words are constructed.
+Unpacked: There are 15 vowel sounds in 
+American English: 5 short, 5 long, and 5 "other". 
+Words for the 5 short vowels are: bid, bed, bad, 
+bog, and bug.
+LO: Illustrate how sequences of sounds can be 
+recognized as candidate words, even if some 
+sounds are unclear.
+EU: Going from sounds to words is one step in 
+the abstraction pipeline for speech 
+understanding.
+Unpacked: consider the problem of guessing a 
+four letter word given only partial information 
+about the sound in each position, e.g., the first 
+sound is either "f" or "d", and the second sound is 
+either "l" or "n". Knowledge about the constraints 
+between adjacent sounds in a word can be used 
+to narrow down the possibilities. In this case, only 
+"fl" is a valid word-initial sequence in English.
+LO: Illustrate how sequences of words can be 
+recognized as phrases, even if some of the 
+words are unclear, by looking at how the words fit 
+together.
+EU: Information at higher levels of representation 
+can be used to resolve ambiguities in lower levels 
+of the language abstraction pipeline.
+Unpacked: in a three-word phrase, if the first 
+word might be "seat" or "sea" or "see", the 
+second word might be "the" or "a" or "of", and the 
+third word might be "moody" or "movie", then the 
+most likely phrase is "see the movie" because it's 
+both grammatical and statistically common. 
+Alternatives such as "seat a moody" sound 
+similar, but are neither grammatical nor 
+statistically common.
+LO: Illustrate the abstraction hierarchy for speech 
+understanding, from waveforms to sentences, 
+showing how knowledge at each level is used to 
+resolve ambiguities in the levels below.
+EU: The spoken language hierarchy is: 
+waveforms -> articulatory gestures -> sounds -> 
+morphemes -> words -> phrases -> sentences.
+Unpacked: To go from noisy, ambiguous signals 
+to meaning requires recognizing structure and 
+applying domain knowledge at multiple levels of 
+abstraction. A classic example: the sentences 
+"How to recognize speech" and "How to wreck a 
+nice beach" are virtually identical at the waveform 
+level.
+Draft Big Idea 1 - Progression Chart
+www.AI4K12.org 
+V.0.1 - Released May 28, 2020                        Subject to change based on public feedback 
+2
+Big Idea 
+#1: 
+Perception
+Computers perceive the world 
+using sensors.
+Perception is the extraction of 
+meaning from sensory information 
+using knowledge.
+The transformation from signal to 
+meaning takes place in stages, with 
+increasingly abstract features and 
+higher level knowledge applied at 
+each stage.
+LO = Learning Objective: what students should 
+be able to do.
+EU = Enduring Understanding: what students 
+should know.
+Concept
+K-2
+3-5
+6-8
+9-12
+Processing
+(Abstraction Pipeline: 
+Vision)
+1-B-iv
+LO: Demonstrate figure/ground segmentation by 
+identifying the foreground figures and the 
+background in an image.
+EU: Visual scenes have a structure that includes 
+a background and a foreground, with foreground 
+objects partially occluding (blocking) the 
+background.
+Unpacked: Understanding that scenes have 
+structure to them is a way to approach the 
+problem of machine perception of images. 
+Computers have to do foreground/background 
+segmentation in order to pick out the objects in 
+an image.
+LO: Illustrate how the outlines of partially 
+occluded (blocked) objects in an image differ 
+from the real shapes of the objects.
+EU: Understanding complex scenes requires 
+taking into account the effects of occlusion when 
+attempting to recognize objects.
+Unpacked: consider two cereal boxes, one in 
+front of and partially occluding the other. 
+Students could be asked to draw (on a separate 
+sheet of paper) the outline of each box as it 
+appears in the image. The occluding box will be a 
+rectangle, but the occluded box will be a concave 
+polygon. Students could then be asked to draw 
+the true outline of the box as a dotted line in the 
+original image. They should realize that they are 
+inferring the true outline; the box could be 
+defective and have a different shape in the region 
+they can't see.
+LO: Describe how edge detectors can be 
+composed to form more complex feature 
+detectors, e.g., for letters or shapes.
+EU: The progression from signal to meaning 
+takes place in stages, with increasingly complex 
+features extracted at each stage.
+Unpacked: Example: detecting an "A" by looking 
+for a combination of three oriented edges. Edges 
+are detected by looking at pixels.
+LO: Demonstrate how perceptual reasoning at a 
+higher level of abstraction draws upon earlier, 
+lower levels of abstraction.
+EU: Scenes are composed of objects, which are 
+composed of surfaces and boundaries. 
+Boundaries are marked by contours, which are 
+composed of edges, which are made up of pixels. 
+Relationships between objects in a scene, such 
+as one object occluding another, are inferred 
+from the arrangement of their surfaces and 
+boundaries.
+Domain Knowledge
+(Types of Domain 
+Knowledge)
+1-C-i
+LO: Describe some things an intelligent agent 
+must "know" in order to make sense of a 
+question.
+EU: To understand spoken requests, computers 
+must know our vocabulary and pronunciation 
+conventions, and they must be able to distinguish 
+a question from a command.
+Unpacked: Understanding a spoken query such 
+as "Will it rain today?" requires all the above 
+knowledge.
+LO: Demonstrate how a text to speech system 
+can resolve ambiguity based on context, and how 
+its error rate goes up when given ungrammatical 
+or meaningless inputs.
+EU: Speech recognition systems are trained on 
+millions of utterances, allowing them to 
+distinguish common from uncommon sequences 
+of words, which helps them select the most likely 
+interpretation of the signal.
+Unpacked: Compare the transcription of "the 
+jockey reined in the horse" vs. "the king reigned 
+in the horse". Or test the system on "which witch 
+is which" or "two ways to go is one too many". To 
+explore grammatical influences, compare the 
+transcription accuracy of a sentence read with 
+normal word order vs. the same sentence read 
+with the word order (not the individual words) 
+reversed, e.g., "see the view" vs. "view the sea".
+LO: Classify a given image (e.g., "traffic scene", 
+"nature scene", "social gathering", etc.) and then 
+describe the kinds of knowledge a computer 
+would need in order to understand scenes of this 
+type.
+EU: Domain knowledge for vision includes 
+knowing what kinds of objects are likely to appear 
+in a scene, where they are likely to appear in 
+relation to other objects, and how occlusions and 
+shadows can alter object appearances.
+Unpacked: In a traffic scene, cars appear on 
+roads, some traffic signs appear alongside of 
+roads but not in the road, some signs appear 
+above the road, and pedestrians appear on 
+sidewalks, in crosswalks, and occasionally on 
+roads. In a nature scene, the top of the image is 
+likely to be blue sky and the bottom of the image 
+is likely to be green grass or trees.
+LO: Analyze one or more online image datasets 
+and describe the information the datasets provide 
+and how this can be used to extract domain 
+knowledge for a computer vision system.
+EU: Domain knowledge in AI systems is often 
+derived from statistics collected from millions of 
+sentences or images.
+Unpacked: sample image databases:
+     ImageNet: https://image-net.org/
+     Coco: http://cocodataset.org/#explore
+Word prediction when typing texts or emails is an 
+example of the use of statistical prediction similar 
+to what is found in high level perception systems. 
+Analyzing large collections of images produces 
+statistics about what kinds of objects are likely to 
+co-occur in a scene.
+Draft Big Idea 1 - Progression Chart
+www.AI4K12.org 
+V.0.1 - Released May 28, 2020                        Subject to change based on public feedback 
+3
+Big Idea 
+#1: 
+Perception
+Computers perceive the world 
+using sensors.
+Perception is the extraction of 
+meaning from sensory information 
+using knowledge.
+The transformation from signal to 
+meaning takes place in stages, with 
+increasingly abstract features and 
+higher level knowledge applied at 
+each stage.
+LO = Learning Objective: what students should 
+be able to do.
+EU = Enduring Understanding: what students 
+should know.
+Concept
+K-2
+3-5
+6-8
+9-12
+Domain Knowledge
+(Inclusivity)
+1-C-ii
+LO: Discuss why intelligent agents need to be 
+able to understand languages other than English.
+EU: Speech recognition systems need to 
+accomodate different languages because many 
+different types of people will use them.
+Unpacked: Alexa settings provide for multiple 
+dialects of English (US, British, Canadian, 
+Indian), and numerous European and Asian 
+languages.
+LO: Discuss how domain knowledge needs to be 
+broad enough to encompass all the groups an 
+application is intended to serve.
+EU: Speech recognition systems need to 
+accomodate different types of accents and 
+alternative pronunciations. Music recognition 
+systems must know about different musical 
+genres.
+LO: Describe how a vision system might exhibit 
+cultural bias if it lacked knowledge of objects not 
+found in the culture of the people who created it.
+EU: Domain knowledge must take multiple 
+cultures into account if an AI application is to 
+serve diverse groups.
+Unpacked: A self-driving car that only knows 
+about American traffic signs will not be able to 
+recognize traffic signs in Europe or Asia.
+LO: Describe some of the technical difficulties in 
+making computer perception systems function 
+well for diverse groups.
+EU: Dark or low contrast facial features are 
+harder to recognize than bright, high contrast 
+features. Children's speech is in a higher register 
+and less clearly articulated than adult speech.
+Draft Big Idea 1 - Progression Chart
+www.AI4K12.org 
+V.0.1 - Released May 28, 2020                        Subject to change based on public feedback 
+4
+
+=== END BI1 ===
+
+=== BI2 ===
+Draft Big Idea 2 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released June 28, 2021
+Subject to change based on public feedback
+Key Insights
+Explanation
+Representations are data structures; reasoning methods are algorithms.
+Artificial intelligence uses the tools of computer 
+science: data structures and algorithms.
+Representations support reasoning; reasoning methods operate on representations.
+Representation and reasoning are mutually 
+dependent.
+The two major types of knowledge representations are symbolic and numerical 
+representations.
+Reasoning with symbolic representations is 
+performed using logical inference rules, while 
+reasoning with numerical representations utilizes 
+complex mathematical functions such as neural 
+networks.
+"Knowing" something means the ability to both represent it and reason with it.
+Books and videos can represent knowledge but they 
+don't "know" things because they can't make use of 
+that knowledge.
+Agents are considered intelligent if they employ a non-trivial sense-deliberate-act 
+cycle to make progress toward achieving their goals.
+To be considered intelligent, at least one of the 
+sense, deliberate (reason), or act components must 
+require computational sophistication or signifcant 
+computing power. Garage door openers are not 
+intelligent agents because their sensing, reasoning, 
+and action are all trivial.
+Big Idea #2: Representation & Reasoning
+Draft Big Idea 2 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released June 28, 2021
+Subject to change based on public feedback
+Updated links 7/30/2021
+Big Idea #2: Representation and Reasoning
+Computers maintain representations of 
+the world and use them for reasoning.
+LO = Learning Objective:  What students should be able to do.
+EU = Enduring Understanding: What students should know.
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Representation
+(Abstraction)
+2-A-i
+LO: Construct a map of a home, school, or 
+neighborhood.
+EU: The map is not the territory. A map is a 
+representation of a territory.
+LO: Demonstrate how different styles of map capture 
+different aspects of the world.
+EU: Maps can be geometrically accurate or just show 
+which places are reachable from which other places 
+(topology). They can contain many types of information, 
+such as the names and sizes of cities and towns, or the 
+types of roads connecting them.
+Unpacked: Self-driving cars rely on road maps to plan 
+their routes. Subway, train, and bus route maps may be 
+either geometric or topological.
+LO: Show how a game board (e.g., tic-tac-toe,Chutes 
+and Ladders, Monopoly, chess) can be represented 
+by a description in plain language.
+EU: The essential information in a game board is the 
+set of squares that make up the board, the 
+relationships among those squares, and the positions 
+of the pieces.
+Unpacked: Game playing programs operate on 
+abstract representations of boards. A chess program 
+knows the ranks and files of all 64 squares, but does 
+not represent properties of a physical board such as 
+its dimensions or the material it is made of.
+LO: Describe how to represent a concept as a 
+schema.
+EU: a schema describes a concept by listing its 
+superconcepts and defining its properties, some 
+of which may be inherited from superconcepts. 
+Examples can be found at schema.org.
+Unpacked: millions of web sites use schema 
+representations to make information intelligible to 
+AI programs that utilize knowledge graphs. such 
+as search engines and recommender systems. 
+Examples include schemas for businesses such 
+as restaurants, and schemas that describe 
+creative works such as books, movies, and 
+television series.
+Representation
+(Symbolic 
+representations)
+2-A-ii
+LO: Give examples of symbols you encounter in 
+daily life.
+EU: Concepts can be represented using symbols 
+in place of words.
+Unpacked: Examples of symbols include male and 
+female signs on restrooms, emojis, the 
+clubs/diamonds/hearts/spades suits in a deck of 
+cards, the dollar and cents signs for currency, red 
+octagons for stop signs, and the "Mr. Yuk" poison 
+symbol. AI programs use symbols just as people 
+do.
+LO: Give examples of tree structures commonly used by 
+people and explain the relationships among the 
+components.
+EU: Many types of information have a hierarchical 
+structure, which can be visualized as a tree.
+Unpacked: Ancestry trees, taxonomies, tables of 
+contents, organizational trees, and simple forms of mind 
+map all have the same hierarchical structure: every node 
+save the root has a single link to a parent node that 
+appears higher in the hierarchy. Taxonomic information 
+is an important part of the knowledge graphs used by AI 
+systems, and typically forms a tree structure within the 
+larger graph.
+LO: Illustrate translation of a structure such as a 
+game board. road map, or mind map into a labeled 
+graph and explain the contributions of the 
+components.
+EU: The nodes of a graph represent things, and the 
+links represent relationships between those things. 
+Labels supply additional information about what the 
+nodes and links represent.
+Examples: In the game Chutes and Ladders 
+(originally Snakes and Ladders), the squares are 
+represented as nodes in a graph. Nodes representing 
+adjacent squares are connected by "successor" lnks. 
+Nodes whose squares are reachable by chutes or 
+ladders are connected by "chute" or "ladder" links. In 
+a road map, cities are nodes and roads are links. The 
+links might be labeled with the road name or a 
+mileage value. Mind maps are a kind of informal 
+knowledge graph used by people, not by computers.
+LO: Translate the premises of a syllogism 
+expressed in English into logical notation and 
+complete the syllogism correctly.
+EU: Syllogisms represent statements about 
+categories and instances in a way that allows 
+computers to derive new knowledge from existing 
+knowledge by following simple inference rules. 
+The components of a syllogism are the major 
+premise, the minor premise, and the conclusion.
+Unpacked: Human reasoning is rich and 
+complex, and we don't have a complete 
+description of how it works. Syllogistic reasoning 
+is a special case that is simple enough that we 
+can write precise rules for how to do it. Syllogistic 
+reasoning is a type of logical deduction that is 
+common in AI reasoners that use taxonomy 
+information. Example: all humans are mammals, 
+all mammals are living things, therefore all 
+humans are living things. A variety of notations 
+can be used for syllogisms. Here is one based on 
+predicate logic:
+    ∀x [ Human(x) → Mammal(x) ]
+    ∀x [ Mammal(x) → LivingThing(x) ]
+    ______________________________
+    ∀x [ Human(x) → LivingThing(x) ]
+Draft Big Idea 2 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released June 28, 2021
+Subject to change based on public feedback
+Updated links 7/30/2021
+Big Idea #2: Representation and Reasoning
+Computers maintain representations of 
+the world and use them for reasoning.
+LO = Learning Objective:  What students should be able to do.
+EU = Enduring Understanding: What students should know.
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Representation
+(Data structures)
+2-A-iii
+LO Draw a tree by repeatedly splitting each branch 
+into sub-branches multiple times, and putting a 
+piece of data at each branch.
+EU: A tree is a way of organizing information.
+Unpacked: Many types of data could be placed on 
+a branch. For a decision tree, the data would be 
+questions and answers. For an ancestry tree, there 
+would be "mother of" branches and "father of" 
+branches. For a taxonomic tree there would be 
+taxa of increasing specificity, e.g., animals and 
+plants, mammals and reptiles, primates and 
+rodents.
+Guided activity resource: tree drawing exercise.
+LO: Describe the parts of a tree and how those parts are 
+related.
+EU: A tree is a collection of labeled nodes, each of 
+which (save the root) has a link to a parent node above 
+it in the hierarchy. Childless nodes are called leaves or 
+terminal nodes; those with children are non-terminal 
+nodes.
+LO: Describe the parts of a graph and how those 
+parts are related.
+EU: A graph is a collection of labeled nodes 
+connected by labeled links. Every link has a source 
+node and a target node; every node hast a set of 
+incoming links and a set of outgoing links. Trees are 
+a special case of graphs.
+Unpacked: Graphs in AI are used to represent things 
+such as road maps (where the cities are nodes and 
+the roads are links), mazes, and knowledge graphs. A 
+knowledge graph can represent people, places, and 
+things, and the relationships between them. Mind 
+maps are mostly trees but it is possible to have 
+multiple paths to a node, making the map a graph. 
+Each node is a concept and the links can be labeled 
+with relations between concepts, or they may be 
+unlabeled.
+LO: Describe how schemas are used to structure 
+information about people, places, or things in 
+knowledge graphs.
+EU: A schema specifies the attributes of the 
+concept being described, and its relationships to 
+other concepts, e.g., the Restaurant schema 
+inherits properties from the FoodEstablishment 
+schema.
+Unpacked: A knowledge graph encodes 
+information about things and the relationships 
+between them. Search engines like Google rely 
+on knowledge graphs to generate knowledge 
+panels in search results. The Restaurant and 
+FoodEstablishment schemas are defined at 
+schema.org.
+Representation
+(Feature vectors)
+2-A-iv
+LO: Identify the features that make each object in 
+a collection unique. and create a table of features 
+to organize the objects.
+EU: Objects can be described in terms of the 
+features they possess.
+Unpacked: This could be  as simple as Legos 
+bricks of different shapes, sizes, and colors, or 
+features that distinguish different types of animals: 
+cats, dogs, chickens, goldfish, penguins, etc., e.g., 
+does it have fur, does it fly, etc. Another option is 
+features that describe face emojis indicating 
+different emotional states.
+LO: Construct a feature vector representation for a set of 
+objects and show how similar objects are close together 
+in feature space.
+EU: Recommender systems represent things like 
+movies, books, consumer products. or social media 
+posts using feature vectors.
+Unpacked: Feature vectors represent concepts as 
+sequences of numbers. The distance between two 
+feature vectors can be measured by counting the 
+number of positions at which they disagree, so similar 
+objects lie closer together in feature space. Feature 
+vectors can be constructed by hand, but they can also be 
+constructed automatically using machine learning.
+Example: in the Pasta Land exercise students develop a 
+discrimination tree for recognizing different types of 
+pasta. The questions that make up the nodes of the tree 
+can provide the features for a binary feature vector 
+representation of the pasta types.
+LO: Explain how word embeddings (which are feature 
+vectors) represent words as sequences of numbers.
+EU: Word embeddings are a key part of neural 
+natural language processing, including machine 
+translation (e.g., Google Translate) and text 
+generation systems (BERT, GPT3, etc.)
+Unpacked: Each word is a point in a feature space 
+with many dimensions, organized so that words with 
+similar meanings are close to each other in the 
+feature space. See this Word2VecDemo.
+LO: Describe how a transformer network 
+operates.
+EU: Transformer networks map sequences of 
+input words to sequences of output words, where 
+words are represented as feature vectors.
+Unpacked: Neural network natural language 
+processing applications such as machine 
+translation or question answering are driven by 
+word embedding representations, which are 
+feature vectors. Words are fed in one vector at a 
+time, and the network delivers its output one 
+vector at a time.
+Activity: https://app.inferkit.com/demo
+Draft Big Idea 2 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released June 28, 2021
+Subject to change based on public feedback
+Updated links 7/30/2021
+Big Idea #2: Representation and Reasoning
+Computers maintain representations of 
+the world and use them for reasoning.
+LO = Learning Objective:  What students should be able to do.
+EU = Enduring Understanding: What students should know.
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Search
+(State spaces and 
+operators)
+2-B-i
+LO: Illustrate a next possible state in the game of 
+tic-tac-toe given a starting state.
+EU: A game such as tic-tac-toe can be described 
+as a sequence of states, where each move 
+transitions from a state to a successor state.
+Unpacked: Each state should be drawn as a 
+separate tic-tac-toe board. Answers may vary 
+depending on which move the student chooses to 
+make.
+Resource: online tic-tac-toe games:  https:
+//playtictactoe.org/ or  https://www.coolmathgames.
+com/0-tic-tac-toe 
+LO: Illustrate how a computer can represent the playing 
+of a game such as tic-tac-toe or nim by drawing the 
+linear sequence of board positions produced by the 
+players' moves.
+EU: Computers play games and solve puzzles by 
+creating a sequence of states (board positions) 
+connected by legal moves, using an algorithm to choose 
+their next move at each step.
+Unpacked: The state space (or search space) of a game 
+is the set of all board states reachable from the start 
+state (illustration), and the operators are the set of 
+possible moves a player can make that adhere to the 
+rules of the game. A particular game (linear sequence of 
+board positions: illustration) is one path through this state 
+space.
+LO: Illustrate how a computer can solve a maze, find 
+a route on a map, or reason about concepts in a 
+knowledge graph by drawing a search tree.
+EU: Computers solve mazes, find driving routes, and 
+reason about concepts in knowledge graphs using 
+graph search algorithms, which construct search 
+trees.
+Unpacked: The search space of a graph search 
+problem is the set of all paths originating from the 
+designated start node of the graph. The operators 
+used for  solving a maze move one node north, south, 
+east, or west. In the more general case of graph 
+search the operators extend a path by adding a new 
+node at the end. Legal moves add a node that is 
+reachable by a direct link in the graph. Legal states 
+are those reachable by a sequence of legal moves.
+Example: to determine whether a kangaroo is a 
+mammal, we search for a path in the knowledge 
+graph from the "kangaroo" node to the "mammal" 
+node that is comprised of "is-a" links. Quick intro 
+article.
+LO: Identify types of real-world problems that are 
+search problems and describe their states and 
+operators.
+EU: Computers can solve many types of problems 
+using search techniques if the problem can be 
+described in terms of finding a path from a start 
+state to a goal state.
+Unpacked: Examples include task planning 
+problems, scheduling problems, and resource 
+allocation problems. A search algorithm 
+determines which operators to apply, in which 
+order. Finding a sequence of legal moves 
+(operators) to reach a goal state can be used 
+even with problems whose solution is not a 
+sequence. For example, if the problem is to pack 
+a collection of objects of various sizes into a set of 
+containers with various capacities, a solution is an 
+assignment of objects to containers such that no 
+container is overfilled and no object is left out. 
+This can be formulated as a search problem 
+where an operator places one object in a 
+container that can hold it, and a goal state has all 
+objects placed. For this type of problem, the 
+sequence in which the operators are applied does 
+not matter.
+Search
+(Combinatorial search)
+2-B-ii
+LO: Draw a simple search tree to illustrate two 
+possible choices of moves by drawing two different 
+successor states to a given tic-tac-toe-game board 
+state, forming a tree.
+EU: A computer must make choices when playing 
+games, in the same way that humans do.
+Unpacked: Students will draw a three-node tree, 
+with the starting game state as the root, and two 
+branches descending from the root showing 
+alternative moves. The starting state need not be 
+the empty board. Illustration.
+LO: Given a state of a game such as tic-tac-toe or nim, 
+draw a search tree showing all possible next moves and 
+their resulting states, and pick the best next move.
+EU: Computer game playing programs may construct 
+search trees to decide on their next move.
+Unpacked: Search trees are a way of systematically 
+exploring all possible moves in a game. (Illustration.) The 
+state space of a game is the set of all board states 
+reachable from the start state, and the operators are the 
+set of possible moves a player can make that adhere to 
+the rules of the game.
+LO: Model the process of solving a graph search 
+problem using breadth-first search to draw a search 
+tree.
+EU: Breadth-first search can be used to solve 
+problems that involve reasoning about graphs.
+Unpacked: In breadth-first search, all the nodes at 
+the current level of the search tree are expanded, one 
+at a time, to generate the next level. Then  the next 
+level is expanded, and the process continues until the 
+goal is reached. Given a graph of friendship relations, 
+determining whether two people have a friend in 
+common is a graph search problem. Another graph 
+search problem is determining the degree of 
+separation of two people, as in "six degrees of Kevin 
+Bacon".
+LO: Illustrate breadth-first, depth-first, and best-
+first search algorithms to grow a search tree for a 
+graph search problem.
+EU: There are multiple algorithms for generating a 
+search tree, each with its own advantages.
+Unpacked: Illustration is done by drawing the 
+tree; writing code is appropriate for advanced 
+students (AP CSA). Breadth-first search finds 
+shallow solutions quickly if they exist, but requires 
+lots of memory. Depth-first search is better than 
+breadth-first for cases where the number of nodes 
+at each level grows exponentially, because it uses 
+less memory. Best-first search can find optimal 
+(least cost) solutions given an accurate measure 
+of solution "cost", such as total distance on a road 
+map, while the solutions found by breadth-first 
+and depth-first search are not guaranteed to be 
+optimal because they don't pay attention to cost.
+Draft Big Idea 2 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released June 28, 2021
+Subject to change based on public feedback
+Updated links 7/30/2021
+Big Idea #2: Representation and Reasoning
+Computers maintain representations of 
+the world and use them for reasoning.
+LO = Learning Objective:  What students should be able to do.
+EU = Enduring Understanding: What students should know.
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Reasoning
+(Types of reasoning 
+problems)
+2-C-i
+LO: Identify problems as either classification 
+problems or search problems.
+EU: In classification problems we decide what kind 
+of thing we have based on its features. In search 
+problems we find a path from a start to a goal, 
+such as finding a route on a map or exploring 
+possible moves in a game.
+LO: Categorize problems as either classification 
+problems or search problems.
+EU: Classification problems assign each input to one of 
+a predetermined set of classes. Search problems 
+construct answers by applying operators to states to 
+generate new states.
+Unpacked: Labeling images as dog photos or cat photos 
+(as in Teachable Machine) is a classification problem. 
+Finding the board positions that can be reached in one 
+move from a given starting position is an example of a 
+search problem.
+LO: Categorize problems as classification, prediction, 
+combinatorial search, or sequential decision 
+problems.
+EU: Prediction problems are similar to classification 
+problems except they estimate a continuous value, 
+such as height or daily temperature. Sequential 
+decision problems choose the next move for any 
+given state in order to maximize overall reward.
+Unpacked: Sequential decision problems are 
+covered in Big Idea 3; they are addressed using 
+reinforcement learning. 
+Examples: spam vs. not-spam (classification), 
+tomorrow's high temperature (prediction), solving 
+puzzles such as the wolf, goat, and cabbage problem 
+(combinatorial search), and playing a video game 
+such as Super Mario (sequential decision problem).
+LO: Categorize real-world problems as 
+classification, prediction, sequential decision 
+problems, combinatorial search, heuristic search, 
+adversarial search, logical deduction, or statistical 
+inference.
+EU: Reasoning problems can be categorized 
+based on the types of inputs supplied, the types of 
+outputs to be produced, and the characteristics of 
+the search space, if applicable.
+Unpacked: Heuristic search is needed when the 
+state space is too large to examine all possible 
+states. uses a rule of thumb (heuristic) to limit the 
+search by focusing on the most promising states. 
+In adversarial search, used in game playing, the 
+algorithm alternates between finding the best 
+move for the player and finding the best response 
+for the opponent, which would be the worst move 
+from the player's perspective. Adversarial search 
+may require heuristics if the game is complex, 
+such as chess or go. In logical deduction, the 
+reasoner starts with a set of facts and derives new 
+facts by applying inference rules. Logical 
+deduction can be done using formal logic such as 
+propositional or predicate logic, or ad hoc 
+inference rules used with semantic networks or 
+the IF-THEN rules found in expert systems. 
+Statistical inference involves reasoning with 
+probabilities.
+Reasoning
+(Reasoning algorithms)
+2-C-ii
+LO: Model the use of a classification or search 
+algorithm to solve a problem.
+EU: Reasoning algorithms are ways to solve 
+reasoning problems.
+Unpacked: Students could solve a classification 
+problem using the table of features they developed 
+in 2-A-iv, or the decision tree they developed in 3-
+A-v. They could solve a map search problem using 
+the map they developed in 2-A-i.
+LO: Describe the differences between two algorithms for 
+classifiying things: decision trees, or neural networks like 
+Teachable Machine.
+EU: Multiple algorithms can be used to solve a reasoning 
+problem.
+Unpacked: Classification of pasta could be done either 
+by constructing a decision tree (see the Pasta Land 
+activity) or by training a visual classifier like Teachable 
+Machine on example images of each pasta type.
+Pasta Land description: https://www.aimyway.com/blank-
+page-1
+LO: Compare several algorithms that could be used 
+to solve a specific type of reasoning problem.
+EU:  The choice of reasoning algorithm depends on 
+the characteristics of the input data and the types of 
+decisions to be made. 
+Unpacked: For classifying dogs vs. cats, if all we 
+have are raw images, we cannot use a decision tree 
+because it would require an astronomical number of 
+nodes; we must use a neural network because it can 
+efficiently perform feature extraction. But if we already 
+have a description of an animal in terms of features 
+such as snout length and ear shape, then a decision 
+tree could be used.
+In general, classification problems can be solved 
+using decision trees, nearest-neighbor algorithms, or 
+neural networks. Prediction problems can be solved 
+using linear regression or neural networks. 
+Combinatorial search can make use of several 
+different algorithms for growing the search tree. 
+Sequential decision problems can use either Q tables 
+or neural networks to choose the best action.
+LO: For each of these types of reasoning 
+problems (classification, prediction, sequential 
+decision making, combinatorial search, heuristic 
+search, adversarial search, logical deduction, and 
+statistical inference), list an algorithm that could 
+be used to solve that problem.
+EU: AI includes a wide variety of reasoning 
+algorithms for solving different types of reasoning 
+problems. Some use symbolic representations (e.
+g., search trees) while others are numerical in 
+nature (e.g., neural nets operating on feature 
+vectors).
+Unpacked: Reasoning problems are discussed in 
+2-C-i. Selection of an algorithm depends on 
+characteristics of the input data and the 
+complexity of the decisions to be made. Heuristic 
+search algorithms include best-first search and A* 
+search. Adversarial search can be done with 
+variants of combinatorial search, or heuristically 
+with alpha-beta pruning. Logical deduction can be 
+done using resolution theorem proving or by 
+applying ad hoc IF-THEN rules. Statistical 
+inference involves reasoning with probabilities or 
+distributions, such as Bayesian networks.
+
+=== END BI2 ===
+
+=== BI3 ===
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+Key Insights
+Explanation
+Machine learning allows a computer to acquire behaviors without people explicitly 
+programming those behaviors.
+Definition of "machine learning"
+Learning new behaviors results from changes the learning algorithm makes to the 
+internal representations of a reasoning model, such as a decision tree or a neural 
+network.
+How machine learning algorithms work
+Large amounts of training data are required to narrow down the learning algorithm's 
+choices when the reasoning model is capable of a great variety of behaviors.
+The role of training data
+The reasoning model constructed by the machine learning algorithm can be applied to 
+new data to solve problems or make decisions.
+Learning phase vs. application phase
+Big Idea #3: Learning 
+1
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+2
+Big Idea #3: 
+Learning      
+Computers can learn from data.
+LO = Learning Objective: 
+         What students should be able to do.
+EU = Enduring Understanding: 
+         What students should know.
+Unpacked descriptions are included when necessary to 
+illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Nature of Learning 
+(Humans vs. machines)
+3-A-i
+LO: Describe and provide examples of how people learn 
+and how computers learn.
+EU: Computers learn differently than people.
+Unpacked: People learn by observation, by being told, 
+by asking questions, by experimentation, by practice, 
+and by making connections to past experience. 
+Computers learn by finding patterns in data, or by trial 
+and error.
+Activities: Describe a time when you learned something 
+by being told, by watching another person, or by asking 
+questions. A demo such as Teachable Machine can be 
+used to illustrate a computer learning something from 
+positive and negative examples.
+LO: Differentiate between how people learn and how 
+computers learn.
+EU: Both people and computers can learn by finding 
+patterns in data, or by trial and error. But people are 
+flexible learners who can adapt to unfamiliar situations 
+and learn in other ways, such as by observing others, by 
+asking questions, or by making connections to prior 
+learning.
+Unpacked: People are natural learners, while computers 
+have to be programmed to learn. Presently there are two 
+ways that computers can be programmed to learn: they 
+can learn by finding patterns in human-supplied 
+examples, or they can learn by trial and error.
+LO: Contrast the unique characteristics of human 
+learning with the ways machine learning systems 
+operate.
+EU: People learn by observation, by being told, by 
+asking questions, by experimentation, by practice, and 
+by making connections to past experience. Computers 
+learn by applying specialized algorithms to large 
+amounts of training data, or by thousands or even 
+millions of trial and error experiences, to solve narrowly 
+defined problems.
+Unpacked: People are flexible learners who employ 
+multiple strategies. Computers use specialized 
+algorithms that require large amounts of data or many 
+trials, and only solve narrowly defined problems. While 
+humans can construct reasoners by explicitly 
+programming them, for complex problems it is often 
+more convenient to let the machine learning algorithm do 
+the work.
+LO: Define supervised, unsupervised, and reinforcement 
+learning algorithms, and give examples of human 
+learning that are similar to each algorithm.
+EU: Both supervised and unsupervised learning 
+algorithms find patterns in data. Supervised learning 
+uses features to predict the class label supplied by a 
+teacher; unsupervised learning groups similar instances 
+together, creating its own classes. Reinforcement 
+learning uses trial and error to find a policy for choosing 
+actions that maximizes the reinforcement signal.
+Unpacked: Supervised learning is like being corrected 
+by a coach. Unsupervised learning is like noticing that 
+your store has three kinds of customers based on their 
+distinctive purchasing patterns. Reinforcement learning 
+is like trying different moves in a video game and seeing 
+which yields the most points (greatest reward).
+Nature of Learning
+(Finding patterns in 
+data)
+3-A-ii
+LO: Identify patterns in labeled data and determine the 
+features that predict labels.
+EU: Classes can be defined in terms of feature values. 
+The relevant features can be inferred by examining 
+labeled examples.
+Unpacked: To give students a feel for the problem of 
+learning to classify we must ask them to learn a class 
+that's not intuitively obvious, e.g., learn "poisonous fish" 
+by examining cartoon fish images labeled "poisonous" or 
+"not poisonous". They can then be asked to describe 
+which features indicate a fish is poisonous, e.g., red fish 
+with square heads. Using images as input simplifies the 
+task because the features are intuitive, even though the 
+classification rule should not be.
+LO: Model how supervised learning identifies patterns in 
+labeled data.
+EU: When learning to classify labeled data, the patterns 
+(or rules) that are discovered can be expressed as 
+weights in a neural network or nodes in a decision tree.
+Unpacked: This extends the K-2 version by having 
+students draw a decision tree instead of merely 
+verbalizing their proposed rule. In addition, the task can 
+be made richer in 3-5 by increasing the number of 
+classes or by making the class definitions more complex. 
+For example, a fish could be poisonous if it is either red 
+with a square head or blue with a round head or purple 
+with pointy spines and any shape head. Each node of 
+the decision tree can test one feature value, e.g., color, 
+so complex features require deeper trees.
+LO: Model how unsupervised learning finds patterns in 
+unlabeled data.
+EU:  Unsupervised learning is useful when we don't 
+know in advance what classes exist. It discovers patterns 
+(or classes) in data by grouping nearby points into 
+clusters. Once a set of clusters has been found, new 
+points can be classified based on distance from the 
+cluster boundaries. 
+Unpacked: This can be done graphically using points in 
+the plane and visually constructing cluster boundaries by 
+outlining (e.g., drawing an ellipse around) each cluster.
+LO: Model how machine learning constructs a reasoner 
+for classifcation or prediction by adjusting the reasoner's 
+parameters (its internal representations).
+EU: Supervised learning adjusts the parameters of a 
+mathematical model (selected in advance by a human) 
+to generate correct classifications or predictions. This 
+model could be a simple linear equation, a high-degree 
+polynomial, or an even more complex nonlinear equation 
+such as a deep neural network. The internal 
+representations that encode the relationship between 
+inputs and outputs express the "patterns" found in the 
+data.
+Unpacked: In regression, we pick a mathematical model 
+such as a linear equation y=mx+b and then adjust its 
+parameters to fit a set of data points as best we can. The 
+model can then be used to predict a y value for any x 
+value.
+Linear regression can be done with a ruler by eyeballing 
+the distance between the line and the points. Students 
+can model polynomial or logistic regression by giving 
+them a graphical display with sliders to control the 
+parameter values. They can manually adjust the sliders 
+to reach what they perceive as a best fit to the data. 
+More advanced students can be shown how quality of fit 
+can be measured mathematically using mean squared 
+error. For classification problems the Y value is either 1 
+for "in class" or 0 for "not in class" and the decision 
+boundary is the line or surface y=0.5.
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+3
+Big Idea #3: 
+Learning      
+Computers can learn from data.
+LO = Learning Objective: 
+         What students should be able to do.
+EU = Enduring Understanding: 
+         What students should know.
+Unpacked descriptions are included when necessary to 
+illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Nature of Learning
+(Training a model)
+3-A-iii
+LO: Demonstrate how to train a computer to recognize 
+something.
+EU: Computers can learn from examples.
+Unpacked: With instructor assistance, Teachable 
+Machine could be used to recognize hand gestures or 
+sounds.
+LO: Train a classification model using machine learning, 
+and then examine the accuracy of the model on new 
+inputs.
+EU: Computers can learn to classify instances or predict 
+values by being shown labeled examples. If the results 
+on new inputs are unsatisfactory, additional training may 
+be required to improve the accuracy.
+Activity: Using Teachable Machine or Machine Learning 
+for Kids, training examples can be supplied by webcam 
+input or collected from an image search on the web, and 
+the model can be trained on a task such as recognizing 
+pictures of cats.
+LO: Train and evaluate a classification or prediction 
+model using machine learning on a tabular dataset.
+EU: Computers can learn to classify instances or predict 
+values by examining feature values. If the results on new 
+inputs are unsatisfactory, additional training may be 
+required to improve the accuracy.
+Unpacked: Within a tabular dataset, each training 
+example is a row in the table and is described by a set of 
+feature values; the features are the columns of the table.  
+Classification assigns each example to one of a discrete 
+set of classes (e.g., cat or dog); prediction outputs a 
+continuous value, such as predicting a person's height 
+from their age. The learning algorithm is likely to be a 
+decision tree learner rather than a neural network.
+Activity: Sites like MachineLearningForKids and 
+eCraft2Learn include decision tree learning. The learning 
+algorithm  figures out which are the relevant features and 
+what values they should have for each class.
+LO: Use either a supervised or unsupervised learning 
+algorithm to train a model on real world data, then 
+evaluate the results.
+EU: In supervised learning the model is trained on a 
+training set to produce the correct labels for labeled data. 
+We evaluate the results by measuring the percent of 
+items in a test set that are labeled correctly. In 
+unsupervised learning, the model is trained to assign 
+each input to a cluster of similar inputs. The clusters are 
+determined by the learning algorithm since there are no 
+labels attached to the training data. We evaluate the 
+results by examining the clusters to see if they capture 
+useful distinctions in the dataset.
+Unpacked: Both supervised and unsupervised learning 
+algorithms find patterns in data. In supervised learning, 
+the "pattern" is the relationship between feature values 
+and class labels. In unsupervised learning the pattern is 
+the way that data is grouped into clusters. Real world 
+data sets are now widely available on the web. In earlier 
+grade bands students might test their trained models on 
+a few new data points, but in this grade band students 
+are asked to quantiatively measure the performance of a 
+trained model on a nontrivial test set.
+Nature of Learning
+(Constructing vs. using a 
+reasoner)
+3-A-iv
+N/A
+LO: Demonstrate how training data are labeled when 
+using a machine learning tool.
+EU: In preparation for training a model, training data can 
+be labeled by first defining the classes (the labels) and 
+then adding examples for each class separately. After 
+training, new data can be presented to the model and it 
+will predict the class, but the data are unlabeled so the 
+model receives no feedback about the correctness of its 
+class predictions.
+Unpacked: Teachable Machine provides three classes 
+by default and has a separate "Hold to Record" button 
+for each class, so training examples are implicitly labeled 
+based on which class they are recorded for. After 
+training, the model is classifying webcam input in real 
+time but receives no feedback.
+LO: Explain the difference between training and using a 
+reasoning model.
+EU: Machine learning algorithms use labeled training 
+data to construct reasoning models that do classification 
+or prediction. During training, the reasoning model runs 
+on the training inputs and the learning algorithm adjusts 
+the model to make its outputs more closely match the 
+labels. Once training is complete, the reasoning model 
+can be applied to new data to solve problems or make 
+decisions. Using a trained reasoning model this way 
+does not change it; only the learning algorithm can 
+change the model.
+LO: Illustrate what happens during each of the steps 
+required when using machine learning to construct a 
+classifier or predictor.
+ EU: The steps are: deciding what problem you want to 
+solve, figuring out where you will obtain the training data, 
+choosing a feature set, figuring out how to label the data, 
+running the learning algorithm, use of a cross-validation 
+set to decide when training should stop, and using a test 
+set to measure performance.
+Unpacked: The cross-validation set is used to avoid 
+overfitting. The test set consists of examples that were 
+not used during training or for cross-validation, so it 
+provides an unbiased prediction of the reasoner's 
+performance on new inputs.
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+4
+Big Idea #3: 
+Learning      
+Computers can learn from data.
+LO = Learning Objective: 
+         What students should be able to do.
+EU = Enduring Understanding: 
+         What students should know.
+Unpacked descriptions are included when necessary to 
+illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Nature of Learning
+(Adjusting internal 
+representations)
+3-A-v
+N/A
+LO: Analyze a game where one constructs a decision 
+tree, describing the organization of the tree and the 
+learning algorithm used to add nodes.
+EU: In a decision tree learning game, the tree's branch 
+nodes are questions and the leaf nodes are classes. The 
+learning algorithm moves through the tree by asking the 
+questions at the branch nodes (testing features of the 
+input) until it arrives at a leaf node. If that leaf node's 
+class is incorrect, the node is replaced by a branch node 
+with a new question, and the leaf node is reattached at 
+that branch.
+Activity: the "guess the animal" game, troubleshooting 
+problems, and the Pasta Land activity are good choices 
+for demonstrating decision tree learning.
+LO: Compare how a decision tree learning algorithm 
+works vs. how a neural network learning algorithm 
+works.
+EU:  In decision tree learning, each step adds a new 
+node, which tests a single feature value. In neural 
+network learning, each step makes a small change to 
+every weight in the network.
+Unpacked: A decision tree's internal representations are 
+the nodes, the feature each node examines, and the 
+value the feature is compared against. A neural 
+network's internal representations are the weights.  
+Decision tree learning algorithms try to find, for each new 
+node they create, the most informative feature to 
+examine.  Changing the training data can result in a 
+different choice of feature to examine next.  With a 
+neural network, changing the training data will lead to 
+different weight adjustments as the algorithm tries to 
+reduce the error signal.
+LO: Describe how various types of machine learning 
+algorithms learn by adjusting their internal 
+representations.
+EU: Decision tree learners build decision trees by adding 
+nodes one at a time. Neural net learning algorithms 
+adjust weights. Regression algorithms adjust equation 
+parameters. Reinforcement learners update value 
+predictions or policies.
+Nature of Learning
+(Learning from 
+experience)
+3-A-vi
+N/A
+LO: Explain how reinforcement learning allows a 
+computer to learn from experience (i.e., trial and error).
+EU: Computers can learn from experience if there is a 
+"reinforcement" signal indicating whether the computer's 
+actions are leading to good or bad outcomes.
+Unpacked: Computers can learn to play games using a 
+reinforcement signal that indicates whether the computer 
+won or lost the most recent game, or how many points it 
+scored. The computer may have to play hundreds of 
+thousands of games to become an expert player.
+Demonstration: Reinforcement learning can be 
+illustrated using an agent navigating through a grid world 
+with obstacles and hazards; the task is to learn the best 
+path to a goal location. At each grid square, the 
+allowable actions are to move N/S/E/W. Over repeated 
+trials, the agent learns the best move to make in each 
+square.
+LO: Explain the differences between supervised learning 
+and reinforcement learning.
+EU: Supervised learning tells the agent what output it 
+should produce for each input; reinforcement learning 
+only tells the agent how well it's doing as it chooses 
+actions to take.
+Unpacked: In supervised learning, the teacher indicates 
+the correct output for each training example, so the 
+learning algorithm can see what it's doing wrong. In 
+reinforcement learning, the reinforcement signal 
+indicates how well the model is performing, but does not 
+tell the learning algorithm what actions the model should 
+have chosen to do better. This must be discovered by 
+trial and error, so it may take hundreds of thousands of 
+trials to reach expert level performance. For example, 
+when playing a video game, the reinforcement signal 
+could be the number of points scored. Because the 
+computer learns from its own experience, reinforcement 
+learning can find solutions to problems where there is no 
+teacher who could tell it the best action to take.
+LO: Select the appropriate type of machine learning 
+algorithm (supervised, unsupervised, or reinforcement 
+learning) to solve a reasoning problem.
+EU: Major types of learning algorithms and the kinds of 
+reasoning problems they are used to solve are: 
+supervised learning, used for classification and 
+prediction; unsupervised learning, used for clustering; 
+and reinforcement learning, used for sequential decision 
+making.
+Unpacked: Both supervised and unsupervised learning 
+algorithms find patterns in data. Supervised algorithms 
+use labeled training data and adjust the reasoning 
+model's parameters to try to produce the correct labels. 
+They are used for classification or prediction problems.
+Unsupervised learning algorithms. which use unlabeled 
+data, try to group similar data points together. They are 
+used to discover classes in the data. Reinforcement 
+learning algorithms are used for sequential decision 
+problems. They learn policies for choosing actions that 
+maximize the reinforcement the model will receive. 
+Reinforcement learning can be slow because learning 
+must proceed by trial and error; there is no teacher 
+telling the algorithm the best action at each step. But 
+having a computer learn from its own experience has the 
+advantage that it can discover solutions to problems 
+where it's not known in advance which is the best action.
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+Big Idea #3: 
+Learning      
+Computers can learn from data.
+LO = Learning Objective: 
+         What students should be able to do.
+EU = Enduring Understanding: 
+         What students should know.
+Unpacked descriptions are included when necessary to 
+illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Neural Networks
+(Structure of a neural 
+network)
+3-B-i
+N/A
+LO: Illustrate how a neural network of 1 to 3 neurons is a 
+function that computes an output.
+EU: A neural network uses one or more neurons working 
+together to form a function. Each neuron takes a set of 
+numbers as input and produces a single number as its 
+output.
+Unpacked: A neural network is a collection of neurons 
+that are connected to each other. Every neuron has a set 
+of input connections, each with an attached weight. Each 
+input connection carries a value. The neuron multiplies 
+each input value by the connection weight to produce a 
+weighted input. The sum of all the weighted inputs is 
+compared to the neuron’s threshold value. If the sum is 
+above the threshold value, the neuron outputs a 1; 
+otherwise it outputs a 0. The output value can be used 
+as an input for other neurons.
+Activity: Calculate the output of a single neuron with 
+multiple inputs, or a network of two multi-input "hidden" 
+neurons feeding a single output neuron. Such networks 
+can compute simple functions such as "AND", "OR", or 
+"at least 2 out of 3". For a quick tutorial on neural nets 
+for grades 3-5, see link
+LO: Illustrate the structure of a neural network and 
+describe how its parts form a set of functions that 
+compute an output. 
+EU: Neural networks are organized as layers of units 
+(input, hidden, and output layers), with weighted 
+connections between units in successive layers. Each 
+unit computes the sum of its weighted inputs. It passes 
+that sum through a transfer function to produce a 
+numeric output.
+Unpacked: A neural network maps input patterns to 
+output patterns in a complex way. Each neuron 
+computes a function, and the network as a whole 
+computes a complex function that can be considered a 
+very wiggly mathematical function.
+LO: Describe the following neural network architectures 
+and their uses: feed-forward network, 2D convolutional 
+network, recurrent network, generative adversarial 
+network.
+EU: Feed-forward networks can learn arbitrary functions 
+and are used for both classification an regression. 2D 
+convolutional networks learn small  "kernels" that are 
+convolved with the input, and max-pooling layers to 
+reduce image resolution; they are used for image 
+analysis. Recurrent networks have feedback connections 
+and are used for language processing. Generative 
+adversarial networks have generator and discriminator 
+modules and are used to create deepfakes.
+Neural Networks
+(Weight adjustment)
+3-B-ii
+N/A
+LO: Demonstrate how weights are assigned in a neural 
+network to produce a desired input/output behavior.
+EU:The behavior of a neural network can be altered by 
+adjusting its weights.
+LO: Demonstrate how a learning rule can be used to 
+adjust the weights in a one-layer neural network.
+EU: During training, weights are adjusted in response to 
+errors in the network's output, so that an error will be 
+less likely when the input is seen again.
+Unpacked: Training can be done using binary units and 
+a simple learning rule for adjusting the weights (such as 
+the perceptron learning rule in the "Will this dog bite 
+me?" exercise).
+LO: Train a multilayer neural network using the 
+backpropagation learning algorithm and describe how 
+the weights of the neurons and the outputs of the hidden 
+units change as a result of learning.
+EU: A neuron's weights start out as small random values 
+and evolve to a more precise pattern through learning. 
+The changes in the neuron's weights are computed by a 
+learning rule driven by a back-propagated error signal. 
+The neuron's weight pattern determines the features that 
+the neuron detects.
+Unpacked: Students are not expected to know the 
+details of the backpropagation learning algorithm, only 
+that error is propagated backward from later layers to 
+earlier ones.
+Activity: An online demo such as TensorFlow 
+Playground can be used to visualize the changes in 
+weights during learning.
+5
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+6
+Big Idea #3: 
+Learning      
+Computers can learn from data.
+LO = Learning Objective: 
+         What students should be able to do.
+EU = Enduring Understanding: 
+         What students should know.
+Unpacked descriptions are included when necessary to 
+illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Datasets
+(Feature sets)
+3-C-i
+LO: Create a labeled dataset with explicit features to 
+illustrate how computers can learn to classify things like 
+foods, movies, or toys.
+EU: We can get a computer to classify things by 
+describing them in terms of feature values the computer 
+can reason about. People choose the features.
+Unpacked: Classify food as healthy/unhealthy, or 
+classify toys as safe or unsafe for babies. Optionally, 
+they could build a decision tree using these features, but 
+most important to understand is that they could feed their 
+data to a machine learning algorithm to create the 
+decision tree for them.
+LO: Create a labeled dataset with explicit features of 
+several types and use a machine learning tool to train a 
+classifier on this data.
+EU: Feature types include discrete values (e.g., "New 
+York", "Pennsylvania", "Iowa"), binary values (yes/no), 
+and continuous values (age, height).
+Unpacked: Sites such as MachineLearningForKids will 
+train decision tree classifiers based on data of this type.
+LO: Create a dataset for training a decision tree 
+classifier or predictor and explore the impact that 
+different feature encodings have on the decision tree.
+EU: The choice of features to include, and the best 
+encoding to use for these features, depends on the 
+particular reasoning problem we are trying to solve.
+Unpacked: At each node of the decision tree, the 
+learning algorithm tries to pick a feature that will be most 
+helpful in separating the remaining instances into 
+different classes. Features that don't correlate strongly 
+with any class will not be chosen.
+Resource: MachineLearningForKids will draw the 
+decision tree so students can inspect it and see which 
+feature is referenced at each node.
+LO: Compare two real world datasets in terms of the 
+features they comprise and how those features are 
+encoded.
+EU: Humans decide which features to include in a 
+dataset and how to encode them. This can have 
+consequences for machine learning algorithms trained 
+on these datasets.
+Unpacked: age can be encoded in months (for pediatric 
+datasets), years (for adults), or age ranges (infant, child, 
+teenager, adult, senior, extreme elderly). Encoding a 
+continuous variable using discrete values can guide the 
+learning algorithm to make distinctions that conform to 
+humans' understanding of the domain.
+Datasets
+(Large datasets)
+3-C-ii
+N/A
+LO: Illustrate how training a classifier for a broad concept 
+such as "dog" requires a large amount of data to capture 
+the diversity of the domain.
+EU: Machine learning requires large amounts of data to 
+be effective. To recognize dogs in images one must have 
+not only many types of dogs, but also many different 
+viewing angles and contexts.
+Unpacked: One way to help students visualize the 
+diversity required would be to browse some of the 
+standard datasets used for object recognition, such as 
+ImageNet or Coco.
+LO: Illustrate how objects in an image can be segmented 
+and labeled to construct a training set for object 
+recognition.
+EU: Machine learning requires large amounts of data to 
+be effective. Human expertise is usually required to label 
+the data, which could be labor intensive.
+Unpacked: Students can be given a set of images and 
+asked to draw a bounding box around every person, dog, 
+or traffic sign in the image, and label the object 
+appropriately. As a follow-up, students could be asked to 
+estimate the time it would take to construct a labeled 
+dataset with several thousand examples.
+LO: Evaluate a dataset used to train a real AI system by 
+considering the size of the dataset, the way that the data 
+were acquired and labeled, the storage required, and the 
+estimated time to produce the dataset.
+EU: A large dataset is typically required to capture the 
+diversity of a complex domain and narrow down the 
+range of possible reasoner behaviors. There are multiple 
+ways to construct, clean, and verify a dataset. There can 
+be large costs associated with creating the dataset and 
+processing the data. Labeling training data is labor-
+intensive and may require specialized expertise (e.g., 
+spotting disease  in x-rays.) Bias can be introduced 
+during each step of dataset creation.
+Unpacked: Datasets for real-world problems may 
+involve many features, and the defining characteristics of 
+a class may involve compex relationships among these 
+features. In order to narrow down the class to be learned 
+and distinguish it from millions of other possible classes, 
+the learning algorithm must see many examples.
+Activity: An activity can be done with common machine 
+learning datasets found in repositories such as Kaggle, 
+or publicly available demographic, economic, or 
+environmental datasets.
+Draft Big Idea 3 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released November 19, 2020
+Subject to change based on public feedback
+Big Idea #3: 
+Learning      
+Computers can learn from data.
+LO = Learning Objective: 
+         What students should be able to do.
+EU = Enduring Understanding: 
+         What students should know.
+Unpacked descriptions are included when necessary to 
+illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Datasets
+(Bias)
+3-C-iii
+LO: Examine a labeled dataset and identify problems in 
+the data that could lead a computer to make incorrect 
+predictions.
+EU: How well a computer learns to classify depends on 
+the data used to train it.
+Unpacked: If examples of healthy foods are broccoli, 
+green beans, peas, and spinach (all green), and 
+unhealthy foods are donuts, cake, and candy bars, what 
+will the computer conclude about green gummy bears?
+LO: Examine features and labels of training data to 
+detect potential sources of bias.
+EU: Machine learning algorthims require a representative 
+collection of data in order to build an accurate model. 
+Training datasets drawn from historical data may reflect 
+pre-exisiting human and societal biases.
+Unpacked: Amazon's resume sorter learned a bias 
+against female applicants because it was trained to 
+mimic the statistics of past hiring history.
+LO: Explain how the choice of training data shapes the 
+behavior of the classifier, and how bias can be 
+introduced if the training set is not properly balanced.
+EU: Bias can result if the model is asked to classify 
+inputs that don't resemble the training data, or if the 
+training data contains irrelevant correlations we don't 
+want the classifier to rely on.
+Unpacked: A classifier trained on only Caucasian faces 
+will do poorly on Black or Asian faces. A classifier trained 
+on a loan application dataset where most of the rejected 
+applicants lived in Pleasntville might decide to never 
+make a loan to anyone who lives in Pleasantville.
+LO: Investigate imbalances in training data in terms of 
+gender, age, ethnicity, or other demographic variables 
+that could result in a biased model, by using a data 
+visiualization tool.
+EU: Machine learning algorithms will take advantage of 
+any imbalances or correlations in the training set that 
+help lower the error rate. If the dataset is not 
+representative, those correlations can be misleading
+Unpacked: Data exploration to help students uncover 
+imbalances or correlations can be done using histograms 
+in Excel, or using any number of data visualization tools 
+such as Pandas (for Python).
+7
+
+=== END BI3 ===
+
+=== BI4 ===
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+1
+Big Idea #4: Natural Interaction
+Key Insights
+Explanation
+Computers can use natural language to communicate factual information, but struggle to understand non-
+literal modes of expression such as metaphor, imagery, humor, and sarcasm.
+Language is an essential part of what makes us human. Metaphor, imagery, and humor are parts of human culture, 
+but we lack precise and detailed theories of how people make sense of these things, or how computers should 
+address them.
+Computers can recognize but not experience emotions. Appropriate responses to emotions must be 
+programmed by humans.
+AI systems use algorithms to identify human emotions. But there is no heart to ache for us when the machine 
+expresses empathy for our suffering.
+Current AI systems are narrow reasoners specialized for well-defined problems. Flexible human-like 
+reasoning, known as "broad AI" or "Artificial General Intelligence", has not yet been achieved.
+It is unclear when we'll be able to build Artificial General Intelligence systems that can mimic or exceed human 
+reasoning capabilities.
+Current AI systems lack consciousness and self-awareness. A self-aware computer would require 
+representations of its own existence and thoughts, and memories of its past experiences.
+Consciousness is understanding that one exists, i.e., awareness of one's body and one's environment. Self-
+awareness is the recognition that one is a conscious, thinking being with the ability to reason about one's thoughts. 
+See Jabr (2012) for a brief discussion of these ideas.
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+1
+Big Idea #4: Natural Interaction
+Intelligent agents require many types of 
+knowledge to interact naturally with 
+humans.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Natural Language
+(Structure of 
+language)
+4-A-i
+LO: Demonstrate knowledge of the structure of 
+language through tasks such as (a) generating 
+plausible and implausible novel words, or (b) 
+reordering the words in a scrambled sentence 
+so that it makes sense.
+EU: Human languages have rules for how 
+words and sentences are constructed, and 
+computers can use these rules to help them 
+figure out what people are saying.
+Unpacked: A plausible novel word is "flurg"; 
+an implausible one is "fnurg" because English 
+doesn't allow words to begin with "fn". Turning 
+to word order, the words "ate pancakes John" 
+only make sense in the order "John ate 
+pancakes".
+Activity: Use this SpeechDemo to see how 
+Google responds to "I ordered a large flurg 
+with whipped cream." vs. "I ordered a large 
+fnurg with whipped cream."
+LO: Demonstrate that human language is infinite by 
+showing how any sentence can be repeatedly extended 
+to form a more complex sentence.
+EU: Human language can express an infinite number of 
+ideas and form an infinite number of sentences. This 
+property makes it impossible to pre-program a computer 
+with a response to every sentence. Thus, to understand 
+a new sentence a computer must recognize how the 
+words combine into phrases and clauses to 
+communicate complex ideas. 
+Unpacked: Sentences can be lengthened by adding 
+new phrases or clauses,with no limit. Repeatedly 
+extending a sentence will yield something like, "John 
+said that Mary knew that Peter saw that Lisa gave 
+Megan the book about hamsters from outer space that 
+Harry recommended."
+Activity: Have the class take turns extending a sentence 
+until it is exceptionally long. Then run it through the 
+Berkeley Neural Parser to see if it can correctly 
+recognize the phrase structure. 
+LO: Demonstrate a computer's grasp of grammar by 
+using a parser program to display the syntactic 
+structure of a sentence, and explain what the nodes 
+represent.
+EU: Parse trees are a way of representing the 
+syntactic structure of a sentence, showing the 
+relationships between words. Computers can use 
+syntax trees to both analyze and generate sentences.
+Unpacked:  The grammatical structure of a sentence 
+is key to understanding its meaning. For example, if 
+the task is question answering, then we need to 
+understand the meaning of the question to perform 
+the appropriate query. If the task is to get a robot to 
+do something, the robot must understand what is 
+being requested.  
+Parsers produce syntax trees whose nonterminal 
+nodes are grammatical categories such as NP (Noun 
+Phrase), VP (Verb Phrase), and PP (Prepositional 
+Phrase).
+"Put the cup on the saucer"  vs. "put the saucer on 
+the cup" illustrates the importance of syntax. Both 
+sentences contain the same words, but the words 
+have different syntactic relationships. That's why 
+changing the word order changes the meaning. In 
+addition, "cup" can be either a noun or a verb, but in 
+this context the syntax indicates it's being used as a 
+noun. 
+Resource: The Berkeley Neural Parser demonstrates 
+both POS (part of speech) tagging and parse tree 
+generation. The tags come from the Penn Treebank 
+project.
+LO: Identify portions of a text that would be difficult for a 
+computer to understand, and explain why.
+EU: Computers have difficulty understanding text that 
+makes use of metaphor, imagery, hyperbole, sarcasm, or 
+humor, or word play.
+Unpacked: Currently, we don't have satisfactory formal 
+explanations of metaphor, imagery, hyperbole, sarcasm, 
+humor, or word play. This is the focus of current AI, 
+linguistics, and cognitive science research.
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+2
+Big Idea #4: Natural Interaction
+Intelligent agents require many types of 
+knowledge to interact naturally with 
+humans.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Natural Language
+(Ambiguity of 
+language)
+4-A-ii
+LO: Illustrate the ambiguity of language by 
+giving examples of homophones and 
+homonyms and showing how the correct word 
+can be determined using context.
+EU: Different words may sound the same, but 
+people and computers can use the 
+surrounding words to determine the correct 
+one.
+Unpacked: homonyms (e.g., "bear" can be 
+either a noun or a verb) and homophones 
+(bear/bare, there/their/they're, or which/witch). 
+This is called lexical ambiguity 
+Activity: Use this SpeechDemo to see 
+alternative interpretations of homophones.
+LO: Illustrate how understanding a sentence could be 
+challenging for a computer by giving sentences where a 
+pronoun could refer to either of two nouns.
+EU: Sentences can have multiple meanings depending 
+on which noun a pronoun is thought to be referencing. 
+People and (to a lesser extent) computers can use 
+context and world knowledge to select the most likely 
+meaning.
+Unpacked: An example of reference ambiguity is "John 
+handed Pedro his cellphone", because "his" could refer 
+either to John or to Pedro. Often world knowledge can 
+resolve this type of ambiguity, as in this example: "The 
+trophy would not fit in the suitcase because it was too 
+large/small." The choice of "large" vs. "small" changes 
+our decision about what "it" refers to. Reference 
+ambiguity is an issue of semantics (meaning). The parse 
+tree (grammar) is the same for both sentences, but the 
+meanings are different. Compare this with attachment 
+ambiguity discussed in 6-8.
+LO: Illustrate how understanding a sentence could be 
+challenging for a computer by giving sentences where 
+a prepositional phrase could attach in either of two 
+paces, and show how this ambiguity can sometimes 
+be resolved based on meaning.
+EU: Language is often ambiguous, but some possible 
+meanings can be ruled out if they don't make sense. 
+Computers are not yet as good as people at using 
+context and world knowledge to make these 
+judgments.
+Unpacked: "John saw the man with the telescope" is 
+ambiguous because it's unclear who had the 
+telescope. But "John saw the man with the violin" is 
+unambiguous. Attachment ambiguity is an example of 
+syntactic ambiguity because the parse trees are 
+different: "with the telescope" could attach to either 
+"John" or "the man". Semantic knowledge (meaning) 
+can help humans choose the most plausible parse. 
+Compare this with reference ambiguity discussed in 
+3-5.
+Activity: Create ambiguious sentences and run it 
+through the Berkeley Neural Parser to see if it can 
+attach the the prepositional phrase to the correct 
+word.
+LO: Illustrate how understanding a sentence could be 
+challenging for a computer by describing multiple senses of 
+a given word. 
+EU: A single word can have multiple senses. People use 
+context and world knowledge to determine the correct 
+sense, but computers don't typically represent meaning with 
+this degree of subtlety.
+Unpacked: Multiple senses is called "polysemy". For 
+example, "book" can refer either to a commercial product 
+("the book was a bestseller"), a collection of words ("the 
+book's language is appropriate for middle school students"), 
+or a physical instantiation of the text ("the book was heavy in 
+my backpack"). Similarly, "class" can refer either to an 
+academic course ("a math class"), a specific instance 
+("Tuesday morning math class at Riverdale High"), or the 
+persons attending it ("the teacher addressed the class").  
+Compare this with lexical ambiguity due to homonyms and 
+homophones discussed in K-2. Modern AI systems using 
+neural nets and huge training sets take a statistical 
+approach to resolving word sense ambiguity, but statistics 
+alone aren't as powerful as humans' common sense.
+Activity: Use Google Translate to explore how computers 
+resolve multiple senses of a word when selecting 
+appropriate words for the translation.  
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+3
+Big Idea #4: Natural Interaction
+Intelligent agents require many types of 
+knowledge to interact naturally with 
+humans.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Natural Language
+(Reasoning about 
+text)
+4-A-iii
+LO: Demonstrate how a computer can 
+produce different forms of a verb, such as 
+present or past tense.
+EU: In order for a computer to speak naturally 
+with humans it must be able to understand 
+how words are constructed and put words in 
+the proper form.
+Unpacked:  Verbs can take different forms in 
+first, second, and third person, singular or 
+plural, and present or past tense. For a 
+computer to respond correctly to the question 
+"When did dinosaurs live?" it should say 
+"Dinosaurs lived over 65 million years ago."
+Activity 1:   List all the different forms a verb 
+can take, then check your results using this 
+online verb conjugator.
+Activity 2: This past tense converter is not 
+very good. Experiment to see where it 
+succeeds and where it fails.
+Activity 3: Set up Google Translate for 
+English -> Spanish and enter a sentence like "I 
+walk to school". Then try different forms of the 
+sentence ("I walked", "I am walking", "I was 
+walking" "I had been walking", etc.) and 
+observe how the translation changes.
+LO: Experiment with a speech to text system to see if it 
+resolves alternative word choices correctly based on 
+context.
+EU: Speech recognition systems can use grammar and 
+context to resolve ambiguous words but they don't 
+always get it right.
+Activity: Use this SpeechDemo to see alternative 
+interpretations of "the dishes' size and weight were 
+impressive", or homophones such as "which/witch" in "I 
+couldn't tell which of the witches was the witch with the 
+broomstick."
+LO: Illustrate how word embeddings can be used to 
+reason about the meaning of words.
+EU: Word embeddings represent words with similar 
+meanings as nearby points in a semantic feature 
+space, and allow us to reason about words by doing 
+arithmetic.
+Unpacked: An example of reasoning about word 
+meanings is outlier detection, e.g., which word in the 
+list "breakfast", "lunch", "banana", "dinner" does not fit 
+with the others? Similarity of words can be measured 
+as distance in feature space; the outlier will  be farther 
+from the other words. Another example of reasoning 
+about meaning is analogy completion, e.g., "man is 
+to king as woman is to queen". This can be solved by 
+calculating the feature vector "king" - "man" + 
+"woman" and finding the word closest to the result. 
+The real benefit of word embeddings is that they are 
+used as inputs to transformer networks which perform 
+much more complex reasoning operations on text.
+See 2-A-iv.6-8 For  more on word embeddings and 2-
+A-iv.9-12 for transformer networks.
+Activity 1: Experiment with WordEmbeddingsDemo 
+to explore realistic word embeddings.
+Activity 2: Use knowledge of word embeddings to 
+explain how the Semantris game works (Blocks 
+activity).
+LO: Demonstrate how a small context-free grammar can be 
+used to parse or generate simple sentences.
+EU: Context-free grammars describe how words are 
+combined into phrases and clauses, and can represent 
+much of the syntactic structure of natural language, but don't 
+handle things like subject-verb agreement well.
+Unpacked: An example of an agreement constraint is that 
+subjects and verbs must agree on number, e.g., "he says" 
+but "they say". Expressing this in a context-free grammar 
+would require separate rules for singular and plural subjects. 
+This gets cumbersome when sentences become more 
+complex, e.g., coordinating conjunctions may require 
+agreement on tense as well as number.
+See 4-A-ii.6-8 for examples of syntactic ambiguity, which 
+leads to multiple syntactic parse trees that must be 
+disambiguated using semantic knowledge.
+Even a simple grammar, if it's recursive, can generate an 
+infinite number of sentences; see 4-A-i.3-5.
+Resource: This Stanford Context Free Grammar tool can 
+be used to construct parse trees, generate sentences, and 
+verify the grammaticality of a sentence. See this reference 
+for creating a context free grammar. 
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+4
+Big Idea #4: Natural Interaction
+Intelligent agents require many types of 
+knowledge to interact naturally with 
+humans.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Natural Language
+(Applications)
+4-A-iv
+LO: Demonstrate the kinds of tasks an 
+intelligent assistant can and cannot perform.
+EU: Intelligent assistants (e.g., Siri, Alexa) are 
+computers designed to respond to a limited set 
+of requests. They cannot engage in a 
+conversation like a human.
+Unpacked:  Siri and Alexa can answer 
+questions, play music, set alarms, and make 
+lists. But intelligent agents are not people. 
+They have limited conversational abilities 
+despite their ability to recognize spoken 
+language. One reason is that they have trouble 
+maintaining context, i.e., remembering what 
+was said before to help them understand what 
+is being said now.
+Activities:
+Talk with an intelligent agent such as Alexa. 
+What are the kinds of things they can do well 
+or not so well? What are the limits of its 
+understanding?
+LO: Demonstrate some types of questions that a search 
+engine or intelligent assistant can answer, and some 
+types that it cannot answer.
+EU: Search engines (e.g., Google) and intelligent 
+assistants (e.g., Siri, Alexa) have a collection of 
+specialized and general purpose modules they draw 
+upon to answer different types of questions.
+Unpacked: Examples of queries handled by specialized 
+modules include: definitions of words; unit conversions 
+(e.g., inches to millimeters, dollars to euros); current time 
+and weather anywhere in the world; biographical and 
+geographical facts (birth date of Abraham Lincoln, capital 
+of Belgium); store hours and driving directions; and 
+airline, train, and bus schedules. Current intelligent 
+agents do less well when asked to reason about 
+relationships between entities (e.g., is an alligator bigger 
+than an ostrich), or when asked to produce explanations 
+rather than simple facts (e.g.,Why didn't Shakespeare 
+write about airplanes?). When no specialized module 
+can handle a query, search engines fall back on keyword 
+search, but the results are often unsatisfying.
+LO: Describe some NLP (Natural Language 
+Processing) tasks computers can perform, and 
+explain how they work.
+EU: NLP (Natural Language Processing) tasks 
+include text summarization, text generation, sentiment 
+analysis, question answering, machine translation, 
+and conversational interaction.
+LO: Describe several approaches to Natural Language 
+Processing, ranging from simple to more sophisticated.
+EU: Simple NLP approaches include keyword matching, 
+dictionary lookup, and template matching, while newer, 
+more sophisticated but less transparent approaches use 
+deep neural networks and machine learning.
+Unpacked: Taking chatbots as an example, the simplest 
+approach looks for keywords in the user input to decide 
+what response to give. A slightly more sophisticated 
+approach uses templates to describe all the variations a 
+phrase might take rather than looking at single phrases. 
+More sophisticated chatbots use deep neural networks for 
+"intent recognition", which detects when the meaning of an 
+input matches a template, rather than looking for specific 
+words or phrases.
+Activities: Students should be able to describe when these 
+approaches might be helpful or not. Explain the limitations.
+Commonsense 
+Reasoning
+4-B-i
+LO: Give commonsense explanations of 
+human behavior or events that might be useful 
+for a robot to know.
+EU: Choosing the most likely ending for a story 
+is an example of commonsense reasoning, 
+which requires knowledge about people and 
+things, and how they behave, that computers 
+may not have.
+Activities: (1) Choose the most likely ending 
+to a story given a list of alternatives, and 
+explain your choice; (2) Explain why a 
+character in a story took a particular action; (3) 
+Suggest an appropriate action for a character 
+in a particular situation, and explain why it is 
+appropriate.
+LO: Explain what knowledge would be required for a 
+computer to understand a story.
+EU: AI has trouble understanding stories because it 
+doesn't have the knowledge that humans have about 
+everyday life.
+Unpacked: "Everyday life" includes both cultural 
+knowledge (what is an umbrella for) and naive physics 
+(dropped objects will fall due to gravity).
+Activity: Compose a story that may be hard for a 
+computer to understand, and explain what makes it hard.
+LO: Explain the knowledge a computer would need to 
+solve a naive physics reasoning problem.
+EU: Computers can reason about physical 
+phenomena using naive physics inference rules, 
+which formalize our intuitive understanding of 
+concepts such as mass, volume, forces, and motion. 
+At present, computers are not very good at this.
+Unpacked: Naive physics includes knowledge of 
+conservation laws. Pouring a large container of water 
+into a smaller container will cause an overflow 
+because small containers have less volume and the 
+amount of water doesn't change. By grades 6-8 
+students should have mastered conservation laws; 
+see this article on Piaget conservation tasks. Naive 
+physics also includes inference rules for reasoning 
+about forces, such as "When a heavy thing hits a light 
+thing, the light thing moves."
+Activity: Propose a reasoning problem that requires 
+knowledge of naive physics to solve, and say what 
+that knowledge is.
+LO: Explain the cultural and naive physics knowledge 
+required for a computer to correctly interpret a fable or 
+fairytale.
+EU: For humans or computers to infer the meaning of a 
+story requires understanding of cultural knowledge, naive 
+physics, and folk psychology. This is still difficult for 
+computers.
+Unpacked: Fables and fairy tales are challenging for 
+computers because they can incorporate cultural 
+knowledge, complex human motivations, imagery, humor, 
+and metaphor. Folk psychology refers to our everyday ability 
+to attribute mental states to other people, including their 
+beliefs, desires, and intentions.
+Activity: Explain what knowledge is required to correctly 
+resolve the referent of the pronoun in a Winograd sentence. 
+An example Winograd sentence is "Anna did a lot 
+[better/worse] than Lucy on the test because she had 
+studied so hard." Here, the required knowledge is that more 
+studying for a test leads to better performance.
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+5
+Big Idea #4: Natural Interaction
+Intelligent agents require many types of 
+knowledge to interact naturally with 
+humans.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Understanding 
+Emotion
+4-C-i
+LO: Demonstrate how computers recognize 
+emotions in faces.
+EU: Computers recognize emotions in faces 
+by looking at the shapes of the mouth, eyes, 
+and eyebrows.
+Activity: Use a face demo that recognizes 
+facial landmarks (e.g., eyebrows, eyes, and 
+mouth) to infer emotional state. The activity 
+can be introduced using icons to demonstrate 
+different emotions.
+LO: Illustrate how computers can judge the emotional 
+tone of text.
+EU: Computers can recognize positive and negative 
+statements about a topic using natural language 
+processing techniques known as "sentiment analysis".
+Unpacked: Sentiment analysis is used for a variety of 
+tasks, such as:
+- Movie reviews: Analysing online movie reviews to get 
+insights from the audience about the movie.
+- Restaurant reviews: analyzing reviews of restaurants 
+to measure customer satisfaction.
+- News coverage: Analyzing news coverage of an 
+event, person, or company to assess media opinion.
+- Social media analysis: analyzing the sentiments of 
+Facebook, Twitter, or Instagram posts to assess public 
+opinion about events, persons, or products.
+Activities: Use appropriate AI services (e.g., Scratch 
+plugins) to create artifacts that demonstrate sentiment 
+analysis.  Use a web-based sentiment analysis tool to 
+analyze the polarity of text that is marked subjective. 
+LO: Describe how computers use different types of 
+cues to recognize human emotional states. 
+EU: Computers can recognize human emotional 
+states by looking at facial expressions, gaze, 
+gestures, body language, tone of voice, and choice of 
+words. 
+Unpacked: For example, body language can indicate 
+engagement, hostility, anxiety, or boredom. Body 
+language includes such factors as how a person 
+holds their arms, how they position their feet, whether 
+they are leaning in or leaning back, and how they are 
+tilting their head. Computers can extract this pose 
+information from webcam images.
+LO: Identify ways AI applications can modify their behavior 
+to respond to people's emotional states.
+EU: Computers can respond appropriately to human 
+emotions by acknowledging what the human is feeling and 
+responding in a way that the human finds supportive and 
+socially appropriate.
+Unpacked: For example, AI-based tutoring systems monitor 
+student behavior to identify frustration, boredom, and 
+tiredness so they can adapt the instruction or prompt the 
+student to take a break. Automated customer service agents 
+that detect human emotions could  adapt their responses 
+accordingly, e.g., by adjusting their speech rate and tone of 
+voice.
+Activity: Given that computers can use AI to identify human 
+emotions, discuss how should they respond to people in a 
+way that we think is supportive and socially appropriate.
+Draft Big Idea 4 - Progression Chart
+www.AI4K12.org
+V.0.2 - Released March 14, 2022
+Subject to change based on public feedback
+6
+Big Idea #4: Natural Interaction
+Intelligent agents require many types of 
+knowledge to interact naturally with 
+humans.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Philosophy of Mind
+4-D-i
+LO: Demonstrate some ways that Intelligent 
+agents don't understand things the way people 
+do. 
+EU: Artificial Intelligence devices are not 
+people, they are computer programs designed 
+by people.
+Unpacked: Today's intelligent agents cannot 
+answer most common sense questions, such 
+as "Would smelly socks make a good birthday 
+present?" They can read stories to children but 
+cannot answer questions about the story. They 
+are also unaware of repetitive questions, e.g., 
+if asked the same question five times in a row 
+they would not become frustrated or even 
+acknowledge that the questions are repetitive.
+LO: Demonstrate what a broad AI system could do that 
+current narrow AI systems cannot do. 
+EU: "Narrow AI" has given us a collection of algorithms 
+that are good at specific things. "Broad AI" or "General 
+AI" promises to give us general reasoning ability 
+comparable to a human. 
+Unpacked: At present, only people exhibit general 
+intelligence. They can do lots of different things, and 
+learn to do new types of things. Current AI programs are 
+narrowly focused on a single kind of problem. For 
+example, programs that are good at playing chess or 
+driving a car are not good at answering questions about 
+a story. We don't currently have algorithms or machine 
+learning technologies that can mimic all the facets of 
+human intelligence.
+LO: Define criteria for consciousness and evaluate AI 
+systems or fictional AI characters according to those 
+criteria.
+EU: The nature of consciousness is an unsolved 
+problem, but two important criteria seem to be self-
+awareness and personal history.
+Unpacked: Questions about consciousness: (1) is 
+self-awareness (or "awareness of awareness") 
+required; (2) is a personal history (memories of past 
+experiences) required; (3) is a mental language 
+required; (4) are there levels of consciousness or is it 
+all or nothing; (5) what kinds of consciousness do 
+animals exhibit.
+Activity: Research discussions about whether 
+animals can be conscious, and how animal 
+consciousness differs from human consciousness. If 
+consciousness exists on a scale, do you think a 
+computer could ever meet or exceed humans on this 
+scale?
+LO: Debate alternative perspectives on human vs. artificial 
+intelligence 
+EU: Some AI experts and philosophers have argued that 
+computers can never achieve fully human-like intelligence, 
+while others believe that AI will eventually exceed human 
+intelligence.
+Unpacked: One problem with arguing that a computer 
+possesses human-like intelligence is that we don't have a 
+clear idea of how human intelligence is achieved. A stronger 
+claim against computer intelligence is that because 
+computers lack physical bodies they cannot experience the 
+world the way humans do. On the other hand, people have 
+limited memories and reasoning abilities that a computer 
+could potentially surpass, leading to an intelligence that was 
+more capable than humans (artificial superintelligence). But 
+we can also have devices that perform complex information 
+processing tasks without possessing human-like 
+intelligence.
+Activities: (1) Explain the Turing test and pull out a snippet 
+of Turing's paper and compare the dialogue proposed by 
+Turing to what modern-day AI systems can do. (2) Compare 
+animal to human intelligence. (3) Compare animal 
+intelligence to AI.
+
+=== END BI4 ===
+
+=== BI5 ===
+Draft Big Idea 5 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released December 22, 2022
+Subject to change based on public feedback
+1
+Big Idea #5: Societal Impact
+AI is becoming a component of everyone's personal and professional toolbox. 
+Key Insights
+Developing AI applications involves both technical and ethical design decisions.
+AI is a disruptive technology that will not only impact the economy and
+ 
+employment but also shape social and cultural norms
+AI systems that make decisions about people should be engineered to adhere to
+societal vallues such as fairness, transparency, and privacy.
+AI applications have multiple stakeholders who may have different values and 
+may be affected differently by the choices the designers made.
+Draft Big Idea 5 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released December 22, 2022
+Subject to change based on public feedback
+2
+Big Idea #5: Societal Impact
+AI can impact society in both positive and 
+negative ways.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Ethical AI
+(Diversity of Interests 
+and Disparate Impacts)
+5-A-i
+LO: Evaluate the ways a decision impacts people 
+differently.
+EU: Computers can sometimes make a decision that 
+works for most people but harms or disadvantages other 
+people.
+LO:  Evaluate how an AI technology can have different 
+effects on different groups of people.
+EU: The decisions made when developing an AI system 
+can impact different people and communities in different 
+ways.
+Unpacked: Some examples of AI technology that work 
+differently for different groups include: speech recognition 
+that works well for native English speakers but poorly for 
+speakers with accents, and some facial recognition 
+software that works well for adult white males but less 
+reliably for women, children, or people with darker skin 
+tones.
+LO: Evaluate the ways various stakeholders' goals and 
+values influence the design of AI systems.
+EU: The behavior of AI systems is determined by the 
+choices of the designers, which may involve tradeoffs 
+between conflicting goals and values. if other 
+stakeholders' perspectives aren't given sufficient weight, 
+there could be negative consequences for users.
+Unpacked: Stakeholders include the designers, the 
+users, other people concerned with the welfare of the 
+users, and possibly advertisers or content creators. For an 
+example of a conflict, consider app designers whose goal 
+is to entice people to watch ads so that they can make 
+money. This may negatively impact users who are 
+seduced into wasting too much time viewing content, or 
+who have their world views distorted by repeated 
+exposure to misinformation selected for its likelihood of 
+attracting clicks, or parents who want their children to 
+spend their time more productively.
+LO: Explain how use of AI systems has led to disparate 
+impacts on different groups.
+EU: Different groups of people may be affected differently 
+by AI systems. 
+Unpacked: Disparate impacts can occur when the 
+designers of a system do not adequately consider 
+differences among users. For example, using past 
+medical expenditures to estimate how sick a patient is 
+assumes that everyone has the same level of health 
+coverage. Using this esimate to direct more aggressive 
+care to the sickest patients will have disparate impacts on 
+people with less health coverage. Undetected biases in 
+machine learning systems (e.g., resume screening 
+applications) can also have disparate impacts on some 
+groups.
+Resource: https://www.scientificamerican.
+com/article/racial-bias-found-in-a-major-health-care-risk-
+algorithm/
+Ethical AI
+(Ethical Design Criteria)
+5-A-ii
+LO: Discuss the characteristics of systems that are fair 
+and unfair and the impact on people when a system is not 
+fair. 
+EU: AI systems should be designed to benefit people. 
+Creators of these systems should make sure that their 
+systems treat everyone fairly. 
+Activity: Facilitate an in-class exercise focused on fair 
+distribution of limited goods, such as deciding how to 
+share 10 peices of candy among 15 students, to help 
+students think personally about what fairness and 
+unfairness feel like.
+Resources: Fairness teaching guide, Fairness & Justice
+LO: Evaluate how an AI system meets the design criteria 
+of transparency and explainability. 
+EU: An AI system is transparent if we know what data and 
+decision making criteria it uses. Part of transparency is 
+having the system provide explanations for its decisions.
+Resources:
+https://appinventor.mit.edu/about/termsofservice
+https://teachablemachine.withgoogle.com/faq#Basics
+https://quickdraw.withgoogle.com/data
+https://experiments.withgoogle.com/quick-draw (see article 
+and video)
+LO: Evaluate how an AI system meets the design criteria 
+of accountability and respect for privacy.
+EU: Accountability in AI systems means designers and 
+decision makers take responsibility for the system's 
+actions. Respect for privacy means the system does not 
+act in ways that violate people's privacy rights.
+LO: Analyze an AI system to determine whether it 
+satisfies ethical design criteria.
+EU: To ensure that AI systems are helpful and not 
+harmful, ethical design criteria include: fairness, 
+transparency, explainability, accountability, respect for 
+privacy, and adherance to societal values.
+Unpacked
+Fairness means treating people equally. Transparency 
+means disclosing what information a system uses and 
+how it uses it. Explainability means being able to justify 
+the decisions a system makes. Accountability means 
+being clear about who is responsible for the actions an AI 
+system takes. Respect for privacy means not acting in 
+ways that could undermine people's privacy. Adherence to 
+societal values means not acting in ways counter to those 
+values.
+Resources:
+Catalog of resources on AI ethics: https://aiartists.org/ai-
+ethics
+Model Cards (promoting transparency and accountability):
+https://modelcards.withgoogle.com/about
+Draft Big Idea 5 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released December 22, 2022
+Subject to change based on public feedback
+3
+Big Idea #5: Societal Impact
+AI can impact society in both positive and 
+negative ways.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+Ethical AI
+(Practicing Ethical 
+Design)
+5-A-iii
+N/A
+LO: Create a model card for a classifcation or prediction 
+model
+EU: Model cards support transparency by explaining the 
+intended use, training dataset, accuracy, and  limitations 
+of the model.
+Activity: Students can create classifier and then create a 
+model for it.
+Resources:
+Google page on model cards: https://modelcards.
+withgoogle.com/about
+Code.org AI and Machine Learning Module on Model 
+Cards
+Code.org AI Lab Machine Learning Tool
+LO: Evaluate ways that AI system designers can learn 
+about and incorporate the values of their stakeholders into 
+the design process.
+EU:  AI systems need to align with the norms and values 
+of the groups they aim to serve. Developers of AI systems 
+need to understand that values vary across cultures and 
+ensure these values inform the design of products they 
+create.
+Activty:  Select an AI system and construct an ethical 
+matrix by listing the stakeholders and enumerating their 
+values. Then evaluate the alignment between the system 
+and the stakeholders.
+Resource: MIT AI Ethics Education Curriculum
+LO: Design an AI System using an ethical design process.
+EU: Ethical design, at all stages of the design process, 
+considers the values of all stakeholders and upholds the 
+principles of fairness, transparency, explainability, 
+accountability, respect for privacy, and adherence to 
+societal values.
+AI & Culture 
+(AI in Daily Life)
+5-B-i
+LO: Identify devices in daily life that use AI technologies.
+EU: AI technologies are part of any device that includes 
+speech recognition or computer vision, such as smart 
+phones, intelligent home assistants, and modern 
+automobiles. 
+LO: Describe how AI-powered services are used in daily 
+life. 
+EU: AI-powered services are used to look up information, 
+to provide voice interfaces to many kinds of apps, to make 
+recommendations based on a person's interests, and to 
+make cars safer.
+Unpacked: AI provides the ability to understand the 
+meaning of people's requests and develop models of their 
+interests and goals. Search engines use AI to understand 
+search queries and the contents of web pages. 
+Recommender systems that learn users' interests include 
+Netflix for movies, Amazon for shopping, social media for 
+news feeds, and advertising networks for ad selection. 
+Autonomous vehicles use computer vision to predict the 
+intentions of other drivers.
+LO:  Examine an aspect of daily life that is predicted to 
+change due to the introduction of AI technologies. 
+EU: AI technologies are changing daily life as intelligent 
+machines find new roles in society.
+Unpacked: Aspects of daily life include topics such as 
+how we communicate, how we learn, how we interact 
+socially, and the makeup of our daily routines. Consider 
+the many changes to transportation likely to result from 
+the adoption of self-driving cars. Drivers will have to learn 
+how to interact with other cars that have no driver. 
+Parents will have to decide when it's appropriate to let 
+their children ride unaccompanied in a self-driving car, 
+and the cars themselves might be adapted to facilitate 
+safe transport and dropoff of children. Automated ride-
+hailing services may lead to reductions in car ownership 
+and the need to learn how to drive, and also reduce 
+demand for parking space. New types of guided tour 
+services may combine a chatbot with a self-driving 
+vehicle.
+LO: Explain the kinds of debates that might arise as AI 
+technology continues to evolve and is further woven into 
+our culture.
+EU: Some new AI technologies will pose challenges for 
+cultural norms and expectations that society must identify 
+and wrestle with.
+Unpacked: Some potential debates include: What is 
+acceptable behavior when interacting with intelligent 
+assistants or robots? How should we regard text or 
+artwork that was created by or in collaboration with AI 
+programs? When is it acceptable for students to use large 
+language models for help with homework assignments? 
+What rights should machine learning engineers have to 
+use people's personal data, or to use publicly available 
+data in ways the copyright holder hasn't authorized? Many 
+more such controversies should be expected.
+Draft Big Idea 5 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released December 22, 2022
+Subject to change based on public feedback
+4
+Big Idea #5: Societal Impact
+AI can impact society in both positive and 
+negative ways.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+AI & Culture
+(Trust and 
+Responsibility)
+5-B-ii
+N/A
+LO: Analyze deepfake images or videos and identify the 
+flaws that reveal them as deepfakes.
+EU: Current deepfakes have detectable flaws, but as the 
+technology improves it will undermine our trust in digital 
+media.
+Resource:
+Deepfake faces: https://thispersondoesnotexist.com/
+LO: Critique uses of AI technology that can be used to 
+surveil people or violate their privacy.
+EU: AI technologies endanger privacy by reducing the 
+cost of implementing widespread surveillance and 
+enabling new types of surveillance.
+Unpacked: Types of surveillance include not only face 
+recognition in public spaces and license plate trackers on 
+public roads, but also monitoring of search activities and 
+behavior on web sites that can be used to build user 
+profiles that include sensitive personal information.
+LO: Identify areas where it is appropriate to regulate use 
+of AI technologies and evaluate regulations that have 
+been proposed.
+EU: Legal regulation of AI technologies is appropriate in 
+areas where there are societal values that require 
+protection.
+Unpacked. Potential areas for regulation include use of 
+facial recognition technologies for policing or surveillance, 
+privacy protection for customer data accumulated by AI 
+applications, and safety of autonomous vehicles.
+Activities: (1) Read an article about proposed legislation 
+on AI technology and create an informed critique of the 
+legislation. (2) Write a letter to an elected official about a 
+legislative issue related to AI. 
+Resources:
+Center for AI and Digital Policy: https://www.caidp.
+org/resources/ai-policy-frameworks/
+Autonomous vehicle regulations: https://www.ncsl.
+org/research/transportation/autonomous-vehicles-self-
+driving-vehicles-enacted-legislation.aspx
+AI & the Economy
+(Impacts of AI on Sectors 
+of Society)
+5-C-i
+LO:  Identify current uses of AI and how they have 
+impacted society. 
+EU: Society has undergone changes because of AI and 
+this will continue in the future.
+Unpacked: AI currently affects things like how we get 
+questions answered, how we get directions, and how we 
+find entertainment.
+LO:  Identify changes in how sectors of society operate 
+due to the introduction of AI.  
+EU: Every sector of society is changing (or will change) as 
+a result of the introduction of AI.
+Unpacked: Sectors of society include manufacturing, 
+retail, agriculture, food, hospitality, transportation, housing, 
+environment, education, entertainment, healthcare, 
+finance, government, public safety, social services, and 
+law enforcement. An example of change: manufacturing is 
+taking advantage of increased automation using AI to 
+reduce costs and improve quality. 
+Activity: Research a story and describe how an AI 
+transformative change impacted society positively and 
+potentially negatively. 
+LO: Compare the changes AI is bringing to society with 
+those of previous industrial revolutions.
+EU: AI is causing societal advances and disruptions 
+comparable to earier industrial revolutions.
+Unpacked: The first industrial revolution was based on 
+mechanical power, the second on electricity and mass 
+production, and the third on computers and networking. 
+The fourth will be based on AI, robotics, Internet of 
+Things, and genetic engineering technologies.
+LO: Predict how a sector of society is likely to change in 
+the short and intermediate term as a result of AI 
+technology.
+EU: Anticipating and planning for the changes new 
+technology brings is important for the healthy 
+advancement of society.
+Unpacked: Two types of impacts associated with AI 
+technoogy are increased levels of automation and new 
+types of services. Roy Amara, past president of The 
+Institute for the Future, coined Amara's Law which states:"
+We tend to overestimate the effect of a technology in the 
+short run and underestimate the effect in the long run." 
+Activities: (1) Discuss possible new services that can 
+evolve due to AI. (2) Identify and explain an unintended 
+consequence in society that resulted from an AI system.
+Draft Big Idea 5 - Progression Chart
+www.AI4K12.org
+V.0.1 - Released December 22, 2022
+Subject to change based on public feedback
+5
+Big Idea #5: Societal Impact
+AI can impact society in both positive and 
+negative ways.
+LO = Learning Objective: What students should be able to do. 
+EU = Enduring Understanding: What students should know. 
+Unpacked descriptions are included when necessary to illustrate the LO or EU
+Concept
+K-2
+3-5
+6-8
+9-12
+AI & The Economy
+(Effects on Employment)  
+5-C-ii
+LO:  Describe some jobs that no longer exist due to 
+advances in technology.
+EU: New technology changes the types of jobs that are 
+available for people.
+Unpacked: The automobile reduced our reliance on 
+horses, which eliminated jobs for farriers and horse 
+trainers but created jobs for auto mechanics. Factory 
+automation enabled mass production, which reduced the 
+need for blacksmiths, yarn spinners, and weavers but 
+created jobs for people who build and maintain the 
+factories.
+LO: Describe how a job will change due to the introduction 
+of AI or robotic technologies.
+EU: As AI and robotic technologies are adopted in the 
+workplace, the ways people perform their jobs will change. 
+Activity: Students can read grade-appropriate articles that 
+describe jobs being upated with the use of AI technologies 
+and robots, e.g., warehouse workers working alongside 
+robots.
+LO: Predict a new type of job that might arise, or how an 
+existing type of job might change or go away, as a result 
+of the adoption of AI technologies.
+EU: Cultures change as new technologies are adopted, 
+and as a result some types of jobs are reduced and new 
+types of jobs appear. 
+Activity:  Develop a "job description" of the future for a 
+given profession - what will working with AI and robotic 
+systems look like?  What skills will be required?
+LO: Investigate the skills needed for AI-enabled careers.
+EU: AI-aligned skills will be relevant throughout the 
+workforce, not just for programmers. Most types of work 
+will involve some interaction with AI technologies.
+Unpacked: As new technologies are adopted, the nature 
+of work will change over a person's lifetime. People can 
+expect to learn continually throughout their careers. AI-
+aligned skills that are becoming important include: 
+collecting and curating datasets for machine learning; 
+interacting with intelligent agents that help people do their 
+jobs; training robots to complete specific tasks; use of AI-
+powered creative tools for image creation and 
+manipulation; and knowledge engineering for AI systems.
+AI for Social Good 
+(Democratization of AI 
+Technology)
+5-D-i
+N/A
+LO: Describe and use some of the AI extensions or 
+plugins available in a programming framework familiar to 
+you.
+EU: AI is becoming part of everyone's toolbox through 
+extensions or plugins that support development of AI 
+applications serving the needs of many different 
+communities.
+Unpacked: Examples for Scratch include speech to text, 
+text to speech, face recognition, sentiment analysis, 
+question answering, and visual classifier extensions.
+LO: Create a novel application using some of the AI 
+extensions or plugins available in the programming 
+framework of your choice.
+EU: AI is becoming part of everyone's toolbox through 
+extensions or plugins that support development of AI 
+applications serving the needs of many different 
+communities.
+Unpacked: Examples for Scratch include speech to text, 
+text to speech, face recognition, sentiment analysis, 
+question answering, and visual classifier extensions. 
+There is a similar list for MIT App Inventor. Calypso has 
+many of these features built in.
+LO: Create a novel application using some of the AI tools 
+available in the programming framework of your choice.
+EU: AI tools are becoming commonplace and freely 
+available, and can be used by people without advanced 
+degrees or expensive equipment.
+AI for Social Good 
+(Using AI to Solve 
+Societal Problems)
+5-D-ii
+LO:  Describe how AI can be used to solve a societal 
+problem
+EU: AI can be used to create a classifier that solves a 
+problem important to society.
+Unpacked: Classifiers can be trained to distinguish 
+wildlife from manufactured items, recyclables from  non-
+recyclables, or healthy from diseased plants. 
+Activity: Use an AI for Social Good application to 
+contribute to a solution to a societal problem.
+Resource:
+Code.org's  AI For Oceans - https://studio.code.
+org/s/oceans/
+LO:  Design a solution to a societal problem that makes 
+use of AI technology
+EU: AI is being used to solve societal problems such as 
+environmental protection, energy conservation, and 
+improved public health.
+LO: Research a societal problem and describe how AI 
+technologies can be used to address that problem.
+EU: AI technologies for perception, reasoning, and 
+machine learning can be applied to many types of societal 
+problems.
+Resources:
+UN's 16 Sustainable Development Goals - https://sdgs.un.
+org/goals
+Google's AI for Social Good page https://ai.google/social-
+good 
+LO: Evaluate an AI for Social Good project in terms of the 
+problem it is addressing and the project's actual or 
+potential impact.
+EU: "AI for social good" is the use of AI technologies to 
+solve societal problems.
+Unpacked: "Social good" or common good seeks to 
+provide the greatest benefit to the greatest number of 
+people, to make the world a better place. This includes 
+goals such as energy conservation, environmental 
+protection, protection of endangered species, better public 
+health, and prevention of human trafficking.
+Resources:
+Google blog post on social good projects: https://blog.
+google/technology/ai/30-new-ai-for-social-good-projects/
+Nature article on AI for social good: https://www.nature.
+com/articles/s41467-020-15871-z
+
+=== END BI5 ===
+

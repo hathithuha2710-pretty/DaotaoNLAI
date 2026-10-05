@@ -1,0 +1,2000 @@
+{
+  "1": [
+    {
+      "code": "1.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về một số cảm xúc quen thuộc của con người (vui, buồn, giận dữ, sợ hãi, ngạc nhiên,…) qua các tình huống gần gũi trong cuộc sống và bước đầu nhận ra rằng con người có cảm xúc còn AI thì không.",
+      "grade": 1
+    },
+    {
+      "code": "1.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được rằng AI có thể mô phỏng hoặc nhận diện cảm xúc của con người, chứ không trải nghiệm cảm xúc như con người. AI thể hiện cảm xúc do con người lập trình",
+      "grade": 1
+    },
+    {
+      "code": "1.A1.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được rằng việc AI thể hiện cảm xúc (ví dụ: cười, buồn, ngạc nhiên, tức giận trên màn hình hoặc qua giọng nói) là do con người lập trình hoặc thiết kế trước.",
+      "grade": 1
+    },
+    {
+      "code": "1.A1.4",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được một số ví dụ minh họa (như robot cười khi người dùng kể chuyện vui, hoặc trợ lí ảo nói “Tôi rất vui được giúp bạn”), và giải thích được rằng những biểu hiện này chỉ là phản ứng được lập trình sẵn.",
+      "grade": 1
+    },
+    {
+      "code": "1.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được các cách mà AI thể hiện cảm xúc qua hình ảnh, giọng nói hoặc hành vi (ví dụ: biểu tượng khuôn mặt vui, giọng nói thân thiện, hoặc lời chào dễ thương).",
+      "grade": 1
+    },
+    {
+      "code": "1.A2.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được rằng những biểu hiện này giúp AI giao tiếp tự nhiên hơn với con người, khiến người dùng cảm thấy thoải mái, gần gũi và dễ hợp tác hơn. Nhận diện AI trong cuộc sống",
+      "grade": 1
+    },
+    {
+      "code": "1.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết và kể tên được một số sản phẩm hoặc thiết bị có sử dụng trí tuệ nhân tạo (ví dụ: loa thông minh, điện thoại có trợ lí ảo, robot hút bụi, xe tự lái, camera nhận diện khuôn mặt, ứng dụng dịch ngôn ngữ…). 15",
+      "grade": 1
+    },
+    {
+      "code": "1.A2.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Mô tả được công dụng chính của từng sản phẩm và cách AI giúp sản phẩm hoạt động thông minh hơn (ví dụ: loa thông minh hiểu lệnh bằng giọng nói; robot hút bụi tự tìm đường và tránh chướng ngại vật).",
+      "grade": 1
+    },
+    {
+      "code": "1.B1.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số hành vi sử dụng AI có thể gây hại cho người khác.",
+      "grade": 1
+    },
+    {
+      "code": "1.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng không được phép sử dụng AI với mục đích làm hại người khác.",
+      "grade": 1
+    },
+    {
+      "code": "1.B3.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về việc con người sử dụng AI đúng cách, vì mục đích tốt đẹp.",
+      "grade": 1
+    },
+    {
+      "code": "1.C1.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nhận biết được AI trong một số ví dụ cụ thể và đơn giản về AI.",
+      "grade": 1
+    },
+    {
+      "code": "1.C1.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nhận diện được một số công cụ AI quen thuộc và phổ biến trên điện thoại hoặc máy tính bảng (ví dụ: trợ lí ảo, nhận diện khuôn mặt, …). Chức năng và công cụ AI",
+      "grade": 1
+    },
+    {
+      "code": "1.C1.3",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nhận biết được các thiết bị thông minh có các bộ phận giống với bộ phận của con người (ví dụ: camera là “mắt” và micro là “tai” của các thiết bị đó).",
+      "grade": 1
+    },
+    {
+      "code": "1.C1.4",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nhận biết được AI có khả năng hiểu các mệnh lệnh đơn giản của con người, trò chuyện theo kịch bản định sẵn.",
+      "grade": 1
+    },
+    {
+      "code": "1.C1.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Nhận biết được AI có khả năng xử lí hình ảnh nhận được để nhận diện các đồ vật.",
+      "grade": 1
+    },
+    {
+      "code": "1.C1.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Nhận biết được AI có khả năng xử lí âm thanh để phân biệt các loại âm thanh khác nhau.",
+      "grade": 1
+    },
+    {
+      "code": "1.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về một tình huống mà AI “học” từ hình ảnh hoặc thông tin do con người cung cấp (ví dụ: AI học nhận biết con mèo, quả táo…).",
+      "grade": 1
+    },
+    {
+      "code": "1.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Biết được rằng để AI trả lời đúng cần có nhiều ví dụ đúng và khác nhau để AI học.",
+      "grade": 1
+    },
+    {
+      "code": "1.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng có loại máy thông minh chỉ làm được một việc (như nhận biết hình ảnh), có loại có thể làm nhiều việc khác nhau (như lắng nghe - trả lời, thực hiện theo lệnh…).",
+      "grade": 1
+    },
+    {
+      "code": "1.D2.2",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Xếp được một số máy thông minh vào hai nhóm: nhóm chỉ làm được một việc và nhóm làm được nhiều việc khác nhau.",
+      "grade": 1
+    }
+  ],
+  "2": [
+    {
+      "code": "2.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được một số tình huống trong cuộc sống mà AI có thể hỗ trợ con người hiệu quả, chẳng hạn như: sử dụng AI để dịch ngôn ngữ, tìm kiếm thông tin nhanh, phát hiện lỗi chính tả, hoặc điều khiển thiết bị thông minh trong nhà, …",
+      "grade": 2
+    },
+    {
+      "code": "2.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được một số tình huống trong cuộc sống mà không nên hoặc cần thận trọng khi sử dụng AI, ví dụ: khi AI có thể làm lộ thông tin cá nhân (như khuôn mặt, địa chỉ, dữ liệu giọng nói); khi AI thay thế hoàn toàn con người, dẫn đến sự thiếu trách nhiệm. AI làm việc, con người kiểm soát",
+      "grade": 2
+    },
+    {
+      "code": "2.A1.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ cụ thể về tình huống cần con người giám sát AI (ví dụ: người lái xe vẫn cần quan sát khi xe tự lái hoạt động; bác sĩ cần kiểm tra lại kết quả do AI gợi ý).",
+      "grade": 2
+    },
+    {
+      "code": "2.A1.4",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ cụ thể về thái độ đúng đắn khi sử dụng AI: biết tin tưởng vào công nghệ ở mức hợp lý, nhưng vẫn có trách nhiệm và sự kiểm soát của con người. AI trong gia đình",
+      "grade": 2
+    },
+    {
+      "code": "2.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được một số thiết bị hoặc ứng dụng trong gia đình có sử dụng AI, chẳng hạn như loa thông minh, robot hút bụi, máy điều hoà tự động điều 17",
+      "grade": 2
+    },
+    {
+      "code": "2.A2.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Thực hành sử dụng một số thiết bị hoặc ứng dụng có sử dụng AI với sự giám sát, hỗ trợ của giáo viên.",
+      "grade": 2
+    },
+    {
+      "code": "2.A2.MR2",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được rằng không được sử dụng thiết bị hoặc ứng dụng có sử dụng AI mà không có sự giám sát của người lớn. AI hỗ trợ mọi người",
+      "grade": 2
+    },
+    {
+      "code": "2.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết và kể tên được các thành viên trong gia đình mà AI có thể hỗ trợ.",
+      "grade": 2
+    },
+    {
+      "code": "2.A2.MR3",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được rằng mục tiêu của AI trong bối cảnh gia đình là giúp ích cho cuộc sống của các thành viên tiện nghi hơn, an toàn hơn và có nhiều thời gian cho nhau hơn.",
+      "grade": 2
+    },
+    {
+      "code": "2.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng mỗi lần con người nói chuyện, đặt câu hỏi, tìm kiếm, hoặc đưa ra lựa chọn với các hệ thống AI (như trợ lí ảo, chatbot, ứng dụng gợi ý video hoặc nhạc) thì AI có thể ghi nhận dữ liệu để học hỏi cách con người suy nghĩ và phản hồi.",
+      "grade": 2
+    },
+    {
+      "code": "2.A3.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được rằng con người có vai trò quan trọng trong việc “dạy” AI thông qua cách tương tác: khi con người đưa ra phản hồi đúng, lịch sự, và có trách nhiệm, AI có thể học được các mẫu thông tin tích cực; ngược lại, nếu dữ liệu sai lệch hoặc thiếu chính xác, AI có thể học sai.",
+      "grade": 2
+    },
+    {
+      "code": "2.B1.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng AI đôi khi có thể thiên kiến, tức là đối xử không công bằng với một số nhóm người.",
+      "grade": 2
+    },
+    {
+      "code": "2.B1.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Nêu được ví dụ về các tình huống thể hiện sự thiên kiến của AI.",
+      "grade": 2
+    },
+    {
+      "code": "2.B1.MR2",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Giải thích được rằng nếu dữ liệu chưa đa dạng hoặc chưa công bằng thì AI có thể học theo cách thiên vị.",
+      "grade": 2
+    },
+    {
+      "code": "2.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Kể được tên một số thứ là của riêng em và một số thứ là của người khác.",
+      "grade": 2
+    },
+    {
+      "code": "2.B3.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về quyền sở hữu đối với sản phẩm do con người hoặc AI tạo ra. 18",
+      "grade": 2
+    },
+    {
+      "code": "2.B3.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Phân biệt được thứ của mình với thứ của người khác trong một vài tình huống đơn giản.",
+      "grade": 2
+    },
+    {
+      "code": "2.B3.MR2",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Nêu được rằng muốn dùng thứ của người khác thì phải hỏi và được người đó đồng ý.",
+      "grade": 2
+    },
+    {
+      "code": "2.C1.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Giải thích được “dữ liệu” là những ví dụ (hình ảnh, âm thanh) mà con người dùng để dạy cho AI.",
+      "grade": 2
+    },
+    {
+      "code": "2.C1.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "So sánh được ở mức độ cơ bản giữa cách học của con người và AI.",
+      "grade": 2
+    },
+    {
+      "code": "2.C3.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng AI có thể phân loại.",
+      "grade": 2
+    },
+    {
+      "code": "2.C3.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được rằng AI có thể phân loại sai.",
+      "grade": 2
+    },
+    {
+      "code": "2.C3.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Quan sát được thao tác phân loại đồ vật do giáo viên thực hiện trên thiết bị điện tử hoặc mô phỏng; từ kết quả quan sát đó, so sánh được cách AI phân loại với cách con người phân loại.",
+      "grade": 2
+    },
+    {
+      "code": "2.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được một số vấn đề đơn giản, gần gũi trong đời sống có thể áp dụng AI để giải quyết. Ý tưởng máy thông minh",
+      "grade": 2
+    },
+    {
+      "code": "2.D1.2",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được một số ý tưởng máy thông minh.",
+      "grade": 2
+    },
+    {
+      "code": "2.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Nêu một số ví dụ phù hợp để “dạy” AI trong một tình huống cụ thể.",
+      "grade": 2
+    },
+    {
+      "code": "2.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Giải thích được ở mức độ cơ bản về vai trò của dữ liệu trong việc “dạy” AI trong một tình huống cụ thể.",
+      "grade": 2
+    },
+    {
+      "code": "2.D2.2",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Giải thích được ở mức độ cơ bản rằng cần cung cấp cho AI dữ liệu chính xác, rõ ràng để AI đưa ra kết quả đúng.",
+      "grade": 2
+    },
+    {
+      "code": "2.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Thực hành thu thập một số dữ liệu để “dạy” AI trong một tình huống cụ thể.",
+      "grade": 2
+    }
+  ],
+  "3": [
+    {
+      "code": "3.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết được một số tình huống sử dụng AI hỗ trợ học sinh trong quá trình học tập.",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được cách sử dụng trợ lí học tập thông minh, ứng dụng học ngôn ngữ để hỗ trợ quá trình học tập.",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Thực hành sử dụng trợ lí học tập thông minh, ứng dụng học ngôn ngữ. Không phụ thuộc hoàn toàn vào AI",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân biệt được giữa việc sử dụng AI như công cụ hỗ trợ (đúng đắn, chủ động, có kiểm soát) và việc để AI làm thay toàn bộ (thụ động, thiếu tự lập).",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.MR2",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được hậu quả của việc phụ thuộc quá mức vào AI, như: giảm khả năng tư duy độc lập và sáng tạo; mất dần kĩ năng giải quyết vấn đề; ảnh hưởng đến sự tự tin và bản lĩnh cá nhân. Suy nghĩ kĩ trước khi dùng AI",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.4",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được một số tình huống có thể gây rủi ro hoặc hậu quả không mong muốn khi sử dụng AI.",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.5",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Tự đặt và trả lời được một số câu hỏi trước khi quyết định sử dụng AI trong một tình huống cụ thể, ví dụ: Việc này có cần dùng AI không? Nếu AI đưa ra kết quả sai thì điều gì có thể xảy ra? …",
+      "grade": 3
+    },
+    {
+      "code": "3.A1.MR3",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Giải thích được rằng việc suy nghĩ và kiểm tra trước khi dùng AI giúp con người phòng tránh rủi ro, bảo vệ an toàn và quyền riêng tư, đồng thời đảm bảo AI được sử dụng vì mục đích tốt.",
+      "grade": 3
+    },
+    {
+      "code": "3.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết được một số ứng dụng hoặc thiết bị có sử dụng AI trong trường học, chẳng hạn như: robot hoặc bảng thông minh, ứng dụng chấm bài hoặc nhận dạng chữ viết.",
+      "grade": 3
+    },
+    {
+      "code": "3.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được mục đích của việc sử dụng AI trong trường học là hỗ trợ giáo viên và học sinh học tập hiệu quả hơn, giúp: cá nhân hoá việc học theo năng lực từng học sinh; tăng hứng thú học tập thông qua các hoạt động tương tác.",
+      "grade": 3
+    },
+    {
+      "code": "3.A2.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Mô tả được trường học mong muốn trong tương lai – nơi có sự xuất hiện của một số ứng dụng, thiết bị AI.",
+      "grade": 3
+    },
+    {
+      "code": "3.A2.MR2",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Đề xuất được một số nguyên tắc khi sử dụng AI trong học tập. 20",
+      "grade": 3
+    },
+    {
+      "code": "3.A2.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được các đối tượng trong trường học mà AI có thể hỗ trợ, bao gồm: học sinh, giáo viên, …",
+      "grade": 3
+    },
+    {
+      "code": "3.A2.MR3",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được mục tiêu của AI trong bối cảnh trường học là hỗ trợ tất cả các thành viên của nhà trường, giúp việc dạy và học trở nên dễ dàng, hiệu quả và công bằng hơn.",
+      "grade": 3
+    },
+    {
+      "code": "3.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được một số ví dụ cụ thể về việc AI có thể sai, như: ứng dụng dịch sai nghĩa từ hoặc câu; AI nhận diện nhầm hình ảnh hoặc khuôn mặt; chatbot đưa ra thông tin không đúng sự thật.",
+      "grade": 3
+    },
+    {
+      "code": "3.A3.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được rằng khi sử dụng AI, học sinh cần kiểm tra lại kết quả, so sánh với nhiều nguồn thông tin khác nhau và trao đổi với giáo viên hoặc người lớn để xác minh.",
+      "grade": 3
+    },
+    {
+      "code": "3.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nhận biết và nêu được ví dụ về việc thông tin hoặc sản phẩm do AI tạo ra có thể không đúng với sự thật.",
+      "grade": 3
+    },
+    {
+      "code": "3.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng không nên tạo ra hoặc sử dụng AI cho các mục đích xấu như lừa đảo, bắt nạt hay gây hại cho người khác.",
+      "grade": 3
+    },
+    {
+      "code": "3.B3.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Nêu được rằng con người cần cung cấp dữ liệu đúng và đa dạng để AI hoạt động chính xác, công bằng.",
+      "grade": 3
+    },
+    {
+      "code": "3.C4.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Trình bày được khái niệm dữ liệu thông qua một số ví dụ.",
+      "grade": 3
+    },
+    {
+      "code": "3.C4.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Xác định được đặc trưng của một số bộ dữ liệu đơn giản.",
+      "grade": 3
+    },
+    {
+      "code": "3.C5.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Mô tả được cấu trúc nếu … thì … trong việc giải quyết tình huống hoặc phân loại.",
+      "grade": 3
+    },
+    {
+      "code": "3.C5.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Nêu được một số công cụ AI đơn giản sử dụng cấu trúc “nếu … thì …”. Kĩ thuật học máy",
+      "grade": 3
+    },
+    {
+      "code": "3.C5.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được đặc điểm chính của học máy là học trên dữ liệu. 21",
+      "grade": 3
+    },
+    {
+      "code": "3.C5.3",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được một số tình huống có thể áp dụng học máy (ví dụ: phân loại rau củ trong nông trại thông minh, dự báo mưa lũ, …).",
+      "grade": 3
+    },
+    {
+      "code": "3.C5.4",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nhận biết được bài toán học máy phân loại và bài toán học máy dự đoán thông qua tình huống cụ thể.",
+      "grade": 3
+    },
+    {
+      "code": "3.C5.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Minh họa được bài toán học máy phân loại và bài toán học máy dự đoán bằng các công cụ mã nguồn mở hoặc miễn phí như Teachable Machine, ML for Kids tích hợp trong Scratch, hoặc một số công cụ phù hợp khác.",
+      "grade": 3
+    },
+    {
+      "code": "3.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được quá trình đơn giản để huấn luyện AI gồm các bước: thu thập ví dụ và cho AI học từ các ví dụ đó.",
+      "grade": 3
+    },
+    {
+      "code": "3.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được rằng dữ liệu dùng để dạy AI có thể bị thiếu, nhầm lẫn hoặc không đúng sự thật.",
+      "grade": 3
+    },
+    {
+      "code": "3.D2.2",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được một số yêu cầu cơ bản đối với dữ liệu dùng để huấn luyện AI.",
+      "grade": 3
+    },
+    {
+      "code": "3.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Thực hành kiểm tra một bộ thẻ dữ liệu mẫu và loại bỏ được các thẻ gán nhãn nhầm, thẻ không đúng sự thật. Máy thông minh có thể học sai",
+      "grade": 3
+    },
+    {
+      "code": "3.D2.3",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được rằng nếu dữ liệu sai hoặc không tốt thì AI sẽ không hiệu quả, thậm chí hoạt động sai.",
+      "grade": 3
+    }
+  ],
+  "4": [
+    {
+      "code": "4.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được một số lĩnh vực hoặc công việc cụ thể mà trí tuệ nhân tạo (AI) có thể hỗ trợ con người, chẳng hạn như nông nghiệp, y tế, giao thông, … AI hỗ trợ, con người suy nghĩ",
+      "grade": 4
+    },
+    {
+      "code": "4.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết được rằng trí tuệ nhân tạo (AI) được tạo ra để hỗ trợ con người học tập và làm việc hiệu quả hơn nhưng không thể thay thế tư duy, cảm xúc và sự sáng tạo của con người. 22",
+      "grade": 4
+    },
+    {
+      "code": "4.A1.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được ví dụ cụ thể về việc AI hỗ trợ trong học tập và giải thích được vì sao người học vẫn cần tự suy nghĩ, kiểm tra và hiểu bài thay vì chỉ chép kết quả do AI đưa ra.",
+      "grade": 4
+    },
+    {
+      "code": "4.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được rằng AI được con người tạo ra để hỗ trợ các hoạt động trong đời sống xã hội, giúp giải quyết vấn đề, tiết kiệm thời gian và nâng cao chất lượng cuộc sống. AI trong xã hội",
+      "grade": 4
+    },
+    {
+      "code": "4.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được các đối tượng trong xã hội AI có thể hỗ trợ, bao gồm: người lao động, người yếu thế, …",
+      "grade": 4
+    },
+    {
+      "code": "4.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được rằng việc quyết định có sử dụng AI hay không phụ thuộc vào mục đích, nhu cầu và sự an toàn của con người.",
+      "grade": 4
+    },
+    {
+      "code": "4.A3.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Thực hành đưa quyết định có sử dụng AI hay không trong một số tình huống cụ thể: Nếu AI mang lại lợi ích, giúp tiết kiệm thời gian, tăng hiệu quả hoặc đảm bảo an toàn, con người có thể lựa chọn sử dụng. Nếu AI gây rủi ro, xâm phạm quyền riêng tư, hoặc ảnh hưởng đến giá trị đạo đức, con người có quyền từ chối hoặc dừng sử dụng.",
+      "grade": 4
+    },
+    {
+      "code": "4.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số loại thông tin cá nhân cần được giữ bí mật và không nên chia sẻ cho AI.",
+      "grade": 4
+    },
+    {
+      "code": "4.B2.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số hậu quả khi thông tin cá nhân bị lộ hoặc bị lợi dụng.",
+      "grade": 4
+    },
+    {
+      "code": "4.B2.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Thực hành xử lí theo hướng dẫn một tình huống giả định đơn giản về việc bị lộ thông tin cá nhân khi dùng AI.",
+      "grade": 4
+    },
+    {
+      "code": "4.C2.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được các ứng dụng của AI trong học tập và đời sống, đặc biệt là các ứng dụng gần gũi với bối cảnh Việt Nam.",
+      "grade": 4
+    },
+    {
+      "code": "4.C2.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Thực hành trải nghiệm một số ứng dụng AI trong học tập và đời sống. 23",
+      "grade": 4
+    },
+    {
+      "code": "4.C5.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Thực hiện lại được theo từng bước các thao tác cơ bản với công cụ trải nghiệm AI trực quan dựa trên học máy có giám sát như Teachable Machine, ML for Kids tích hợp trong Scratch, hoặc một số công cụ phù hợp khác theo hướng dẫn mẫu của giáo viên: (1) mở công cụ và đặt tên cho các nhóm cần phân loại; (2) đưa vào mỗi nhóm một số hình ảnh mẫu; (3) bấm lệnh cho máy học từ các mẫu đó; (4) đưa một hình ảnh mới vào và quan sát kết quả máy đưa ra.",
+      "grade": 4
+    },
+    {
+      "code": "4.C5.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Lặp lại được đầy đủ bốn bước trên với một nhóm dữ liệu tự chọn khác và mô tả được thao tác ở mỗi bước đã làm.",
+      "grade": 4
+    },
+    {
+      "code": "4.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được một số ý tưởng ban đầu về cách AI có thể học hoặc giúp giải quyết vấn đề, ưu tiên các vấn đề gần gũi với bối cảnh Việt Nam, ví dụ: AI học từ ảnh các loại rác để phân loại rác tái chế.",
+      "grade": 4
+    },
+    {
+      "code": "4.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Trình bày được cách sử dụng AI để giải quyết vấn đề trong tình huống đơn giản, ưu tiên các vấn đề gần gũi với bối cảnh Việt Nam, ví dụ: AI học từ giọng nói và chữ viết của đồng bào dân tộc thiểu số để dịch sang tiếng phổ thông, giúp học sinh vùng cao học tập thuận lợi hơn.",
+      "grade": 4
+    },
+    {
+      "code": "4.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được rằng con người cần liên tục đánh giá và nâng cấp sản phẩm để hệ thống AI cho ra kết quả tốt hơn.",
+      "grade": 4
+    }
+  ],
+  "5": [
+    {
+      "code": "5.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được rằng AI có thể thực hiện một số công việc thay con người, đặc biệt là những việc lặp đi lặp lại, nguy hiểm hoặc đòi hỏi tính chính xác cao, như: robot lắp ráp sản phẩm trong nhà máy; AI kiểm tra lỗi trong sản xuất; xe tự lái chở hàng hoá.",
+      "grade": 5
+    },
+    {
+      "code": "5.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ cụ thể về trách nhiệm của người tạo và sử dụng AI, ví dụ: nếu AI chẩn đoán 24",
+      "grade": 5
+    },
+    {
+      "code": "5.A1.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Trình bày được con người chịu trách nhiệm cuối cùng về mọi quyết định hoặc kết quả do AI tạo ra.",
+      "grade": 5
+    },
+    {
+      "code": "5.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được rằng mục đích chính của AI là hỗ trợ con người, chứ không thay thế vai trò, tư duy, cảm xúc và trách nhiệm của con người trong xã hội.",
+      "grade": 5
+    },
+    {
+      "code": "5.A2.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Trình bày được rằng dù AI làm được nhiều việc, nhưng chỉ con người mới có khả năng suy nghĩ sáng tạo, hiểu cảm xúc và đưa ra quyết định đạo đức – vì vậy, con người phải luôn kiểm soát, định hướng và chịu trách nhiệm về cách AI được sử dụng. AI phục vụ lợi ích chung",
+      "grade": 5
+    },
+    {
+      "code": "5.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được rằng AI được con người tạo ra nhằm phục vụ lợi ích chung của xã hội, giúp cải thiện chất lượng cuộc sống, giải quyết các vấn đề phức tạp và hỗ trợ con người trong nhiều lĩnh vực khác nhau.",
+      "grade": 5
+    },
+    {
+      "code": "5.A2.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ cụ thể về việc AI mang lại lợi ích cho cộng đồng: y tế, giáo dục, môi trường.",
+      "grade": 5
+    },
+    {
+      "code": "5.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được rằng AI đang ngày càng trở nên phổ biến trong cuộc sống, vì vậy mọi người – dù là trẻ em, người lớn hay người cao tuổi – đều cần hiểu và biết cách sử dụng AI để phục vụ cuộc sống, học tập và công việc một cách an toàn, hiệu quả.",
+      "grade": 5
+    },
+    {
+      "code": "5.A3.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được rằng việc sử dụng AI phải phù hợp với nhu cầu, khả năng và mục đích của từng người, tránh lạm dụng hoặc sử dụng không an toàn (ví dụ: chia sẻ thông tin cá nhân, tin tưởng tuyệt đối vào AI).",
+      "grade": 5
+    },
+    {
+      "code": "5.A3.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Trình bày được ý tưởng về một số tình huống trong tương lai mà AI hỗ trợ trẻ em, người lớn hoặc người cao tuổi.",
+      "grade": 5
+    },
+    {
+      "code": "5.B1.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số ví dụ về sự công bằng hoặc không công bằng trong một số tình huống đơn giản, trong đời sống và khi AI phục vụ con người. 25",
+      "grade": 5
+    },
+    {
+      "code": "5.B1.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Giải thích được rằng AI cần phục vụ con người một cách công bằng, không phân biệt giới tính, vùng miền, điều kiện kinh tế hay hoàn cảnh khác nhau.",
+      "grade": 5
+    },
+    {
+      "code": "5.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số cách giúp AI hoạt động công bằng hơn, chẳng hạn như sử dụng dữ liệu đa dạng, tránh định kiến hoặc kiểm tra lại kết quả do AI tạo ra.",
+      "grade": 5
+    },
+    {
+      "code": "5.B2.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Đề xuất được một số quy tắc khi thu thập dữ liệu để có được bộ dữ liệu đa dạng.",
+      "grade": 5
+    },
+    {
+      "code": "5.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Giải thích được vì sao con người cần hiểu cách AI đưa ra quyết định, nhằm đảm bảo tính minh bạch và độ tin cậy khi sử dụng AI.",
+      "grade": 5
+    },
+    {
+      "code": "5.C5.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được cách sử dụng cấu trúc nếu … thì … trong lập trình AI đơn giản.",
+      "grade": 5
+    },
+    {
+      "code": "5.C5.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Thực hành sử dụng cấu trúc nếu … thì … trong lập trình AI đơn giản. Làm quen với một số công cụ ứng dụng học máy trực quan",
+      "grade": 5
+    },
+    {
+      "code": "5.C5.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Thực hiện được các thao tác cơ bản với công cụ trải nghiệm AI trực quan dựa trên học máy có giám sát như Teachable Machine, ML for Kids tích hợp trong Scratch, hoặc một số công cụ phù hợp khác.",
+      "grade": 5
+    },
+    {
+      "code": "5.C5.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Huấn luyện được một mô hình phân loại đơn giản trên công cụ trải nghiệm AI trực quan, ví dụ: phân loại lá cây khoẻ – lá cây bị sâu bệnh.",
+      "grade": 5
+    },
+    {
+      "code": "5.C5.MR3",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Kiểm tra được kết quả do mô hình đưa ra, chỉ ra được những trường hợp mô hình phân loại sai.",
+      "grade": 5
+    },
+    {
+      "code": "5.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Mô tả được ở mức độ đơn giản về các bước cơ bản trong quá trình huấn luyện mô hình AI: xác định vấn đề, thu thập dữ liệu, dạy máy học, kiểm tra và đánh giá kết quả. 26",
+      "grade": 5
+    },
+    {
+      "code": "5.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Thực hành thu thập dữ liệu nhằm huấn luyện mô hình AI giải quyết một vấn đề đơn giản.",
+      "grade": 5
+    },
+    {
+      "code": "5.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Giải thích được bằng ví dụ rằng hệ thống AI có thể được cải tiến và hoạt động tốt hơn khi dữ liệu được bổ sung và cập nhật thường xuyên.",
+      "grade": 5
+    },
+    {
+      "code": "5.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Thực hành cải tiến hệ thống AI bằng cách bổ sung dữ liệu.",
+      "grade": 5
+    }
+  ],
+  "6": [
+    {
+      "code": "6.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được AI là sản phẩm do con người tạo ra, lập trình và điều khiển để thực hiện những nhiệm vụ cụ thể; AI không tự sinh ra và không hoạt động độc lập với con người. Nêu được ví dụ về một số công cụ AI quen thuộc trong đời sống hằng ngày và chỉ ra được vai trò của con người trong việc tạo ra chúng. AI hoạt động theo lập trình",
+      "grade": 6
+    },
+    {
+      "code": "6.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được vai trò của AI chỉ là công cụ hỗ trợ hoạt động của con người; con người đưa ra quyết định cuối cùng và chịu trách nhiệm khi sử dụng AI.",
+      "grade": 6
+    },
+    {
+      "code": "6.A1.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Thực hiện được việc kiểm tra lại một kết quả do AI đưa ra (đối chiếu với sách giáo khoa, nguồn tin cậy khác hoặc hỏi thầy cô) trước khi sử dụng, thể hiện thói quen “con người quyết định cuối cùng”.",
+      "grade": 6
+    },
+    {
+      "code": "6.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về tình huống con người ra quyết định với sự hỗ trợ của AI (ví dụ: trong y tế, AI gợi ý chẩn đoán, bác sĩ xem xét và quyết định phương án điều trị; trong giao thông, AI đề xuất lộ trình nhanh hơn, người lái xe cân nhắc trước khi lựa chọn). Thực hành ra quyết định trong một tình huống giả định có gợi ý của AI (nêu lại gợi ý của AI, cân nhắc và đưa ra lựa chọn của bản thân kèm lí do). Học hỏi và phát triển với AI",
+      "grade": 6
+    },
+    {
+      "code": "6.A3.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được lợi ích của AI trong việc hỗ trợ con người học hỏi, rèn luyện kĩ năng và mở rộng hiểu biết khi được sử dụng đúng cách, có mục đích rõ ràng. Sử dụng được một công cụ AI phù hợp lứa tuổi (trực tiếp hoặc theo hướng dẫn của giáo viên) để 27",
+      "grade": 6
+    },
+    {
+      "code": "6.A3.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được dữ liệu cá nhân (hình ảnh, giọng nói, họ tên, địa chỉ, thông tin học tập, thói quen sử dụng mạng,...) là tài sản của mỗi người; chỉ chủ sở hữu mới có quyền quyết định việc chia sẻ hoặc cho phép sử dụng dữ liệu đó.",
+      "grade": 6
+    },
+    {
+      "code": "6.A3.4",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được khái niệm quyền riêng tư ở mức đơn giản; nêu được tác hại khi dữ liệu cá nhân bị sử dụng sai mục đích và ý nghĩa của việc bảo vệ quyền riêng tư đối với sự an toàn, danh dự và tự do của con người trong môi trường số. Nhận biết được một số cách ứng phó ban đầu khi có nguy cơ mất an toàn dữ liệu cá nhân (ví dụ: dừng chia sẻ; báo cho cha mẹ, thầy cô; báo cáo trên nền tảng).",
+      "grade": 6
+    },
+    {
+      "code": "6.B1.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Chỉ ra được mặt tích cực và hạn chế của một số tính năng AI cụ thể (ví dụ: tính năng thu thập dữ liệu người dùng giúp AI đưa ra gợi ý chính xác hơn nhưng có thể ảnh hưởng đến quyền riêng tư).",
+      "grade": 6
+    },
+    {
+      "code": "6.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Đặt được một số câu hỏi đơn giản để kiểm tra tính an toàn và minh bạch của ứng dụng AI (ví dụ: “Công cụ này có an toàn không?”, “Công cụ này có thu thập thông tin cá nhân không?”, “Có thể tắt tính năng này không?”) và áp dụng các câu hỏi đó để nhận xét đơn giản về mức độ an toàn, phù hợp của một số công cụ AI.",
+      "grade": 6
+    },
+    {
+      "code": "6.C1.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Giải thích được hai thành phần chính để huấn luyện (“dạy”) AI là dữ liệu (ví dụ: văn bản, hình ảnh) và thuật toán (phương pháp học từ dữ liệu). Mô tả được các bước hoạt động chính của một công cụ AI qua ví dụ đơn giản (ví dụ: trợ lí ảo nhận câu hỏi bằng giọng nói → chuyển giọng nói thành văn bản → xử lí để hiểu yêu cầu → tìm và đưa ra câu trả lời).",
+      "grade": 6
+    },
+    {
+      "code": "6.C1.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Chỉ ra được mối liên hệ giữa quá trình huấn luyện và hoạt động của một công cụ AI qua ví dụ đơn giản (ví dụ: trợ lí ảo trả lời được câu hỏi nhờ đã được huấn luyện từ dữ liệu; dữ liệu huấn luyện càng phong phú, câu trả lời càng chính xác). 28",
+      "grade": 6
+    },
+    {
+      "code": "6.C1.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Thực hiện được thử nghiệm đơn giản với một công cụ AI và nhận xét được các bước hoạt động của công cụ đó (ví dụ: đặt cùng một câu hỏi cho trợ lí ảo theo các cách nói khác nhau và quan sát kết quả). Tác động tích cực và tiêu cực của AI",
+      "grade": 6
+    },
+    {
+      "code": "6.C1.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về tác động tích cực và tác động tiêu cực của AI đối với cuộc sống của bản thân, gia đình.",
+      "grade": 6
+    },
+    {
+      "code": "6.C1.MR3",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân tích được ở mức đơn giản tác động của một công cụ AI cụ thể đối với bản thân và gia đình, trong đó chỉ ra cả mặt tích cực và mặt tiêu cực (ví dụ: tính năng gợi ý video giúp tìm được nội dung phù hợp nhưng dễ lôi cuốn người xem, gây mất nhiều thời gian).",
+      "grade": 6
+    },
+    {
+      "code": "6.C2.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Phân biệt được công cụ, tính năng có ứng dụng AI và không ứng dụng AI qua các ví dụ gần gũi trong cuộc sống (ví dụ: trợ lí ảo có ứng dụng AI; máy tính bỏ túi không ứng dụng AI).",
+      "grade": 6
+    },
+    {
+      "code": "6.C2.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Kể được tên và mô tả được chức năng chính của một số công cụ AI thông dụng (như trợ lí ảo; ứng dụng bản đồ; công cụ dịch thuật;…).",
+      "grade": 6
+    },
+    {
+      "code": "6.C2.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Nêu được ví dụ về ứng dụng AI trong cuộc sống, ưu tiên các vấn đề gắn với thực tiễn ở Việt Nam (ví dụ: AI trong nông nghiệp, giáo dục, dự báo lũ, dịch ngôn ngữ các dân tộc,...).",
+      "grade": 6
+    },
+    {
+      "code": "6.C3.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Kể được tên một số công nghệ AI quen thuộc trong đời sống (ví dụ: nhận dạng hình ảnh, chuyển đổi giữa văn bản và giọng nói,...).",
+      "grade": 6
+    },
+    {
+      "code": "6.C3.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Trình bày được một số tính năng AI tích hợp trong các ứng dụng thường gặp (ví dụ: gợi ý đề xuất nội dung trên mạng xã hội, quảng cáo cá nhân hoá,...) và nêu được ảnh hưởng của các tính năng đó đến việc sử dụng và ra quyết định của người dùng.",
+      "grade": 6
+    },
+    {
+      "code": "6.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được một số tình huống quen thuộc nên hoặc không nên sử dụng AI (ví dụ: nên dùng AI để luyện phát âm ngoại ngữ, tìm đường đi; không nên nhờ AI viết hộ bài văn, làm hộ bài tập vì làm giảm cơ hội tự rèn luyện, làm giảm khả năng tự suy nghĩ 29",
+      "grade": 6
+    },
+    {
+      "code": "6.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Trình bày được ý kiến cá nhân về việc nên hay không nên sử dụng AI trong một số tình huống thực tế; giải thích được lí do lựa chọn dựa trên lợi ích và tác hại của việc sử dụng AI trong tình huống đó.",
+      "grade": 6
+    },
+    {
+      "code": "6.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được một số giới hạn của hệ thống AI so với con người qua các tình huống, công việc mà con người thực hiện phù hợp hơn (chẳng hạn như các công việc cần sự thấu hiểu cảm xúc, sáng tạo, ra quyết định trong tình huống phức tạp).",
+      "grade": 6
+    },
+    {
+      "code": "6.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Giải thích được vì sao AI gặp giới hạn trong một số công việc so với con người (ví dụ: AI học từ dữ liệu có sẵn nên khó xử lí tốt các tình huống mới, chưa từng có trong dữ liệu; AI không có cảm xúc thật nên khó thấu hiểu con người).",
+      "grade": 6
+    },
+    {
+      "code": "6.D2.MR2",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Đề xuất được cách kết hợp giữa con người và AI trong một công việc cụ thể để phát huy thế mạnh của mỗi bên (ví dụ: AI gợi ý ý tưởng, con người lựa chọn và hoàn thiện).",
+      "grade": 6
+    }
+  ],
+  "7": [
+    {
+      "code": "7.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được lí do con người cần giữ quyền ra quyết định khi sử dụng AI (ví dụ như bảo đảm công bằng: con người có thể xem xét hoàn cảnh và cảm xúc mà AI không hiểu được; bảo đảm an toàn: con người có thể ngăn chặn các hành động sai lệch hoặc nguy hiểm do AI gây ra; bảo vệ quyền lợi con người: không để AI xâm phạm quyền riêng tư, tự do hoặc phẩm giá cá nhân). Xác thực kết quả",
+      "grade": 7
+    },
+    {
+      "code": "7.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ hậu quả có thể xảy ra khi không có sự xác thực của con người về độ chính xác của kết quả do AI đưa ra trong một số trường hợp thực tế.",
+      "grade": 7
+    },
+    {
+      "code": "7.A1.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Thực hiện được việc kiểm chứng một thông tin do AI cung cấp bằng ít nhất một nguồn 30",
+      "grade": 7
+    },
+    {
+      "code": "7.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân tích được các tác hại có thể xảy ra nếu con người cho phép AI đưa ra quyết định cuối cùng trong một số tình huống thực tế. Ngăn chặn công cụ AI có hại",
+      "grade": 7
+    },
+    {
+      "code": "7.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được các hậu quả có thể xảy ra nếu không có các quy định pháp lý nhằm ngăn chặn việc thiết kế và sản xuất các công cụ AI có hại trong một số tình huống thực tế.",
+      "grade": 7
+    },
+    {
+      "code": "7.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về tình huống AI được phép tự động thực hiện một số thao tác thay con người (ví dụ: tự động kiểm tra và sửa lỗi chính tả khi soạn thảo văn bản) và tình huống con người cần trực tiếp quyết định.",
+      "grade": 7
+    },
+    {
+      "code": "7.A3.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Trình bày được ví dụ về xung đột giữa quyền tự chủ của con người và mức độ tự chủ của AI.",
+      "grade": 7
+    },
+    {
+      "code": "7.A3.MR2",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được yêu cầu đánh giá mức độ tự chủ của AI dựa trên nhu cầu và yếu tố bối cảnh cụ thể. Bảo vệ quyền tự chủ của con người",
+      "grade": 7
+    },
+    {
+      "code": "7.A3.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được sự cần thiết phải bảo vệ quyền tự chủ của con người khi sử dụng AI để đưa ra các quyết định quan trọng.",
+      "grade": 7
+    },
+    {
+      "code": "7.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số tiêu chí đơn giản (dựa trên các nguyên tắc đạo đức) để đánh giá mức độ phù hợp, an toàn của một ứng dụng AI.",
+      "grade": 7
+    },
+    {
+      "code": "7.B2.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về các hành động cụ thể góp phần xây dựng môi trường AI có đạo đức (ví dụ: báo cáo lỗi, không sử dụng ứng dụng độc hại, yêu cầu sự minh bạch).",
+      "grade": 7
+    },
+    {
+      "code": "7.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Thể hiện được thái độ và cam kết cá nhân trong việc sử dụng AI có trách nhiệm thông qua một số hình thức đơn giản (ví dụ: bài viết ngắn, hùng biện hoặc sản phẩm học tập cụ thể). Thể hiện được việc khai báo trung thực khi có sử dụng AI trong sản phẩm học tập.",
+      "grade": 7
+    },
+    {
+      "code": "7.C4.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Trình bày được các vấn đề đạo đức có thể nảy sinh từ dữ liệu huấn luyện AI (ví dụ: dữ liệu thiếu đa dạng dẫn đến phân biệt đối xử, dữ liệu riêng tư bị xâm phạm).",
+      "grade": 7
+    },
+    {
+      "code": "7.C4.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân tích được tầm quan trọng của việc sử dụng bộ dữ liệu “sạch” và “công bằng” trong việc tạo ra các công cụ AI có đạo đức.",
+      "grade": 7
+    },
+    {
+      "code": "7.C5.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Mô tả được các bước chính trong quá trình huấn luyện AI qua một ví dụ cụ thể (như thu thập và gán nhãn dữ liệu ảnh chó, mèo; cho máy học từ dữ liệu; kiểm tra khả năng phân biệt trên ảnh mới; điều chỉnh nếu kết quả chưa tốt).",
+      "grade": 7
+    },
+    {
+      "code": "7.C5.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về một số cách học khác nhau của AI ở mức độ đơn giản (ví dụ: học từ dữ liệu đã được con người phân loại, gán nhãn sẵn; tự tìm ra quy luật từ dữ liệu; học qua thử nghiệm và rút kinh nghiệm từ kết quả).",
+      "grade": 7
+    },
+    {
+      "code": "7.C5.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân biệt được ba phương pháp học máy cơ bản (học có giám sát, học không giám sát, học tăng cường); nêu được một số ứng dụng AI sử dụng các phương pháp học máy đó.",
+      "grade": 7
+    },
+    {
+      "code": "7.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về một vấn đề trong trường học hoặc cộng đồng có thể được giải quyết hoặc cải thiện bằng AI; mô tả được phạm vi của vấn đề đó (ví dụ: trong trường học có thể xây dựng chatbot giải đáp thắc mắc thường gặp về nội quy, lịch học cho học sinh; trong cộng đồng có thể dùng AI nhận dạng hình ảnh hỗ trợ phân loại rác tái chế).",
+      "grade": 7
+    },
+    {
+      "code": "7.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Phân tích được tính khả thi của một ý tưởng dự án AI bằng cách trả lời các câu hỏi (ví dụ: dữ liệu có dễ thu thập không, có rủi ro đạo đức hay không, mức độ phức tạp và chi phí có phù hợp hay không).",
+      "grade": 7
+    },
+    {
+      "code": "7.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Lập được kế hoạch cho một dự án sáng tạo có sử dụng AI theo nhóm nhỏ.",
+      "grade": 7
+    },
+    {
+      "code": "7.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Thực hành tạo được sản phẩm đơn giản theo kế hoạch đã xây dựng. 32",
+      "grade": 7
+    }
+  ],
+  "8": [
+    {
+      "code": "8.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được một số lĩnh vực mà AI không nên thay thế con người (ví dụ: trong giáo dục, giáo viên hiểu tâm lí học sinh, biết khích lệ, hướng dẫn và dạy đạo đức; trong y tế, bác sĩ không chỉ chữa bệnh mà còn động viên, lắng nghe bệnh nhân; trong nghệ thuật, nghệ sĩ thể hiện cảm xúc và trải nghiệm riêng mà AI không có được;...). Rủi ro khi lạm dụng AI",
+      "grade": 8
+    },
+    {
+      "code": "8.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được những rủi ro của việc lạm dụng các công cụ AI tạo sinh, liên hệ với nguy cơ suy giảm tư duy phản biện, kĩ năng sáng tạo, sử dụng thông tin sai lệch; từ đó nêu được sự cần thiết của việc kiểm chứng nguồn thông tin khi sử dụng AI tạo sinh trong học tập.",
+      "grade": 8
+    },
+    {
+      "code": "8.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được việc một số hệ thống, dịch vụ sử dụng AI có thể thu thập, phân tích và sử dụng dữ liệu cá nhân của người dùng (vị trí, thói quen, hình ảnh, giọng nói, sở thích,...) để kiểm soát hành vi, gây ảnh hưởng hoặc thao túng quyết định của con người.",
+      "grade": 8
+    },
+    {
+      "code": "8.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nhận biết được hiện tượng sử dụng AI để kiểm soát người dùng (ví dụ: việc sử dụng AI không minh bạch hoặc sai mục đích, khiến người dùng bị theo dõi mà không biết; bị đề xuất thông tin, quảng cáo hoặc nội dung một chiều; bị thao túng suy nghĩ hoặc hành động; bị mất quyền kiểm soát dữ liệu cá nhân).",
+      "grade": 8
+    },
+    {
+      "code": "8.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân biệt được vai trò của người dùng và người phát triển khi tương tác với AI.",
+      "grade": 8
+    },
+    {
+      "code": "8.A3.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Giải thích được việc người dùng cũng góp phần tác động đến công cụ AI trong quá trình sử dụng (ví dụ: dữ liệu và phản hồi của người dùng được thu thập để tiếp tục huấn luyện, cải thiện hệ thống; nội dung người dùng tương tác nhiều sẽ được AI ưu tiên đề xuất). Trách nhiệm pháp lý",
+      "grade": 8
+    },
+    {
+      "code": "8.A3.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về các bên (người sáng tạo, nhà cung cấp, người sử dụng) phải chịu trách nhiệm pháp lý đối với hậu quả do công cụ AI gây ra trong một số tình huống cụ thể (ví dụ: người dùng AI tạo 33",
+      "grade": 8
+    },
+    {
+      "code": "8.A3.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được những việc thể hiện trách nhiệm giải trình khi sử dụng AI trong học tập và tạo sản phẩm (ví dụ: cho biết sản phẩm có sử dụng AI và sử dụng ở phần nào; nói rõ công cụ AI đã dùng khi được hỏi; chịu trách nhiệm kiểm tra tính chính xác của nội dung do AI tạo ra trước khi sử dụng).",
+      "grade": 8
+    },
+    {
+      "code": "8.A3.MR2",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được những việc thể hiện trách nhiệm giải trình khi tạo ra hoặc thiết kế AI (ví dụ: cho biết sản phẩm sử dụng dữ liệu gì, giải thích cách sản phẩm hoạt động, nhận trách nhiệm về kết quả sản phẩm tạo ra).",
+      "grade": 8
+    },
+    {
+      "code": "8.B1.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nhận diện và phân loại được một số rủi ro phổ biến khi sử dụng AI: rủi ro về dữ liệu và quyền riêng tư; rủi ro do thuật toán thiên vị hoặc đưa ra kết luận sai; rủi ro bị lừa đảo bằng nội dung giả mạo do AI tạo ra (hình ảnh, giọng nói, tin nhắn giả).",
+      "grade": 8
+    },
+    {
+      "code": "8.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Trình bày được một số việc làm, cách thức đơn giản để bảo vệ dữ liệu cá nhân, tôn trọng bản quyền và phòng tránh, giảm thiểu rủi ro khi sử dụng, phát triển AI trong các dự án học tập.",
+      "grade": 8
+    },
+    {
+      "code": "8.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được các vấn đề đạo đức cần lưu ý khi phát triển AI (ví dụ: bảo mật thông tin, không cung cấp thông tin sai lệch, không xúc phạm người khác).",
+      "grade": 8
+    },
+    {
+      "code": "8.C1.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Mô tả được ở mức đơn giản cách AI thực hiện một số chức năng cơ bản như “đọc”, “nghe”, “nhìn” (ví dụ: để “nghe”, AI thu âm thanh, chuyển giọng nói thành văn bản rồi phân tích để hiểu nội dung; để “nhìn”, AI phân tích các đặc điểm trong hình ảnh và so sánh với dữ liệu đã học).",
+      "grade": 8
+    },
+    {
+      "code": "8.C1.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân tích được một số công nghệ, kĩ thuật đảm nhiệm các chức năng “đọc”, “nghe”, 34",
+      "grade": 8
+    },
+    {
+      "code": "8.C5.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được cách AI nhận diện cảm xúc dựa vào các đặc điểm (ví dụ: nét mặt; từ khoá trong văn bản và lời nói; ngữ điệu của lời nói; cử chỉ như gật đầu, lắc đầu,...).",
+      "grade": 8
+    },
+    {
+      "code": "8.C5.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Nhận xét được ở mức đơn giản về độ tin cậy và giới hạn của việc AI nhận diện cảm xúc (ví dụ: cùng một nét mặt có thể biểu thị những cảm xúc khác nhau tùy theo bối cảnh).",
+      "grade": 8
+    },
+    {
+      "code": "8.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Xác định được một số vấn đề thực tế có thể giải quyết bằng AI.",
+      "grade": 8
+    },
+    {
+      "code": "8.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Lập được kế hoạch sơ bộ cho dự án AI để giải quyết vấn đề đã xác định.",
+      "grade": 8
+    },
+    {
+      "code": "8.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được ví dụ về một kịch bản hội thoại cho một tình huống cụ thể có ứng dụng AI (ví dụ: chatbot, trợ lí ảo).",
+      "grade": 8
+    },
+    {
+      "code": "8.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Mô tả được một số đặc điểm cơ bản của một trải nghiệm người dùng (UX) tốt khi tương tác với AI.",
+      "grade": 8
+    },
+    {
+      "code": "8.D2.MR2",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Lập kế hoạch và triển khai được hoạt động làm việc nhóm để phát triển một sản phẩm AI đơn giản (ví dụ: chatbot, mô hình nhận dạng) bằng các công cụ có sẵn.",
+      "grade": 8
+    }
+  ],
+  "9": [
+    {
+      "code": "9.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được ý kiến cá nhân về một thách thức mà xã hội đang đối mặt trong kỉ nguyên AI (ví dụ: hi sinh sự an toàn của người dùng để ưu tiên đổi mới và phát triển AI). AI tác động đến xã hội",
+      "grade": 9
+    },
+    {
+      "code": "9.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được dẫn chứng để giải thích vì sao AI có tác động lớn đến xã hội. 35",
+      "grade": 9
+    },
+    {
+      "code": "9.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được các vấn đề “thiên vị”, “thành kiến” mà AI có thể gây ra đối với xã hội.",
+      "grade": 9
+    },
+    {
+      "code": "9.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được những năng lực con người cần rèn luyện trong thế giới có AI, như biết học cách học (rèn luyện khả năng tự học, học suốt đời), phát triển tư duy phản biện (biết phân tích, đánh giá thông tin do AI cung cấp), giữ vững tính sáng tạo và cảm xúc con người (làm những việc AI không thể làm); nâng cao kĩ năng hợp tác và giao tiếp (làm việc hiệu quả với con người và AI).",
+      "grade": 9
+    },
+    {
+      "code": "9.A3.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Xác định được mục tiêu học tập cá nhân trong thế giới có AI (ví dụ: học cách sử dụng AI để tìm kiếm và tóm tắt thông tin; sử dụng AI để rèn luyện kĩ năng viết, đọc, vẽ, tư duy logic; luyện tập giao tiếp hoặc học ngôn ngữ mới với công cụ AI; tự đặt mục tiêu phát triển kĩ năng mềm mà AI không thay thế được). AI giúp thể hiện bản thân",
+      "grade": 9
+    },
+    {
+      "code": "9.A3.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ cách sử dụng AI như một công cụ giúp thể hiện bản thân và theo đuổi đam mê. Nghề nghiệp tương lai",
+      "grade": 9
+    },
+    {
+      "code": "9.A3.4",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được ví dụ một số thay đổi mà AI có thể mang lại cho các ngành nghề trong tương lai, từ đó nêu được một số kĩ năng gắn với các ngành nghề cụ thể cần trang bị để làm việc hiệu quả cùng AI.",
+      "grade": 9
+    },
+    {
+      "code": "9.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Trình bày được vai trò của người dùng trong việc kiểm soát và chịu trách nhiệm đối với kết quả cuối cùng do AI tạo ra. Khai báo được việc sử dụng AI trong sản phẩm học tập của bản thân.",
+      "grade": 9
+    },
+    {
+      "code": "9.B2.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được vai trò của cá nhân và cộng đồng trong việc giám sát, phản hồi và đề xuất giải pháp để sử dụng AI một cách an toàn, công bằng, hợp lí.",
+      "grade": 9
+    },
+    {
+      "code": "9.B2.3",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Phân tích được một số dấu hiệu của nội dung giả mạo do AI tạo ra; kiểm chứng được thông tin bằng các nguồn phù hợp và đề xuất được cách ứng phó khi phát hiện nội dung có dấu hiệu giả mạo hoặc lừa đảo. 36",
+      "grade": 9
+    },
+    {
+      "code": "9.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Giải thích được tầm quan trọng của việc huấn luyện AI theo hướng không phân biệt đối xử và tôn trọng sự đa dạng.",
+      "grade": 9
+    },
+    {
+      "code": "9.B3.2",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được một số cách thu thập dữ liệu bảo đảm công bằng, không bỏ sót hay thiên vị các nhóm đối tượng khác nhau.",
+      "grade": 9
+    },
+    {
+      "code": "9.C2.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Đề xuất được ý tưởng mới, sáng tạo để giải quyết một vấn đề bằng AI.",
+      "grade": 9
+    },
+    {
+      "code": "9.C2.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Vận dụng được kiến thức đã học để tạo ra một công cụ AI đơn giản (ví dụ: chatbot, mô hình nhận dạng hình ảnh) dựa trên các công cụ hoặc nền tảng có sẵn; ưu tiên nền tảng mở, miễn phí, dễ sử dụng, phù hợp độ tuổi và được rà soát về an toàn.",
+      "grade": 9
+    },
+    {
+      "code": "9.C4.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Trình bày được một số cách cải thiện bộ dữ liệu để nâng cao chất lượng của sản phẩm AI (ví dụ: bổ sung dữ liệu còn thiếu, loại bỏ dữ liệu trùng lặp, sửa dữ liệu sai hoặc gán nhãn lại cho đúng).",
+      "grade": 9
+    },
+    {
+      "code": "9.C4.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Chỉ ra được những điểm cần cải thiện trong bộ dữ liệu cụ thể ảnh hưởng đến chất lượng của sản phẩm AI.",
+      "grade": 9
+    },
+    {
+      "code": "9.C4.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Thực hiện được việc cải thiện bộ dữ liệu (thêm, xoá, sửa dữ liệu) để nâng cao chất lượng của sản phẩm AI.",
+      "grade": 9
+    },
+    {
+      "code": "9.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được vai trò của con người là người đồng sáng tạo và dẫn dắt trong việc thiết kế, vận hành và phát triển các hệ thống, công cụ AI.",
+      "grade": 9
+    },
+    {
+      "code": "9.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Phân tích được vai trò đồng sáng tạo và dẫn dắt của con người qua một hệ thống hoặc công cụ AI cụ thể (ví dụ: con người xác định mục tiêu, lựa chọn dữ liệu, đánh giá và điều chỉnh kết quả của hệ thống).",
+      "grade": 9
+    },
+    {
+      "code": "9.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được một số cách kiểm tra đơn giản để đánh giá sản phẩm AI (ví dụ: với mô hình nhận dạng, thử với dữ liệu mới chưa dùng khi huấn luyện, đếm số lần cho kết quả đúng và sai; với chatbot, đặt nhiều câu hỏi khác nhau, kiểm tra tính chính xác và phù hợp của câu trả lời). 37",
+      "grade": 9
+    },
+    {
+      "code": "9.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Thiết kế và thực hiện được một số kiểm tra đơn giản để đánh giá sản phẩm AI.",
+      "grade": 9
+    },
+    {
+      "code": "9.D2.MR2",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Phân tích được kết quả kiểm tra và chủ động thử nghiệm một số cách cải tiến đơn giản, phù hợp nhằm nâng cao chất lượng sản phẩm.",
+      "grade": 9
+    }
+  ],
+  "10": [
+    {
+      "code": "10.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Thực hành xác định được vai trò của con người trong sử dụng, vận hành, tùy chỉnh một hệ thống AI cụ thể. Con người cần kiểm soát AI",
+      "grade": 10
+    },
+    {
+      "code": "10.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Giải thích được tại sao việc con người kiểm soát AI là quan trọng, thông qua việc liên hệ đến các giá trị như an toàn, công bằng và quyền lợi con người.",
+      "grade": 10
+    },
+    {
+      "code": "10.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được một số rủi ro đối với con người, xã hội mà một sản phẩm AI có thể đem lại.",
+      "grade": 10
+    },
+    {
+      "code": "10.A2.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Nêu được một số biện pháp hạn chế các rủi ro đối với con người, xã hội mà một sản phẩm AI có thể đem lại thông qua một dự án sáng tạo AI.",
+      "grade": 10
+    },
+    {
+      "code": "10.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Kể tên được một vài quy định hoặc luật lệ (ở mức độ khái niệm, ví dụ: Luật An ninh mạng, Luật Dữ liệu, Luật Bảo vệ dữ liệu cá nhân) có chức năng bảo vệ người dùng trong không gian số.",
+      "grade": 10
+    },
+    {
+      "code": "10.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về hành vi sử dụng AI hoặc sự cố liên quan đến AI vi phạm quy định của nhà trường hoặc các văn bản pháp luật liên quan đến sử dụng công nghệ thông tin.",
+      "grade": 10
+    },
+    {
+      "code": "10.B2.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Nhận biết được một số dấu hiệu của nội dung do AI tạo sinh tạo ra; kiểm tra và nhận xét được mức độ minh bạch của việc khai báo sử dụng AI trong một sản phẩm. 38",
+      "grade": 10
+    },
+    {
+      "code": "10.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Trình bày được ví dụ minh họa một số vấn đề đạo đức có thể phát sinh trong quá trình thiết kế và vận hành AI (như thiên vị dữ liệu, vi phạm quyền riêng tư hoặc thiếu minh bạch).",
+      "grade": 10
+    },
+    {
+      "code": "10.C2.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Xác định được các vấn đề thực tế có thể ứng dụng AI để thực hiện. Ưu tiên các vấn đề gần gũi, cần thiết trong bối cảnh Việt Nam, chẳng hạn: sản xuất nông nghiệp, các vấn đề liên quan đến các cộng đồng thiểu số, …",
+      "grade": 10
+    },
+    {
+      "code": "10.C2.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Liệt kê được tên các ứng dụng AI theo các tính năng của hệ thống.",
+      "grade": 10
+    },
+    {
+      "code": "10.C2.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Xác định được các yêu cầu cần có đối với việc ứng dụng AI thực hiện nhiệm vụ cụ thể. Một số ứng dụng AI trong học tập",
+      "grade": 10
+    },
+    {
+      "code": "10.C2.3",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ một số trường hợp sử dụng AI hỗ trợ quá trình học tập.",
+      "grade": 10
+    },
+    {
+      "code": "10.C2.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Sử dụng được một số ứng dụng AI trong học tập.",
+      "grade": 10
+    },
+    {
+      "code": "10.C3.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Mô tả được các yêu cầu để đưa ra prompt phù hợp với mục tiêu cụ thể.",
+      "grade": 10
+    },
+    {
+      "code": "10.C3.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Thực hành đặt prompt giải quyết một số vấn đề gần gũi trong cuộc sống, học tập một cách hiệu quả. Một số công nghệ trong AI",
+      "grade": 10
+    },
+    {
+      "code": "10.C3.3",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Phân biệt được AI tạo sinh với các hệ thống AI phân loại, dự đoán qua ví dụ cụ thể.",
+      "grade": 10
+    },
+    {
+      "code": "10.C3.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Trình bày được ví dụ mô tả một số công nghệ để thiết kế và tạo AI.",
+      "grade": 10
+    },
+    {
+      "code": "10.C4.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Phân tích được sự ảnh hưởng của chất lượng dữ liệu đến chất lượng AI.",
+      "grade": 10
+    },
+    {
+      "code": "10.C4.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân tích được các dạng dữ liệu (hình ảnh, âm thanh, từ ngữ, …) được sử dụng để huấn luyện AI.",
+      "grade": 10
+    },
+    {
+      "code": "10.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ cụ thể, xác định nhiệm vụ hoặc mục tiêu cụ thể mà một hệ thống AI cần thực 39",
+      "grade": 10
+    },
+    {
+      "code": "10.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Mô tả được các thành phần cơ bản của hệ thống AI (dữ liệu, mô hình, thuật toán, đầu ra, phản hồi) phù hợp với nhiệm vụ cụ thể.",
+      "grade": 10
+    },
+    {
+      "code": "10.D2.2",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về một số vấn đề phát sinh trong quá trình vận hành hoặc tối ưu hoá AI và trình bày được ý nghĩa của việc khắc phục các vấn đề đó.",
+      "grade": 10
+    }
+  ],
+  "11": [
+    {
+      "code": "11.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Xây dựng được quy trình sử dụng một sản phẩm AI cụ thể một cách thích hợp. AI để nâng cao năng lực",
+      "grade": 11
+    },
+    {
+      "code": "11.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân tích được các trường hợp thực tế để thấy được tầm quan trọng của việc sử dụng AI để nâng cao năng lực của con người mà vẫn đảm bảo sự kiểm soát của con người.",
+      "grade": 11
+    },
+    {
+      "code": "11.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về một số ứng dụng AI có tác động tích cực và mang lại lợi ích xã hội lâu dài, chẳng hạn như: AI trong nông nghiệp, AI trong y tế, …",
+      "grade": 11
+    },
+    {
+      "code": "11.A2.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân tích được các yếu tố thể hiện tính bền vững và công bằng của hệ thống AI đó, ví dụ: bền vững - sử dụng năng lượng hiệu quả, góp phần bảo vệ môi trường, duy trì lâu dài mà không gây hại đến con người hay thiên nhiên; công bằng - đảm bảo mọi người đều được hưởng lợi từ công nghệ, không phân biệt giới tính, địa vị, vùng miền hay điều kiện kinh tế.",
+      "grade": 11
+    },
+    {
+      "code": "11.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được các quyền cơ bản của người dùng dữ liệu (quyền được biết, quyền được đồng ý, quyền yêu cầu xoá dữ liệu…).",
+      "grade": 11
+    },
+    {
+      "code": "11.A3.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Phân tích được mức độ đảm bảo các quyền cơ bản của người dùng đối với một số sản phẩm AI thông qua một dự án sáng tạo AI.",
+      "grade": 11
+    },
+    {
+      "code": "11.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Nhận biết và phân loại được các rủi ro hoặc sự cố liên quan đến việc sử dụng AI có thể dẫn đến vi phạm quy định của nhà trường hoặc các văn bản pháp luật liên quan.",
+      "grade": 11
+    },
+    {
+      "code": "11.B3.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Xác định và sơ đồ hoá được các vấn đề đạo đức có thể phát sinh trong từng bước thiết kế và vận hành AI.",
+      "grade": 11
+    },
+    {
+      "code": "11.C2.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Trình bày được cách AI hỗ trợ quá trình học tập và thiết kế các công cụ hỗ trợ.",
+      "grade": 11
+    },
+    {
+      "code": "11.C2.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Đề xuất được các tính năng AI hỗ trợ hoạt động học tập.",
+      "grade": 11
+    },
+    {
+      "code": "11.C2.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Sử dụng được công cụ AI để tạo và biên tập nội dung học liệu phục vụ học tập và đánh giá sản phẩm học tập.",
+      "grade": 11
+    },
+    {
+      "code": "11.C3.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Xác định được một số kĩ thuật prompt nâng cao từ các yêu cầu cụ thể như: ràng buộc định dạng đầu ra, chia nhỏ nhiệm vụ.",
+      "grade": 11
+    },
+    {
+      "code": "11.C3.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Vận dụng được một số kĩ thuật prompt nâng cao như: ràng buộc định dạng đầu ra, chia nhỏ nhiệm vụ. Khám phá cách thức vận hành một số hệ thống AI",
+      "grade": 11
+    },
+    {
+      "code": "11.C3.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Mô tả được một số công nghệ AI cơ bản như: chatbot, xử lí ngôn ngữ tự nhiên, thị giác máy tính, cảm biến.",
+      "grade": 11
+    },
+    {
+      "code": "11.C3.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân tích được cách các công nghệ đó vận hành trong hệ thống AI. Một số phương pháp, nhiệm vụ tùy chỉnh hệ thống AI",
+      "grade": 11
+    },
+    {
+      "code": "11.C3.MR3",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Xác định được một số phương pháp để tùy chỉnh hệ thống AI như: bổ sung và điều chỉnh dữ liệu, điều chỉnh các tham số được phép, cung cấp hướng dẫn hệ thống, sử dụng kĩ thuật sinh nội dung tăng cường bằng truy xuất (RAG), …",
+      "grade": 11
+    },
+    {
+      "code": "11.C3.MR4",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Trình bày được ở mức khái niệm cách hoạt động của kĩ thuật sinh nội dung tăng cường bằng truy xuất (RAG) và vì sao nó giúp giảm sai lệch thông tin. 41",
+      "grade": 11
+    },
+    {
+      "code": "11.C5.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được một số ứng dụng mạng nơ-ron nhân tạo.",
+      "grade": 11
+    },
+    {
+      "code": "11.C5.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Trình bày được kiến thức cơ bản về mạng nơ-ron nhân tạo. Kiến thức cơ bản về các thuật toán phân cụm và phân lớp",
+      "grade": 11
+    },
+    {
+      "code": "11.C5.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được một số ứng dụng thuật toán phân cụm, phân lớp.",
+      "grade": 11
+    },
+    {
+      "code": "11.C5.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Trình bày được kiến thức cơ bản về các thuật toán phân cụm, phân lớp và một số ý tưởng thực hiện.",
+      "grade": 11
+    },
+    {
+      "code": "11.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được cách thức thiết kế và vận hành tổng thể của một hệ thống AI, thể hiện được mối quan hệ giữa mục tiêu, dữ liệu và các thành phần trong hệ thống.",
+      "grade": 11
+    },
+    {
+      "code": "11.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Trình bày được cách thức vận hành của công nghệ trong hệ thống AI, thể hiện được mối liên hệ giữa các thành phần của hệ thống trong việc thực hiện một nhiệm vụ cụ thể.",
+      "grade": 11
+    },
+    {
+      "code": "11.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Trình bày được các cách thức giải quyết vấn đề phát sinh của hệ thống AI nhằm tối ưu hoá hiệu quả hoạt động của hệ thống.",
+      "grade": 11
+    }
+  ],
+  "12": [
+    {
+      "code": "12.A1.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân tích được một hệ thống AI nhằm đảm bảo con người có quyền kiểm soát và chịu trách nhiệm đối với tất cả các bước quan trọng trong vòng đời AI.",
+      "grade": 12
+    },
+    {
+      "code": "12.A1.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Thực hiện được việc phân tích quyền kiểm soát và trách nhiệm của con người trong vòng đời AI thông qua một dự án sáng tạo AI. Con người trong hệ thống AI",
+      "grade": 12
+    },
+    {
+      "code": "12.A1.2",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân tích được vai trò của con người và AI trong các bước chính của quá trình ra quyết định.",
+      "grade": 12
+    },
+    {
+      "code": "12.A1.3",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Kiểm tra được việc thực hiện trách nhiệm giải trình của con người đối với các quyết định, đối 42",
+      "grade": 12
+    },
+    {
+      "code": "12.A2.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Trình bày được một số nguyên tắc đạo đức cơ bản trong thiết kế, phát triển sản phẩm AI, gồm có: an toàn – không gây nguy hiểm cho con người và môi trường; công bằng – tránh thiên vị, phân biệt đối xử trong dữ liệu và kết quả; minh bạch – công khai cách hoạt động, không che giấu thông tin; tôn trọng quyền riêng tư – không sử dụng, chia sẻ dữ liệu cá nhân trái phép; trách nhiệm – kiểm tra, đánh giá và chịu trách nhiệm về sản phẩm tạo ra; lợi ích xã hội – phục vụ con người, cộng đồng và phát triển bền vững.",
+      "grade": 12
+    },
+    {
+      "code": "12.A2.MR1",
+      "strand": "A",
+      "is_mr": true,
+      "desc": "Vận dụng được các nguyên tắc để soạn thảo được bộ nguyên tắc cá nhân cho một dự án thiết kế, phát triển sản phẩm AI cụ thể; đối chiếu các quyết định thiết kế (mục tiêu, dữ liệu, tính năng, kiểm thử) với bộ nguyên tắc đó và điều chỉnh khi phát hiện nguy cơ vi phạm.",
+      "grade": 12
+    },
+    {
+      "code": "12.A3.1",
+      "strand": "A",
+      "is_mr": false,
+      "desc": "Phân tích được nội hàm của “trách nhiệm công dân trong xã hội AI”: sử dụng AI một cách an toàn, trung thực và có đạo đức; tôn trọng quyền riêng tư và dữ liệu của người khác; không sử dụng AI để lan truyền thông tin sai lệch, gian lận hay gây hại; đóng góp vào việc xây dựng môi trường số tích cực, công bằng và nhân văn.",
+      "grade": 12
+    },
+    {
+      "code": "12.B1.MR1",
+      "strand": "B",
+      "is_mr": true,
+      "desc": "Phân tích được nguyên nhân dẫn đến các vấn đề đạo đức hoặc sai lệch trong quá trình hoạt động của hệ thống AI.",
+      "grade": 12
+    },
+    {
+      "code": "12.B2.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Xác định được mức độ rủi ro khi sử dụng AI có thể dẫn đến vi phạm quy định của nhà trường hoặc các quy định pháp luật liên quan.",
+      "grade": 12
+    },
+    {
+      "code": "12.B3.1",
+      "strand": "B",
+      "is_mr": false,
+      "desc": "Trình bày được quyền và trách nhiệm của người phát triển, người sử dụng AI, cũng như vai trò của cá nhân trong việc góp ý, đề xuất xây dựng chính sách và quy định liên quan đến AI.",
+      "grade": 12
+    },
+    {
+      "code": "12.C2.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Lựa chọn được ý tưởng thiết kế một số công cụ AI để thực hiện các công việc khác nhau.",
+      "grade": 12
+    },
+    {
+      "code": "12.C2.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Tùy chỉnh được các yêu cầu hệ thống AI để hỗ trợ các hoạt động học tập và hoạt động xã hội.",
+      "grade": 12
+    },
+    {
+      "code": "12.C3.1",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được một số công cụ mã nguồn mở hoặc miễn phí dùng để thiết kế, huấn luyện và phát triển hệ thống AI, như: Teachable Machine, ML5.js, TensorFlow.js, MIT App Inventor hoặc công cụ phù hợp khác.",
+      "grade": 12
+    },
+    {
+      "code": "12.C3.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Sử dụng được một số công cụ mã nguồn mở hoặc miễn phí dùng để thiết kế, huấn luyện và phát triển hệ thống AI. Tùy chỉnh và tối ưu hệ thống AI",
+      "grade": 12
+    },
+    {
+      "code": "12.C3.2",
+      "strand": "C",
+      "is_mr": false,
+      "desc": "Nêu được ví dụ về cách thức đánh giá hiệu quả của hệ thống AI.",
+      "grade": 12
+    },
+    {
+      "code": "12.C3.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Đánh giá được khả năng tối ưu hệ thống AI thông qua cập nhật công nghệ, kĩ thuật mới.",
+      "grade": 12
+    },
+    {
+      "code": "12.C3.MR3",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Trình bày được một số khái niệm cơ bản của hệ thống ứng dụng học máy như: hàm mục tiêu, tối ưu hoá hệ thống, mô hình quá khớp dữ liệu (overfitting).",
+      "grade": 12
+    },
+    {
+      "code": "12.C4.MR1",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Thu thập và tổ chức được dữ liệu đáp ứng yêu cầu của việc phát triển hệ thống AI.",
+      "grade": 12
+    },
+    {
+      "code": "12.C4.MR2",
+      "strand": "C",
+      "is_mr": true,
+      "desc": "Phân tích và xác định được các nền tảng hoặc bộ công cụ phát triển AI, cải thiện các bộ dữ liệu đáp ứng quá trình thiết kế, phát triển AI.",
+      "grade": 12
+    },
+    {
+      "code": "12.D1.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nhận biết được một số phương án thiết kế và vận hành hệ thống AI phù hợp để đạt hiệu quả cao trong một số nhiệm vụ cụ thể.",
+      "grade": 12
+    },
+    {
+      "code": "12.D1.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Phân tích được một số phương án thiết kế và vận hành hệ thống AI phù hợp để đạt hiệu quả cao trong một số nhiệm vụ cụ thể.",
+      "grade": 12
+    },
+    {
+      "code": "12.D2.1",
+      "strand": "D",
+      "is_mr": false,
+      "desc": "Nhận biết được các vai trò khác nhau trong quá trình phát triển một sản phẩm AI (như người đề xuất ý tưởng, lập trình, huấn luyện, kiểm thử) và 44",
+      "grade": 12
+    },
+    {
+      "code": "12.D2.MR1",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Phân tích được nguyên nhân của các vấn đề phát sinh trong hệ thống AI và lựa chọn được cách giải quyết phù hợp để hệ thống hoạt động ổn định và hiệu quả hơn.",
+      "grade": 12
+    },
+    {
+      "code": "12.D2.MR2",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Trình bày được khả năng và cấu trúc cơ bản của một hệ thống tác nhân AI (AI agent).",
+      "grade": 12
+    },
+    {
+      "code": "12.D2.MR3",
+      "strand": "D",
+      "is_mr": true,
+      "desc": "Xây dựng và kiểm thử được hệ thống tác nhân AI đơn giản phục vụ một nhiệm vụ học tập hoặc cộng đồng. V. PHƯƠNG PHÁP GIÁO DỤC 1. Định hướng chung Phát huy năng lực nhận diện, phân tích và giải quyết vấn đề thực tiễn với sự hỗ trợ của AI khi phù hợp; bồi dưỡng sự tự tin, tự chủ, sáng tạo và khả năng tự học suốt đời; giúp học sinh biết lựa chọn, sử dụng và đánh giá công cụ AI để liên tục nâng cao tri thức và thích ứng với sự thay đổi nhanh chóng của công nghệ trí tuệ nhân tạo. Thiết kế các hoạt động học tập để học sinh tích cực, chủ động, sáng tạo trong việc khám phá kiến thức và ứng dụng AI; khuyến khích học sinh tạo ra sản phẩm số, mô hình hoặc phương án ứng dụng AI gắn với học tập và đời sống. Vận dụng linh hoạt các phương pháp giáo dục tích cực và hình thức tổ chức dạy học đa dạng trong các chuyên đề giáo dục AI; đồng thời tăng cường củng cố, vận dụng nội dung giáo dục AI thông qua dạy học liên môn, lồng ghép trong các môn học, hoạt động giáo dục, dạy học định hướng STEM/STEAM và các vấn đề thực tiễn của nhà trường, cộng đồng, địa phương khi phù hợp. Khi thực hiện các định hướng trên, giáo viên lấy hoạt động học của học sinh làm trung tâm; bảo đảm vai trò quyết định, giám sát và trách nhiệm của con người; tích hợp các yêu cầu về đạo đức, an toàn, quyền trẻ em, kiểm chứng và khai báo việc sử dụng AI trong hoạt động học tập. 2. Định hướng về phương pháp hình thành, phát triển phẩm chất và năng lực chung Trong giáo dục AI có nhiều cơ hội để kết hợp hình thành năng lực AI với việc phát triển năm phẩm chất chủ yếu và ba năng lực chung trong Chương trình giáo dục phổ thông 2018. a) Phương pháp hình thành và phát triển phẩm chất chủ yếu: Các chủ đề về dữ liệu, đạo đức AI, quyền riêng tư, bản quyền số, AI tạo sinh và trách nhiệm xã hội tạo cơ hội để học sinh hình thành và phát triển các phẩm chất yêu nước, nhân ái, chăm chỉ, trung thực và trách nhiệm trong môi trường số. Giáo viên căn cứ các biểu hiện của phẩm chất được quy định trong Chương trình giáo dục phổ thông tổng thể để lựa chọn nội dung, tình huống và hoạt động giáo dục phù hợp trong toàn bộ quá trình giáo dục AI. b) Phương pháp hình thành và phát triển năng lực chung: 45 Năng lực tự chủ và tự học được phát triển qua việc học sinh lựa chọn, sử dụng công cụ AI phù hợp, tự điều chỉnh chiến lược học tập, kiểm chứng và cải thiện kết quả. Năng lực giao tiếp và hợp tác được phát triển thông qua hoạt động nhóm, xây dựng dự án, phản biện và chia sẻ kết quả. Năng lực giải quyết vấn đề và sáng tạo được phát triển thông qua việc xác định các vấn đề thực tiễn, thiết kế, thử nghiệm, điều chỉnh giải pháp và đánh giá rủi ro. 3. Định hướng phương pháp và hình thức tổ chức dạy học đặc thù trong giáo dục AI Trong quá trình tổ chức dạy học, giáo viên cần: a) Áp dụng các phương pháp dạy học tích cực, chú trọng trải nghiệm, thực hành, giải quyết vấn đề và dự án ở mức độ phù hợp; tạo điều kiện để học sinh hợp tác, tự học và sáng tạo. Các hoạt động học tập được tổ chức linh hoạt, tạo hứng thú cho học sinh, đồng thời bảo đảm an toàn và hiệu quả. b) Lựa chọn hình thức tổ chức phù hợp với nội dung và đặc điểm lứa tuổi. Các chủ đề về đạo đức AI, nhận diện rủi ro, tìm hiểu quy định và trách nhiệm khi sử dụng AI có thể được tổ chức thông qua thảo luận, tranh biện, đóng vai và nghiên cứu tình huống mà không cần sử dụng máy tính. c) Liên hệ và gắn kết kiến thức AI với các vấn đề thực tiễn trong học tập, đời sống, sản xuất và dịch vụ công; tổ chức cho học sinh đề xuất giải pháp, kiểm chứng kết quả, xem xét hiệu quả, tính nhân văn, đạo đức và mức độ phù hợp của giải pháp. d) Thực hiện dạy học phân hoá và cá thể hoá. Ở tiểu học, chú trọng trải nghiệm, khơi gợi tò mò và hứng thú ban đầu với AI. Ở cấp trung học cơ sở, tạo điều kiện để học sinh lựa chọn nhiệm vụ và cách thực hiện phù hợp, từng bước phát triển năng lực dữ liệu, tư duy tính toán và khả năng kiểm chứng, chuẩn bị nền tảng cho bậc học cao hơn. Đối với cấp trung học phổ thông, tăng cường các hoạt động phân tích, thiết kế, sáng tạo, tạo cơ sở cho định hướng nghề nghiệp; các hoạt động nghiên cứu, phát triển sản phẩm với AI được tổ chức phù hợp trong nội dung mở rộng.. 4. Phương pháp giáo dục theo cấp học Phương pháp giáo dục AI cần được lựa chọn phù hợp với đặc điểm nhận thức, mức độ tự chủ và yêu cầu phát triển năng lực của học sinh ở từng cấp học. Việc tổ chức dạy học được thực hiện theo tiến trình từ trực quan, sinh động ở tiểu học; logic, khoa học và chú trọng kiểm chứng ở trung học cơ sở; đến phân tích, phản biện và đánh giá ở trung học phổ thông. Theo tiến trình này, mức độ hỗ trợ trực tiếp của giáo viên giảm dần, trong khi tính phức tạp của nhiệm vụ, mức độ tự chủ và trách nhiệm của học sinh tăng dần. Ở cấp tiểu học, phương pháp giáo dục cần bảo đảm tính trực quan, sinh động, gần gũi và phù hợp với trải nghiệm của học sinh. Ưu tiên sử dụng kể chuyện, tranh hoặc thẻ, trò chơi, đóng vai, quan sát, lựa chọn và xử lí các tình huống đơn giản; tổ chức những trải nghiệm ngắn có sự hướng dẫn trực tiếp của giáo viên; sử dụng mô hình giấy và tạo sản phẩm đơn giản. Giáo viên chuẩn bị dữ liệu, sử dụng câu lệnh ngắn, rõ ràng; ưu tiên các hoạt động không yêu cầu học sinh tạo tài khoản và không phụ thuộc vào thiết bị cá nhân. Khi cần sử dụng thiết bị, ưu tiên tổ chức cho học sinh sử dụng thiết bị dùng chung dưới sự hướng dẫn, giám sát của giáo viên. Trong trường hợp bị hạn chế vì thiếu thiết bị hoặc điện năng, giáo viên có thể hướng dẫn học sinh mô phỏng thủ công. 46 Ở cấp trung học cơ sở, phương pháp giáo dục cần chú trọng tính logic, khoa học và khả năng kiểm chứng. Ưu tiên tổ chức cho học sinh điều tra, đặt câu hỏi, so sánh và kiểm chứng thông tin, phân tích dữ liệu và thiên lệch, xử lí tình huống đạo đức, thiết kế và thử nghiệm các giải pháp đơn giản. Giáo viên xác định quy trình và tiêu chí rõ ràng, đồng thời tạo điều kiện để học sinh lựa chọn cách thực hiện trong phạm vi phù hợp. Học sinh được hướng dẫn ghi lại nguồn dữ liệu, câu lệnh hoặc yêu cầu đã cung cấp cho công cụ AI, kết quả thử nghiệm và phản hồi nhận được để làm căn cứ kiểm chứng, giải thích và điều chỉnh kết quả. Ở cấp trung học phổ thông, phương pháp giáo dục cần tập trung phát triển khả năng phân tích, phản biện và đánh giá. Ưu tiên sử dụng nghiên cứu trường hợp, tranh biện, phân tích dữ liệu hoặc mô hình, đánh giá rủi ro và sự đánh đổi, thực hiện dự án, phản biện phương án và đề xuất giải pháp. Học sinh được tăng cường mức độ tự chủ trong xác định vấn đề, lựa chọn phương án, kiểm thử, đánh giá và điều chỉnh giải pháp; đồng thời phải tuân thủ yêu cầu về quản trị dữ liệu, đạo đức, an toàn và trách nhiệm. Giáo viên giữ vai trò định hướng, phê duyệt và kiểm soát tại những khâu cần thiết. Tiến trình phương pháp giáo dục AI được phát triển từ quan sát, trải nghiệm và nhận biết ở tiểu học; đến tìm hiểu, giải thích và kiểm chứng ở trung học cơ sở; tiến tới phân tích, phản biện, đánh giá và đề xuất giải pháp ở trung học phổ thông. Theo đó, độ phức tạp của nhiệm vụ, mức độ tự chủ, chất lượng minh chứng và trách nhiệm của học sinh trong học tập và sử dụng AI được tăng dần. 5. Tổ chức nội dung cốt lõi và nội dung mở rộng",
+      "grade": 12
+    }
+  ]
+}

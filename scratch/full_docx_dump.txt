@@ -1,0 +1,59 @@
+Paragraphs count: 27
+Tables count: 2
+
+P0: BÁO CÁO TỔNG HỢP
+P1: Chính sách AI trong lớp học quốc tế & Đối chiếu với QĐ 2422
+P2: 
+P3: PHẦN 1 — Ba câu hỏi ban đầu: tổng hợp toàn bộ các nước đã nghiên cứu
+P4: 1️. Mức độ cho phép tiếp cận/dùng trực tiếp AI trong lớp và Lý do có những quy định này
+P5: 
+P6: → Việt Nam nằm ở nhóm thận trọng vừa phải: cho thao tác thật với công cụ AI trực quan/học máy từ tiểu học (giống Trung Quốc, Singapore) nhưng trì hoãn AI tạo sinh/prompt đến tận THPT — thận trọng hơn cả Pháp (THCS đã cho dùng AI tạo sinh hạn chế).
+P7: 2. Cảnh báo nguy hiểm khi dùng AI không kiểm soát
+P8: Nhận xét quan trọng: QĐ 2422 thực ra đã nội hóa gần như đầy đủ các bài học quốc tế — không phải một khung "đi sau", mà là khung được thiết kế có tham khảo UNESCO và kinh nghiệm quốc tế (văn bản tự nêu rõ "Khai thác chương trình giáo dục AI của các nước tiên tiến").
+P9: 
+P10: PHẦN 2 — Khuyến cáo triển khai, cập nhật chính xác theo QĐ 2422
+P11: A. Về giới hạn độ tuổi/cấp học 
+P12: Tiểu học (đặc biệt lớp 4-5) có thao tác thật trên công cụ AI trực quan (Teachable Machine, ML for Kids) — được phép thiết kế hoạt động thực hành công cụ ở tiểu học, miễn là không phải AI tạo sinh mở.
+P13: Giới hạn cần lưu ý:  Kỹ thuật đặt prompt chính thức dạy từ Lớp 10 (10.C3.1, 10.C3.2), THCS không nên thiết kế hoạt động yêu cầu học sinh "chat" tự do với AI tạo sinh. 
+P14: Ở THCS, sản phẩm như "chatbot" (lớp 8-9) được phép làm ví dụ dự án, nhưng là dùng nền tảng có sẵn, được rà soát an toàn — không phải tự do dùng chatbot thương mại.
+P15: B. Về chống "nguy cơ suy giảm khả năng tư duy độc lập" — đã có cơ chế cụ thể trong khung
+P16: Không cần thiết kế thêm nguyên tắc mới — QĐ 2422 đã yêu cầu học sinh "kiểm tra lại kết quả do AI đưa ra" như một yêu cầu cần đạt bắt buộc (lớp 3, 6, 7...). Designer chỉ cần hiện thực hóa yêu cầu này thành hoạt động cụ thể, không cần bổ sung nguyên tắc.
+P17: Khuyến cáo bổ sung: nên thiết kế hoạt động theo đúng trình tự văn bản gợi ý — "quan sát/trải nghiệm → tìm hiểu/giải thích/kiểm chứng → phân tích/phản biện" tương ứng tiểu học → THCS → THPT, tránh nhảy cóc.
+P18: C. Về bảo vệ dữ liệu — bắt buộc, đã quy định chi tiết
+P19: Tiểu học: "ưu tiên các hoạt động không yêu cầu học sinh tạo tài khoản, không phụ thuộc thiết bị cá nhân" — đây là yêu cầu bắt buộc trong văn bản, không phải khuyến nghị.
+P20: THCS: học sinh phải biết "phòng tránh rủi ro dữ liệu" khi làm dự án AI (lớp 8) — designer cần tích hợp bước này vào mọi dự án thực hành, không chỉ dạy lý thuyết riêng.
+P21: D. Về tránh triển khai vội (bài học Hàn Quốc) — QĐ 2422 đã có cơ chế phòng ngừa
+P22: Giáo dục dẫn dắt công nghệ, không có chiều ngược lại: AI chỉ là công cụ hỗ trợ (Augmented Intelligence), không thể thay thế vai trò định hướng, truyền cảm hứng và giáo dục nhân cách của giáo viên. Khung chương trình phải xuất phát từ mục tiêu sư phạm trước khi chọn công nghệ.
+P23: Chiến lược "Thử nghiệm nhỏ, Đánh giá sâu": Thay vì áp dụng đại trà ngay lập tức, cần triển khai các dự án thử nghiệm quy mô nhỏ ở các vùng miền khác nhau từ 1–2 năm để đo lường tác động đến nhận thức, tâm lý, hành vi và sức khỏe của học sinh.
+P24: Văn bản đã quy định: nội dung cốt lõi phải "không gây áp lực, quá tải"; nội dung mở rộng "không thay thế, không làm giảm yêu cầu... phải bảo đảm cơ hội tiếp cận công bằng"; và khung "được rà soát, cập nhật định kì".
+P25: Khuyến cáo thực tế cho người xây dựng chương trình: cần thiết kế công cụ đánh giá định tính (rubric, bảng kiểm, hồ sơ học tập) thay vì tư duy ra đề kiểm tra như môn học thông thường.
+P26: Đào tạo giáo viên là tiên quyết
+
+--- TABLE 0 (16 rows, 4 cols) ---
+R0: Nước | Tiểu học | THCS | Vì sao có quy định này
+R1: Singapore | Chỉ học khái niệm; từ ~lớp 4 dùng công cụ có kiểm soát | Mở rộng dùng công cụ + kiểm chứng thông tin, nhận diện deepfake | Bảo vệ năng lực nền tảng (đọc-viết-tính toán-tự tư duy) đang hình thành; đồng thời tin rằng trẻ lớn lên cùng AI nên cần dạy ứng xử chứ không cấm tuyệt đối
+R2: Pháp | Học kiến thức nền, chưa dùng AI tạo sinh | Từ lớp 4e (~13-14 tuổi) mới dùng, hạn chế + có giáo viên hướng dẫn | Chống gian lận học thuật — dùng AI làm bài không phép, không có lao động trí tuệ của học sinh bị xem là gian lận
+R3: Trung Quốc | Trải nghiệm cơ bản; cấm tự dùng tạo nội dung mở | Được phân tích/kiểm chứng nội dung AI, chưa tự do tạo sản phẩm | Kiểm soát chất lượng thông tin — học sinh cần đủ năng lực phản biện trước khi được tự tạo nội dung bằng AI
+R4: Na Uy | Cấm gần như hoàn toàn (lớp 1-7) | Lớp 8+ được tiếp cận nhưng siết chặt | Điểm số/kết quả học tập sa sút diện rộng — Chính phủ cho rằng AI khiến học sinh bỏ qua các bước quan trọng trong tiếp thu kiến thức
+R5: Mỹ (New York) | Cấm (mẫu giáo–lớp 8) | Chỉ lớp 9+ được dùng có kiểm soát | Chống "đầu hàng nhận thức" — học sinh giao phó việc suy luận cho máy, ảnh hưởng phát triển nhận thức
+R6: Mỹ (bang khác) | Chưa thống nhất — California yêu cầu chatbot tự nhận là AI | Tương tự — chủ yếu công bố minh bạch | Chưa có lý do thống nhất cấp liên bang; các bang tự đặt ưu tiên minh bạch trước khi bàn đến giới hạn tuổi
+R7: Ý | Dưới 14 tuổi cần phụ huynh đồng ý (luật chung, không riêng lớp học) | Từ 14 tuổi tự đồng ý | Bảo vệ dữ liệu/quyền riêng tư trẻ em — đây là luật AI quốc gia, ngưỡng tuổi gắn với xử lý dữ liệu cá nhân chứ không riêng bối cảnh lớp học
+R8: EU (đề xuất) | Dưới 16 tuổi cần đồng ý phụ huynh | — | Cùng logic bảo vệ dữ liệu như Ý, nhưng nâng ngưỡng cao hơn; vẫn là đề xuất, chưa thành luật
+R9: Nhật Bản | Không mốc lớp cứng — tùy giai đoạn phát triển & rủi ro công cụ | Tự thảo luận/viết trước, AI bổ sung góc nhìn sau | Trẻ lớn lên cùng AI nên cần dạy ứng xử, không cấm cứng — tin rằng áp mốc tuổi đồng loạt sẽ không phù hợp với sự khác biệt cá nhân
+R10: Úc | Khung chung: AI phục vụ mục tiêu học tập, minh bạch trong đánh giá | Giáo viên phải xác định rõ AI được dùng đến đâu trong từng bài | Giữ vai trò giáo viên trong đánh giá đúng năng lực thật — không để sản phẩm AI che khuất năng lực thực của học sinh
+R11: Hàn Quốc | Từng bắt buộc sách AI (lớp 3-4) — đã hủy tư cách pháp lý 8/2025 | Tương tự — từ bắt buộc thành tự nguyện | Triển khai quá vội, thiếu thí điểm kỹ, tốn kém, lỗi kỹ thuật, và lo ngại dữ liệu — bài học "rút lui" điển hình nhất
+R12: Anh (UK) | Không ngưỡng tuổi cứng — trường tự quyết theo "phù hợp lứa tuổi" + bảo vệ dữ liệu | Chatbot AI bị xếp vào rủi ro an toàn trẻ em như "người lạ trên mạng" | Công nghệ thay đổi quá nhanh nên luật tuổi cứng dễ lỗi thời — ưu tiên khung an toàn linh hoạt hơn là con số tuổi cố định
+R13: Canada | Không luật liên bang — từng tỉnh tự ra hướng dẫn | Tương tự | Cùng logic với Anh — để địa phương/trường tự quyết theo bối cảnh
+R14: Singapore (luật rộng hơn) | Chưa có luật riêng độ tuổi; đang nghiên cứu + hướng dẫn minh bạch chatbot (IMDA, 7/2026) | — | Đang trong giai đoạn nghiên cứu — muốn làm toàn diện, đúng cách trước khi luật hóa
+R15: Việt Nam | 12 tiết/năm, nội dung tối thiểu, không cần thiết bị | Dùng AI hỗ trợ sản phẩm học tập, phải kê khai trung thực phạm vi hỗ trợ | Bảo vệ nhóm dễ bị tổn thương (trẻ em) khỏi bị lợi dụng điểm yếu — nguyên tắc gốc trong Luật AI 2025, đồng thời tránh quá tải khi triển khai đại trà
+
+--- TABLE 1 (9 rows, 3 cols) ---
+R0: Nguy cơ | Nguồn quốc tế | Đối chiếu QĐ 2422
+R1: Suy giảm khả năng tư duy độc lập | Mỹ | ✅ Lớp 3, 4, 8 đều có yêu cầu cần đạt liên quan trực tiếp
+R2: Nội dung sai lệch, không kiểm chứng | Trung Quốc | ✅ "Ảo giác AI" (hallucination) được định nghĩa riêng trong phụ lục; kiểm chứng là kỹ năng xuyên suốt
+R3: Deepfake, nội dung giả mạo | Singapore, Anh | ✅ Định nghĩa riêng trong phụ lục; lớp 3 đã dạy "phân biệt thật và giả"
+R4: Rủi ro dữ liệu cá nhân | Hà Nội, Hàn Quốc, Anh | ✅ Xuyên suốt lớp 1-12, đặc biệt lớp 4, 6, 8
+R5: Mất kỹ năng tự lập luận | Nhật | ✅ Lớp 6: "không nên nhờ AI viết hộ bài văn... làm giảm khả năng tự suy nghĩ"
+R6: Triển khai vội gây khủng hoảng | Hàn Quốc | ✅ Cơ chế "nội dung mở rộng không thay thế nội dung cốt lõi", đánh giá công bằng bất kể thiết bị
+R7: Thiên vị/thành kiến thuật toán | Nhiều nước | ✅ Có hẳn thuật ngữ riêng (bias/thiên lệch), dạy từ lớp 2 ("sự đối xử không công bằng")
+R8: Bị AI theo dõi/thao túng | Anh (chatbot = "người lạ") | ✅ Lớp 8: "Nguy cơ bị hệ thống AI theo dõi, thao túng" — khá tương đồng với lo ngại của Anh

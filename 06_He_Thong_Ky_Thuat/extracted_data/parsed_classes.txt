@@ -1,0 +1,74 @@
+*** Lop_1_36_Tiet ***
+1	Bài 1: Cảm xúc của em và cảm xúc của bạn bè	1.A1.1, 1.A1.2	Cốt lõi	Nêu ví dụ về cảm xúc con người (vui, buồn, sợ hãi...); nhận ra con người có cảm xúc thật còn AI thì không (chỉ mô phỏng).
+2	Bài 2: Nụ cười của Robot do ai lập trình?	1.A1.3, 1.A1.4	Cốt lõi	Nhận biết biểu hiện cảm xúc của AI (cười, chào) là do con người lập trình/thiết kế trước; AI không tự vui buồn.
+3	Bài 3: Trò chơi đóng vai: Robot biết cười		Mở rộng	Trải nghiệm đóng vai Robot phản hồi nụ cười và lời chào theo kịch bản quy ước trước.
+4	Bài 4: Bàn tay con người thiết kế Robot		Mở rộng	Khám phá công việc của các kỹ sư sáng tạo ra các cử chỉ thân thiện cho robot.
+5	Bài 5: Cách AI thể hiện cảm xúc thân thiện	1.A2.1	Cốt lõi	Nêu được các cách mà AI thể hiện cảm xúc qua hình ảnh, giọng nói hoặc hành vi (biểu tượng khuôn mặt vui, giọng nói thân thiện, lời chào).
+6	Bài 6: Những thiết bị AI giúp ích quanh em	1.A2.2, 1.A2.3	Cốt lõi	Kể tên thiết bị có sử dụng AI (loa thông minh, điện thoại); mô tả công dụng chính giúp cuộc sống tiện ích hơn.
+7	Bài 7: Lời chào dễ thương giúp hợp tác vui vẻ	1.A2.MR1	Mở rộng	Nêu được rằng những biểu hiện thân thiện giúp AI giao tiếp tự nhiên hơn, khiến người dùng cảm thấy thoải mái, dễ hợp tác.
+8	Bài 8: Đôi mắt và đôi tai của thiết bị thông minh	1.C1.1, 1.C1.3	Cốt lõi	Nhận biết AI trong một số ví dụ cụ thể; nhận ra thiết bị thông minh có các bộ phận như con người: Camera là "mắt", Micro là "tai".
+9	Bài 9: Khám phá "Mắt thần" Camera nhận diện đồ vật	1.C1.MR1	Mở rộng	Nhận biết được AI có khả năng xử lí hình ảnh nhận được để nhận diện các đồ vật xung quanh em.
+10	Bài 10: Trò chuyện cùng trợ lý thông minh	1.C1.2, 1.C1.4	Cốt lõi	Nhận diện trợ lý ảo quen thuộc; nhận biết AI hiểu mệnh lệnh đơn giản và trò chuyện theo kịch bản định sẵn dưới sự giám sát.
+11	Bài 11: Đi tìm thiết bị AI trong trường học của em		Mở rộng	Quan sát và kể tên các thiết bị thông minh có trong trường học (camera cổng trường, màn hình tương tác).
+12	Bài 12: Máy thông minh làm việc tốt	1.B3.2	Cốt lõi	Nêu ví dụ con người sử dụng AI đúng cách vì mục đích tốt đẹp (giúp học tập, chỉ đường, hỗ trợ bác sĩ).
+13	Bài 13: Vẽ tranh: Người bạn AI làm việc tốt		Mở rộng	Sáng tạo tranh vẽ ý tưởng thiết bị thông minh giúp đỡ người khuyết tật, người già.
+14	Bài 14: Không dùng thiết bị thông minh làm việc xấu	1.B1.1, 1.B3.1	Cốt lõi	Nhận biết hành vi dùng AI gây hại cho người khác; hiểu rằng tuyệt đối không được phép sử dụng AI với mục đích làm hại người khác.
+15	Bài 15: Thói quen tốt khi sử dụng thiết bị thông minh		Mở rộng	Hình thành thói quen ngồi đúng tư thế, giữ khoảng cách mắt an toàn và nhờ người lớn hướng dẫn khi dùng máy.
+16	Bài 16: Kể chuyện: Bạn nhỏ và chú Robot lễ phép		Mở rộng	Đọc truyện và thảo luận về cách chào hỏi văn minh, đúng mực khi tương tác với thiết bị số.
+17	Bài 17: Ôn tập chuyên đề Học kỳ I: Cảm xúc và Đạo đức		Mở rộng	Hệ thống hóa các nhận thức về cảm xúc người vs máy, giác quan của máy và hành vi tốt khi dùng AI.
+18	Bài 18: Báo cáo hồ sơ học tập Học kỳ I	Mục VI QĐ 2422	Mở rộng	Tổng hợp minh chứng quá trình: Trưng bày bộ tranh vẽ cảm xúc và bảng nhận diện thiết bị AI; giáo viên nhận xét sự tiến bộ.
+19	Bài 19: Khám phá "Tai thính" Micro phân biệt âm thanh	1.C1.MR2	Mở rộng	Nhận biết được AI có khả năng xử lí âm thanh để phân biệt các loại âm thanh khác nhau trong đời sống.
+20	Bài 20: Trò chơi: Máy lắng nghe tiếng còi và tiếng nhạc		Mở rộng	Trải nghiệm phân biệt âm thanh cảnh báo và âm thanh giai điệu qua giác quan Micro của máy.
+21	Bài 21: Trải nghiệm nét vẽ kỳ diệu cùng AI		Mở rộng	Làm quen với việc máy gợi ý nét vẽ hoàn chỉnh từ hình vẽ phác thảo đơn giản của học sinh.
+22	Bài 22: Máy thông minh học từ ví dụ	1.D1.1	Cốt lõi	Nêu ví dụ AI "học" từ hình ảnh hoặc thông tin con người cung cấp (AI học nhận biết quả cam qua nhiều bức ảnh quả cam).
+23	Bài 23: Cần nhiều ví dụ khác nhau để máy học đúng	1.D1.MR1	Mở rộng	Biết được rằng để AI trả lời đúng cần có nhiều ví dụ đúng và khác nhau để AI học.
+24	Bài 24: Trò chơi phân loại: Dạy máy nhận biết quả		Mở rộng	Học sinh cung cấp các thẻ hình ảnh mẫu để máy phân loại quả tròn và quả dài.
+25	Bài 25: Nhận biết máy thông minh đơn năng	1.D2.1	Cốt lõi	Nhận biết được rằng có loại máy thông minh chỉ làm được một việc duy nhất (như máy nhận diện khuôn mặt).
+26	Bài 26: Xếp nhóm máy làm một việc và nhiều việc	1.D2.2	Cốt lõi	Xếp được một số máy thông minh vào hai nhóm: nhóm chỉ làm được một việc và nhóm làm được nhiều việc khác nhau.
+27	Bài 27: Thực hành phân loại máy đa năng trong đời sống		Mở rộng	Khám phá điện thoại thông minh, máy tính bảng làm được nhiều việc khác nhau.
+28	Bài 28: Trò chơi: Đi tìm người bạn máy đơn năng		Mở rộng	Phân biệt các máy quét mã vạch ở siêu thị, máy đo nhiệt độ chỉ làm một nhiệm vụ.
+29	Bài 29: Khởi động hoạt động: Chú Robot giấy của em		Mở rộng	Lên ý tưởng thiết kế một mô hình chú Robot giấy thông minh đồng hành trong học tập.
+30	Bài 30: Chế tạo mô hình: Mắt Camera và Tai Micro		Mở rộng	Cắt dán các bộ phận cảm nhận cho robot giấy: Đôi mắt Camera và đôi tai Micro.
+31	Bài 31: Vẽ tranh các đồ vật để nạp vào túi nhớ của Robot		Mở rộng	Vẽ và cắt các thẻ tranh đồ chơi, hoa quả để nạp vào "bộ nhớ ví dụ" của chú Robot giấy.
+32	Bài 32: Đóng vai ra lệnh và đối thoại cùng Robot giấy		Mở rộng	Thực hành nói câu lệnh rõ ràng và cho bạn robot giấy phản hồi lời chào thân thiện.
+33	Bài 33: Tổng hợp minh chứng & Báo cáo hồ sơ học tập Học kỳ II		Mở rộng	Đánh giá quá trình qua hồ sơ bài tập và mô hình học tập; giáo viên nhận xét sự tiến bộ của học sinh.
+34	Bài 34: Triển lãm ngày hội: Chú Robot giấy thông minh		Mở rộng	Trưng bày gian hàng mô hình robot giấy và bộ sưu tập ví dụ học tập của cả lớp.
+35	Bài 35: Tổng kết chương trình AI Lớp 1: Em yêu công nghệ		Mở rộng	Hệ thống hóa toàn bộ 4 mạch nội dung Lớp 1; tuyên dương tinh thần tự tin và làm chủ thiết bị.
+36	Bài 36: Báo cáo chuyên đề cốt lõi: Em làm chủ thiết bị thông minh	1.A1.2, 1.B3.2, 1.D2.2	Cốt lõi	Báo cáo tranh vẽ người bạn AI tương lai; tổng kết hồ sơ minh chứng cốt lõi; khẳng định con người làm chủ AI vì việc tốt.
+*** Lop_6_36_Tiet ***
+1	Bài 1: AI là công cụ, con người ra quyết định	6.A1.1, 6.A1.2	Cốt lõi	Giải thích AI do con người tạo ra, lập trình và điều khiển để thực hiện nhiệm vụ cụ thể; AI chỉ là công cụ hỗ trợ, con người ra quyết định cuối cùng và chịu trách nhiệm.
+2	Bài 2: Kỹ năng kiểm chứng kết quả do AI cung cấp	6.A1.3, 6.A3.1	Cốt lõi	Thực hiện kiểm tra lại kết quả do AI đưa ra (đối chiếu SGK, nguồn tin cậy); nêu ví dụ tình huống con người ra quyết định với sự hỗ trợ của AI.
+3	Bài 3: Thực hành kỹ năng đối chiếu đa nguồn tin cậy		Mở rộng	Rèn luyện thói quen tra cứu chéo ít nhất 2 nguồn tin độc lập để xác minh câu trả lời của AI.
+4	Bài 4: Nhận biết hiện tượng ảo giác AI (hallucination)		Mở rộng	Nhận diện các trường hợp AI đưa ra câu trả lời có vẻ hợp lý nhưng hoàn toàn sai sự thật.
+5	Bài 5: Bảo vệ dữ liệu cá nhân và quyền riêng tư	6.A3.3, 6.A3.4	Cốt lõi	Giải thích dữ liệu cá nhân (ảnh, giọng nói, họ tên, vị trí) cần bảo vệ; trình bày khái niệm quyền riêng tư ở mức đơn giản và tác hại khi dữ liệu cá nhân bị sử dụng sai mục đích.
+6	Bài 6: Kỹ năng khử nhận dạng dữ liệu cá nhân		Mở rộng	Thực hành kỹ thuật che mặt, ẩn thông tin danh tính trước khi chia sẻ dữ liệu phục vụ học tập.
+7	Bài 7: Tính hai mặt của các tính năng AI	6.B1.1	Cốt lõi	Chỉ ra mặt tích cực và hạn chế của một số tính năng AI cụ thể (thu thập dữ liệu giúp gợi ý chính xác nhưng tiềm ẩn nguy cơ xâm phạm đời tư).
+8	Bài 8: Tiêu chuẩn an toàn và minh bạch của ứng dụng AI	6.B2.1	Cốt lõi	Đặt được một số câu hỏi đơn giản để kiểm tra tính an toàn và minh bạch của ứng dụng AI ("Công cụ này có an toàn không?", "Dữ liệu lưu ở đâu?").
+9	Bài 9: Tổng hợp minh chứng & Báo cáo học tập giữa Học kỳ I	Mục VI QĐ 2422	Mở rộng	Tổng hợp minh chứng quá trình: Đánh giá phiếu kiểm chứng thông tin và bảng kiểm an toàn dữ liệu; giáo viên nhận xét sự tiến bộ.
+10	Bài 10: Khám phá cách AI học: Dữ liệu và Thuật toán	6.C1.1	Cốt lõi	Giải thích hai thành phần chính để huấn luyện AI là dữ liệu (văn bản, hình ảnh) và thuật toán (phương pháp học từ dữ liệu).
+11	Bài 11: Mối liên hệ giữa huấn luyện và hoạt động thực tế	6.C1.MR1	Mở rộng	Chỉ ra được mối liên hệ giữa quá trình huấn luyện và hoạt động của một công cụ AI qua ví dụ đơn giản (trợ lý ảo hiểu tiếng Việt nhờ dữ liệu giọng nói tiếng Việt).
+12	Bài 12: Thử nghiệm đối kháng với công cụ AI	6.C1.MR2	Mở rộng	Thực hiện được thử nghiệm đơn giản với một công cụ AI và nhận xét được các bước hoạt động của công cụ đó (đặt cùng câu lệnh cho các công cụ khác nhau).
+13	Bài 13: Kỹ thuật câu lệnh (prompt) có cấu trúc		Mở rộng	Thực hành đặt câu lệnh rõ ràng, cung cấp bối cảnh và yêu cầu cụ thể để nhận được kết quả tốt nhất.
+14	Bài 14: Kỹ năng ghi nhật ký câu lệnh (prompt log)		Mở rộng	Thực hành ghi lại nguồn dữ liệu, câu lệnh đã cung cấp và phản hồi nhận được để thực hiện trách nhiệm giải trình.
+15	Bài 15: Tác động của AI đối với bản thân và học tập	6.C1.2, 6.A3.2	Cốt lõi	Nêu ví dụ tác động tích cực và tiêu cực của AI đối với bản thân, gia đình; trình bày lợi ích của AI trong việc hỗ trợ con người học hỏi, rèn kĩ năng khi dùng đúng mực.
+16	Bài 16: Phân tích tác động của công cụ AI trong gia đình	6.C1.MR3	Mở rộng	Phân tích được ở mức đơn giản tác động của một công cụ AI cụ thể đối với bản thân và gia đình (chỉ ra cả mặt tích cực và tiêu cực).
+17	Bài 17: Ôn tập chuyên đề Học kỳ I: Dữ liệu và Câu lệnh		Mở rộng	Hệ thống hóa các kiến thức về kiến trúc Dữ liệu - Thuật toán, kỹ thuật câu lệnh và liêm chính học thuật.
+18	Bài 18: Báo cáo hồ sơ học tập Học kỳ I	Mục VI QĐ 2422	Mở rộng	Trưng bày sổ nhật ký câu lệnh (prompt log) và bảng so sánh công cụ AI; giáo viên nhận xét đánh giá quá trình.
+19	Bài 19: Phân biệt ứng dụng có AI và không có AI	6.C2.1, 6.C2.2	Cốt lõi	Phân biệt công cụ có AI và không có AI qua ví dụ gần gũi; kể tên và mô tả chức năng chính của một số công cụ AI thông dụng (trợ lý ảo, bản đồ, dịch).
+20	Bài 20: Ứng dụng AI gắn với thực tiễn tại Việt Nam	6.C2.MR1	Mở rộng	Nêu được ví dụ về ứng dụng AI trong cuộc sống, ưu tiên các vấn đề gắn với thực tiễn ở Việt Nam (nông nghiệp thông minh, định danh số, dự báo thời tiết).
+21	Bài 21: Các công nghệ AI quen thuộc trong đời sống	6.C3.1	Cốt lõi	Kể được tên một số công nghệ AI quen thuộc trong đời sống (nhận dạng hình ảnh, chuyển đổi giữa văn bản và giọng nói).
+22	Bài 22: Tính năng AI tích hợp trong ứng dụng thường gặp	6.C3.MR1	Mở rộng	Trình bày được một số tính năng AI tích hợp trong các ứng dụng thường gặp (tính năng gợi ý đề xuất nội dung, dịch tự động).
+23	Bài 23: Nhận biết hiện tượng "bong bóng thông tin"		Mở rộng	Tìm hiểu nguyên nhân khi hệ thống chỉ gợi ý những gì người dùng thích, dẫn đến góc nhìn phiến diện.
+24	Bài 24: Ranh giới sử dụng: Khi nào nên và không nên dùng AI?	6.D1.1	Cốt lõi	Nêu được một số tình huống quen thuộc nên hoặc không nên sử dụng AI (nên dùng luyện phát âm, tìm ý tưởng; không nên dùng khi làm bài kiểm tra).
+25	Bài 25: Tranh biện ý kiến cá nhân: Nên hay không nên dùng AI?	6.D1.MR1	Mở rộng	Trình bày được ý kiến cá nhân về việc nên hay không nên sử dụng AI trong một số tình huống thực tế; giải thích lí do bảo vệ quan điểm.
+26	Bài 26: Xây dựng quy ước sử dụng AI trong học tập của lớp		Mở rộng	Thảo luận nhóm xây dựng bản cam kết: Sử dụng AI để gợi ý dàn ý, không sao chép nguyên văn.
+27	Bài 27: Tổng hợp minh chứng & Báo cáo học tập giữa Học kỳ II	Mục VI QĐ 2422	Mở rộng	Đánh giá quá trình: Đánh giá bài tranh biện và bản quy ước sử dụng AI; giáo viên nhận xét sự tiến bộ.
+28	Bài 28: Giới hạn của hệ thống AI so với con người	6.D2.1	Cốt lõi	Trình bày một số giới hạn của hệ thống AI so với con người qua các tình huống, công việc mà con người thực hiện phù hợp hơn AI (thấu cảm, đạo đức).
+29	Bài 29: Vì sao AI gặp giới hạn trong một số công việc?	6.D2.MR1	Mở rộng	Giải thích được vì sao AI gặp giới hạn trong một số công việc so với con người (AI học từ dữ liệu quá khứ nên khó thích ứng tình huống mới lạ).
+30	Bài 30: Đề xuất mô hình kết hợp tối ưu giữa Người và AI	6.D2.MR2	Mở rộng	Đề xuất được cách kết hợp giữa con người và AI trong một công việc cụ thể để phát huy thế mạnh của mỗi bên (AI gợi ý thông tin, người phán đoán).
+31	Bài 31: Xây dựng kịch bản cộng tác: Em và trợ lý AI học tập		Mở rộng	Thực hành thiết lập kịch bản làm việc nhóm: Phân công nhiệm vụ cho công cụ AI hỗ trợ tra cứu và nhóm học sinh tổng hợp.
+32	Bài 32: Thử nghiệm kịch bản và đánh giá hiệu quả		Mở rộng	Vận hành kịch bản cộng tác đã thiết kế và nhận xét ưu điểm, hạn chế của việc phối hợp cùng AI.
+33	Bài 33: Hoàn thiện hồ sơ lưu vết câu lệnh và minh chứng		Mở rộng	Rà soát toàn bộ nhật ký câu lệnh và các sản phẩm đã thực hiện trong cả năm học.
+34	Bài 34: Triển lãm báo cáo: Ý tưởng kết hợp Người và AI		Mở rộng	Trưng bày poster kịch bản cộng tác Người - AI và hồ sơ nhật ký câu lệnh của các nhóm học sinh.
+35	Bài 35: Tổng kết chương trình AI Lớp 6: Tự hào công dân số		Mở rộng	Hệ thống hóa toàn bộ 4 mạch năng lực; tuyên dương tinh thần sáng tạo, làm chủ và liêm chính học thuật.
+36	Bài 36: Báo cáo chuyên đề cốt lõi: Sử dụng AI thông minh và trách nhiệm	6.A1.2, 6.A1.3, 6.D1.1, 6.D2.1	Cốt lõi	Tổng kết chuyên đề cốt lõi 12 tiết; hoàn thiện hồ sơ học tập và lưu vết minh chứng câu lệnh (prompt log); cam kết liêm chính số.

@@ -1,0 +1,14 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+So trang: 6
+Trang 1: Kh├┤ng c├│ text (c├│ thß╗â l├á scan ß║únh)
+  -> 1 image blocks
+Trang 2: Kh├┤ng c├│ text (c├│ thß╗â l├á scan ß║únh)
+  -> 1 image blocks
+Trang 3: Kh├┤ng c├│ text (c├│ thß╗â l├á scan ß║únh)
+  -> 1 image blocks
+Trang 4: Kh├┤ng c├│ text (c├│ thß╗â l├á scan ß║únh)
+  -> 1 image blocks
+Trang 5: Kh├┤ng c├│ text (c├│ thß╗â l├á scan ß║únh)
+  -> 1 image blocks
+Trang 6: Kh├┤ng c├│ text (c├│ thß╗â l├á scan ß║únh)
+  -> 1 image blocks

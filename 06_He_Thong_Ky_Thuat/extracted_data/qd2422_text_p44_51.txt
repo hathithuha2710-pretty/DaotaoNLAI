@@ -1,0 +1,392 @@
+
+=== PAGE 44 ===
+44 
+ 
+Chủ đề 
+Nội dung 
+Yêu cầu cần đạt 
+việc tạo ra sản phẩm AI cần có sự hợp tác giữa nhiều 
+người với chuyên môn khác nhau. 
+12.D2.MR1. Phân tích được nguyên nhân của các 
+vấn đề phát sinh trong hệ thống AI và lựa chọn được 
+cách giải quyết phù hợp để hệ thống hoạt động ổn 
+định và hiệu quả hơn. 
+12.D2.MR2. Trình bày được khả năng và cấu trúc 
+cơ bản của một hệ thống tác nhân AI (AI agent). 
+12.D2.MR3. Xây dựng và kiểm thử được hệ thống 
+tác nhân AI đơn giản phục vụ một nhiệm vụ học tập 
+hoặc cộng đồng.  
+V. PHƯƠNG PHÁP GIÁO DỤC 
+1. Định hướng chung 
+Phát huy năng lực nhận diện, phân tích và giải quyết vấn đề thực tiễn với sự hỗ trợ 
+của AI khi phù hợp; bồi dưỡng sự tự tin, tự chủ, sáng tạo và khả năng tự học suốt đời;  
+giúp học sinh biết lựa chọn, sử dụng và đánh giá công cụ AI để liên tục nâng cao tri thức 
+và thích ứng với sự thay đổi nhanh chóng của công nghệ trí tuệ nhân tạo. 
+Thiết kế các hoạt động học tập để học sinh tích cực, chủ động, sáng tạo trong việc 
+khám phá kiến thức và ứng dụng AI; khuyến khích học sinh tạo ra sản phẩm số, mô hình 
+hoặc phương án ứng dụng AI gắn với học tập và đời sống. 
+Vận dụng linh hoạt các phương pháp giáo dục tích cực và hình thức tổ chức dạy học 
+đa dạng trong các chuyên đề giáo dục AI; đồng thời tăng cường củng cố, vận dụng  
+nội dung giáo dục AI thông qua dạy học liên môn, lồng ghép trong các môn học, hoạt động 
+giáo dục, dạy học định hướng STEM/STEAM và các vấn đề thực tiễn của nhà trường,  
+cộng đồng, địa phương khi phù hợp. 
+Khi thực hiện các định hướng trên, giáo viên lấy hoạt động học của học sinh làm 
+trung tâm; bảo đảm vai trò quyết định, giám sát và trách nhiệm của con người; tích hợp các 
+yêu cầu về đạo đức, an toàn, quyền trẻ em, kiểm chứng và khai báo việc sử dụng AI trong 
+hoạt động học tập. 
+2. Định hướng về phương pháp hình thành, phát triển phẩm chất và năng lực chung 
+Trong giáo dục AI có nhiều cơ hội để kết hợp hình thành năng lực AI với việc phát triển 
+năm phẩm chất chủ yếu và ba năng lực chung trong Chương trình giáo dục phổ thông 2018. 
+a) Phương pháp hình thành và phát triển phẩm chất chủ yếu: 
+Các chủ đề về dữ liệu, đạo đức AI, quyền riêng tư, bản quyền số, AI tạo sinh và trách 
+nhiệm xã hội tạo cơ hội để học sinh hình thành và phát triển các phẩm chất yêu nước,  
+nhân ái, chăm chỉ, trung thực và trách nhiệm trong môi trường số. Giáo viên căn cứ các  
+biểu hiện của phẩm chất được quy định trong Chương trình giáo dục phổ thông tổng thể  
+để lựa chọn nội dung, tình huống và hoạt động giáo dục phù hợp trong toàn bộ quá trình  
+giáo dục AI. 
+b) Phương pháp hình thành và phát triển năng lực chung: 
+
+=== PAGE 45 ===
+45 
+ 
+Năng lực tự chủ và tự học được phát triển qua việc học sinh lựa chọn, sử dụng  
+công cụ AI phù hợp, tự điều chỉnh chiến lược học tập, kiểm chứng và cải thiện kết quả. 
+Năng lực giao tiếp và hợp tác được phát triển thông qua hoạt động nhóm, xây dựng dự án, 
+phản biện và chia sẻ kết quả. Năng lực giải quyết vấn đề và sáng tạo được phát triển  
+thông qua việc xác định các vấn đề thực tiễn, thiết kế, thử nghiệm, điều chỉnh giải pháp và 
+đánh giá rủi ro. 
+3. Định hướng phương pháp và hình thức tổ chức dạy học đặc thù trong  
+giáo dục AI 
+Trong quá trình tổ chức dạy học, giáo viên cần: 
+a) Áp dụng các phương pháp dạy học tích cực, chú trọng trải nghiệm, thực hành,  
+giải quyết vấn đề và dự án ở mức độ phù hợp; tạo điều kiện để học sinh hợp tác, tự học và 
+sáng tạo. Các hoạt động học tập được tổ chức linh hoạt, tạo hứng thú cho học sinh,  
+đồng thời bảo đảm an toàn và hiệu quả. 
+b) Lựa chọn hình thức tổ chức phù hợp với nội dung và đặc điểm lứa tuổi. Các  
+chủ đề về đạo đức AI, nhận diện rủi ro, tìm hiểu quy định và trách nhiệm khi sử dụng AI 
+có thể được tổ chức thông qua thảo luận, tranh biện, đóng vai và nghiên cứu tình huống mà 
+không cần sử dụng máy tính. 
+c) Liên hệ và gắn kết kiến thức AI với các vấn đề thực tiễn trong học tập, đời sống, 
+sản xuất và dịch vụ công; tổ chức cho học sinh đề xuất giải pháp, kiểm chứng kết quả,  
+xem xét hiệu quả, tính nhân văn, đạo đức và mức độ phù hợp của giải pháp. 
+d) Thực hiện dạy học phân hoá và cá thể hoá. Ở tiểu học, chú trọng trải nghiệm,  
+khơi gợi tò mò và hứng thú ban đầu với AI. Ở cấp trung học cơ sở, tạo điều kiện để học 
+sinh lựa chọn nhiệm vụ và cách thực hiện phù hợp, từng bước phát triển năng lực dữ liệu,  
+tư duy tính toán và khả năng kiểm chứng, chuẩn bị nền tảng cho bậc học cao hơn. Đối với 
+cấp trung học phổ thông, tăng cường các hoạt động phân tích, thiết kế, sáng tạo, tạo cơ sở 
+cho định hướng nghề nghiệp; các hoạt động nghiên cứu, phát triển sản phẩm với AI được 
+tổ chức phù hợp trong nội dung mở rộng.. 
+4. Phương pháp giáo dục theo cấp học 
+Phương pháp giáo dục AI cần được lựa chọn phù hợp với đặc điểm nhận thức,  
+mức độ tự chủ và yêu cầu phát triển năng lực của học sinh ở từng cấp học. Việc tổ chức 
+dạy học được thực hiện theo tiến trình từ trực quan, sinh động ở tiểu học; logic, khoa học 
+và chú trọng kiểm chứng ở trung học cơ sở; đến phân tích, phản biện và đánh giá ở  
+trung học phổ thông. Theo tiến trình này, mức độ hỗ trợ trực tiếp của giáo viên giảm dần, 
+trong khi tính phức tạp của nhiệm vụ, mức độ tự chủ và trách nhiệm của học sinh tăng dần. 
+Ở cấp tiểu học, phương pháp giáo dục cần bảo đảm tính trực quan, sinh động, gần gũi 
+và phù hợp với trải nghiệm của học sinh. Ưu tiên sử dụng kể chuyện, tranh hoặc thẻ, trò 
+chơi, đóng vai, quan sát, lựa chọn và xử lí các tình huống đơn giản; tổ chức những  
+trải nghiệm ngắn có sự hướng dẫn trực tiếp của giáo viên; sử dụng mô hình giấy và tạo  
+sản phẩm đơn giản. Giáo viên chuẩn bị dữ liệu, sử dụng câu lệnh ngắn, rõ ràng; ưu tiên các 
+hoạt động không yêu cầu học sinh tạo tài khoản và không phụ thuộc vào thiết bị cá nhân. 
+Khi cần sử dụng thiết bị, ưu tiên tổ chức cho học sinh sử dụng thiết bị dùng chung dưới sự 
+hướng dẫn, giám sát của giáo viên. Trong trường hợp bị hạn chế vì thiếu thiết bị hoặc  
+điện năng, giáo viên có thể hướng dẫn học sinh mô phỏng thủ công. 
+
+=== PAGE 46 ===
+46 
+ 
+Ở cấp trung học cơ sở, phương pháp giáo dục cần chú trọng tính logic, khoa học và 
+khả năng kiểm chứng. Ưu tiên tổ chức cho học sinh điều tra, đặt câu hỏi, so sánh và  
+kiểm chứng thông tin, phân tích dữ liệu và thiên lệch, xử lí tình huống đạo đức, thiết kế và 
+thử nghiệm các giải pháp đơn giản. Giáo viên xác định quy trình và tiêu chí rõ ràng,  
+đồng thời tạo điều kiện để học sinh lựa chọn cách thực hiện trong phạm vi phù hợp.  
+Học sinh được hướng dẫn ghi lại nguồn dữ liệu, câu lệnh hoặc yêu cầu đã cung cấp cho 
+công cụ AI, kết quả thử nghiệm và phản hồi nhận được để làm căn cứ kiểm chứng,  
+giải thích và điều chỉnh kết quả. 
+Ở cấp trung học phổ thông, phương pháp giáo dục cần tập trung phát triển khả năng 
+phân tích, phản biện và đánh giá. Ưu tiên sử dụng nghiên cứu trường hợp, tranh biện,  
+phân tích dữ liệu hoặc mô hình, đánh giá rủi ro và sự đánh đổi, thực hiện dự án, phản biện 
+phương án và đề xuất giải pháp. Học sinh được tăng cường mức độ tự chủ trong xác định 
+vấn đề, lựa chọn phương án, kiểm thử, đánh giá và điều chỉnh giải pháp; đồng thời phải 
+tuân thủ yêu cầu về quản trị dữ liệu, đạo đức, an toàn và trách nhiệm. Giáo viên giữ vai trò 
+định hướng, phê duyệt và kiểm soát tại những khâu cần thiết.  
+Tiến trình phương pháp giáo dục AI được phát triển từ quan sát, trải nghiệm và  
+nhận biết ở tiểu học; đến tìm hiểu, giải thích và kiểm chứng ở trung học cơ sở; tiến tới  
+phân tích, phản biện, đánh giá và đề xuất giải pháp ở trung học phổ thông. Theo đó, độ 
+phức tạp của nhiệm vụ, mức độ tự chủ, chất lượng minh chứng và trách nhiệm của học sinh 
+trong học tập và sử dụng AI được tăng dần. 
+5. Tổ chức nội dung cốt lõi và nội dung mở rộng 
+Nội dung giáo dục AI được tổ chức thành nội dung cốt lõi và nội dung mở rộng.  
+Nội dung cốt lõi bảo đảm các yêu cầu cần đạt thiết yếu đối với mọi học sinh, được tổ 
+chức thực hiện thông qua các chuyên đề giáo dục AI với thời lượng 12 tiết/lớp/năm học. 
+Các chuyên đề được bố trí phù hợp trong kế hoạch giáo dục của nhà trường và kế hoạch 
+dạy học 2 buổi/ngày; bảo đảm phù hợp với đặc điểm học sinh, điều kiện thực tế và không 
+gây áp lực, quá tải.  
+Nội dung giáo dục AI được lồng ghép trong các môn học và hoạt động giáo dục nhằm 
+củng cố, vận dụng và phát triển những kiến thức, kĩ năng thuộc nội dung cốt lõi đã được 
+trang bị qua các chuyên đề; đồng thời có thể thực hiện một phần nội dung mở rộng khi phù 
+hợp với yêu cầu cần đạt, đặc thù môn học, hoạt động giáo dục và điều kiện của cơ sở giáo 
+dục. Việc lồng ghép không làm thay đổi hoặc gia tăng yêu cầu cần đạt của môn học và hoạt 
+động giáo dục. 
+Nội dung mở rộng được tổ chức ngoài thời lượng 12 tiết dành cho nội dung cốt lõi, 
+phù hợp với nhu cầu, năng lực của học sinh và điều kiện của cơ sở giáo dục. Nội dung mở 
+rộng có thể được tổ chức thông qua hình thức câu lạc bộ, dự án, hoạt động trải nghiệm, 
+ngoại khoá, nghiên cứu hoặc các hình thức phù hợp khác.  
+Việc triển khai nội dung mở rộng không thay thế, không làm giảm yêu cầu thực hiện 
+nội dung cốt lõi và phải bảo đảm cơ hội tiếp cận công bằng cho học sinh.  
+VI. ĐÁNH GIÁ KẾT QUẢ GIÁO DỤC 
+1. Định hướng chung 
+Đánh giá kết quả giáo dục AI là một bộ phận của quá trình tổ chức dạy học,  
+nhằm xác định mức độ đáp ứng yêu cầu cần đạt và sự tiến bộ của học sinh; giúp giáo viên 
+
+=== PAGE 47 ===
+47 
+ 
+điều chỉnh hoạt động dạy học, đồng thời hỗ trợ học sinh nhận biết điểm mạnh, hạn chế và 
+chủ động cải thiện kết quả học tập. 
+Việc đánh giá phải bám sát các yêu cầu cần đạt thuộc nội dung cốt lõi của từng lớp, 
+phù hợp với đặc điểm lứa tuổi và điều kiện tổ chức thực hiện; kết hợp đánh giá quá trình, 
+đánh giá định kì và tổng hợp kết quả vào cuối học kì, trong đó đánh giá quá trình giữ  
+vai trò chủ đạo. Nội dung mở rộng được đánh giá, ghi nhận riêng và không dùng để  
+thay thế, nâng chuẩn hoặc làm điều kiện hoàn thành nội dung cốt lõi. 
+Khung không quy định bài kiểm tra, bài thi hoặc đầu điểm riêng đối với nội dung 
+giáo dục AI. Kết quả đánh giá nội dung cốt lõi được ghi nhận bằng nhận xét hoặc mức độ 
+đáp ứng yêu cầu cần đạt trên cơ sở các minh chứng thu thập trong chuyên đề giáo dục AI 
+và quá trình học sinh củng cố, vận dụng nội dung AI trong các môn học, hoạt động  
+giáo dục. Khi phù hợp, minh chứng về việc vận dụng AI có thể được sử dụng trong  
+quá trình đánh giá môn học hoặc hoạt động giáo dục theo quy định hiện hành; không xác 
+lập đầu điểm riêng cho nội dung giáo dục AI. 
+Đánh giá phải bảo đảm tính toàn diện, khách quan và công bằng; không gây bất lợi 
+cho học sinh do thiếu thiết bị, tài khoản, kết nối Internet hoặc khả năng tiếp cận một  
+công cụ AI cụ thể. Việc đánh giá không tập trung vào mức độ thành thạo một phần mềm 
+hoặc nền tảng riêng biệt mà chú trọng khả năng vận dụng kiến thức, kĩ năng, thái độ và 
+trách nhiệm của học sinh. 
+2. Nội dung đánh giá 
+Nội dung đánh giá tập trung vào mức độ học sinh đáp ứng các yêu cầu cần đạt thuộc 
+bốn thành phần năng lực AI, gồm: 
+a) Nhận biết vai trò của con người; xác định mục đích và mức độ phù hợp của việc 
+sử dụng AI; duy trì quyền chủ động, kiểm soát và trách nhiệm của con người. 
+b) Nhận diện và xử lí phù hợp các vấn đề về đạo đức, an toàn, quyền riêng tư, dữ liệu 
+cá nhân, bản quyền, công bằng, thiên lệch, minh bạch và trách nhiệm giải trình. 
+c) Hiểu biết về dữ liệu, thuật toán, mô hình, khả năng và giới hạn của AI; lựa chọn, 
+sử dụng, kiểm chứng và đánh giá thông tin hoặc kết quả do AI cung cấp. 
+d) Xác định vấn đề, đề xuất ý tưởng, thiết kế, thử nghiệm, đánh giá và cải tiến  
+sản phẩm hoặc giải pháp có ứng dụng AI ở mức độ phù hợp. 
+Việc đánh giá đồng thời chú trọng khả năng hợp tác, giao tiếp, giải thích lựa chọn, 
+cung cấp minh chứng, khai báo việc sử dụng AI và chịu trách nhiệm đối với quá trình,  
+sản phẩm học tập của học sinh. 
+Đối với các chủ đề về sử dụng và ứng dụng AI, chú trọng khả năng lựa chọn công cụ, 
+thực hiện nhiệm vụ, kiểm chứng kết quả và giải quyết vấn đề. Đối với các chủ đề về  
+dữ liệu, thuật toán, mô hình và hệ thống AI, chú trọng khả năng mô tả, giải thích,  
+phân tích, thử nghiệm và cải tiến. Đối với các chủ đề về đạo đức, an toàn và pháp luật,  
+cần kết hợp đánh giá việc xử lí tình huống với quan sát thái độ, hành vi và trách nhiệm của 
+học sinh. 
+3. Hình thức và thời điểm đánh giá 
+Đánh giá quá trình được thực hiện thường xuyên trong các hoạt động học tập  
+thông qua quan sát, trao đổi, câu hỏi, nhiệm vụ, tình huống, thực hành, sản phẩm và hồ sơ 
+học tập. Giáo viên cung cấp phản hồi kịp thời, giúp học sinh nhận biết kết quả đã đạt được, 
+
+=== PAGE 48 ===
+48 
+ 
+nội dung cần điều chỉnh và cách thức cải thiện; khuyến khích học sinh tự đánh giá và  
+đánh giá đồng đẳng theo tiêu chí phù hợp. 
+Đánh giá định kì có thể được thực hiện sau một chuyên đề, một nhóm nội dung hoặc 
+một giai đoạn học tập thông qua bài thực hành, xử lí tình huống, bài trình bày, dự án nhỏ, 
+sản phẩm hoặc hồ sơ học tập. Không tổ chức bài kiểm tra định kì và không xác lập  
+đầu điểm riêng cho nội dung giáo dục AI. 
+Vào cuối học kì, giáo viên tổng hợp các minh chứng từ đánh giá quá trình và  
+đánh giá định kì để nhận xét về sự tiến bộ và mức độ đáp ứng các yêu cầu cần đạt cốt lõi 
+của học sinh; không nhất thiết tổ chức bài kiểm tra cuối học kì riêng. Kết luận đánh giá 
+phải dựa trên nhiều minh chứng, không suy rộng thành kết luận về toàn bộ năng lực AI  
+chỉ từ một sản phẩm, một lần thực hiện nhiệm vụ hoặc kết quả sử dụng một công cụ cụ thể. 
+4. Phương pháp, công cụ và minh chứng đánh giá 
+Giáo viên lựa chọn, phối hợp linh hoạt các phương pháp đánh giá như quan sát,  
+trao đổi, đặt câu hỏi, thảo luận, tranh biện, xử lí tình huống, thực hành, dự án, tự đánh giá 
+và đánh giá đồng đẳng. Công cụ đánh giá có thể gồm bảng kiểm, phiếu quan sát, thang  
+mô tả mức độ, rubric, nhật kí và hồ sơ học tập. 
+Minh chứng đánh giá có thể là câu trả lời, phiếu học tập, kết quả xử lí tình huống, 
+bảng kiểm chứng thông tin, sơ đồ, mô hình, sản phẩm số, nguyên mẫu, báo cáo thử nghiệm, 
+bài trình bày, kết quả phản biện và phần giải thích của học sinh. Tiêu chí đánh giá cần  
+chú trọng quá trình xác định mục tiêu, lựa chọn phương án, kiểm chứng kết quả, giải thích 
+quyết định, điều chỉnh sản phẩm và chịu trách nhiệm của học sinh. 
+Khi sản phẩm học tập có sử dụng AI, học sinh cần nêu được công cụ, mục đích và 
+phạm vi hỗ trợ của AI, phần việc do học sinh trực tiếp thực hiện, cách kiểm chứng và  
+chỉnh sửa kết quả. Việc khai báo sử dụng AI là minh chứng về tính trung thực và  
+trách nhiệm, không phải là căn cứ để tự động tăng hoặc giảm kết quả đánh giá. 
+Nhiệm vụ đánh giá phải phù hợp với điều kiện thực tế, có phương án không sử dụng 
+thiết bị hoặc sử dụng thiết bị dùng chung khi cần thiết; không phụ thuộc bắt buộc vào  
+dịch vụ trả phí, tài khoản cá nhân, nền tảng hoặc thiết bị chuyên biệt. Đánh giá trên  
+diện rộng, nếu thực hiện, phải căn cứ vào các yêu cầu cần đạt thuộc nội dung cốt lõi và 
+không sử dụng nội dung mở rộng làm căn cứ đánh giá bắt buộc đối với mọi học sinh. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PAGE 49 ===
+49 
+ 
+PHỤ LỤC: GIẢI THÍCH THUẬT NGỮ 
+Thuật ngữ 
+Giải thích 
+Trí tuệ nhân tạo (Artificial 
+Intelligence, AI) 
+Là việc thực hiện bằng điện tử các năng lực trí tuệ của con 
+người, bao gồm học tập, suy luận, nhận thức, phán đoán và 
+hiểu ngôn ngữ tự nhiên. 
+AI tạo sinh (generative AI) Loại AI có khả năng tạo ra nội dung mới như văn bản, hình 
+ảnh, âm thanh, video, mã nguồn hoặc dữ liệu, dựa trên dữ liệu 
+đã học. 
+Hệ thống AI (AI system) 
+Hệ thống dựa trên máy, được thiết kế để thực hiện các năng 
+lực trí tuệ nhân tạo với các mức độ tự chủ khác nhau, có thể 
+thể hiện khả năng thích nghi sau khi được triển khai; căn cứ 
+vào các mục tiêu được xác định rõ ràng hoặc được hình thành 
+một cách ngầm định, hệ thống suy luận từ dữ liệu đầu vào để 
+tạo ra các đầu ra như dự đoán, nội dung, khuyến nghị hoặc 
+quyết định có thể gây ảnh hưởng tới môi trường vật lý hoặc 
+môi trường số. 
+Vòng đời hệ thống AI (AI 
+system lifecycle) 
+Các giai đoạn của một hệ thống AI, từ xác định vấn đề, chuẩn 
+bị dữ liệu, thiết kế, thử nghiệm, triển khai, giám sát, xử lí sự cố 
+đến kết thúc sử dụng. 
+Mô hình AI (AI model) 
+Thành phần của hệ thống AI, tạo ra đầu ra từ đầu vào dựa trên 
+các tham số hoặc quy tắc được xây dựng sẵn hoặc học được từ 
+dữ liệu. 
+Thuật toán (algorithm) 
+Dãy hữu hạn các bước, quy tắc được xác định rõ ràng nhằm 
+giải quyết một bài toán hoặc thực hiện một nhiệm vụ; là cơ sở 
+để xây dựng chương trình máy tính và mô hình AI. 
+Học máy  
+(machine learning) 
+Phương pháp xây dựng mô hình AI bằng cách cho máy “học” 
+từ dữ liệu thay vì lập trình tường minh từng quy tắc. 
+Học 
+có 
+giám 
+sát 
+(supervised learning) 
+Phương pháp học máy trong đó mô hình học từ dữ liệu đã được 
+gán nhãn (có sẵn cặp đầu vào và kết quả đúng) để dự đoán kết 
+quả cho dữ liệu mới; ví dụ: phân loại thư rác, nhận dạng chữ 
+viết tay. 
+Học 
+không 
+giám 
+sát 
+(unsupervised learning) 
+Phương pháp học máy trong đó mô hình tự tìm cấu trúc, quy 
+luật hoặc nhóm trong dữ liệu chưa được gán nhãn; ví dụ: tự 
+
+=== PAGE 50 ===
+50 
+ 
+động gom nhóm các tài liệu, bài báo khoa học có nội dung 
+tương tự nhau theo từng chủ đề. 
+Học 
+tăng 
+cường 
+(reinforcement learning) 
+Phương pháp học máy trong đó mô hình học qua thử nghiệm, 
+nhận phản hồi dạng phần thưởng hoặc hình phạt và điều chỉnh 
+hành động để đạt kết quả tốt nhất; ví dụ: AI học chơi cờ. 
+Mạng nơ-ron nhân tạo 
+(artificial neural network) 
+Mô hình tính toán gồm các nút liên kết với nhau, thường được 
+tổ chức thành nhiều lớp, lấy cảm hứng từ cách truyền tín hiệu 
+của nơ-ron sinh học; là nền tảng của học sâu và nhiều hệ thống 
+học máy hiện đại. 
+Học sâu (deep learning) 
+Nhánh của học máy sử dụng mạng nơ-ron nhân tạo nhiều lớp 
+để tự động học các đặc trưng từ dữ liệu; là nền tảng kĩ thuật 
+của nhiều hệ thống AI hiện đại, trong đó có AI tạo sinh. 
+Xử lí ngôn ngữ tự nhiên 
+(Natural 
+Language 
+Processing – NLP) 
+Lĩnh vực kĩ thuật giúp máy hiểu, phân tích và tạo ra ngôn ngữ 
+của con người dưới dạng văn bản hoặc lời nói. 
+Thị 
+giác 
+máy 
+tính 
+(computer vision) 
+Lĩnh vực kĩ thuật giúp máy phân tích hình ảnh, video để thực 
+hiện các tác vụ như nhận dạng, phân loại đối tượng. 
+Phần 
+mềm 
+hội 
+thoại  
+tự động (Chatbot) 
+Ứng dụng giao tiếp với người dùng bằng hội thoại (văn bản 
+hoặc giọng nói); có thể hoạt động theo kịch bản định sẵn hoặc 
+dựa trên các mô hình AI. 
+Mô hình ngôn ngữ lớn 
+(Large Language Model – 
+LLM) 
+Mô hình AI tạo sinh được huấn luyện trên khối lượng văn bản 
+rất lớn, có khả năng hiểu và tạo ra ngôn ngữ tự nhiên; là nền 
+tảng của nhiều chatbot và trợ lí AI hiện nay. 
+Tác nhân AI (AI agent) 
+Hệ thống AI có khả năng lập kế hoạch và tự thực hiện một 
+chuỗi hành động nhằm đạt mục tiêu do con người đặt ra. Việc 
+sử dụng tác nhân AI phải trong phạm vi nhiệm vụ được giao 
+và chịu sự giám sát của con người. 
+Kĩ thuật sinh nội dung  
+tăng cường bằng truy xuất 
+(Retrieval-Augmented 
+Generation – RAG) 
+Kĩ thuật cho phép mô hình AI truy xuất thông tin từ nguồn dữ 
+liệu bên ngoài trước khi tạo câu trả lời, nhằm tăng độ chính xác 
+và giảm nguy cơ tạo ra thông tin sai lệch. 
+Câu lệnh (prompt) 
+Chỉ dẫn, câu hỏi, dữ liệu hoặc ngữ cảnh do người dùng cung 
+cấp để hệ thống AI tạo ra đầu ra tương ứng. 
+
+=== PAGE 51 ===
+51 
+ 
+Ảo giác AI (hallucination) Hiện tượng hệ thống AI tạo ra đầu ra có vẻ hợp lí nhưng sai, 
+thiếu căn cứ hoặc không tồn tại trong thực tế; đây là hạn chế kĩ 
+thuật của mô hình, không phải hành vi có chủ đích. 
+Thiên lệch (bias) 
+Sai lệch có tính hệ thống trong đầu ra của AI, phát sinh từ dữ 
+liệu, thiết kế, cách triển khai hoặc bối cảnh sử dụng, có thể dẫn 
+đến kết quả thiếu công bằng hoặc phân biệt đối xử. 
+Nội dung giả mạo do AI 
+tạo ra (deepfake) 
+Hình ảnh, âm thanh, video do AI tạo ra hoặc chỉnh sửa nhằm 
+mô phỏng người, sự kiện thật với độ chân thực cao; có thể bị 
+lợi dụng để lừa dối, thao túng nhận thức hoặc xâm phạm quyền, 
+lợi ích hợp pháp của cá nhân, tổ chức. 
+Quá khớp (overfitting) 
+Hiện tượng mô hình học quá sát dữ liệu huấn luyện nên hoạt 
+động kém với dữ liệu mới. 
+Trải nghiệm người dùng 
+(User Experience – UX) 
+Tổng thể cảm nhận, mức độ thuận tiện và hiệu quả của người 
+dùng khi tương tác với một sản phẩm, hệ thống. 
+Dữ liệu cá nhân 
+Dữ liệu số hoặc thông tin dưới dạng khác xác định hoặc giúp 
+xác định một con người cụ thể, bao gồm: dữ liệu cá nhân cơ 
+bản và dữ liệu cá nhân nhạy cảm. Dữ liệu cá nhân sau khi khử 
+nhận dạng không còn là dữ liệu cá nhân. 
+Trách nhiệm giải trình 
+Nghĩa vụ giải thích, cung cấp thông tin và chịu trách nhiệm về 
+quyết định, quy trình và tác động liên quan đến việc sử dụng, 
+phát triển AI. 
+ 
+  
+  
+ 
+ 
