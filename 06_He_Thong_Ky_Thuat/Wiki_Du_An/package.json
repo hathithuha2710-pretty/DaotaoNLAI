@@ -1,0 +1,14 @@
+{
+  "name": "daotao-nlai-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Wiki Giáo dục AI Tiểu học",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
