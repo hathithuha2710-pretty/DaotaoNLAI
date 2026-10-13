@@ -5,6 +5,25 @@
 >
 > Mọi thành viên và trợ lý AI tham gia dự án phải chấp hành vô điều kiện các quy tắc bất biến dưới đây.
 
+## QUY TẮC CỨNG: KHÓA MÃ BÀI VÀ TÊN BÀI PPCT LỚP 1–5 — 13/10/2026
+
+Theo chỉ định trực tiếp của người dùng, áp dụng các quy tắc sau cho PPCT và tài liệu phát sinh của Lớp 1–5:
+
+1. **Nguồn hiện hành đã được người dùng chốt.** Mọi nhiệm vụ tiếp theo có bài học Lớp 1–5 phải lấy mã và tên từ [SP3_ Phan_phoi_Chuong_Trinh_AI_Lop_1_5_36_Bai.docx](<03_San_Pham_Chinh_Thuc/YCCD_Lop_1_5_Moi/SP3_ Phan_phoi_Chuong_Trinh_AI_Lop_1_5_36_Bai.docx>), gồm năm bảng 36 bài, đã cập nhật tên ngày 13/10/2026. [Bản Markdown cùng tên](<03_San_Pham_Chinh_Thuc/YCCD_Lop_1_5_Moi/SP3_ Phan_phoi_Chuong_Trinh_AI_Lop_1_5_36_Bai.md>) là bản đối chiếu đầy đủ nội dung Word. Ver2, Rev03/Rev04, các bản Markdown cũ khác tên và các bảng tra cứu chưa đồng bộ là lịch sử, không dùng tên của chúng thay nguồn hiện hành. Chỉ định trực tiếp mới của người dùng có thể thay nguồn hoặc phạm vi này.
+2. **Mã bài là khóa tra cứu.** Cột đầu tiên là `Bài`; sao chép đầy đủ mã `Bài [Lớp].[01–36].[CL hoặc MR]` từ nguồn, ví dụ `Bài 1.01.CL`, `Bài 5.02.MR`. Giữ hai chữ số, hậu tố và thứ tự 36 bài; không tự đánh số lại, chọn lại CL/MR hoặc ghép bài chỉ theo số thứ tự của một bản cũ. Thời lượng dạy học vẫn tính bằng tiết/phút.
+3. **Giữ màu mã theo nguồn.** Chỉ ô mã của bài CL được tô vàng `FFFF00`; bản hiện hành có 12 ô mỗi lớp. Không tô vàng cả dòng hoặc tự lấy ánh xạ CL/MR của phiên bản khác. Phân bổ trong nguồn không tự chứng minh đã kiểm định đầy đủ YCCĐ.
+4. **Phân biệt mã bài với mã YCCĐ.** Hậu tố CL/MR định danh phân bổ trong kế hoạch năm học, không thay các nhãn `VN-CORE`, `VN-MR`, `INT-ENRICH`, mã YCCĐ hay chức năng đánh giá/triển lãm. Việc khóa hoặc đồng bộ tên không cho phép tự sửa các nhãn và mã YCCĐ; lỗi kế thừa cần được ghi riêng để xem xét.
+5. **Khóa nguyên văn 180 tên đã cập nhật.** [Sổ tên hiện hành](06_He_Thong_Ky_Thuat/QA_QC/Cap_Nhat_Ten_Bai_180_20261013/approved_titles_180.json) lưu tên tại `records[].title`, tra bằng `records[].code`. Giữ nguyên từng ký tự: từ ngữ, dấu tiếng Việt, chữ hoa/thường, dấu câu, dấu nháy và khoảng trắng. Không rút gọn, thay từ đồng nghĩa, thêm tên phụ, ghép tên hoạt động hoặc tự sửa tên theo tiêu chuẩn sư phạm khi soạn tài liệu phát sinh. Mã bài và các đề mục triển khai được ghi riêng với trường tên chuẩn; Word được tự ngắt dòng khi hiển thị.
+6. **Áp dụng cho mọi tài liệu phát sinh trong các nhiệm vụ tiếp theo.** Hồ sơ bài học, kế hoạch bài dạy, phiếu học tập, học liệu, slide, câu hỏi/rubric, bảng nhóm kỹ năng, ma trận, bảng tra cứu và dữ liệu xuất dùng cùng cặp mã–tên đã khóa. Nhiệm vụ xây dựng nội dung, phân rã kỹ năng hoặc cải thiện hoạt động không đồng thời giao đổi tên bài. Tên tệp có thể dùng mã bài phù hợp hệ điều hành; tên chuẩn trong nội dung vẫn phải nguyên văn.
+7. **Tra trước khi soạn, đối chiếu trước khi bàn giao.** Lấy đúng cặp mã–tên từ Word hiện hành, bản Markdown đã đồng bộ hoặc sổ tên; đưa nguyên văn vào phiếu giao Anti khi có giao thực hiện. Kiểm mọi bài trong phạm vi đầu ra với sổ khóa, kể cả tên lặp trong nhiều phần. Nếu nguồn và sổ khóa lệch nhau hoặc thiếu mã, ghi rõ điểm lệch và đối chiếu chỉ định mới nhất; không đoán, không lấy theo ngày sửa tệp và không âm thầm cập nhật sổ khóa. Chỉ đổi tên theo yêu cầu trực tiếp, rõ ràng của người dùng; khi được giao áp dụng, đồng bộ Word, Markdown, sổ tên và tài liệu liên quan trong phạm vi được giao. Khóa định danh không đồng nghĩa Human Lock hay nghiệm thu toàn bộ chương trình.
+8. **Bảo toàn PPCT và đặt chi tiết đúng tầng sản phẩm.** Bản hiện hành có năm cột: `Bài`, `Tên bài`, `Nội dung trọng tâm & Kỹ năng tích hợp`, `Thiết bị & Học liệu`, `Mã YCCĐ`. Khi chỉ đồng bộ hoặc khóa tên, giữ nguyên các cột khác, nhãn KN, thứ tự và định dạng Word. Markdown phản ánh đầy đủ các ô của Word; không rút gọn nội dung trọng tâm. Hành động học sinh, minh chứng và thời lượng bốn pha đặt trong hồ sơ chi tiết của bài theo nhiệm vụ được giao.
+
+## QUY TẮC ĐẶT TÊN BÀI HỌC — CẬP NHẬT 13/10/2026
+
+Khi xây dựng tên mới hoặc được giao rà soát tên, bắt buộc đọc và áp dụng [Quy tắc và kỹ năng đặt tên bài học](06_He_Thong_Ky_Thuat/tri_thuc_du_an/QUY_TAC_DAT_TEN_BAI_HOC.md): chín tiêu chuẩn áp dụng đồng thời, cách xác định kiến thức/kỹ năng chính, quy trình giữ hoặc đổi tên và kiểm chất lượng toàn bộ danh sách. Các skill xây dựng, kiểm định và điều phối PPCT dùng cùng tài liệu này.
+
+Các tiêu chuẩn đặt tên áp dụng khi được giao xây dựng tên mới hoặc rà soát tên. Với 180 bài đã khóa ở phần trên, nhiệm vụ biên soạn tài liệu phát sinh phải giữ tên chuẩn, không tự chạy lại vòng đổi tên. Sổ tên Ver2 giữ nguyên làm lịch sử; nguồn và sổ khóa hiện hành thay các chỉ dẫn trước đây về lấy tên Ver2 cho nhiệm vụ Lớp 1–5 tiếp theo, trừ khi người dùng chỉ định khác.
+
 ## ĐIỀU 0. THỨ BẬC VĂN BẢN PHÁP LÝ CỦA DỰ ÁN
 
 Dự án căn cứ vào hệ thống văn bản pháp lý và hướng dẫn chuyên môn theo thứ bậc sau (từ cao xuống thấp):

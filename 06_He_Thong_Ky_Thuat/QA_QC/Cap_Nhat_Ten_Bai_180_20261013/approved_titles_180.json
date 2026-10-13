@@ -1,0 +1,1285 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-13",
+  "applied_on": "2026-10-13",
+  "status": "APPLIED_AND_VERIFIED_TO_CURRENT_PPCT",
+  "source_sha256_after": "d1d6fe332c416a025622f3d4db1441a77738bb7b5a8d4ff8723dbc8aa554c81d",
+  "verification": {
+    "matched_codes_and_titles": 180,
+    "changed_titles": 106,
+    "kept_titles": 74,
+    "non_title_cells_unchanged": 720,
+    "rendered_pages_inspected": 15
+  },
+  "source_document": "03_San_Pham_Chinh_Thuc/YCCD_Lop_1_5_Moi/SP3_ Phan_phoi_Chuong_Trinh_AI_Lop_1_5_36_Bai.docx",
+  "source_sha256_before": "d13ffbe43829b5782665cce237659e415f5498273edcbd9095aad292fc0d51b6",
+  "authorization": "Người dùng yêu cầu tổng hợp tên Lớp 1–5 và ghi đè tên tương ứng trong PPCT hiện tại; giữ nguyên mã và các cột khác.",
+  "name_basis": "Tên trong bảng đề xuất cuối cùng đã được người dùng chấp thuận; 4.15.MR dùng đúng tên trong phản hồi cuối, không dùng bản nháp trung gian.",
+  "records": [
+    {
+      "grade": 1,
+      "code": "Bài 1.01.CL",
+      "title": "Cảm xúc của em và nụ cười của Robot",
+      "source_title_before": "Cảm xúc của em và nụ cười của Robot",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.02.CL",
+      "title": "Nụ cười của Robot do con người tạo ra",
+      "source_title_before": "Nụ cười của Robot do con người tạo ra",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.03.MR",
+      "title": "Con người điều khiển máy móc",
+      "source_title_before": "Con người điều khiển và làm chủ máy móc",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.04.CL",
+      "title": "Lời chào thân thiện của robot",
+      "source_title_before": "Lời chào thân thiện của người bạn thông minh",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.05.CL",
+      "title": "Nhận biết thiết bị có AI",
+      "source_title_before": "Những thiết bị thông minh giúp ích quanh em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.06.MR",
+      "title": "Máy thông minh giúp việc gì?",
+      "source_title_before": "Những công việc thiết bị thông minh giúp ích",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.07.MR",
+      "title": "Máy thân thiện giúp em dễ trò chuyện",
+      "source_title_before": "Lời chào dễ thương giúp hợp tác vui vẻ",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.08.CL",
+      "title": "Camera thu hình, micro thu âm",
+      "source_title_before": "Mắt nhìn Camera và Tai nghe Micro của máy tính",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.09.MR",
+      "title": "Máy nhận biết đồ vật qua camera",
+      "source_title_before": "Mắt thần Camera nhìn thấy đồ vật",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.10.CL",
+      "title": "Nói rõ ràng và lịch sự với máy",
+      "source_title_before": "Trò chuyện lịch sự cùng loa thông minh",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.11.MR",
+      "title": "Em học nhận biết đồ vật khác chú robot thế nào?",
+      "source_title_before": "Em học nhận biết đồ vật khác chú robot thế nào?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.12.CL",
+      "title": "Máy thông minh làm việc tốt giúp con người",
+      "source_title_before": "Máy thông minh làm việc tốt giúp con người",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.13.MR",
+      "title": "Vẽ ý tưởng robot giúp việc",
+      "source_title_before": "Vẽ tranh: Người bạn thông minh làm việc tốt",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.14.CL",
+      "title": "Bảo vệ bí mật của em",
+      "source_title_before": "Bảo vệ bí mật của em và không dùng máy trêu bạn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.15.MR",
+      "title": "Nói 'Không!' khi máy hỏi chuyện riêng",
+      "source_title_before": "Phản xạ nói 'Không!' khi máy hỏi chuyện riêng",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.16.MR",
+      "title": "Nhờ giúp đỡ và xin phép",
+      "source_title_before": "Nhờ cô giáo giúp đỡ và xin phép bạn trước khi chụp ảnh",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.17.MR",
+      "title": "Thử thách an toàn khi dùng máy",
+      "source_title_before": "Đánh giá quá trình: Thử thách phản xạ an toàn Học kỳ I",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.18.MR",
+      "title": "Giới thiệu ý tưởng qua tranh robot",
+      "source_title_before": "Báo cáo hồ sơ học tập và góc tranh số Học kỳ I",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.19.MR",
+      "title": "Máy phân biệt âm thanh",
+      "source_title_before": "Khám phá Tai nghe Micro phân biệt âm thanh",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.20.MR",
+      "title": "Máy nghe và chọn cách phản ứng",
+      "source_title_before": "Trò chơi Unplugged: Máy lắng nghe tiếng còi và tiếng trống",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.21.MR",
+      "title": "Tự làm bài trước khi hỏi máy tính",
+      "source_title_before": "Tự làm bài trước khi hỏi máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.22.CL",
+      "title": "Máy tập nhận biết đồ vật qua các bức tranh mẫu",
+      "source_title_before": "Máy tập nhận biết đồ vật qua các bức tranh mẫu",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.23.MR",
+      "title": "Cần nhiều tranh khác nhau để máy đoán đúng",
+      "source_title_before": "Cần nhiều tranh khác nhau để máy đoán đúng",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.24.CL",
+      "title": "Chọn lọc tranh mẫu cho máy học",
+      "source_title_before": "Thực hành: Chọn những bức tranh rõ đẹp cho máy xem",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.25.CL",
+      "title": "Máy thông minh làm một việc hoặc nhiều việc",
+      "source_title_before": "Đồ dùng làm một việc và thiết bị làm nhiều việc",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.26.MR",
+      "title": "Phân nhóm máy thông minh",
+      "source_title_before": "Xếp thẻ đồ dùng thông minh vào hai nhóm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.27.MR",
+      "title": "Làm mô hình robot giấy",
+      "source_title_before": "Chế tạo chú Robot hộp giấy thân thiện của em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.28.MR",
+      "title": "Dạy chú Robot hộp giấy nhận biết quả táo",
+      "source_title_before": "Dạy chú Robot hộp giấy nhận biết quả táo",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.29.MR",
+      "title": "Kiểm tra robot nhận biết đồ vật",
+      "source_title_before": "Trò chơi đóng vai: Đố Robot đoán tên đồ vật",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.30.MR",
+      "title": "Khi Robot gặp đồ vật lạ chưa từng học",
+      "source_title_before": "Khi Robot gặp đồ vật lạ chưa từng học",
+      "result": "Giữ"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.31.MR",
+      "title": "Thêm tranh mới và thử lại với robot",
+      "source_title_before": "Dạy thêm tranh mới để chú Robot đoán giỏi hơn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.32.MR",
+      "title": "Giới thiệu mô hình robot giấy",
+      "source_title_before": "Triển lãm những chú Robot hộp giấy đáng yêu",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.33.MR",
+      "title": "Thử thách dạy và kiểm tra robot",
+      "source_title_before": "Đánh giá quá trình: Bé thực hành cùng Robot thông minh",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.34.MR",
+      "title": "Ngày hội chia sẻ sản phẩm học tập",
+      "source_title_before": "Ngày hội góc tranh công nghệ của bé",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.35.MR",
+      "title": "Ba thói quen tốt khi dùng máy",
+      "source_title_before": "Cùng nhắc lại ba thói quen tốt khi dùng máy",
+      "result": "Đổi"
+    },
+    {
+      "grade": 1,
+      "code": "Bài 1.36.CL",
+      "title": "Chia sẻ thói quen dùng máy",
+      "source_title_before": "Tổng kết chuyên đề: Em làm chủ thiết bị thông minh",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.01.CL",
+      "title": "Thiết bị thông minh quanh em trong gia đình",
+      "source_title_before": "Thiết bị thông minh quanh em trong gia đình",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.02.CL",
+      "title": "Thiết bị thông minh giúp đỡ các thành viên trong nhà",
+      "source_title_before": "Thiết bị thông minh giúp đỡ các thành viên trong nhà",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.03.MR",
+      "title": "Nói câu lệnh rõ ràng với máy",
+      "source_title_before": "Trải nghiệm thiết bị thông minh có hướng dẫn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.04.MR",
+      "title": "Xin phép người lớn trước khi dùng máy",
+      "source_title_before": "Nguyên tắc an toàn: Có sự đồng ý của bố mẹ",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.05.CL",
+      "title": "Con người làm chủ và giám sát máy thông minh",
+      "source_title_before": "Con người làm chủ và giám sát máy thông minh",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.06.CL",
+      "title": "Khi nào em không nên dùng máy tính?",
+      "source_title_before": "Khi nào em không nên dùng máy tính?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.07.MR",
+      "title": "Giữ kín chuyện riêng và nhờ giúp đỡ",
+      "source_title_before": "Thực hành xử lý tình huống khi dùng máy ở nhà",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.08.MR",
+      "title": "Ảnh và tranh trên máy tính là của ai?",
+      "source_title_before": "Đồ của em và đồ của bạn trên không gian số",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.09.MR",
+      "title": "Muốn dùng đồ của bạn phải xin phép bạn",
+      "source_title_before": "Muốn dùng đồ của bạn phải xin phép bạn",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.10.CL",
+      "title": "Tôn trọng tranh vẽ và sản phẩm của bạn bè",
+      "source_title_before": "Tôn trọng tranh vẽ và sản phẩm của bạn bè",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.11.MR",
+      "title": "Con người học khác chiếc máy thông minh thế nào?",
+      "source_title_before": "Con người học khác chiếc máy thông minh thế nào?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.12.CL",
+      "title": "Dữ liệu giúp máy học",
+      "source_title_before": "Trò chuyện cùng máy và những thông tin em cung cấp",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.13.MR",
+      "title": "Em tự giác tắt máy khi đến giờ học bài",
+      "source_title_before": "Em tự giác tắt máy khi đến giờ học bài",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.14.MR",
+      "title": "Nói lời lịch sự và đúng sự thật khi dùng máy",
+      "source_title_before": "Nói lời lịch sự và đúng sự thật khi dùng máy",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.15.CL",
+      "title": "Máy cần học cả giọng trẻ em",
+      "source_title_before": "Vì sao máy nghe rõ tiếng bố mẹ hơn tiếng của em?",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.16.MR",
+      "title": "Những tình huống máy nhận nhầm quanh em",
+      "source_title_before": "Những tình huống máy nhận nhầm quanh em",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.17.MR",
+      "title": "Máy cần học nhiều mẫu khác nhau",
+      "source_title_before": "Cần cho máy xem nhiều mẫu khác nhau để không nhận nhầm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.18.MR",
+      "title": "Thử thách dùng máy an toàn",
+      "source_title_before": "Đánh giá quá trình: Thử thách bé dùng máy thông thái Học kỳ I",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.19.CL",
+      "title": "Máy chia nhóm đồ vật như thế nào?",
+      "source_title_before": "Tập cho máy chia nhóm đồ vật",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.20.MR",
+      "title": "Thực hành chia nhóm đồ chơi lớp học",
+      "source_title_before": "Thực hành chia nhóm đồ chơi lớp học",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.21.MR",
+      "title": "Con người chia nhóm đồ vật khác máy tính thế nào?",
+      "source_title_before": "Con người chia nhóm đồ vật khác máy tính thế nào?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.22.CL",
+      "title": "Vì sao máy chia nhóm bị nhầm?",
+      "source_title_before": "Vì sao máy chia nhóm bị nhầm?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.23.MR",
+      "title": "Thêm ảnh mẫu và thử lại với máy",
+      "source_title_before": "Giúp bạn máy tính chia nhóm đúng hơn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.24.CL",
+      "title": "Máy cần nhiều ảnh mẫu rõ nét",
+      "source_title_before": "Cho máy xem nhiều ảnh rõ đẹp để máy học giỏi",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.25.MR",
+      "title": "Chọn các ví dụ phù hợp để dạy máy thông minh",
+      "source_title_before": "Chọn các ví dụ phù hợp để dạy máy thông minh",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.26.MR",
+      "title": "Thực hành thu thập tranh ảnh để dạy máy",
+      "source_title_before": "Thực hành thu thập tranh ảnh để dạy máy",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.27.MR",
+      "title": "Loại ảnh mờ và ảnh sai nhóm",
+      "source_title_before": "Nhặt bỏ những bức ảnh mờ xấu trước khi dạy máy",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.28.CL",
+      "title": "Ý tưởng chiếc máy thông minh giúp đỡ việc nhà",
+      "source_title_before": "Ý tưởng chiếc máy thông minh giúp đỡ việc nhà",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.29.MR",
+      "title": "Chọn ảnh mẫu từ nhiều góc nhìn",
+      "source_title_before": "Cho máy xem nhiều tranh chụp ở các góc nhìn khác nhau",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.30.MR",
+      "title": "Chế tạo mô hình robot giúp phân loại đồ dùng học tập",
+      "source_title_before": "Chế tạo mô hình robot giúp phân loại đồ dùng học tập",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.31.MR",
+      "title": "Chạy thử mô hình phân loại đồ dùng học tập",
+      "source_title_before": "Chạy thử mô hình phân loại đồ dùng học tập",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.32.MR",
+      "title": "Thêm ảnh đồ dùng khi robot phân loại nhầm",
+      "source_title_before": "Giúp chú robot sửa những lần đoán nhầm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.33.MR",
+      "title": "Trình diễn mô hình phân loại đồ dùng học tập",
+      "source_title_before": "Đánh giá quá trình: Ngày hội sáng chế mô hình Lớp 2",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.34.MR",
+      "title": "Góc trưng bày ý tưởng máy thông minh gia đình",
+      "source_title_before": "Góc trưng bày ý tưởng máy thông minh gia đình",
+      "result": "Giữ"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.35.MR",
+      "title": "Bốn thói quen tốt khi dùng máy",
+      "source_title_before": "Cùng nhắc lại các bài học an toàn khi dùng máy",
+      "result": "Đổi"
+    },
+    {
+      "grade": 2,
+      "code": "Bài 2.36.CL",
+      "title": "Chia sẻ cách dùng máy an toàn",
+      "source_title_before": "Tổng kết chuyên đề: Em làm chủ máy tính trong gia đình",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.01.CL",
+      "title": "Tra từ và nghe phát âm với máy tính",
+      "source_title_before": "Làm quen với trợ lý học tập trên máy tính",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.02.MR",
+      "title": "Dùng máy hỗ trợ, tự làm bài",
+      "source_title_before": "Sử dụng công cụ học tập đúng cách",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.03.CL",
+      "title": "Tự suy nghĩ trước khi nhờ máy tính giúp đỡ",
+      "source_title_before": "Tự suy nghĩ trước khi nhờ máy tính giúp đỡ",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.04.MR",
+      "title": "Những rủi ro khi quá ỷ lại vào máy tính",
+      "source_title_before": "Những rủi ro khi quá ỷ lại vào máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.05.CL",
+      "title": "Ba câu hỏi trước khi dùng máy",
+      "source_title_before": "Ba câu hỏi tự kiểm tra trước khi bấm máy",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.06.MR",
+      "title": "Tự sáng tạo tranh và thiệp",
+      "source_title_before": "Em tự làm bài tập thủ công và vẽ tranh bằng tay",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.07.MR",
+      "title": "Thảo luận: Vì sao không được để máy làm hộ bài tập?",
+      "source_title_before": "Thảo luận: Vì sao không được để máy làm hộ bài tập?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.08.MR",
+      "title": "Rèn luyện thói quen tắt máy đúng giờ quy định",
+      "source_title_before": "Rèn luyện thói quen tắt máy đúng giờ quy định",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.09.CL",
+      "title": "Thiết bị thông minh trong trường học",
+      "source_title_before": "Máy tính thông minh trong trường học của em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.10.MR",
+      "title": "Máy tính giúp thầy cô và học sinh dạy tốt, học tốt",
+      "source_title_before": "Máy tính giúp thầy cô và học sinh dạy tốt, học tốt",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.11.CL",
+      "title": "Đối chiếu câu trả lời của máy với sách giáo khoa",
+      "source_title_before": "Khi máy tính trả lời chưa chính xác: Kiểm tra lại cùng SGK",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.12.MR",
+      "title": "Luôn kiểm tra lại câu trả lời của máy tính",
+      "source_title_before": "Luôn kiểm tra lại câu trả lời của máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.13.CL",
+      "title": "Ảnh do máy tạo có thể khác thực tế",
+      "source_title_before": "Cảnh giác trước những bức ảnh giả do máy tạo ra",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.14.CL",
+      "title": "Lịch sự khi dùng máy và không dùng máy trêu bạn",
+      "source_title_before": "Lịch sự khi dùng máy và không dùng máy trêu bạn",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.15.MR",
+      "title": "Máy cần hỗ trợ công bằng cho mọi bạn",
+      "source_title_before": "Phục vụ công bằng, không phân biệt đối xử",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.16.MR",
+      "title": "Ý tưởng và quy tắc dùng máy ở trường",
+      "source_title_before": "Quy tắc dùng máy và Ngôi trường tương lai của em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.17.MR",
+      "title": "Báo cáo hồ sơ học tập học kỳ I",
+      "source_title_before": "Đánh giá quá trình: Báo cáo hồ sơ học tập Học kỳ I",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.18.MR",
+      "title": "Chia sẻ kinh nghiệm tự học với máy",
+      "source_title_before": "Góc chia sẻ: Em dùng máy tính thông thái Học kỳ I",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.19.CL",
+      "title": "Dữ liệu hình ảnh, âm thanh và chữ viết",
+      "source_title_before": "Dữ liệu là những hình ảnh, âm thanh lưu trong máy",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.20.CL",
+      "title": "Quy tắc Nếu… thì… trong máy tính",
+      "source_title_before": "Quy tắc Nếu… thì… trong máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.21.CL",
+      "title": "Máy học từ mẫu để phân nhóm và dự đoán",
+      "source_title_before": "Máy học từ các ví dụ mẫu: Chia nhóm và đoán việc tiếp theo",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.22.MR",
+      "title": "Dạy máy phân nhóm rau củ",
+      "source_title_before": "Tập cho máy chia đồ vật vào đúng nhóm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.23.MR",
+      "title": "Dạy máy chia nhóm đồ dùng học tập lớp em",
+      "source_title_before": "Dạy máy chia nhóm đồ dùng học tập lớp em",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.24.MR",
+      "title": "Đoán hình tiếp theo theo quy luật",
+      "source_title_before": "Đoán hình tiếp theo theo quy luật",
+      "result": "Giữ"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.25.MR",
+      "title": "Tên và kích thước của tệp ảnh",
+      "source_title_before": "Xem các tệp hình ảnh lưu trong máy tính",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.26.MR",
+      "title": "Chuẩn bị mẫu và cho máy học",
+      "source_title_before": "Hai bước dạy máy học: Chuẩn bị mẫu và Cho máy học",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.27.MR",
+      "title": "Chọn ảnh mẫu rõ nét và đa dạng",
+      "source_title_before": "Cần có nhiều hình ảnh đẹp để máy học tốt",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.28.CL",
+      "title": "Ảnh sai nhãn khiến máy dễ đoán nhầm",
+      "source_title_before": "Đưa hình ảnh sai thì máy đoán sai",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.29.MR",
+      "title": "Sửa nhãn ảnh và cho máy học lại",
+      "source_title_before": "Sửa lại tên ảnh bị nhầm để máy nhận diện đúng",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.30.MR",
+      "title": "Mèo tránh vật cản với lệnh Nếu… thì…",
+      "source_title_before": "Ghép câu lệnh Scratch: Chú mèo né vật cản",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.31.MR",
+      "title": "Mèo nhảy qua rào với lệnh Nếu… thì…",
+      "source_title_before": "Ghép câu lệnh Scratch: Chú mèo nhảy qua rào",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.32.MR",
+      "title": "Kiểm tra lệnh Nếu… thì… trong Scratch",
+      "source_title_before": "Hoàn thiện bài tập ghép lệnh Scratch của em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.33.MR",
+      "title": "Trình diễn và giải thích lệnh Nếu… thì…",
+      "source_title_before": "Đánh giá quá trình: Em làm bài tập ghép lệnh trên Scratch",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.34.MR",
+      "title": "Triển lãm bài tập Scratch của lớp",
+      "source_title_before": "Góc triển lãm: Những chú mèo thông minh của lớp em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.35.MR",
+      "title": "Bốn thói quen tốt khi học với máy",
+      "source_title_before": "Tổng kết bài học: Em tự tin sử dụng máy tính thông thái",
+      "result": "Đổi"
+    },
+    {
+      "grade": 3,
+      "code": "Bài 3.36.CL",
+      "title": "Chia sẻ sản phẩm và cách học với máy",
+      "source_title_before": "Tổng kết chuyên đề: Em là học sinh thông thái thời đại số",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.01.CL",
+      "title": "Máy tính thông minh giúp em những gì?",
+      "source_title_before": "Máy tính thông minh giúp em những gì?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.02.CL",
+      "title": "Nhận biết rủi ro khi dùng máy",
+      "source_title_before": "Những điều cần tránh khi sử dụng máy tính",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.03.MR",
+      "title": "Tự học và tự suy nghĩ, không ỷ lại vào máy tính",
+      "source_title_before": "Tự học và tự suy nghĩ, không ỷ lại vào máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.04.CL",
+      "title": "Những việc máy tính thông minh làm tốt quanh em",
+      "source_title_before": "Những việc máy tính thông minh làm tốt quanh em",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.05.MR",
+      "title": "Máy tính giúp con người làm việc tốt hơn",
+      "source_title_before": "Máy tính giúp con người làm việc tốt hơn",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.06.CL",
+      "title": "Khi nào nên và không nên dùng máy tính hỗ trợ?",
+      "source_title_before": "Khi nào nên và không nên dùng máy tính hỗ trợ?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.07.MR",
+      "title": "Tưởng tượng chiếc máy thông minh trong tương lai",
+      "source_title_before": "Tưởng tượng chiếc máy thông minh trong tương lai",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.08.CL",
+      "title": "Bảo vệ thông tin của em khi dùng máy tính",
+      "source_title_before": "Bảo vệ thông tin của em khi dùng máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.09.MR",
+      "title": "Xin phép khi dùng ảnh và tranh của bạn",
+      "source_title_before": "Thảo luận: Tôn trọng thông tin của bạn bè",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.10.CL",
+      "title": "Ứng phó khi máy hiện điều lạ",
+      "source_title_before": "Thực hành xử lý tình huống an toàn khi dùng máy",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.11.CL",
+      "title": "Giữ gìn mật khẩu và thông tin của gia đình",
+      "source_title_before": "Giữ gìn mật khẩu và thông tin của gia đình",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.12.MR",
+      "title": "Nhận biết mật khẩu mạnh",
+      "source_title_before": "Rèn luyện thói quen bảo vệ mật khẩu máy tính",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.13.CL",
+      "title": "Trải nghiệm tìm kiếm và dịch ngôn ngữ cùng máy tính",
+      "source_title_before": "Trải nghiệm tìm kiếm và dịch ngôn ngữ cùng máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.14.MR",
+      "title": "Trải nghiệm nghe phát âm và dịch từ cùng máy tính",
+      "source_title_before": "Trải nghiệm nghe phát âm và dịch từ cùng máy tính",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.15.MR",
+      "title": "Nêu rõ yêu cầu trong câu lệnh",
+      "source_title_before": "Đặt câu hỏi rõ ràng để máy tính giúp đỡ đúng ý",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.16.MR",
+      "title": "Sửa câu lệnh khi máy trả lời chưa đúng ý",
+      "source_title_before": "Thực hành sửa lại câu hỏi khi máy chưa hiểu ý em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.17.MR",
+      "title": "Thử thách dùng máy an toàn",
+      "source_title_before": "Đánh giá quá trình: Thử thách dùng máy an toàn Học kỳ I",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.18.MR",
+      "title": "Góc chia sẻ sản phẩm học tập Học kỳ I",
+      "source_title_before": "Góc chia sẻ sản phẩm học tập Học kỳ I",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.19.CL",
+      "title": "Bốn bước đơn giản để máy tập nhận biết đồ vật",
+      "source_title_before": "Bốn bước đơn giản để máy tập nhận biết đồ vật",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.20.MR",
+      "title": "Dạy máy phân biệt hai đồ dùng học tập",
+      "source_title_before": "Dạy máy phân biệt hai đồ dùng học tập",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.21.MR",
+      "title": "Kiểm tra máy nhận biết đồ vật mới",
+      "source_title_before": "Đố máy với đồ vật mới xem máy đoán đúng hay sai",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.22.MR",
+      "title": "Cập nhật ảnh mẫu và cho máy học lại",
+      "source_title_before": "Thêm hình ảnh rõ nét để máy đoán giỏi hơn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.23.CL",
+      "title": "Ý tưởng chiếc máy thông minh giúp ích trường em",
+      "source_title_before": "Ý tưởng chiếc máy thông minh giúp ích trường em",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.24.MR",
+      "title": "Vẽ sơ đồ ý tưởng thùng rác thông minh",
+      "source_title_before": "Vẽ sơ đồ ý tưởng thùng rác thông minh",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.25.MR",
+      "title": "Ý tưởng phần mềm dịch tiếng nói giúp bạn vùng cao",
+      "source_title_before": "Ý tưởng phần mềm dịch tiếng nói giúp bạn vùng cao",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.26.CL",
+      "title": "Điều chỉnh mẫu để máy nhận biết tốt hơn",
+      "source_title_before": "Máy muốn đoán giỏi cần được bổ sung thêm mẫu",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.27.MR",
+      "title": "Chọn ảnh rác tái chế rõ nét",
+      "source_title_before": "Tìm những hình ảnh rõ đẹp để giúp máy học tốt",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.28.MR",
+      "title": "Thu thập ảnh mẫu vỏ chai và hộp sữa",
+      "source_title_before": "Bài tập nhóm: Chuẩn bị hình ảnh vỏ chai và hộp sữa",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.29.MR",
+      "title": "Dạy máy phân biệt vỏ chai và hộp sữa",
+      "source_title_before": "Bài tập nhóm: Cho máy học phân biệt hai loại rác",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.30.MR",
+      "title": "Thử nghiệm: Máy đoán đúng được bao nhiêu lần?",
+      "source_title_before": "Thử nghiệm: Máy đoán đúng được bao nhiêu lần?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.31.MR",
+      "title": "Phát lời cảm ơn bằng lệnh Nếu… thì…",
+      "source_title_before": "Ghép câu lệnh đơn giản: Nếu thấy vỏ chai thì phát tiếng chào",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.32.MR",
+      "title": "Kiểm tra phản hồi khi máy nhận ra chai",
+      "source_title_before": "Cùng các bạn kiểm tra lại sản phẩm của nhóm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.33.MR",
+      "title": "Giới thiệu và chạy thử máy phân loại rác",
+      "source_title_before": "Báo cáo ý tưởng sản phẩm của nhóm trước lớp",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.34.MR",
+      "title": "Triển lãm ý tưởng máy bảo vệ môi trường",
+      "source_title_before": "Góc trưng bày tranh vẽ và mô hình ý tưởng của lớp",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.35.MR",
+      "title": "Ôn cách dạy máy và dùng máy an toàn",
+      "source_title_before": "Tổng kết bài học: Em làm chủ công nghệ, dùng máy an toàn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 4,
+      "code": "Bài 4.36.CL",
+      "title": "Chia sẻ cách dùng máy an toàn, có ích",
+      "source_title_before": "Tổng kết chuyên đề: Em sử dụng máy tính thông minh an toàn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.01.CL",
+      "title": "Máy móc giúp việc và trách nhiệm của con người",
+      "source_title_before": "Máy móc giúp việc và trách nhiệm của con người",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.02.MR",
+      "title": "Con người chịu trách nhiệm về kết quả của máy",
+      "source_title_before": "Con người chịu trách nhiệm về kết quả của máy",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.03.CL",
+      "title": "Máy tính hỗ trợ con người và phục vụ cộng đồng",
+      "source_title_before": "Máy tính hỗ trợ con người và phục vụ cộng đồng",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.04.MR",
+      "title": "Máy không thay thế tình cảm của con người",
+      "source_title_before": "Trái tim con người: Điều máy móc không thay thế được",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.05.CL",
+      "title": "Em chọn cách dùng AI phù hợp",
+      "source_title_before": "Em chọn cách dùng AI phù hợp",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.06.MR",
+      "title": "Tưởng tượng về chiếc máy thông minh trong tương lai",
+      "source_title_before": "Tưởng tượng về chiếc máy thông minh trong tương lai",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.07.MR",
+      "title": "Tìm thông tin học tập với máy",
+      "source_title_before": "Dùng công cụ máy tính để học tập vui vẻ và hiệu quả",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.08.MR",
+      "title": "Rèn luyện thói quen tự suy nghĩ, không sao chép bài của máy",
+      "source_title_before": "Rèn luyện thói quen tự suy nghĩ, không sao chép bài của máy",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.09.CL",
+      "title": "AI cần phục vụ mọi người công bằng",
+      "source_title_before": "AI cần phục vụ mọi người công bằng",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.10.CL",
+      "title": "Giúp AI công bằng và dễ kiểm tra hơn",
+      "source_title_before": "Giúp AI công bằng và dễ kiểm tra hơn",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.11.MR",
+      "title": "Chọn dữ liệu đa dạng và an toàn",
+      "source_title_before": "Chọn dữ liệu đa dạng và an toàn",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.12.MR",
+      "title": "AI đã nhận đúng cho mọi người chưa?",
+      "source_title_before": "AI đã nhận đúng cho mọi người chưa?",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.13.CL",
+      "title": "Điều khiển bằng quy tắc Nếu… thì…",
+      "source_title_before": "Điều khiển bằng quy tắc Nếu… thì…",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.14.MR",
+      "title": "Tạo lời nhắc từ kết quả AI trên Scratch",
+      "source_title_before": "Tạo lời nhắc từ kết quả AI trên Scratch",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.15.CL",
+      "title": "Dạy máy phân biệt đồ vật",
+      "source_title_before": "Dạy máy phân biệt đồ vật",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.16.CL",
+      "title": "Kiểm thử mô hình với đồ vật mới",
+      "source_title_before": "Kiểm thử mô hình với đồ vật mới",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.17.MR",
+      "title": "Báo cáo hồ sơ học tập và sản phẩm Học kỳ I",
+      "source_title_before": "Báo cáo hồ sơ học tập và sản phẩm Học kỳ I",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.18.MR",
+      "title": "Học trung thực và bảo vệ riêng tư",
+      "source_title_before": "Thảo luận: Trung thực trong học tập và sử dụng công nghệ",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.19.MR",
+      "title": "Dạy máy phân biệt lá khỏe và lá bị sâu bệnh",
+      "source_title_before": "Dạy máy phân biệt lá cây khỏe và lá cây bị sâu",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.20.MR",
+      "title": "Thử xem máy nhận đúng hay sai trên lá cây mới",
+      "source_title_before": "Thử xem máy nhận đúng hay sai trên lá cây mới",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.21.CL",
+      "title": "Bốn bước cơ bản khi dạy máy học",
+      "source_title_before": "Bốn bước cơ bản khi dạy máy học",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.22.CL",
+      "title": "Chuẩn bị hình ảnh an toàn cho máy học",
+      "source_title_before": "Chuẩn bị hình ảnh an toàn cho máy học",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.23.MR",
+      "title": "Xin phép và thu thập ảnh đồ dùng",
+      "source_title_before": "Thu thập hình ảnh đồ dùng lớp học để làm bài tập nhóm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.24.CL",
+      "title": "Thêm ảnh mẫu và so sánh kết quả",
+      "source_title_before": "Cho máy xem thêm hình ảnh để máy đoán đúng hơn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.25.MR",
+      "title": "Cho máy học lại với ảnh đa dạng",
+      "source_title_before": "Thực hành thêm ảnh góc nghiêng để máy nhận diện tốt hơn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.26.MR",
+      "title": "Ghi chép thông tin và kết quả thử máy",
+      "source_title_before": "Phiếu ghi chép về chiếc máy của nhóm em",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.27.MR",
+      "title": "Chọn việc cần máy hỗ trợ trong lớp",
+      "source_title_before": "Bài tập nhóm: Chọn ý tưởng chiếc máy giúp ích lớp học",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.28.MR",
+      "title": "Chụp ảnh mẫu và bảo vệ riêng tư",
+      "source_title_before": "Bài tập nhóm: Cùng nhau chuẩn bị hình ảnh mẫu",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.29.MR",
+      "title": "Cho máy học và thử nghiệm lần đầu",
+      "source_title_before": "Bài tập nhóm: Cho máy học và thử nghiệm lần đầu",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.30.MR",
+      "title": "Bổ sung ảnh mẫu khi máy nhận nhầm",
+      "source_title_before": "Bài tập nhóm: Bổ sung ảnh mẫu để máy đoán chính xác hơn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.31.MR",
+      "title": "Tạo lời nhắc an toàn bằng lệnh Nếu… thì…",
+      "source_title_before": "Ghép khối lệnh Scratch để máy phát lời nhắc vui nhộn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.32.MR",
+      "title": "Kiểm tra sản phẩm và hoàn thiện ghi chép",
+      "source_title_before": "Hoàn thiện phiếu ghi chép và chuẩn bị giới thiệu sản phẩm",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.33.MR",
+      "title": "Giới thiệu và chạy thử sản phẩm của nhóm",
+      "source_title_before": "Báo cáo sản phẩm của nhóm trước thầy cô và các bạn",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.34.MR",
+      "title": "Góc trưng bày sản phẩm công nghệ của lớp em",
+      "source_title_before": "Góc trưng bày sản phẩm công nghệ của lớp em",
+      "result": "Giữ"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.35.MR",
+      "title": "Sử dụng AI tự chủ và có trách nhiệm",
+      "source_title_before": "Tổng kết: Hành trang số sẵn sàng bước vào lớp 6",
+      "result": "Đổi"
+    },
+    {
+      "grade": 5,
+      "code": "Bài 5.36.CL",
+      "title": "Chia sẻ sản phẩm và thói quen dùng AI",
+      "source_title_before": "Tổng kết chuyên đề: Em tự tin bước vào tương lai số",
+      "result": "Đổi"
+    }
+  ],
+  "markdown_document": "03_San_Pham_Chinh_Thuc\\YCCD_Lop_1_5_Moi\\SP3_ Phan_phoi_Chuong_Trinh_AI_Lop_1_5_36_Bai.md",
+  "markdown_sha256": "58599da3ba8f21a0e0976c20b11161c38474c65e931e7a200d8998daa7ecb9e7",
+  "name_lock_status": "ACTIVE",
+  "name_lock_date": "2026-10-13",
+  "name_lock_scope": "All subsequent Grade 1–5 derivative documents use the exact approved code/title pairs; changes require a direct user instruction."
+}

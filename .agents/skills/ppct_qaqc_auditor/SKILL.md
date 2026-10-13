@@ -5,6 +5,12 @@ description: Chuyên gia kiểm định chất lượng (QA/QC Auditor) toàn di
 
 # Hướng dẫn Kỹ năng: Kiểm định Chất lượng (QA/QC Auditor) Phân phối Chương trình AI K-12
 
+## Kiểm định tên bài học
+
+Với tài liệu phát sinh Lớp 1–5, kiểm nguyên văn mọi cặp mã–tên trong phạm vi đầu ra với sổ khóa hiện hành ngày 13/10/2026, theo phần 0 của tài liệu quy tắc dưới đây. Sai chữ hoa/thường, dấu nháy, dấu câu, khoảng trắng, tên phụ hoặc dùng tên cũ đều phải sửa lại theo nguồn khóa; không tự đề xuất tên khác trong nhiệm vụ kiểm tài liệu phát sinh.
+
+Khi nhiệm vụ có rà soát tên, đọc [Quy tắc và kỹ năng đặt tên bài học](../../../06_He_Thong_Ky_Thuat/tri_thuc_du_an/QUY_TAC_DAT_TEN_BAI_HOC.md). Kiểm tên với nội dung thực tế và kiến thức/kỹ năng chính của từng bài, rồi kiểm toàn bộ danh sách bằng cùng chín tiêu chuẩn. Nêu tiêu chuẩn chưa đạt khi đề xuất đổi; giữ nguyên tên đạt. Rà soát riêng tên không đồng nghĩa kiểm định lại toàn bộ PPCT hoặc giao sửa tệp ngoài phạm vi.
+
 > **Căn cứ Pháp lý & Tiêu chuẩn Kiểm định Tối cao (Single Source of Truth):**
 > Kỹ năng này đóng vai trò là **Hệ thống Kiểm định Độc lập (Quality Assurance & Quality Control System)** cho toàn bộ bản Khung và Phân phối chương trình (PPCT) AI từ Lớp 1 đến Lớp 12:
 > - **Quyết định số 2422/QĐ-BGDĐT** (Khung nội dung và YCCĐ chuẩn quốc gia).

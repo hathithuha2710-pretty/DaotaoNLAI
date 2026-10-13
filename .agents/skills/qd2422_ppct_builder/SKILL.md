@@ -5,6 +5,12 @@ description: Chuyên gia xây dựng Khung nội dung và Phân phối chương 
 
 # Hướng dẫn Kỹ năng: Thiết kế Khung & Phân phối Chương trình (PPCT) Chuẩn QĐ 2422 & CV 5588
 
+## Đặt tên bài học
+
+Với bài Lớp 1–5 đã khóa, các nhiệm vụ tiếp theo giữ nguyên cặp mã–tên của PPCT hiện hành ngày 13/10/2026. Tra phần 0 của tài liệu quy tắc dưới đây trước khi biên soạn, rồi đối chiếu mọi mã–tên trong đầu ra. Không dùng tên Ver2 hoặc bảng tra cứu chưa đồng bộ; nhiệm vụ xây dựng nội dung không tự cho phép đặt lại tên đã khóa.
+
+Khi xây dựng hoặc rà soát tên, đọc [Quy tắc và kỹ năng đặt tên bài học](../../../06_He_Thong_Ky_Thuat/tri_thuc_du_an/QUY_TAC_DAT_TEN_BAI_HOC.md). Xác định kiến thức/kỹ năng chính từ nội dung trước khi đặt tên; giữ tên đã đạt và kiểm cả danh sách theo chín tiêu chuẩn. Dùng nguồn người dùng chọn mới nhất; áp dụng tên vào tệp trong đúng phạm vi được giao theo `AGENTS.md`.
+
 > **Căn cứ Pháp lý Tối cao (Single Source of Truth):**
 > Toàn bộ quá trình lập khung phân phối chương trình phải tuân thủ nghiêm ngặt:
 > - **Quyết định số 2422/QĐ-BGDĐT** (Khung chuẩn đầu ra YCCĐ từ Lớp 1 đến Lớp 12).
